@@ -1,0 +1,16 @@
+Kenney CC0 Audio Assets
+========================
+
+Files using Kenney audio:
+- click.mp3        (from kenney_ui-audio/Audio/click1.ogg)
+- lesson_complete.mp3 (from kenney_music-jingles/Audio/8-Bit jingles/jingles_NES13.ogg)
+
+License: CC0 1.0 Universal Public Domain Dedication.
+No attribution required. Attribution provided here as courtesy.
+
+Source: https://kenney.nl
+License terms: https://creativecommons.org/publicdomain/zero/1.0/
+
+Other audio in this directory:
+- correct.mp3: generated procedurally (Karplus-Strong-ish harp triad C5->E5->G5)
+- voice/*.mp3: generated via Gemini 2.5 Pro TTS (Achernar voice, British accent)

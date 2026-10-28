@@ -1,0 +1,3394 @@
+[
+  {
+    "id": "L5_S01",
+    "title": "Mark and the Purple Tractor",
+    "level": 5,
+    "unit_number": 1,
+    "phonics_used": [
+      "AR",
+      "IR-UR",
+      "ER-OR"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 69,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 20,
+        "text": "Mark lives on a farm. He has a big purple tractor with a trailer. Every day, he drives it to the park.",
+        "word_timings": [
+          {
+            "word": "Mark",
+            "start_ms": 0,
+            "end_ms": 860
+          },
+          {
+            "word": "lives",
+            "start_ms": 860,
+            "end_ms": 1880
+          },
+          {
+            "word": "on",
+            "start_ms": 1880,
+            "end_ms": 2920
+          },
+          {
+            "word": "a",
+            "start_ms": 2920,
+            "end_ms": 3500
+          },
+          {
+            "word": "farm.",
+            "start_ms": 3500,
+            "end_ms": 4320
+          },
+          {
+            "word": "He",
+            "start_ms": 5360,
+            "end_ms": 5760
+          },
+          {
+            "word": "has",
+            "start_ms": 5760,
+            "end_ms": 6360
+          },
+          {
+            "word": "a",
+            "start_ms": 6360,
+            "end_ms": 6860
+          },
+          {
+            "word": "big",
+            "start_ms": 6860,
+            "end_ms": 7540
+          },
+          {
+            "word": "purple",
+            "start_ms": 7540,
+            "end_ms": 8980
+          },
+          {
+            "word": "tractor",
+            "start_ms": 8980,
+            "end_ms": 10200
+          },
+          {
+            "word": "with",
+            "start_ms": 10200,
+            "end_ms": 11100
+          },
+          {
+            "word": "a",
+            "start_ms": 11100,
+            "end_ms": 11440
+          },
+          {
+            "word": "trailer.",
+            "start_ms": 11440,
+            "end_ms": 12260
+          },
+          {
+            "word": "Every",
+            "start_ms": 13360,
+            "end_ms": 14280
+          },
+          {
+            "word": "day,",
+            "start_ms": 14280,
+            "end_ms": 14980
+          },
+          {
+            "word": "he",
+            "start_ms": 15320,
+            "end_ms": 15820
+          },
+          {
+            "word": "drives",
+            "start_ms": 15820,
+            "end_ms": 16460
+          },
+          {
+            "word": "it",
+            "start_ms": 16460,
+            "end_ms": 17100
+          },
+          {
+            "word": "to",
+            "start_ms": 17100,
+            "end_ms": 17740
+          },
+          {
+            "word": "the",
+            "start_ms": 17740,
+            "end_ms": 18080
+          },
+          {
+            "word": "park.",
+            "start_ms": 18080,
+            "end_ms": 18640
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 15,
+        "text": "One day, a car stops at the side of the road. A girl gets out. \"Help! My sister is sick!\"",
+        "word_timings": [
+          {
+            "word": "One",
+            "start_ms": 0,
+            "end_ms": 760
+          },
+          {
+            "word": "day,",
+            "start_ms": 760,
+            "end_ms": 1340
+          },
+          {
+            "word": "a",
+            "start_ms": 2060,
+            "end_ms": 2320
+          },
+          {
+            "word": "car",
+            "start_ms": 2320,
+            "end_ms": 3040
+          },
+          {
+            "word": "stops",
+            "start_ms": 3040,
+            "end_ms": 3940
+          },
+          {
+            "word": "at",
+            "start_ms": 3940,
+            "end_ms": 4700
+          },
+          {
+            "word": "the",
+            "start_ms": 4700,
+            "end_ms": 4920
+          },
+          {
+            "word": "side",
+            "start_ms": 4920,
+            "end_ms": 5580
+          },
+          {
+            "word": "of",
+            "start_ms": 5580,
+            "end_ms": 6140
+          },
+          {
+            "word": "the",
+            "start_ms": 6140,
+            "end_ms": 6380
+          },
+          {
+            "word": "road.",
+            "start_ms": 6380,
+            "end_ms": 7000
+          },
+          {
+            "word": "A",
+            "start_ms": 7880,
+            "end_ms": 8020
+          },
+          {
+            "word": "girl",
+            "start_ms": 8020,
+            "end_ms": 8560
+          },
+          {
+            "word": "gets",
+            "start_ms": 8560,
+            "end_ms": 9180
+          },
+          {
+            "word": "out.",
+            "start_ms": 9180,
+            "end_ms": 9760
+          },
+          {
+            "word": "Help!",
+            "start_ms": 10660,
+            "end_ms": 11060
+          },
+          {
+            "word": "My",
+            "start_ms": 11640,
+            "end_ms": 11880
+          },
+          {
+            "word": "sister",
+            "start_ms": 11880,
+            "end_ms": 12560
+          },
+          {
+            "word": "is",
+            "start_ms": 12560,
+            "end_ms": 13000
+          },
+          {
+            "word": "sick!",
+            "start_ms": 13000,
+            "end_ms": 13460
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 13,
+        "text": "The car will not go. So the girls sit in Mark's trailer, and he takes them to the doctor.",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "car",
+            "start_ms": 540,
+            "end_ms": 1160
+          },
+          {
+            "word": "will",
+            "start_ms": 1160,
+            "end_ms": 1880
+          },
+          {
+            "word": "not",
+            "start_ms": 1880,
+            "end_ms": 2480
+          },
+          {
+            "word": "go.",
+            "start_ms": 2480,
+            "end_ms": 3120
+          },
+          {
+            "word": "So",
+            "start_ms": 3900,
+            "end_ms": 4240
+          },
+          {
+            "word": "the",
+            "start_ms": 4240,
+            "end_ms": 4480
+          },
+          {
+            "word": "girls",
+            "start_ms": 4480,
+            "end_ms": 5160
+          },
+          {
+            "word": "sit",
+            "start_ms": 5160,
+            "end_ms": 5820
+          },
+          {
+            "word": "in",
+            "start_ms": 5820,
+            "end_ms": 6280
+          },
+          {
+            "word": "Mark's",
+            "start_ms": 6280,
+            "end_ms": 6940
+          },
+          {
+            "word": "trailer",
+            "start_ms": 6940,
+            "end_ms": 7600
+          },
+          {
+            "word": "and",
+            "start_ms": 7600,
+            "end_ms": 8620
+          },
+          {
+            "word": "he",
+            "start_ms": 8620,
+            "end_ms": 9000
+          },
+          {
+            "word": "takes",
+            "start_ms": 9000,
+            "end_ms": 9620
+          },
+          {
+            "word": "them",
+            "start_ms": 9620,
+            "end_ms": 10060
+          },
+          {
+            "word": "to",
+            "start_ms": 10060,
+            "end_ms": 10580
+          },
+          {
+            "word": "the",
+            "start_ms": 10580,
+            "end_ms": 10900
+          },
+          {
+            "word": "doctor.",
+            "start_ms": 10900,
+            "end_ms": 11560
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 21,
+        "text": "Mark parks his tractor outside. The doctor and the nurse help her sister. \"Thank you, Mark!\" says the girl. \"You are a star!\"",
+        "word_timings": [
+          {
+            "word": "Mark",
+            "start_ms": 0,
+            "end_ms": 1220
+          },
+          {
+            "word": "parks",
+            "start_ms": 1220,
+            "end_ms": 2360
+          },
+          {
+            "word": "his",
+            "start_ms": 2360,
+            "end_ms": 2920
+          },
+          {
+            "word": "tractor",
+            "start_ms": 2920,
+            "end_ms": 3940
+          },
+          {
+            "word": "outside.",
+            "start_ms": 3940,
+            "end_ms": 5380
+          },
+          {
+            "word": "The",
+            "start_ms": 6760,
+            "end_ms": 7380
+          },
+          {
+            "word": "doctor",
+            "start_ms": 7380,
+            "end_ms": 8060
+          },
+          {
+            "word": "and",
+            "start_ms": 8060,
+            "end_ms": 9020
+          },
+          {
+            "word": "the",
+            "start_ms": 9020,
+            "end_ms": 9380
+          },
+          {
+            "word": "nurse",
+            "start_ms": 9380,
+            "end_ms": 9960
+          },
+          {
+            "word": "help",
+            "start_ms": 9960,
+            "end_ms": 11000
+          },
+          {
+            "word": "her",
+            "start_ms": 11000,
+            "end_ms": 11580
+          },
+          {
+            "word": "sister.",
+            "start_ms": 11580,
+            "end_ms": 12240
+          },
+          {
+            "word": "Thank",
+            "start_ms": 13080,
+            "end_ms": 14000
+          },
+          {
+            "word": "you,",
+            "start_ms": 14000,
+            "end_ms": 14380
+          },
+          {
+            "word": "Mark,",
+            "start_ms": 14420,
+            "end_ms": 14980
+          },
+          {
+            "word": "says",
+            "start_ms": 15360,
+            "end_ms": 15820
+          },
+          {
+            "word": "the",
+            "start_ms": 15820,
+            "end_ms": 16140
+          },
+          {
+            "word": "girl.",
+            "start_ms": 16140,
+            "end_ms": 16480
+          },
+          {
+            "word": "You",
+            "start_ms": 17300,
+            "end_ms": 17620
+          },
+          {
+            "word": "are",
+            "start_ms": 17620,
+            "end_ms": 18280
+          },
+          {
+            "word": "a",
+            "start_ms": 18280,
+            "end_ms": 18700
+          },
+          {
+            "word": "star.",
+            "start_ms": 18700,
+            "end_ms": 19180
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Mark",
+        "start_ms": 0,
+        "end_ms": 540
+      },
+      {
+        "word": "and",
+        "start_ms": 540,
+        "end_ms": 1120
+      },
+      {
+        "word": "the",
+        "start_ms": 1120,
+        "end_ms": 1280
+      },
+      {
+        "word": "Purple",
+        "start_ms": 1280,
+        "end_ms": 1820
+      },
+      {
+        "word": "Tractor",
+        "start_ms": 1820,
+        "end_ms": 2680
+      }
+    ]
+  },
+  {
+    "id": "L5_S02",
+    "title": "Roy and the Brown Mouse",
+    "level": 5,
+    "unit_number": 2,
+    "phonics_used": [
+      "OU-OW",
+      "OI-OY",
+      "OO-U"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 69,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 17,
+        "text": "Roy is a boy with a toy cow. He keeps his coins in it. Today, he takes one coin out.",
+        "word_timings": [
+          {
+            "word": "Roy",
+            "start_ms": 0,
+            "end_ms": 800
+          },
+          {
+            "word": "is",
+            "start_ms": 800,
+            "end_ms": 1860
+          },
+          {
+            "word": "a",
+            "start_ms": 1860,
+            "end_ms": 2080
+          },
+          {
+            "word": "boy",
+            "start_ms": 2080,
+            "end_ms": 2700
+          },
+          {
+            "word": "with",
+            "start_ms": 2700,
+            "end_ms": 3780
+          },
+          {
+            "word": "a",
+            "start_ms": 3780,
+            "end_ms": 4100
+          },
+          {
+            "word": "toy",
+            "start_ms": 4100,
+            "end_ms": 4680
+          },
+          {
+            "word": "cow.",
+            "start_ms": 4680,
+            "end_ms": 5820
+          },
+          {
+            "word": "He",
+            "start_ms": 6880,
+            "end_ms": 7240
+          },
+          {
+            "word": "keeps",
+            "start_ms": 7240,
+            "end_ms": 8020
+          },
+          {
+            "word": "his",
+            "start_ms": 8020,
+            "end_ms": 8460
+          },
+          {
+            "word": "coins",
+            "start_ms": 8460,
+            "end_ms": 9100
+          },
+          {
+            "word": "in",
+            "start_ms": 9100,
+            "end_ms": 9840
+          },
+          {
+            "word": "it.",
+            "start_ms": 9840,
+            "end_ms": 10140
+          },
+          {
+            "word": "Today",
+            "start_ms": 11120,
+            "end_ms": 11780
+          },
+          {
+            "word": "he",
+            "start_ms": 11780,
+            "end_ms": 12740
+          },
+          {
+            "word": "takes",
+            "start_ms": 12740,
+            "end_ms": 13320
+          },
+          {
+            "word": "one",
+            "start_ms": 13320,
+            "end_ms": 14020
+          },
+          {
+            "word": "coin",
+            "start_ms": 14020,
+            "end_ms": 14780
+          },
+          {
+            "word": "out.",
+            "start_ms": 14780,
+            "end_ms": 15680
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 17,
+        "text": "Roy runs out of the house to play. Oh, no! The coin falls and rolls under a bush.",
+        "word_timings": [
+          {
+            "word": "Roy",
+            "start_ms": 0,
+            "end_ms": 1020
+          },
+          {
+            "word": "runs",
+            "start_ms": 1020,
+            "end_ms": 2380
+          },
+          {
+            "word": "out",
+            "start_ms": 2380,
+            "end_ms": 3100
+          },
+          {
+            "word": "of",
+            "start_ms": 3100,
+            "end_ms": 3740
+          },
+          {
+            "word": "the",
+            "start_ms": 3740,
+            "end_ms": 3960
+          },
+          {
+            "word": "house",
+            "start_ms": 3960,
+            "end_ms": 4600
+          },
+          {
+            "word": "to",
+            "start_ms": 4600,
+            "end_ms": 5440
+          },
+          {
+            "word": "play.",
+            "start_ms": 5440,
+            "end_ms": 6140
+          },
+          {
+            "word": "Oh",
+            "start_ms": 7280,
+            "end_ms": 8020
+          },
+          {
+            "word": "no!",
+            "start_ms": 8020,
+            "end_ms": 8580
+          },
+          {
+            "word": "The",
+            "start_ms": 9500,
+            "end_ms": 9800
+          },
+          {
+            "word": "coin",
+            "start_ms": 9800,
+            "end_ms": 10520
+          },
+          {
+            "word": "falls",
+            "start_ms": 10520,
+            "end_ms": 11640
+          },
+          {
+            "word": "and",
+            "start_ms": 11640,
+            "end_ms": 12600
+          },
+          {
+            "word": "rolls",
+            "start_ms": 12600,
+            "end_ms": 13420
+          },
+          {
+            "word": "under",
+            "start_ms": 13420,
+            "end_ms": 14520
+          },
+          {
+            "word": "a",
+            "start_ms": 14520,
+            "end_ms": 15180
+          },
+          {
+            "word": "bush.",
+            "start_ms": 15180,
+            "end_ms": 15680
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 20,
+        "text": "Roy looks and looks. Then a little brown mouse runs out of the bush. The mouse pulls the coin out of the soil!",
+        "word_timings": [
+          {
+            "word": "Roy",
+            "start_ms": 0,
+            "end_ms": 1020
+          },
+          {
+            "word": "looks",
+            "start_ms": 1020,
+            "end_ms": 2360
+          },
+          {
+            "word": "and",
+            "start_ms": 2360,
+            "end_ms": 3560
+          },
+          {
+            "word": "looks.",
+            "start_ms": 3560,
+            "end_ms": 4620
+          },
+          {
+            "word": "Then",
+            "start_ms": 5660,
+            "end_ms": 6300
+          },
+          {
+            "word": "a",
+            "start_ms": 6300,
+            "end_ms": 7100
+          },
+          {
+            "word": "little",
+            "start_ms": 7100,
+            "end_ms": 7800
+          },
+          {
+            "word": "brown",
+            "start_ms": 7800,
+            "end_ms": 8680
+          },
+          {
+            "word": "mouse",
+            "start_ms": 8680,
+            "end_ms": 9760
+          },
+          {
+            "word": "runs",
+            "start_ms": 9760,
+            "end_ms": 10720
+          },
+          {
+            "word": "out",
+            "start_ms": 10720,
+            "end_ms": 11560
+          },
+          {
+            "word": "of",
+            "start_ms": 11560,
+            "end_ms": 12180
+          },
+          {
+            "word": "the",
+            "start_ms": 12180,
+            "end_ms": 12380
+          },
+          {
+            "word": "bush.",
+            "start_ms": 12380,
+            "end_ms": 12920
+          },
+          {
+            "word": "The",
+            "start_ms": 14020,
+            "end_ms": 14140
+          },
+          {
+            "word": "mouse",
+            "start_ms": 14140,
+            "end_ms": 14880
+          },
+          {
+            "word": "pulls",
+            "start_ms": 14880,
+            "end_ms": 15800
+          },
+          {
+            "word": "the",
+            "start_ms": 15800,
+            "end_ms": 16239
+          },
+          {
+            "word": "coin",
+            "start_ms": 16239,
+            "end_ms": 16840
+          },
+          {
+            "word": "out",
+            "start_ms": 16840,
+            "end_ms": 17680
+          },
+          {
+            "word": "of",
+            "start_ms": 17680,
+            "end_ms": 18260
+          },
+          {
+            "word": "the",
+            "start_ms": 18260,
+            "end_ms": 18460
+          },
+          {
+            "word": "soil.",
+            "start_ms": 18460,
+            "end_ms": 19020
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 15,
+        "text": "\"Thank you, Mouse!\" says Roy. He gives the mouse some bread. Then he puts the coin back in his toy cow.",
+        "word_timings": [
+          {
+            "word": "Thank",
+            "start_ms": 0,
+            "end_ms": 760
+          },
+          {
+            "word": "you,",
+            "start_ms": 760,
+            "end_ms": 1160
+          },
+          {
+            "word": "Mouse,\"",
+            "start_ms": 1300,
+            "end_ms": 2400
+          },
+          {
+            "word": "says",
+            "start_ms": 2400,
+            "end_ms": 2860
+          },
+          {
+            "word": "Roy.",
+            "start_ms": 2860,
+            "end_ms": 3360
+          },
+          {
+            "word": "He",
+            "start_ms": 4220,
+            "end_ms": 4880
+          },
+          {
+            "word": "gives",
+            "start_ms": 4880,
+            "end_ms": 5440
+          },
+          {
+            "word": "the",
+            "start_ms": 5440,
+            "end_ms": 5740
+          },
+          {
+            "word": "mouse",
+            "start_ms": 5740,
+            "end_ms": 6260
+          },
+          {
+            "word": "some",
+            "start_ms": 6260,
+            "end_ms": 6860
+          },
+          {
+            "word": "bread.",
+            "start_ms": 6860,
+            "end_ms": 7460
+          },
+          {
+            "word": "Then",
+            "start_ms": 8300,
+            "end_ms": 8860
+          },
+          {
+            "word": "he",
+            "start_ms": 8860,
+            "end_ms": 9480
+          },
+          {
+            "word": "puts",
+            "start_ms": 9480,
+            "end_ms": 9960
+          },
+          {
+            "word": "the",
+            "start_ms": 9960,
+            "end_ms": 10280
+          },
+          {
+            "word": "coin",
+            "start_ms": 10280,
+            "end_ms": 10820
+          },
+          {
+            "word": "back",
+            "start_ms": 10820,
+            "end_ms": 11580
+          },
+          {
+            "word": "in",
+            "start_ms": 11580,
+            "end_ms": 12100
+          },
+          {
+            "word": "his",
+            "start_ms": 12100,
+            "end_ms": 12460
+          },
+          {
+            "word": "toy",
+            "start_ms": 12460,
+            "end_ms": 12960
+          },
+          {
+            "word": "cow.",
+            "start_ms": 12960,
+            "end_ms": 13600
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Roy",
+        "start_ms": 0,
+        "end_ms": 540
+      },
+      {
+        "word": "and",
+        "start_ms": 540,
+        "end_ms": 1160
+      },
+      {
+        "word": "the",
+        "start_ms": 1160,
+        "end_ms": 1340
+      },
+      {
+        "word": "brown",
+        "start_ms": 1340,
+        "end_ms": 1800
+      },
+      {
+        "word": "mouse.",
+        "start_ms": 1800,
+        "end_ms": 2400
+      }
+    ]
+  },
+  {
+    "id": "L5_S03",
+    "title": "Paul Can Draw",
+    "level": 5,
+    "unit_number": 3,
+    "phonics_used": [
+      "AU-AW",
+      "ALL-WA",
+      "OR-OAR"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 52,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 12,
+        "text": "It is August, and it is Paul's birthday. His gift is a big board and some chalk!",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "is",
+            "start_ms": 680,
+            "end_ms": 1180
+          },
+          {
+            "word": "August",
+            "start_ms": 1180,
+            "end_ms": 1900
+          },
+          {
+            "word": "and",
+            "start_ms": 1900,
+            "end_ms": 3060
+          },
+          {
+            "word": "it",
+            "start_ms": 3060,
+            "end_ms": 3460
+          },
+          {
+            "word": "is",
+            "start_ms": 3460,
+            "end_ms": 4019
+          },
+          {
+            "word": "Paul's",
+            "start_ms": 4019,
+            "end_ms": 4880
+          },
+          {
+            "word": "birthday.",
+            "start_ms": 4880,
+            "end_ms": 5420
+          },
+          {
+            "word": "His",
+            "start_ms": 6200,
+            "end_ms": 6800
+          },
+          {
+            "word": "gift",
+            "start_ms": 6800,
+            "end_ms": 7480
+          },
+          {
+            "word": "is",
+            "start_ms": 7480,
+            "end_ms": 8100
+          },
+          {
+            "word": "a",
+            "start_ms": 8100,
+            "end_ms": 8280
+          },
+          {
+            "word": "big",
+            "start_ms": 8280,
+            "end_ms": 8880
+          },
+          {
+            "word": "board",
+            "start_ms": 8880,
+            "end_ms": 9740
+          },
+          {
+            "word": "and",
+            "start_ms": 9740,
+            "end_ms": 10440
+          },
+          {
+            "word": "some",
+            "start_ms": 10440,
+            "end_ms": 10740
+          },
+          {
+            "word": "chalk.",
+            "start_ms": 10740,
+            "end_ms": 11220
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 14,
+        "text": "First, Paul draws a tall horse. Then he draws a big lion. \"Roar!\" says Paul.",
+        "word_timings": [
+          {
+            "word": "First,",
+            "start_ms": 0,
+            "end_ms": 1400
+          },
+          {
+            "word": "Paul",
+            "start_ms": 1940,
+            "end_ms": 2400
+          },
+          {
+            "word": "draws",
+            "start_ms": 2400,
+            "end_ms": 3020
+          },
+          {
+            "word": "a",
+            "start_ms": 3020,
+            "end_ms": 3480
+          },
+          {
+            "word": "tall",
+            "start_ms": 3480,
+            "end_ms": 4100
+          },
+          {
+            "word": "horse.",
+            "start_ms": 4100,
+            "end_ms": 4920
+          },
+          {
+            "word": "Then,",
+            "start_ms": 5920,
+            "end_ms": 6480
+          },
+          {
+            "word": "he",
+            "start_ms": 6920,
+            "end_ms": 7220
+          },
+          {
+            "word": "draws",
+            "start_ms": 7220,
+            "end_ms": 7780
+          },
+          {
+            "word": "a",
+            "start_ms": 7780,
+            "end_ms": 8240
+          },
+          {
+            "word": "big",
+            "start_ms": 8240,
+            "end_ms": 8800
+          },
+          {
+            "word": "lion.",
+            "start_ms": 8800,
+            "end_ms": 9680
+          },
+          {
+            "word": "Roar,",
+            "start_ms": 10500,
+            "end_ms": 11620
+          },
+          {
+            "word": "says",
+            "start_ms": 11820,
+            "end_ms": 12320
+          },
+          {
+            "word": "Paul.",
+            "start_ms": 12320,
+            "end_ms": 12860
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 12,
+        "text": "His little sister Dawn walks in. She sees the lion on the board and runs away!",
+        "word_timings": [
+          {
+            "word": "His",
+            "start_ms": 0,
+            "end_ms": 700
+          },
+          {
+            "word": "little",
+            "start_ms": 700,
+            "end_ms": 1700
+          },
+          {
+            "word": "sister",
+            "start_ms": 1700,
+            "end_ms": 2520
+          },
+          {
+            "word": "Dawn",
+            "start_ms": 2520,
+            "end_ms": 3260
+          },
+          {
+            "word": "walks",
+            "start_ms": 3260,
+            "end_ms": 4180
+          },
+          {
+            "word": "in.",
+            "start_ms": 4180,
+            "end_ms": 4840
+          },
+          {
+            "word": "She",
+            "start_ms": 5620,
+            "end_ms": 5980
+          },
+          {
+            "word": "sees",
+            "start_ms": 5980,
+            "end_ms": 6480
+          },
+          {
+            "word": "the",
+            "start_ms": 6480,
+            "end_ms": 6920
+          },
+          {
+            "word": "lion",
+            "start_ms": 6920,
+            "end_ms": 7480
+          },
+          {
+            "word": "on",
+            "start_ms": 7480,
+            "end_ms": 7880
+          },
+          {
+            "word": "the",
+            "start_ms": 7880,
+            "end_ms": 8060
+          },
+          {
+            "word": "board",
+            "start_ms": 8060,
+            "end_ms": 8620
+          },
+          {
+            "word": "and",
+            "start_ms": 8620,
+            "end_ms": 9300
+          },
+          {
+            "word": "runs",
+            "start_ms": 9300,
+            "end_ms": 9900
+          },
+          {
+            "word": "away.",
+            "start_ms": 9900,
+            "end_ms": 10600
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 14,
+        "text": "So Paul draws a smile on the lion and a ball for it. Now Dawn is not scared. She draws too!",
+        "word_timings": [
+          {
+            "word": "So",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "word": "Paul",
+            "start_ms": 720,
+            "end_ms": 1340
+          },
+          {
+            "word": "draws",
+            "start_ms": 1340,
+            "end_ms": 2280
+          },
+          {
+            "word": "a",
+            "start_ms": 2280,
+            "end_ms": 2700
+          },
+          {
+            "word": "smile",
+            "start_ms": 2700,
+            "end_ms": 3400
+          },
+          {
+            "word": "on",
+            "start_ms": 3400,
+            "end_ms": 3980
+          },
+          {
+            "word": "the",
+            "start_ms": 3980,
+            "end_ms": 4180
+          },
+          {
+            "word": "lion",
+            "start_ms": 4180,
+            "end_ms": 4800
+          },
+          {
+            "word": "and",
+            "start_ms": 4800,
+            "end_ms": 5760
+          },
+          {
+            "word": "a",
+            "start_ms": 5760,
+            "end_ms": 6140
+          },
+          {
+            "word": "ball",
+            "start_ms": 6140,
+            "end_ms": 6560
+          },
+          {
+            "word": "for",
+            "start_ms": 6560,
+            "end_ms": 6940
+          },
+          {
+            "word": "it.",
+            "start_ms": 6940,
+            "end_ms": 7280
+          },
+          {
+            "word": "Now",
+            "start_ms": 8080,
+            "end_ms": 8640
+          },
+          {
+            "word": "Dawn",
+            "start_ms": 8640,
+            "end_ms": 9320
+          },
+          {
+            "word": "is",
+            "start_ms": 9320,
+            "end_ms": 9880
+          },
+          {
+            "word": "not",
+            "start_ms": 9880,
+            "end_ms": 10220
+          },
+          {
+            "word": "scared.",
+            "start_ms": 10220,
+            "end_ms": 10780
+          },
+          {
+            "word": "She",
+            "start_ms": 11340,
+            "end_ms": 11740
+          },
+          {
+            "word": "draws",
+            "start_ms": 11740,
+            "end_ms": 12260
+          },
+          {
+            "word": "too.",
+            "start_ms": 12260,
+            "end_ms": 12780
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Paul",
+        "start_ms": 0,
+        "end_ms": 500
+      },
+      {
+        "word": "can",
+        "start_ms": 500,
+        "end_ms": 880
+      },
+      {
+        "word": "draw.",
+        "start_ms": 880,
+        "end_ms": 1280
+      }
+    ]
+  },
+  {
+    "id": "L5_S04",
+    "title": "Mary Can Share",
+    "level": 5,
+    "unit_number": 4,
+    "phonics_used": [
+      "ARE-AIR",
+      "EA-EAR",
+      "EAR-EER"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 57,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 15,
+        "text": "The sky is clear. Mary and her dad have a picnic on a square blanket. They have bread and a big pear.",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "word": "sky",
+            "start_ms": 520,
+            "end_ms": 1140
+          },
+          {
+            "word": "is",
+            "start_ms": 1140,
+            "end_ms": 2000
+          },
+          {
+            "word": "clear.",
+            "start_ms": 2000,
+            "end_ms": 2640
+          },
+          {
+            "word": "Mary",
+            "start_ms": 3880,
+            "end_ms": 4240
+          },
+          {
+            "word": "and",
+            "start_ms": 4240,
+            "end_ms": 4840
+          },
+          {
+            "word": "her",
+            "start_ms": 4840,
+            "end_ms": 5120
+          },
+          {
+            "word": "dad",
+            "start_ms": 5120,
+            "end_ms": 5640
+          },
+          {
+            "word": "have",
+            "start_ms": 5640,
+            "end_ms": 6400
+          },
+          {
+            "word": "a",
+            "start_ms": 6400,
+            "end_ms": 6680
+          },
+          {
+            "word": "picnic",
+            "start_ms": 6680,
+            "end_ms": 7180
+          },
+          {
+            "word": "on",
+            "start_ms": 7180,
+            "end_ms": 7960
+          },
+          {
+            "word": "a",
+            "start_ms": 7960,
+            "end_ms": 8240
+          },
+          {
+            "word": "square",
+            "start_ms": 8240,
+            "end_ms": 8740
+          },
+          {
+            "word": "blanket.",
+            "start_ms": 8740,
+            "end_ms": 9700
+          },
+          {
+            "word": "They",
+            "start_ms": 10520,
+            "end_ms": 10940
+          },
+          {
+            "word": "have",
+            "start_ms": 10940,
+            "end_ms": 11360
+          },
+          {
+            "word": "bread",
+            "start_ms": 11360,
+            "end_ms": 12000
+          },
+          {
+            "word": "and",
+            "start_ms": 12000,
+            "end_ms": 12760
+          },
+          {
+            "word": "a",
+            "start_ms": 12760,
+            "end_ms": 13040
+          },
+          {
+            "word": "big",
+            "start_ms": 13040,
+            "end_ms": 13520
+          },
+          {
+            "word": "pear.",
+            "start_ms": 13520,
+            "end_ms": 14140
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 11,
+        "text": "A little deer walks near. Its ears go up. The deer looks at the pear.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 480
+          },
+          {
+            "word": "little",
+            "start_ms": 480,
+            "end_ms": 1120
+          },
+          {
+            "word": "deer",
+            "start_ms": 1120,
+            "end_ms": 1900
+          },
+          {
+            "word": "walks",
+            "start_ms": 1900,
+            "end_ms": 2760
+          },
+          {
+            "word": "near.",
+            "start_ms": 2760,
+            "end_ms": 3560
+          },
+          {
+            "word": "Its",
+            "start_ms": 4520,
+            "end_ms": 4800
+          },
+          {
+            "word": "ears",
+            "start_ms": 4800,
+            "end_ms": 5460
+          },
+          {
+            "word": "go",
+            "start_ms": 5460,
+            "end_ms": 6020
+          },
+          {
+            "word": "up.",
+            "start_ms": 6020,
+            "end_ms": 6560
+          },
+          {
+            "word": "The",
+            "start_ms": 7520,
+            "end_ms": 7640
+          },
+          {
+            "word": "deer",
+            "start_ms": 7640,
+            "end_ms": 8220
+          },
+          {
+            "word": "looks",
+            "start_ms": 8220,
+            "end_ms": 8900
+          },
+          {
+            "word": "at",
+            "start_ms": 8900,
+            "end_ms": 9420
+          },
+          {
+            "word": "the",
+            "start_ms": 9420,
+            "end_ms": 9720
+          },
+          {
+            "word": "pair.",
+            "start_ms": 9720,
+            "end_ms": 10180
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 15,
+        "text": "Mary breaks the pear in two. \"I can share,\" she says. She gives one half to the deer.",
+        "word_timings": [
+          {
+            "word": "Mary",
+            "start_ms": 0,
+            "end_ms": 960
+          },
+          {
+            "word": "breaks",
+            "start_ms": 960,
+            "end_ms": 2040
+          },
+          {
+            "word": "the",
+            "start_ms": 2040,
+            "end_ms": 2580
+          },
+          {
+            "word": "pear",
+            "start_ms": 2580,
+            "end_ms": 3260
+          },
+          {
+            "word": "in",
+            "start_ms": 3260,
+            "end_ms": 4240
+          },
+          {
+            "word": "two.",
+            "start_ms": 4240,
+            "end_ms": 4880
+          },
+          {
+            "word": "I",
+            "start_ms": 6120,
+            "end_ms": 6980
+          },
+          {
+            "word": "can",
+            "start_ms": 6980,
+            "end_ms": 7340
+          },
+          {
+            "word": "share,",
+            "start_ms": 7340,
+            "end_ms": 8000
+          },
+          {
+            "word": "she",
+            "start_ms": 8520,
+            "end_ms": 8760
+          },
+          {
+            "word": "says.",
+            "start_ms": 8760,
+            "end_ms": 9240
+          },
+          {
+            "word": "She",
+            "start_ms": 10460,
+            "end_ms": 10920
+          },
+          {
+            "word": "gives",
+            "start_ms": 10920,
+            "end_ms": 11460
+          },
+          {
+            "word": "one",
+            "start_ms": 11460,
+            "end_ms": 12140
+          },
+          {
+            "word": "half",
+            "start_ms": 12140,
+            "end_ms": 12660
+          },
+          {
+            "word": "to",
+            "start_ms": 12660,
+            "end_ms": 13380
+          },
+          {
+            "word": "the",
+            "start_ms": 13380,
+            "end_ms": 13660
+          },
+          {
+            "word": "deer.",
+            "start_ms": 13660,
+            "end_ms": 14080
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 16,
+        "text": "The deer eats the pear. Then the deer puts its head on Mary's lap. Dad gives a big cheer!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "deer",
+            "start_ms": 560,
+            "end_ms": 1180
+          },
+          {
+            "word": "eats",
+            "start_ms": 1180,
+            "end_ms": 2320
+          },
+          {
+            "word": "the",
+            "start_ms": 2320,
+            "end_ms": 2760
+          },
+          {
+            "word": "pear.",
+            "start_ms": 2760,
+            "end_ms": 3320
+          },
+          {
+            "word": "Then",
+            "start_ms": 4520,
+            "end_ms": 4900
+          },
+          {
+            "word": "the",
+            "start_ms": 4900,
+            "end_ms": 5680
+          },
+          {
+            "word": "deer",
+            "start_ms": 5680,
+            "end_ms": 6300
+          },
+          {
+            "word": "puts",
+            "start_ms": 6300,
+            "end_ms": 7140
+          },
+          {
+            "word": "its",
+            "start_ms": 7140,
+            "end_ms": 7620
+          },
+          {
+            "word": "head",
+            "start_ms": 7620,
+            "end_ms": 8200
+          },
+          {
+            "word": "on",
+            "start_ms": 8200,
+            "end_ms": 9000
+          },
+          {
+            "word": "Mary's",
+            "start_ms": 9000,
+            "end_ms": 9920
+          },
+          {
+            "word": "lap.",
+            "start_ms": 9920,
+            "end_ms": 10480
+          },
+          {
+            "word": "Dad",
+            "start_ms": 11260,
+            "end_ms": 11880
+          },
+          {
+            "word": "gives",
+            "start_ms": 11880,
+            "end_ms": 12600
+          },
+          {
+            "word": "a",
+            "start_ms": 12600,
+            "end_ms": 12980
+          },
+          {
+            "word": "big",
+            "start_ms": 12980,
+            "end_ms": 13560
+          },
+          {
+            "word": "cheer.",
+            "start_ms": 13560,
+            "end_ms": 14500
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Mary",
+        "start_ms": 0,
+        "end_ms": 660
+      },
+      {
+        "word": "can",
+        "start_ms": 660,
+        "end_ms": 1160
+      },
+      {
+        "word": "share.",
+        "start_ms": 1160,
+        "end_ms": 1640
+      }
+    ]
+  },
+  {
+    "id": "L5_S05",
+    "title": "Leo and the Elevator",
+    "level": 5,
+    "unit_number": 5,
+    "phonics_used": [
+      "A-1",
+      "E-I-1",
+      "O-U-1"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 60,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 14,
+        "text": "Tina, her mom, and her baby brother Leo stay at a big hotel. It is cold outside.",
+        "word_timings": [
+          {
+            "word": "Tina,",
+            "start_ms": 0,
+            "end_ms": 780
+          },
+          {
+            "word": "her",
+            "start_ms": 1580,
+            "end_ms": 1760
+          },
+          {
+            "word": "mom,",
+            "start_ms": 1760,
+            "end_ms": 2300
+          },
+          {
+            "word": "and",
+            "start_ms": 2940,
+            "end_ms": 3240
+          },
+          {
+            "word": "her",
+            "start_ms": 3240,
+            "end_ms": 3520
+          },
+          {
+            "word": "baby",
+            "start_ms": 3520,
+            "end_ms": 4180
+          },
+          {
+            "word": "brother",
+            "start_ms": 4180,
+            "end_ms": 4900
+          },
+          {
+            "word": "Leo",
+            "start_ms": 4900,
+            "end_ms": 5680
+          },
+          {
+            "word": "stay",
+            "start_ms": 5680,
+            "end_ms": 6780
+          },
+          {
+            "word": "at",
+            "start_ms": 6780,
+            "end_ms": 7480
+          },
+          {
+            "word": "a",
+            "start_ms": 7480,
+            "end_ms": 7700
+          },
+          {
+            "word": "big",
+            "start_ms": 7700,
+            "end_ms": 8200
+          },
+          {
+            "word": "hotel.",
+            "start_ms": 8200,
+            "end_ms": 9280
+          },
+          {
+            "word": "It",
+            "start_ms": 10440,
+            "end_ms": 10780
+          },
+          {
+            "word": "is",
+            "start_ms": 10780,
+            "end_ms": 11180
+          },
+          {
+            "word": "cold",
+            "start_ms": 11180,
+            "end_ms": 11800
+          },
+          {
+            "word": "outside.",
+            "start_ms": 11800,
+            "end_ms": 12720
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 13,
+        "text": "They go up in the elevator. Leo does not like it. He cries and cries.",
+        "word_timings": [
+          {
+            "word": "They",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "go",
+            "start_ms": 580,
+            "end_ms": 1080
+          },
+          {
+            "word": "up",
+            "start_ms": 1080,
+            "end_ms": 1780
+          },
+          {
+            "word": "in",
+            "start_ms": 1780,
+            "end_ms": 2440
+          },
+          {
+            "word": "the",
+            "start_ms": 2440,
+            "end_ms": 2720
+          },
+          {
+            "word": "elevator.",
+            "start_ms": 2720,
+            "end_ms": 3660
+          },
+          {
+            "word": "Leo",
+            "start_ms": 4660,
+            "end_ms": 5340
+          },
+          {
+            "word": "does",
+            "start_ms": 5340,
+            "end_ms": 6040
+          },
+          {
+            "word": "not",
+            "start_ms": 6040,
+            "end_ms": 6680
+          },
+          {
+            "word": "like",
+            "start_ms": 6680,
+            "end_ms": 7240
+          },
+          {
+            "word": "it.",
+            "start_ms": 7240,
+            "end_ms": 7720
+          },
+          {
+            "word": "He",
+            "start_ms": 8400,
+            "end_ms": 8740
+          },
+          {
+            "word": "cries",
+            "start_ms": 8740,
+            "end_ms": 9580
+          },
+          {
+            "word": "and",
+            "start_ms": 9580,
+            "end_ms": 10680
+          },
+          {
+            "word": "cries.",
+            "start_ms": 10680,
+            "end_ms": 11380
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 16,
+        "text": "A lady in a red uniform plays soft music. Then she gives Leo a toy tiger.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "lady",
+            "start_ms": 560,
+            "end_ms": 1320
+          },
+          {
+            "word": "in",
+            "start_ms": 1320,
+            "end_ms": 2460
+          },
+          {
+            "word": "a",
+            "start_ms": 2460,
+            "end_ms": 2780
+          },
+          {
+            "word": "red",
+            "start_ms": 2780,
+            "end_ms": 3500
+          },
+          {
+            "word": "uniform",
+            "start_ms": 3500,
+            "end_ms": 4900
+          },
+          {
+            "word": "plays",
+            "start_ms": 4900,
+            "end_ms": 6180
+          },
+          {
+            "word": "soft",
+            "start_ms": 6180,
+            "end_ms": 7240
+          },
+          {
+            "word": "music.",
+            "start_ms": 7240,
+            "end_ms": 8100
+          },
+          {
+            "word": "Then",
+            "start_ms": 9180,
+            "end_ms": 9860
+          },
+          {
+            "word": "she",
+            "start_ms": 9860,
+            "end_ms": 10680
+          },
+          {
+            "word": "gives",
+            "start_ms": 10680,
+            "end_ms": 11220
+          },
+          {
+            "word": "Leo",
+            "start_ms": 11220,
+            "end_ms": 12020
+          },
+          {
+            "word": "a",
+            "start_ms": 12020,
+            "end_ms": 12900
+          },
+          {
+            "word": "toy",
+            "start_ms": 12900,
+            "end_ms": 13540
+          },
+          {
+            "word": "tiger.",
+            "start_ms": 13540,
+            "end_ms": 14700
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 17,
+        "text": "Leo stops crying. He hugs his tiger. \"Thank you!\" says Tina. \"Now he loves the elevator!\"",
+        "word_timings": [
+          {
+            "word": "Leo",
+            "start_ms": 0,
+            "end_ms": 900
+          },
+          {
+            "word": "stops",
+            "start_ms": 900,
+            "end_ms": 2120
+          },
+          {
+            "word": "crying.",
+            "start_ms": 2120,
+            "end_ms": 3480
+          },
+          {
+            "word": "He",
+            "start_ms": 4560,
+            "end_ms": 4860
+          },
+          {
+            "word": "hugs",
+            "start_ms": 4860,
+            "end_ms": 5640
+          },
+          {
+            "word": "his",
+            "start_ms": 5640,
+            "end_ms": 6340
+          },
+          {
+            "word": "tiger.",
+            "start_ms": 6340,
+            "end_ms": 7220
+          },
+          {
+            "word": "Thank",
+            "start_ms": 8160,
+            "end_ms": 8860
+          },
+          {
+            "word": "you,",
+            "start_ms": 8860,
+            "end_ms": 9380
+          },
+          {
+            "word": "says",
+            "start_ms": 9740,
+            "end_ms": 10160
+          },
+          {
+            "word": "Tina.",
+            "start_ms": 10160,
+            "end_ms": 10680
+          },
+          {
+            "word": "Now",
+            "start_ms": 11600,
+            "end_ms": 12220
+          },
+          {
+            "word": "he",
+            "start_ms": 12220,
+            "end_ms": 12940
+          },
+          {
+            "word": "loves",
+            "start_ms": 12940,
+            "end_ms": 13760
+          },
+          {
+            "word": "the",
+            "start_ms": 13760,
+            "end_ms": 14400
+          },
+          {
+            "word": "elevator.",
+            "start_ms": 14400,
+            "end_ms": 15200
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Leo",
+        "start_ms": 0,
+        "end_ms": 700
+      },
+      {
+        "word": "and",
+        "start_ms": 700,
+        "end_ms": 1440
+      },
+      {
+        "word": "the",
+        "start_ms": 1440,
+        "end_ms": 1660
+      },
+      {
+        "word": "elevator.",
+        "start_ms": 1660,
+        "end_ms": 2400
+      }
+    ]
+  },
+  {
+    "id": "L5_S06",
+    "title": "An Umbrella for the Panda",
+    "level": 5,
+    "unit_number": 6,
+    "phonics_used": [
+      "A-2",
+      "E-I-O-U-2",
+      "O-2"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 61,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 14,
+        "text": "It is raining at the zoo. Ana has a big yellow umbrella. She wants to see the panda.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "is",
+            "start_ms": 580,
+            "end_ms": 940
+          },
+          {
+            "word": "raining",
+            "start_ms": 940,
+            "end_ms": 1720
+          },
+          {
+            "word": "at",
+            "start_ms": 1720,
+            "end_ms": 2580
+          },
+          {
+            "word": "the",
+            "start_ms": 2580,
+            "end_ms": 2800
+          },
+          {
+            "word": "zoo.",
+            "start_ms": 2800,
+            "end_ms": 3260
+          },
+          {
+            "word": "Anna",
+            "start_ms": 4260,
+            "end_ms": 4720
+          },
+          {
+            "word": "has",
+            "start_ms": 4720,
+            "end_ms": 5460
+          },
+          {
+            "word": "a",
+            "start_ms": 5460,
+            "end_ms": 5760
+          },
+          {
+            "word": "big",
+            "start_ms": 5760,
+            "end_ms": 6400
+          },
+          {
+            "word": "yellow",
+            "start_ms": 6400,
+            "end_ms": 7440
+          },
+          {
+            "word": "umbrella.",
+            "start_ms": 7440,
+            "end_ms": 8620
+          },
+          {
+            "word": "She",
+            "start_ms": 9880,
+            "end_ms": 10280
+          },
+          {
+            "word": "wants",
+            "start_ms": 10280,
+            "end_ms": 10660
+          },
+          {
+            "word": "to",
+            "start_ms": 10660,
+            "end_ms": 10980
+          },
+          {
+            "word": "see",
+            "start_ms": 10980,
+            "end_ms": 11420
+          },
+          {
+            "word": "the",
+            "start_ms": 11420,
+            "end_ms": 11880
+          },
+          {
+            "word": "panda.",
+            "start_ms": 11880,
+            "end_ms": 12580
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 18,
+        "text": "The monkey eats a banana under a tree. The gorilla and his son eat bananas there too. They are all dry.",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 820
+          },
+          {
+            "word": "monkey",
+            "start_ms": 820,
+            "end_ms": 1520
+          },
+          {
+            "word": "eats",
+            "start_ms": 1520,
+            "end_ms": 2700
+          },
+          {
+            "word": "a",
+            "start_ms": 2700,
+            "end_ms": 3140
+          },
+          {
+            "word": "banana",
+            "start_ms": 3140,
+            "end_ms": 3880
+          },
+          {
+            "word": "under",
+            "start_ms": 3880,
+            "end_ms": 5080
+          },
+          {
+            "word": "a",
+            "start_ms": 5080,
+            "end_ms": 5540
+          },
+          {
+            "word": "tree.",
+            "start_ms": 5540,
+            "end_ms": 6140
+          },
+          {
+            "word": "The",
+            "start_ms": 7640,
+            "end_ms": 7760
+          },
+          {
+            "word": "gorilla",
+            "start_ms": 7760,
+            "end_ms": 8340
+          },
+          {
+            "word": "and",
+            "start_ms": 8340,
+            "end_ms": 9440
+          },
+          {
+            "word": "his",
+            "start_ms": 9440,
+            "end_ms": 9720
+          },
+          {
+            "word": "son",
+            "start_ms": 9720,
+            "end_ms": 10360
+          },
+          {
+            "word": "eat",
+            "start_ms": 10360,
+            "end_ms": 11120
+          },
+          {
+            "word": "bananas",
+            "start_ms": 11120,
+            "end_ms": 12020
+          },
+          {
+            "word": "there,",
+            "start_ms": 12020,
+            "end_ms": 12880
+          },
+          {
+            "word": "too.",
+            "start_ms": 13080,
+            "end_ms": 13540
+          },
+          {
+            "word": "They",
+            "start_ms": 14740,
+            "end_ms": 15180
+          },
+          {
+            "word": "are",
+            "start_ms": 15180,
+            "end_ms": 15660
+          },
+          {
+            "word": "all",
+            "start_ms": 15660,
+            "end_ms": 16219
+          },
+          {
+            "word": "dry.",
+            "start_ms": 16219,
+            "end_ms": 16980
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 12,
+        "text": "But the panda sits all alone in the rain. The panda is wet and sad.",
+        "word_timings": [
+          {
+            "word": "But",
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "word": "the",
+            "start_ms": 520,
+            "end_ms": 720
+          },
+          {
+            "word": "panda",
+            "start_ms": 720,
+            "end_ms": 1420
+          },
+          {
+            "word": "sits",
+            "start_ms": 1420,
+            "end_ms": 2420
+          },
+          {
+            "word": "all",
+            "start_ms": 2420,
+            "end_ms": 3180
+          },
+          {
+            "word": "alone",
+            "start_ms": 3180,
+            "end_ms": 4160
+          },
+          {
+            "word": "in",
+            "start_ms": 4160,
+            "end_ms": 4940
+          },
+          {
+            "word": "the",
+            "start_ms": 4940,
+            "end_ms": 5180
+          },
+          {
+            "word": "rain.",
+            "start_ms": 5180,
+            "end_ms": 5780
+          },
+          {
+            "word": "The",
+            "start_ms": 6840,
+            "end_ms": 7220
+          },
+          {
+            "word": "panda",
+            "start_ms": 7220,
+            "end_ms": 7880
+          },
+          {
+            "word": "is",
+            "start_ms": 7880,
+            "end_ms": 8740
+          },
+          {
+            "word": "wet",
+            "start_ms": 8740,
+            "end_ms": 9340
+          },
+          {
+            "word": "and",
+            "start_ms": 9340,
+            "end_ms": 10160
+          },
+          {
+            "word": "sad.",
+            "start_ms": 10160,
+            "end_ms": 10840
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 17,
+        "text": "Ana gives her umbrella to the zookeeper. He opens it over the panda. What a surprise! The panda loves it!",
+        "word_timings": [
+          {
+            "word": "Anna",
+            "start_ms": 0,
+            "end_ms": 1020
+          },
+          {
+            "word": "gives",
+            "start_ms": 1020,
+            "end_ms": 1660
+          },
+          {
+            "word": "her",
+            "start_ms": 1660,
+            "end_ms": 2060
+          },
+          {
+            "word": "umbrella",
+            "start_ms": 2060,
+            "end_ms": 2920
+          },
+          {
+            "word": "to",
+            "start_ms": 2920,
+            "end_ms": 3820
+          },
+          {
+            "word": "the",
+            "start_ms": 3820,
+            "end_ms": 4120
+          },
+          {
+            "word": "zookeeper.",
+            "start_ms": 4120,
+            "end_ms": 5020
+          },
+          {
+            "word": "He",
+            "start_ms": 6120,
+            "end_ms": 6520
+          },
+          {
+            "word": "opens",
+            "start_ms": 6520,
+            "end_ms": 7360
+          },
+          {
+            "word": "it",
+            "start_ms": 7360,
+            "end_ms": 7960
+          },
+          {
+            "word": "over",
+            "start_ms": 7960,
+            "end_ms": 8780
+          },
+          {
+            "word": "the",
+            "start_ms": 8780,
+            "end_ms": 9160
+          },
+          {
+            "word": "panda.",
+            "start_ms": 9160,
+            "end_ms": 9880
+          },
+          {
+            "word": "What",
+            "start_ms": 10820,
+            "end_ms": 11400
+          },
+          {
+            "word": "a",
+            "start_ms": 11400,
+            "end_ms": 11800
+          },
+          {
+            "word": "surprise!",
+            "start_ms": 11800,
+            "end_ms": 12380
+          },
+          {
+            "word": "The",
+            "start_ms": 13760,
+            "end_ms": 13960
+          },
+          {
+            "word": "panda",
+            "start_ms": 13960,
+            "end_ms": 14660
+          },
+          {
+            "word": "loves",
+            "start_ms": 14660,
+            "end_ms": 15460
+          },
+          {
+            "word": "it.",
+            "start_ms": 15460,
+            "end_ms": 15900
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "An",
+        "start_ms": 0,
+        "end_ms": 260
+      },
+      {
+        "word": "umbrella",
+        "start_ms": 260,
+        "end_ms": 800
+      },
+      {
+        "word": "for",
+        "start_ms": 800,
+        "end_ms": 1600
+      },
+      {
+        "word": "the",
+        "start_ms": 1600,
+        "end_ms": 1780
+      },
+      {
+        "word": "panda!",
+        "start_ms": 1780,
+        "end_ms": 2340
+      }
+    ]
+  },
+  {
+    "id": "L5_S07",
+    "title": "Where Is My Lamb?",
+    "level": 5,
+    "unit_number": 7,
+    "phonics_used": [
+      "KN-WR",
+      "MB-VE",
+      "RH-ST"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 55,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 13,
+        "text": "Kim lives on a farm near an old castle. She has a little white lamb.",
+        "word_timings": [
+          {
+            "word": "Kim",
+            "start_ms": 0,
+            "end_ms": 740
+          },
+          {
+            "word": "lives",
+            "start_ms": 740,
+            "end_ms": 1760
+          },
+          {
+            "word": "on",
+            "start_ms": 1760,
+            "end_ms": 2540
+          },
+          {
+            "word": "a",
+            "start_ms": 2540,
+            "end_ms": 2900
+          },
+          {
+            "word": "farm",
+            "start_ms": 2900,
+            "end_ms": 3780
+          },
+          {
+            "word": "near",
+            "start_ms": 3780,
+            "end_ms": 4660
+          },
+          {
+            "word": "an",
+            "start_ms": 4660,
+            "end_ms": 5260
+          },
+          {
+            "word": "old",
+            "start_ms": 5260,
+            "end_ms": 5980
+          },
+          {
+            "word": "castle.",
+            "start_ms": 5980,
+            "end_ms": 6920
+          },
+          {
+            "word": "She",
+            "start_ms": 7900,
+            "end_ms": 8260
+          },
+          {
+            "word": "has",
+            "start_ms": 8260,
+            "end_ms": 8860
+          },
+          {
+            "word": "a",
+            "start_ms": 8860,
+            "end_ms": 9520
+          },
+          {
+            "word": "little",
+            "start_ms": 9520,
+            "end_ms": 10160
+          },
+          {
+            "word": "white",
+            "start_ms": 10160,
+            "end_ms": 10820
+          },
+          {
+            "word": "lamb.",
+            "start_ms": 10820,
+            "end_ms": 11600
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 17,
+        "text": "One day, the lamb runs away. Kim puts on her gloves and blows her whistle. But the lamb does not come back.",
+        "word_timings": [
+          {
+            "word": "One",
+            "start_ms": 0,
+            "end_ms": 700
+          },
+          {
+            "word": "day,",
+            "start_ms": 700,
+            "end_ms": 1260
+          },
+          {
+            "word": "the",
+            "start_ms": 1740,
+            "end_ms": 2080
+          },
+          {
+            "word": "lamb",
+            "start_ms": 2080,
+            "end_ms": 2760
+          },
+          {
+            "word": "runs",
+            "start_ms": 2760,
+            "end_ms": 3720
+          },
+          {
+            "word": "away.",
+            "start_ms": 3720,
+            "end_ms": 4640
+          },
+          {
+            "word": "Kim",
+            "start_ms": 5800,
+            "end_ms": 6160
+          },
+          {
+            "word": "puts",
+            "start_ms": 6160,
+            "end_ms": 7000
+          },
+          {
+            "word": "on",
+            "start_ms": 7000,
+            "end_ms": 7560
+          },
+          {
+            "word": "her",
+            "start_ms": 7560,
+            "end_ms": 7860
+          },
+          {
+            "word": "gloves",
+            "start_ms": 7860,
+            "end_ms": 8480
+          },
+          {
+            "word": "and",
+            "start_ms": 8480,
+            "end_ms": 9480
+          },
+          {
+            "word": "blows",
+            "start_ms": 9480,
+            "end_ms": 10080
+          },
+          {
+            "word": "her",
+            "start_ms": 10080,
+            "end_ms": 10820
+          },
+          {
+            "word": "whistle.",
+            "start_ms": 10820,
+            "end_ms": 11440
+          },
+          {
+            "word": "But",
+            "start_ms": 12200,
+            "end_ms": 12540
+          },
+          {
+            "word": "the",
+            "start_ms": 12540,
+            "end_ms": 12780
+          },
+          {
+            "word": "lamb",
+            "start_ms": 12780,
+            "end_ms": 13460
+          },
+          {
+            "word": "does",
+            "start_ms": 13460,
+            "end_ms": 13880
+          },
+          {
+            "word": "not",
+            "start_ms": 13880,
+            "end_ms": 14540
+          },
+          {
+            "word": "come",
+            "start_ms": 14540,
+            "end_ms": 15200
+          },
+          {
+            "word": "back.",
+            "start_ms": 15200,
+            "end_ms": 15780
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 13,
+        "text": "First, Kim runs the wrong way. Then she falls and hurts her knee.",
+        "word_timings": [
+          {
+            "word": "First,",
+            "start_ms": 0,
+            "end_ms": 920
+          },
+          {
+            "word": "Kim",
+            "start_ms": 1900,
+            "end_ms": 2460
+          },
+          {
+            "word": "runs",
+            "start_ms": 2460,
+            "end_ms": 3780
+          },
+          {
+            "word": "the",
+            "start_ms": 3780,
+            "end_ms": 4580
+          },
+          {
+            "word": "wrong",
+            "start_ms": 4580,
+            "end_ms": 5340
+          },
+          {
+            "word": "way.",
+            "start_ms": 5340,
+            "end_ms": 6180
+          },
+          {
+            "word": "Then,",
+            "start_ms": 7340,
+            "end_ms": 8039
+          },
+          {
+            "word": "she",
+            "start_ms": 8480,
+            "end_ms": 8880
+          },
+          {
+            "word": "falls",
+            "start_ms": 8880,
+            "end_ms": 9680
+          },
+          {
+            "word": "and",
+            "start_ms": 9680,
+            "end_ms": 10660
+          },
+          {
+            "word": "hurts",
+            "start_ms": 10660,
+            "end_ms": 11300
+          },
+          {
+            "word": "her",
+            "start_ms": 11300,
+            "end_ms": 11840
+          },
+          {
+            "word": "knee.",
+            "start_ms": 11840,
+            "end_ms": 12260
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 12,
+        "text": "At last, Kim finds her lamb in the castle garden. The lamb is eating rhubarb!",
+        "word_timings": [
+          {
+            "word": "At",
+            "start_ms": 0,
+            "end_ms": 500
+          },
+          {
+            "word": "last,",
+            "start_ms": 500,
+            "end_ms": 1360
+          },
+          {
+            "word": "Kim",
+            "start_ms": 1740,
+            "end_ms": 2320
+          },
+          {
+            "word": "finds",
+            "start_ms": 2320,
+            "end_ms": 3220
+          },
+          {
+            "word": "her",
+            "start_ms": 3220,
+            "end_ms": 3540
+          },
+          {
+            "word": "lamb",
+            "start_ms": 3540,
+            "end_ms": 4200
+          },
+          {
+            "word": "in",
+            "start_ms": 4200,
+            "end_ms": 4840
+          },
+          {
+            "word": "the",
+            "start_ms": 4840,
+            "end_ms": 5100
+          },
+          {
+            "word": "castle",
+            "start_ms": 5100,
+            "end_ms": 5900
+          },
+          {
+            "word": "garden.",
+            "start_ms": 5900,
+            "end_ms": 6800
+          },
+          {
+            "word": "The",
+            "start_ms": 7780,
+            "end_ms": 8060
+          },
+          {
+            "word": "lamb",
+            "start_ms": 8060,
+            "end_ms": 8700
+          },
+          {
+            "word": "is",
+            "start_ms": 8700,
+            "end_ms": 9380
+          },
+          {
+            "word": "eating",
+            "start_ms": 9380,
+            "end_ms": 9940
+          },
+          {
+            "word": "rhubarb.",
+            "start_ms": 9940,
+            "end_ms": 11080
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Where",
+        "start_ms": 0,
+        "end_ms": 540
+      },
+      {
+        "word": "is",
+        "start_ms": 540,
+        "end_ms": 1040
+      },
+      {
+        "word": "my",
+        "start_ms": 1040,
+        "end_ms": 1380
+      },
+      {
+        "word": "lamb?",
+        "start_ms": 1380,
+        "end_ms": 1920
+      }
+    ]
+  },
+  {
+    "id": "L5_S08",
+    "title": "Sam's Famous Picture",
+    "level": 5,
+    "unit_number": 8,
+    "phonics_used": [
+      "TURE-SURE",
+      "TION-SION",
+      "OUS-FUL"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 47,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 12,
+        "text": "Sam's class goes on an excursion to the forest. They meet at the train station.",
+        "word_timings": [
+          {
+            "word": "Sam's",
+            "start_ms": 0,
+            "end_ms": 1080
+          },
+          {
+            "word": "class",
+            "start_ms": 1080,
+            "end_ms": 1560
+          },
+          {
+            "word": "goes",
+            "start_ms": 1560,
+            "end_ms": 2460
+          },
+          {
+            "word": "on",
+            "start_ms": 2460,
+            "end_ms": 3260
+          },
+          {
+            "word": "an",
+            "start_ms": 3260,
+            "end_ms": 3680
+          },
+          {
+            "word": "excursion",
+            "start_ms": 3680,
+            "end_ms": 4820
+          },
+          {
+            "word": "to",
+            "start_ms": 4820,
+            "end_ms": 5540
+          },
+          {
+            "word": "the",
+            "start_ms": 5540,
+            "end_ms": 5900
+          },
+          {
+            "word": "forest.",
+            "start_ms": 5900,
+            "end_ms": 6640
+          },
+          {
+            "word": "They",
+            "start_ms": 7520,
+            "end_ms": 7920
+          },
+          {
+            "word": "meet",
+            "start_ms": 7920,
+            "end_ms": 8400
+          },
+          {
+            "word": "at",
+            "start_ms": 8400,
+            "end_ms": 9040
+          },
+          {
+            "word": "the",
+            "start_ms": 9040,
+            "end_ms": 9440
+          },
+          {
+            "word": "train",
+            "start_ms": 9440,
+            "end_ms": 10040
+          },
+          {
+            "word": "station.",
+            "start_ms": 10040,
+            "end_ms": 10820
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 13,
+        "text": "Sam loves nature. He takes a picture of a beautiful bird in a tree.",
+        "word_timings": [
+          {
+            "word": "Sam",
+            "start_ms": 0,
+            "end_ms": 880
+          },
+          {
+            "word": "loves",
+            "start_ms": 880,
+            "end_ms": 2440
+          },
+          {
+            "word": "nature.",
+            "start_ms": 2440,
+            "end_ms": 3580
+          },
+          {
+            "word": "He",
+            "start_ms": 4700,
+            "end_ms": 5000
+          },
+          {
+            "word": "takes",
+            "start_ms": 5000,
+            "end_ms": 5640
+          },
+          {
+            "word": "a",
+            "start_ms": 5640,
+            "end_ms": 5980
+          },
+          {
+            "word": "picture",
+            "start_ms": 5980,
+            "end_ms": 6560
+          },
+          {
+            "word": "of",
+            "start_ms": 6560,
+            "end_ms": 7580
+          },
+          {
+            "word": "a",
+            "start_ms": 7580,
+            "end_ms": 7820
+          },
+          {
+            "word": "beautiful",
+            "start_ms": 7820,
+            "end_ms": 8680
+          },
+          {
+            "word": "bird",
+            "start_ms": 8680,
+            "end_ms": 9680
+          },
+          {
+            "word": "in",
+            "start_ms": 9680,
+            "end_ms": 10560
+          },
+          {
+            "word": "a",
+            "start_ms": 10560,
+            "end_ms": 10840
+          },
+          {
+            "word": "tree.",
+            "start_ms": 10840,
+            "end_ms": 11340
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 11,
+        "text": "His teacher is very helpful. She puts his picture in a big competition.",
+        "word_timings": [
+          {
+            "word": "His",
+            "start_ms": 0,
+            "end_ms": 660
+          },
+          {
+            "word": "teacher",
+            "start_ms": 660,
+            "end_ms": 1560
+          },
+          {
+            "word": "is",
+            "start_ms": 1560,
+            "end_ms": 2400
+          },
+          {
+            "word": "very",
+            "start_ms": 2400,
+            "end_ms": 3240
+          },
+          {
+            "word": "helpful.",
+            "start_ms": 3240,
+            "end_ms": 4040
+          },
+          {
+            "word": "She",
+            "start_ms": 4840,
+            "end_ms": 5340
+          },
+          {
+            "word": "puts",
+            "start_ms": 5340,
+            "end_ms": 5880
+          },
+          {
+            "word": "his",
+            "start_ms": 5880,
+            "end_ms": 6300
+          },
+          {
+            "word": "picture",
+            "start_ms": 6300,
+            "end_ms": 7000
+          },
+          {
+            "word": "in",
+            "start_ms": 7000,
+            "end_ms": 7860
+          },
+          {
+            "word": "a",
+            "start_ms": 7860,
+            "end_ms": 8119
+          },
+          {
+            "word": "big",
+            "start_ms": 8119,
+            "end_ms": 8760
+          },
+          {
+            "word": "competition.",
+            "start_ms": 8760,
+            "end_ms": 9780
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 11,
+        "text": "Sam wins! His picture is on television. Now Sam and the bird are famous!",
+        "word_timings": [
+          {
+            "word": "Sam",
+            "start_ms": 0,
+            "end_ms": 940
+          },
+          {
+            "word": "wins!",
+            "start_ms": 940,
+            "end_ms": 1680
+          },
+          {
+            "word": "His",
+            "start_ms": 2700,
+            "end_ms": 2960
+          },
+          {
+            "word": "picture",
+            "start_ms": 2960,
+            "end_ms": 3620
+          },
+          {
+            "word": "is",
+            "start_ms": 3620,
+            "end_ms": 4140
+          },
+          {
+            "word": "on",
+            "start_ms": 4140,
+            "end_ms": 4440
+          },
+          {
+            "word": "television!",
+            "start_ms": 4440,
+            "end_ms": 5280
+          },
+          {
+            "word": "Now",
+            "start_ms": 6420,
+            "end_ms": 6940
+          },
+          {
+            "word": "Sam",
+            "start_ms": 6940,
+            "end_ms": 7520
+          },
+          {
+            "word": "and",
+            "start_ms": 7520,
+            "end_ms": 7980
+          },
+          {
+            "word": "the",
+            "start_ms": 7980,
+            "end_ms": 8160
+          },
+          {
+            "word": "bird",
+            "start_ms": 8160,
+            "end_ms": 8620
+          },
+          {
+            "word": "are",
+            "start_ms": 8620,
+            "end_ms": 9100
+          },
+          {
+            "word": "famous!",
+            "start_ms": 9100,
+            "end_ms": 9820
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Sam's",
+        "start_ms": 0,
+        "end_ms": 900
+      },
+      {
+        "word": "famous",
+        "start_ms": 900,
+        "end_ms": 1480
+      },
+      {
+        "word": "picture!",
+        "start_ms": 1480,
+        "end_ms": 2120
+      }
+    ]
+  }
+]

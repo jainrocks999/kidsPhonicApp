@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "L3_S01",
+    "title": "Dave's Cape",
+    "level": 3,
+    "unit_number": 1,
+    "phonics_used": [
+      "A_E",
+      "A_E-AME-AKE",
+      "A_E-ATE-AVE"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 32,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "My name is Dave. It is my big day!",
+        "word_timings": [
+          {
+            "word": "My",
+            "start_ms": 0,
+            "end_ms": 660
+          },
+          {
+            "word": "name",
+            "start_ms": 660,
+            "end_ms": 1120
+          },
+          {
+            "word": "is",
+            "start_ms": 1120,
+            "end_ms": 1920
+          },
+          {
+            "word": "Dave.",
+            "start_ms": 1920,
+            "end_ms": 2600
+          },
+          {
+            "word": "It",
+            "start_ms": 3500,
+            "end_ms": 3920
+          },
+          {
+            "word": "is",
+            "start_ms": 3920,
+            "end_ms": 4260
+          },
+          {
+            "word": "my",
+            "start_ms": 4260,
+            "end_ms": 4800
+          },
+          {
+            "word": "big",
+            "start_ms": 4800,
+            "end_ms": 5540
+          },
+          {
+            "word": "day.",
+            "start_ms": 5540,
+            "end_ms": 6200
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 7,
+        "text": "I make a cape with tape. I am brave!",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 860
+          },
+          {
+            "word": "make",
+            "start_ms": 860,
+            "end_ms": 1260
+          },
+          {
+            "word": "a",
+            "start_ms": 1260,
+            "end_ms": 1580
+          },
+          {
+            "word": "cape",
+            "start_ms": 1580,
+            "end_ms": 2120
+          },
+          {
+            "word": "with",
+            "start_ms": 2120,
+            "end_ms": 2700
+          },
+          {
+            "word": "tape.",
+            "start_ms": 2700,
+            "end_ms": 3300
+          },
+          {
+            "word": "I",
+            "start_ms": 3940,
+            "end_ms": 4340
+          },
+          {
+            "word": "am",
+            "start_ms": 4340,
+            "end_ms": 4620
+          },
+          {
+            "word": "brave.",
+            "start_ms": 4620,
+            "end_ms": 5140
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 10,
+        "text": "I skate past the gate. I wave to Mom.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 1320
+          },
+          {
+            "word": "skate",
+            "start_ms": 1320,
+            "end_ms": 2020
+          },
+          {
+            "word": "past",
+            "start_ms": 2020,
+            "end_ms": 3260
+          },
+          {
+            "word": "the",
+            "start_ms": 3260,
+            "end_ms": 3880
+          },
+          {
+            "word": "gate.",
+            "start_ms": 3880,
+            "end_ms": 4520
+          },
+          {
+            "word": "I",
+            "start_ms": 5420,
+            "end_ms": 6220
+          },
+          {
+            "word": "wave",
+            "start_ms": 6220,
+            "end_ms": 6880
+          },
+          {
+            "word": "to",
+            "start_ms": 6880,
+            "end_ms": 7760
+          },
+          {
+            "word": "mom.",
+            "start_ms": 7760,
+            "end_ms": 8260
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "Mom has a cake. My name is on the cake!",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 940
+          },
+          {
+            "word": "has",
+            "start_ms": 940,
+            "end_ms": 1820
+          },
+          {
+            "word": "a",
+            "start_ms": 1820,
+            "end_ms": 2180
+          },
+          {
+            "word": "cake.",
+            "start_ms": 2180,
+            "end_ms": 2800
+          },
+          {
+            "word": "My",
+            "start_ms": 3780,
+            "end_ms": 4400
+          },
+          {
+            "word": "name",
+            "start_ms": 4400,
+            "end_ms": 5020
+          },
+          {
+            "word": "is",
+            "start_ms": 5020,
+            "end_ms": 5560
+          },
+          {
+            "word": "on",
+            "start_ms": 5560,
+            "end_ms": 5860
+          },
+          {
+            "word": "the",
+            "start_ms": 5860,
+            "end_ms": 6040
+          },
+          {
+            "word": "cake.",
+            "start_ms": 6040,
+            "end_ms": 6440
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Dave's",
+        "start_ms": 0,
+        "end_ms": 840
+      },
+      {
+        "word": "cape!",
+        "start_ms": 840,
+        "end_ms": 1280
+      }
+    ]
+  },
+  {
+    "id": "L3_S02",
+    "title": "Five Kites",
+    "level": 3,
+    "unit_number": 2,
+    "phonics_used": [
+      "I_E",
+      "I_E-IME-IKE",
+      "I_E-IVE-INE"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 36,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 8,
+        "text": "My kite is new. It is time to fly it.",
+        "word_timings": [
+          {
+            "word": "My",
+            "start_ms": 0,
+            "end_ms": 800
+          },
+          {
+            "word": "kite",
+            "start_ms": 800,
+            "end_ms": 1500
+          },
+          {
+            "word": "is",
+            "start_ms": 1500,
+            "end_ms": 2460
+          },
+          {
+            "word": "new.",
+            "start_ms": 2460,
+            "end_ms": 3100
+          },
+          {
+            "word": "It",
+            "start_ms": 4200,
+            "end_ms": 4520
+          },
+          {
+            "word": "is",
+            "start_ms": 4520,
+            "end_ms": 5080
+          },
+          {
+            "word": "time",
+            "start_ms": 5080,
+            "end_ms": 5680
+          },
+          {
+            "word": "to",
+            "start_ms": 5680,
+            "end_ms": 6440
+          },
+          {
+            "word": "fly",
+            "start_ms": 6440,
+            "end_ms": 7100
+          },
+          {
+            "word": "it.",
+            "start_ms": 7100,
+            "end_ms": 7520
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 10,
+        "text": "I hike up the pine hill. Nine friends come too.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 1080
+          },
+          {
+            "word": "hike",
+            "start_ms": 1080,
+            "end_ms": 1920
+          },
+          {
+            "word": "up",
+            "start_ms": 1920,
+            "end_ms": 2660
+          },
+          {
+            "word": "the",
+            "start_ms": 2660,
+            "end_ms": 3220
+          },
+          {
+            "word": "Pine",
+            "start_ms": 3220,
+            "end_ms": 3800
+          },
+          {
+            "word": "Hill.",
+            "start_ms": 3800,
+            "end_ms": 4540
+          },
+          {
+            "word": "Nine",
+            "start_ms": 5620,
+            "end_ms": 6660
+          },
+          {
+            "word": "friends",
+            "start_ms": 6660,
+            "end_ms": 7420
+          },
+          {
+            "word": "come",
+            "start_ms": 7420,
+            "end_ms": 8140
+          },
+          {
+            "word": "too.",
+            "start_ms": 8140,
+            "end_ms": 8640
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 10,
+        "text": "Nine kites fly in a line. Mine is the smallest.",
+        "word_timings": [
+          {
+            "word": "Nine",
+            "start_ms": 0,
+            "end_ms": 960
+          },
+          {
+            "word": "kites",
+            "start_ms": 960,
+            "end_ms": 1880
+          },
+          {
+            "word": "fly",
+            "start_ms": 1880,
+            "end_ms": 2620
+          },
+          {
+            "word": "in",
+            "start_ms": 2620,
+            "end_ms": 3580
+          },
+          {
+            "word": "a",
+            "start_ms": 3580,
+            "end_ms": 4059
+          },
+          {
+            "word": "line.",
+            "start_ms": 4059,
+            "end_ms": 4500
+          },
+          {
+            "word": "Mine",
+            "start_ms": 5800,
+            "end_ms": 6180
+          },
+          {
+            "word": "is",
+            "start_ms": 6180,
+            "end_ms": 6940
+          },
+          {
+            "word": "the",
+            "start_ms": 6940,
+            "end_ms": 7260
+          },
+          {
+            "word": "smallest.",
+            "start_ms": 7260,
+            "end_ms": 7920
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "But a fine wind comes. My little kite flies best!",
+        "word_timings": [
+          {
+            "word": "But",
+            "start_ms": 0,
+            "end_ms": 620
+          },
+          {
+            "word": "a",
+            "start_ms": 620,
+            "end_ms": 960
+          },
+          {
+            "word": "fine",
+            "start_ms": 960,
+            "end_ms": 1640
+          },
+          {
+            "word": "wind",
+            "start_ms": 1640,
+            "end_ms": 2320
+          },
+          {
+            "word": "comes.",
+            "start_ms": 2320,
+            "end_ms": 3100
+          },
+          {
+            "word": "My",
+            "start_ms": 3860,
+            "end_ms": 4460
+          },
+          {
+            "word": "little",
+            "start_ms": 4460,
+            "end_ms": 5020
+          },
+          {
+            "word": "kite",
+            "start_ms": 5020,
+            "end_ms": 5520
+          },
+          {
+            "word": "flies",
+            "start_ms": 5520,
+            "end_ms": 6100
+          },
+          {
+            "word": "best!",
+            "start_ms": 6100,
+            "end_ms": 6760
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Five",
+        "start_ms": 0,
+        "end_ms": 620
+      },
+      {
+        "word": "Kites",
+        "start_ms": 620,
+        "end_ms": 1540
+      }
+    ]
+  },
+  {
+    "id": "L3_S03",
+    "title": "Hot June at Home",
+    "level": 3,
+    "unit_number": 3,
+    "phonics_used": [
+      "O_E",
+      "U_E-1",
+      "U_E-2"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 35,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "It is June. It is too hot to jump rope.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "is",
+            "start_ms": 580,
+            "end_ms": 920
+          },
+          {
+            "word": "June.",
+            "start_ms": 920,
+            "end_ms": 1540
+          },
+          {
+            "word": "It",
+            "start_ms": 2480,
+            "end_ms": 2740
+          },
+          {
+            "word": "is",
+            "start_ms": 2740,
+            "end_ms": 3080
+          },
+          {
+            "word": "too",
+            "start_ms": 3080,
+            "end_ms": 3700
+          },
+          {
+            "word": "hot",
+            "start_ms": 3700,
+            "end_ms": 4540
+          },
+          {
+            "word": "to",
+            "start_ms": 4540,
+            "end_ms": 5100
+          },
+          {
+            "word": "jump",
+            "start_ms": 5100,
+            "end_ms": 5560
+          },
+          {
+            "word": "rope.",
+            "start_ms": 5560,
+            "end_ms": 6040
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "Mom has a rule. Rest first, then a cone.",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 960
+          },
+          {
+            "word": "has",
+            "start_ms": 960,
+            "end_ms": 1740
+          },
+          {
+            "word": "a",
+            "start_ms": 1740,
+            "end_ms": 2180
+          },
+          {
+            "word": "rule.",
+            "start_ms": 2180,
+            "end_ms": 2700
+          },
+          {
+            "word": "Rest",
+            "start_ms": 3740,
+            "end_ms": 4160
+          },
+          {
+            "word": "first,",
+            "start_ms": 4160,
+            "end_ms": 5020
+          },
+          {
+            "word": "then",
+            "start_ms": 5500,
+            "end_ms": 6240
+          },
+          {
+            "word": "a",
+            "start_ms": 6240,
+            "end_ms": 6860
+          },
+          {
+            "word": "cone.",
+            "start_ms": 6860,
+            "end_ms": 7320
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 10,
+        "text": "I rest at home and hum a tune. My cute mule rests too.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 740
+          },
+          {
+            "word": "rest",
+            "start_ms": 740,
+            "end_ms": 1380
+          },
+          {
+            "word": "at",
+            "start_ms": 1380,
+            "end_ms": 1860
+          },
+          {
+            "word": "home",
+            "start_ms": 1860,
+            "end_ms": 2480
+          },
+          {
+            "word": "and",
+            "start_ms": 2480,
+            "end_ms": 3300
+          },
+          {
+            "word": "hum",
+            "start_ms": 3300,
+            "end_ms": 3800
+          },
+          {
+            "word": "a",
+            "start_ms": 3800,
+            "end_ms": 4260
+          },
+          {
+            "word": "tune.",
+            "start_ms": 4260,
+            "end_ms": 4780
+          },
+          {
+            "word": "My",
+            "start_ms": 5760,
+            "end_ms": 6140
+          },
+          {
+            "word": "cute",
+            "start_ms": 6140,
+            "end_ms": 6680
+          },
+          {
+            "word": "mule",
+            "start_ms": 6680,
+            "end_ms": 7460
+          },
+          {
+            "word": "rests",
+            "start_ms": 7460,
+            "end_ms": 8280
+          },
+          {
+            "word": "too.",
+            "start_ms": 8280,
+            "end_ms": 8960
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 10,
+        "text": "The rule is done. Here comes my cone!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 600
+          },
+          {
+            "word": "rule",
+            "start_ms": 600,
+            "end_ms": 1200
+          },
+          {
+            "word": "is",
+            "start_ms": 1200,
+            "end_ms": 1900
+          },
+          {
+            "word": "done.",
+            "start_ms": 1900,
+            "end_ms": 2540
+          },
+          {
+            "word": "Here",
+            "start_ms": 3500,
+            "end_ms": 4059
+          },
+          {
+            "word": "comes",
+            "start_ms": 4059,
+            "end_ms": 4680
+          },
+          {
+            "word": "my",
+            "start_ms": 4680,
+            "end_ms": 5120
+          },
+          {
+            "word": "cone.",
+            "start_ms": 5120,
+            "end_ms": 5860
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Hot",
+        "start_ms": 0,
+        "end_ms": 380
+      },
+      {
+        "word": "June",
+        "start_ms": 380,
+        "end_ms": 1000
+      },
+      {
+        "word": "at",
+        "start_ms": 1000,
+        "end_ms": 1500
+      },
+      {
+        "word": "home!",
+        "start_ms": 1500,
+        "end_ms": 1960
+      }
+    ]
+  },
+  {
+    "id": "L3_S04",
+    "title": "Wait for a Sunny Day",
+    "level": 3,
+    "unit_number": 4,
+    "phonics_used": [
+      "AI",
+      "AY",
+      "AI-AY"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 31,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "It is May. Dad says we can sail today.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "word": "is",
+            "start_ms": 720,
+            "end_ms": 1160
+          },
+          {
+            "word": "May.",
+            "start_ms": 1160,
+            "end_ms": 1640
+          },
+          {
+            "word": "Dad",
+            "start_ms": 2440,
+            "end_ms": 2920
+          },
+          {
+            "word": "says",
+            "start_ms": 2920,
+            "end_ms": 3420
+          },
+          {
+            "word": "we",
+            "start_ms": 3420,
+            "end_ms": 4040
+          },
+          {
+            "word": "can",
+            "start_ms": 4040,
+            "end_ms": 4440
+          },
+          {
+            "word": "sail",
+            "start_ms": 4440,
+            "end_ms": 5020
+          },
+          {
+            "word": "today.",
+            "start_ms": 5020,
+            "end_ms": 5600
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 7,
+        "text": "But rain falls all day. We wait at home.",
+        "word_timings": [
+          {
+            "word": "But",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "rain",
+            "start_ms": 580,
+            "end_ms": 1140
+          },
+          {
+            "word": "falls",
+            "start_ms": 1140,
+            "end_ms": 1860
+          },
+          {
+            "word": "all",
+            "start_ms": 1860,
+            "end_ms": 2680
+          },
+          {
+            "word": "day.",
+            "start_ms": 2680,
+            "end_ms": 3240
+          },
+          {
+            "word": "We",
+            "start_ms": 3780,
+            "end_ms": 4380
+          },
+          {
+            "word": "wait",
+            "start_ms": 4380,
+            "end_ms": 4920
+          },
+          {
+            "word": "at",
+            "start_ms": 4920,
+            "end_ms": 5640
+          },
+          {
+            "word": "home.",
+            "start_ms": 5640,
+            "end_ms": 6060
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 9,
+        "text": "We wait and wait. Dad mends the sail.",
+        "word_timings": [
+          {
+            "word": "We",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "wait",
+            "start_ms": 680,
+            "end_ms": 1580
+          },
+          {
+            "word": "and",
+            "start_ms": 1580,
+            "end_ms": 2920
+          },
+          {
+            "word": "wait.",
+            "start_ms": 2920,
+            "end_ms": 3760
+          },
+          {
+            "word": "Dad",
+            "start_ms": 5000,
+            "end_ms": 5880
+          },
+          {
+            "word": "men's",
+            "start_ms": 5880,
+            "end_ms": 7280
+          },
+          {
+            "word": "the",
+            "start_ms": 7280,
+            "end_ms": 7540
+          },
+          {
+            "word": "sale.",
+            "start_ms": 7540,
+            "end_ms": 8080
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "At last the rain stops. We sail on the bay!",
+        "word_timings": [
+          {
+            "word": "At",
+            "start_ms": 0,
+            "end_ms": 500
+          },
+          {
+            "word": "last,",
+            "start_ms": 500,
+            "end_ms": 1140
+          },
+          {
+            "word": "the",
+            "start_ms": 1820,
+            "end_ms": 2160
+          },
+          {
+            "word": "rain",
+            "start_ms": 2160,
+            "end_ms": 2720
+          },
+          {
+            "word": "stops.",
+            "start_ms": 2720,
+            "end_ms": 3480
+          },
+          {
+            "word": "We",
+            "start_ms": 4460,
+            "end_ms": 4840
+          },
+          {
+            "word": "sail",
+            "start_ms": 4840,
+            "end_ms": 5540
+          },
+          {
+            "word": "on",
+            "start_ms": 5540,
+            "end_ms": 6100
+          },
+          {
+            "word": "the",
+            "start_ms": 6100,
+            "end_ms": 6340
+          },
+          {
+            "word": "bay!",
+            "start_ms": 6340,
+            "end_ms": 6860
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Wait",
+        "start_ms": 0,
+        "end_ms": 440
+      },
+      {
+        "word": "for",
+        "start_ms": 440,
+        "end_ms": 860
+      },
+      {
+        "word": "a",
+        "start_ms": 860,
+        "end_ms": 1100
+      },
+      {
+        "word": "sunny",
+        "start_ms": 1100,
+        "end_ms": 1560
+      },
+      {
+        "word": "day!",
+        "start_ms": 1560,
+        "end_ms": 2220
+      }
+    ]
+  },
+  {
+    "id": "L3_S05",
+    "title": "A Bee at the Sea",
+    "level": 3,
+    "unit_number": 5,
+    "phonics_used": [
+      "EE",
+      "EA",
+      "Y-EY"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 35,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 9,
+        "text": "We drive to the sea in a jeep. I am happy!",
+        "word_timings": [
+          {
+            "word": "We",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "drive",
+            "start_ms": 680,
+            "end_ms": 1520
+          },
+          {
+            "word": "to",
+            "start_ms": 1520,
+            "end_ms": 2440
+          },
+          {
+            "word": "the",
+            "start_ms": 2440,
+            "end_ms": 2760
+          },
+          {
+            "word": "sea",
+            "start_ms": 2760,
+            "end_ms": 3480
+          },
+          {
+            "word": "in",
+            "start_ms": 3480,
+            "end_ms": 4440
+          },
+          {
+            "word": "a",
+            "start_ms": 4440,
+            "end_ms": 4780
+          },
+          {
+            "word": "jeep.",
+            "start_ms": 4780,
+            "end_ms": 5680
+          },
+          {
+            "word": "I",
+            "start_ms": 6460,
+            "end_ms": 7100
+          },
+          {
+            "word": "am",
+            "start_ms": 7100,
+            "end_ms": 7580
+          },
+          {
+            "word": "happy!",
+            "start_ms": 7580,
+            "end_ms": 8240
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 9,
+        "text": "We sit and eat. I have meat and candy.",
+        "word_timings": [
+          {
+            "word": "We",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "sit",
+            "start_ms": 680,
+            "end_ms": 1380
+          },
+          {
+            "word": "and",
+            "start_ms": 1380,
+            "end_ms": 2440
+          },
+          {
+            "word": "eat.",
+            "start_ms": 2440,
+            "end_ms": 3120
+          },
+          {
+            "word": "I",
+            "start_ms": 3860,
+            "end_ms": 4540
+          },
+          {
+            "word": "have",
+            "start_ms": 4540,
+            "end_ms": 5060
+          },
+          {
+            "word": "meat",
+            "start_ms": 5060,
+            "end_ms": 5780
+          },
+          {
+            "word": "and",
+            "start_ms": 5780,
+            "end_ms": 6820
+          },
+          {
+            "word": "candy.",
+            "start_ms": 6820,
+            "end_ms": 7600
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 9,
+        "text": "A bee lands on my candy. I jump to my feet!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 480
+          },
+          {
+            "word": "bee",
+            "start_ms": 480,
+            "end_ms": 1080
+          },
+          {
+            "word": "lands",
+            "start_ms": 1080,
+            "end_ms": 2320
+          },
+          {
+            "word": "on",
+            "start_ms": 2320,
+            "end_ms": 2980
+          },
+          {
+            "word": "my",
+            "start_ms": 2980,
+            "end_ms": 3420
+          },
+          {
+            "word": "candy.",
+            "start_ms": 3420,
+            "end_ms": 4280
+          },
+          {
+            "word": "I",
+            "start_ms": 5180,
+            "end_ms": 5720
+          },
+          {
+            "word": "jump",
+            "start_ms": 5720,
+            "end_ms": 6420
+          },
+          {
+            "word": "to",
+            "start_ms": 6420,
+            "end_ms": 6940
+          },
+          {
+            "word": "my",
+            "start_ms": 6940,
+            "end_ms": 7280
+          },
+          {
+            "word": "feet.",
+            "start_ms": 7280,
+            "end_ms": 7860
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "I give the bee a leaf. Now we both eat!",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 700
+          },
+          {
+            "word": "give",
+            "start_ms": 700,
+            "end_ms": 1280
+          },
+          {
+            "word": "the",
+            "start_ms": 1280,
+            "end_ms": 1740
+          },
+          {
+            "word": "bee",
+            "start_ms": 1740,
+            "end_ms": 2360
+          },
+          {
+            "word": "a",
+            "start_ms": 2360,
+            "end_ms": 2980
+          },
+          {
+            "word": "leaf.",
+            "start_ms": 2980,
+            "end_ms": 3380
+          },
+          {
+            "word": "Now",
+            "start_ms": 4320,
+            "end_ms": 4820
+          },
+          {
+            "word": "we",
+            "start_ms": 4820,
+            "end_ms": 5520
+          },
+          {
+            "word": "both",
+            "start_ms": 5520,
+            "end_ms": 6140
+          },
+          {
+            "word": "eat.",
+            "start_ms": 6140,
+            "end_ms": 6900
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "A",
+        "start_ms": 0,
+        "end_ms": 460
+      },
+      {
+        "word": "B",
+        "start_ms": 460,
+        "end_ms": 940
+      },
+      {
+        "word": "at",
+        "start_ms": 940,
+        "end_ms": 1360
+      },
+      {
+        "word": "the",
+        "start_ms": 1360,
+        "end_ms": 1540
+      },
+      {
+        "word": "C.",
+        "start_ms": 1540,
+        "end_ms": 1960
+      }
+    ]
+  },
+  {
+    "id": "L3_S06",
+    "title": "My Night Light",
+    "level": 3,
+    "unit_number": 6,
+    "phonics_used": [
+      "IGH",
+      "IE",
+      "Y"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 31,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "It is night. My room is very dark.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 700
+          },
+          {
+            "word": "is",
+            "start_ms": 700,
+            "end_ms": 1160
+          },
+          {
+            "word": "night.",
+            "start_ms": 1160,
+            "end_ms": 1780
+          },
+          {
+            "word": "My",
+            "start_ms": 2640,
+            "end_ms": 3140
+          },
+          {
+            "word": "room",
+            "start_ms": 3140,
+            "end_ms": 3700
+          },
+          {
+            "word": "is",
+            "start_ms": 3700,
+            "end_ms": 4260
+          },
+          {
+            "word": "very",
+            "start_ms": 4260,
+            "end_ms": 5140
+          },
+          {
+            "word": "dark.",
+            "start_ms": 5140,
+            "end_ms": 5820
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 10,
+        "text": "I lie in my bed and cry. It is too dark.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "word": "lie",
+            "start_ms": 720,
+            "end_ms": 1280
+          },
+          {
+            "word": "in",
+            "start_ms": 1280,
+            "end_ms": 2140
+          },
+          {
+            "word": "my",
+            "start_ms": 2140,
+            "end_ms": 2480
+          },
+          {
+            "word": "bed",
+            "start_ms": 2480,
+            "end_ms": 3200
+          },
+          {
+            "word": "and",
+            "start_ms": 3200,
+            "end_ms": 4320
+          },
+          {
+            "word": "cry.",
+            "start_ms": 4320,
+            "end_ms": 5040
+          },
+          {
+            "word": "It",
+            "start_ms": 6120,
+            "end_ms": 6380
+          },
+          {
+            "word": "is",
+            "start_ms": 6380,
+            "end_ms": 6820
+          },
+          {
+            "word": "too",
+            "start_ms": 6820,
+            "end_ms": 7500
+          },
+          {
+            "word": "dark.",
+            "start_ms": 7500,
+            "end_ms": 8360
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 7,
+        "text": "Mom brings a light. She puts it up high.",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 820
+          },
+          {
+            "word": "brings",
+            "start_ms": 820,
+            "end_ms": 1600
+          },
+          {
+            "word": "a",
+            "start_ms": 1600,
+            "end_ms": 1980
+          },
+          {
+            "word": "light.",
+            "start_ms": 1980,
+            "end_ms": 2420
+          },
+          {
+            "word": "She",
+            "start_ms": 3260,
+            "end_ms": 3700
+          },
+          {
+            "word": "puts",
+            "start_ms": 3700,
+            "end_ms": 4140
+          },
+          {
+            "word": "it",
+            "start_ms": 4140,
+            "end_ms": 4620
+          },
+          {
+            "word": "up",
+            "start_ms": 4620,
+            "end_ms": 5000
+          },
+          {
+            "word": "high.",
+            "start_ms": 5000,
+            "end_ms": 5520
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 7,
+        "text": "Now I can see. I spy stars in the sky!",
+        "word_timings": [
+          {
+            "word": "Now",
+            "start_ms": 0,
+            "end_ms": 800
+          },
+          {
+            "word": "I",
+            "start_ms": 800,
+            "end_ms": 1360
+          },
+          {
+            "word": "can",
+            "start_ms": 1360,
+            "end_ms": 1680
+          },
+          {
+            "word": "see.",
+            "start_ms": 1680,
+            "end_ms": 2360
+          },
+          {
+            "word": "I",
+            "start_ms": 2920,
+            "end_ms": 3440
+          },
+          {
+            "word": "spy",
+            "start_ms": 3440,
+            "end_ms": 3800
+          },
+          {
+            "word": "stars",
+            "start_ms": 3800,
+            "end_ms": 4680
+          },
+          {
+            "word": "in",
+            "start_ms": 4680,
+            "end_ms": 5320
+          },
+          {
+            "word": "the",
+            "start_ms": 5320,
+            "end_ms": 5480
+          },
+          {
+            "word": "sky.",
+            "start_ms": 5480,
+            "end_ms": 5860
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "L3_S07",
+    "title": "My Yellow Coat",
+    "level": 3,
+    "unit_number": 7,
+    "phonics_used": [
+      "OA",
+      "OW",
+      "OA-OW"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 38,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 9,
+        "text": "I look out the window. Rain is on the road!",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 740
+          },
+          {
+            "word": "look",
+            "start_ms": 740,
+            "end_ms": 1160
+          },
+          {
+            "word": "out",
+            "start_ms": 1160,
+            "end_ms": 1800
+          },
+          {
+            "word": "the",
+            "start_ms": 1800,
+            "end_ms": 2500
+          },
+          {
+            "word": "window.",
+            "start_ms": 2500,
+            "end_ms": 3220
+          },
+          {
+            "word": "Rain",
+            "start_ms": 4140,
+            "end_ms": 4880
+          },
+          {
+            "word": "is",
+            "start_ms": 4880,
+            "end_ms": 5660
+          },
+          {
+            "word": "on",
+            "start_ms": 5660,
+            "end_ms": 6200
+          },
+          {
+            "word": "the",
+            "start_ms": 6200,
+            "end_ms": 6540
+          },
+          {
+            "word": "road.",
+            "start_ms": 6540,
+            "end_ms": 7280
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 9,
+        "text": "I put on my yellow coat. I go out to play.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "word": "put",
+            "start_ms": 720,
+            "end_ms": 1140
+          },
+          {
+            "word": "on",
+            "start_ms": 1140,
+            "end_ms": 1800
+          },
+          {
+            "word": "my",
+            "start_ms": 1800,
+            "end_ms": 2440
+          },
+          {
+            "word": "yellow",
+            "start_ms": 2440,
+            "end_ms": 3160
+          },
+          {
+            "word": "coat.",
+            "start_ms": 3160,
+            "end_ms": 4000
+          },
+          {
+            "word": "I",
+            "start_ms": 5060,
+            "end_ms": 5440
+          },
+          {
+            "word": "go",
+            "start_ms": 5440,
+            "end_ms": 5880
+          },
+          {
+            "word": "out",
+            "start_ms": 5880,
+            "end_ms": 6540
+          },
+          {
+            "word": "to",
+            "start_ms": 6540,
+            "end_ms": 7120
+          },
+          {
+            "word": "play.",
+            "start_ms": 7120,
+            "end_ms": 7600
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 10,
+        "text": "I row my boat in a big puddle. A toad hops in!",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 760
+          },
+          {
+            "word": "row",
+            "start_ms": 760,
+            "end_ms": 1440
+          },
+          {
+            "word": "my",
+            "start_ms": 1440,
+            "end_ms": 2160
+          },
+          {
+            "word": "boat",
+            "start_ms": 2160,
+            "end_ms": 3040
+          },
+          {
+            "word": "in",
+            "start_ms": 3040,
+            "end_ms": 3900
+          },
+          {
+            "word": "a",
+            "start_ms": 3900,
+            "end_ms": 4240
+          },
+          {
+            "word": "big",
+            "start_ms": 4240,
+            "end_ms": 4940
+          },
+          {
+            "word": "puddle.",
+            "start_ms": 4940,
+            "end_ms": 6320
+          },
+          {
+            "word": "A",
+            "start_ms": 6800,
+            "end_ms": 7380
+          },
+          {
+            "word": "toad",
+            "start_ms": 7380,
+            "end_ms": 8200
+          },
+          {
+            "word": "hops",
+            "start_ms": 8200,
+            "end_ms": 8740
+          },
+          {
+            "word": "in.",
+            "start_ms": 8740,
+            "end_ms": 9300
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 10,
+        "text": "Now my coat needs soap. I nap on my pillow.",
+        "word_timings": [
+          {
+            "word": "Now,",
+            "start_ms": 0,
+            "end_ms": 880
+          },
+          {
+            "word": "my",
+            "start_ms": 1480,
+            "end_ms": 1860
+          },
+          {
+            "word": "coat",
+            "start_ms": 1860,
+            "end_ms": 2480
+          },
+          {
+            "word": "needs",
+            "start_ms": 2480,
+            "end_ms": 3540
+          },
+          {
+            "word": "soap.",
+            "start_ms": 3540,
+            "end_ms": 4320
+          },
+          {
+            "word": "I",
+            "start_ms": 5280,
+            "end_ms": 5680
+          },
+          {
+            "word": "nap",
+            "start_ms": 5680,
+            "end_ms": 6500
+          },
+          {
+            "word": "on",
+            "start_ms": 6500,
+            "end_ms": 7200
+          },
+          {
+            "word": "my",
+            "start_ms": 7200,
+            "end_ms": 7580
+          },
+          {
+            "word": "pillow.",
+            "start_ms": 7580,
+            "end_ms": 8160
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "My",
+        "start_ms": 0,
+        "end_ms": 440
+      },
+      {
+        "word": "Yellow",
+        "start_ms": 440,
+        "end_ms": 1020
+      },
+      {
+        "word": "Coat",
+        "start_ms": 1020,
+        "end_ms": 1960
+      }
+    ]
+  },
+  {
+    "id": "L3_S08",
+    "title": "A Blue Moon on Tuesday",
+    "level": 3,
+    "unit_number": 8,
+    "phonics_used": [
+      "UE",
+      "UI-EW",
+      "OO"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 33,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 8,
+        "text": "It is Tuesday. I make a blue moon from paper.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "is",
+            "start_ms": 680,
+            "end_ms": 1100
+          },
+          {
+            "word": "Tuesday.",
+            "start_ms": 1100,
+            "end_ms": 2040
+          },
+          {
+            "word": "I",
+            "start_ms": 2940,
+            "end_ms": 3400
+          },
+          {
+            "word": "make",
+            "start_ms": 3400,
+            "end_ms": 3860
+          },
+          {
+            "word": "a",
+            "start_ms": 3860,
+            "end_ms": 4280
+          },
+          {
+            "word": "blue",
+            "start_ms": 4280,
+            "end_ms": 4840
+          },
+          {
+            "word": "moon",
+            "start_ms": 4840,
+            "end_ms": 5860
+          },
+          {
+            "word": "from",
+            "start_ms": 5860,
+            "end_ms": 6420
+          },
+          {
+            "word": "paper.",
+            "start_ms": 6420,
+            "end_ms": 7020
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "I need lots of glue. Glue, glue, glue!",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "need",
+            "start_ms": 580,
+            "end_ms": 900
+          },
+          {
+            "word": "lots",
+            "start_ms": 900,
+            "end_ms": 1560
+          },
+          {
+            "word": "of",
+            "start_ms": 1560,
+            "end_ms": 2120
+          },
+          {
+            "word": "glue.",
+            "start_ms": 2120,
+            "end_ms": 2580
+          },
+          {
+            "word": "Glue,",
+            "start_ms": 3400,
+            "end_ms": 4019
+          },
+          {
+            "word": "glue,",
+            "start_ms": 4520,
+            "end_ms": 5120
+          },
+          {
+            "word": "glue!",
+            "start_ms": 5740,
+            "end_ms": 6340
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 9,
+        "text": "Now the glue is on my new suit and my boot!",
+        "word_timings": [
+          {
+            "word": "Now",
+            "start_ms": 0,
+            "end_ms": 860
+          },
+          {
+            "word": "the",
+            "start_ms": 860,
+            "end_ms": 1560
+          },
+          {
+            "word": "glue",
+            "start_ms": 1560,
+            "end_ms": 2100
+          },
+          {
+            "word": "is",
+            "start_ms": 2100,
+            "end_ms": 2800
+          },
+          {
+            "word": "on",
+            "start_ms": 2800,
+            "end_ms": 3240
+          },
+          {
+            "word": "my",
+            "start_ms": 3240,
+            "end_ms": 3660
+          },
+          {
+            "word": "new",
+            "start_ms": 3660,
+            "end_ms": 4260
+          },
+          {
+            "word": "suit",
+            "start_ms": 4260,
+            "end_ms": 5020
+          },
+          {
+            "word": "and",
+            "start_ms": 5020,
+            "end_ms": 6100
+          },
+          {
+            "word": "my",
+            "start_ms": 6100,
+            "end_ms": 6900
+          },
+          {
+            "word": "boot.",
+            "start_ms": 6900,
+            "end_ms": 7440
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "Mom is not mad. She hangs my blue moon up.",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 920
+          },
+          {
+            "word": "is",
+            "start_ms": 920,
+            "end_ms": 1660
+          },
+          {
+            "word": "not",
+            "start_ms": 1660,
+            "end_ms": 2200
+          },
+          {
+            "word": "mad.",
+            "start_ms": 2200,
+            "end_ms": 2840
+          },
+          {
+            "word": "She",
+            "start_ms": 3760,
+            "end_ms": 4000
+          },
+          {
+            "word": "hangs",
+            "start_ms": 4000,
+            "end_ms": 4960
+          },
+          {
+            "word": "my",
+            "start_ms": 4960,
+            "end_ms": 5420
+          },
+          {
+            "word": "blue",
+            "start_ms": 5420,
+            "end_ms": 6100
+          },
+          {
+            "word": "moon",
+            "start_ms": 6100,
+            "end_ms": 6980
+          },
+          {
+            "word": "up.",
+            "start_ms": 6980,
+            "end_ms": 7540
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "A",
+        "start_ms": 0,
+        "end_ms": 220
+      },
+      {
+        "word": "blue",
+        "start_ms": 220,
+        "end_ms": 660
+      },
+      {
+        "word": "moon",
+        "start_ms": 660,
+        "end_ms": 1320
+      },
+      {
+        "word": "on",
+        "start_ms": 1320,
+        "end_ms": 1740
+      },
+      {
+        "word": "Tuesday!",
+        "start_ms": 1740,
+        "end_ms": 2200
+      }
+    ]
+  }
+]

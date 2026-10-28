@@ -1,0 +1,2064 @@
+[
+  {
+    "id": "L2_S01",
+    "title": "Jam in a Pan",
+    "level": 2,
+    "unit_number": 1,
+    "phonics_used": [
+      "SHORT-A",
+      "SHORT-A-AM",
+      "SHORT-A-AN"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 37,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 9,
+        "text": "A man has a pan. Jam is in the pan.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "man",
+            "start_ms": 540,
+            "end_ms": 1280
+          },
+          {
+            "word": "has",
+            "start_ms": 1280,
+            "end_ms": 2680
+          },
+          {
+            "word": "a",
+            "start_ms": 2680,
+            "end_ms": 3300
+          },
+          {
+            "word": "pan.",
+            "start_ms": 3300,
+            "end_ms": 4080
+          },
+          {
+            "word": "Jam",
+            "start_ms": 4820,
+            "end_ms": 5660
+          },
+          {
+            "word": "is",
+            "start_ms": 5660,
+            "end_ms": 6620
+          },
+          {
+            "word": "in",
+            "start_ms": 6620,
+            "end_ms": 7320
+          },
+          {
+            "word": "the",
+            "start_ms": 7320,
+            "end_ms": 7900
+          },
+          {
+            "word": "pan.",
+            "start_ms": 7900,
+            "end_ms": 8400
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 9,
+        "text": "A cat and an ant want the jam. But it is hot!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "word": "cat",
+            "start_ms": 460,
+            "end_ms": 1020
+          },
+          {
+            "word": "and",
+            "start_ms": 1020,
+            "end_ms": 2140
+          },
+          {
+            "word": "an",
+            "start_ms": 2140,
+            "end_ms": 2700
+          },
+          {
+            "word": "aunt",
+            "start_ms": 2700,
+            "end_ms": 3300
+          },
+          {
+            "word": "want",
+            "start_ms": 3300,
+            "end_ms": 4120
+          },
+          {
+            "word": "the",
+            "start_ms": 4120,
+            "end_ms": 4640
+          },
+          {
+            "word": "jam.",
+            "start_ms": 4640,
+            "end_ms": 5140
+          },
+          {
+            "word": "But",
+            "start_ms": 5880,
+            "end_ms": 6480
+          },
+          {
+            "word": "it",
+            "start_ms": 6480,
+            "end_ms": 7100
+          },
+          {
+            "word": "is",
+            "start_ms": 7100,
+            "end_ms": 7640
+          },
+          {
+            "word": "hot.",
+            "start_ms": 7640,
+            "end_ms": 8340
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 9,
+        "text": "The man gets a fan. Fan the pan! Fan, fan, fan.",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "man",
+            "start_ms": 580,
+            "end_ms": 1120
+          },
+          {
+            "word": "gets",
+            "start_ms": 1120,
+            "end_ms": 1800
+          },
+          {
+            "word": "a",
+            "start_ms": 1800,
+            "end_ms": 2300
+          },
+          {
+            "word": "fan.",
+            "start_ms": 2300,
+            "end_ms": 3000
+          },
+          {
+            "word": "Fan",
+            "start_ms": 3380,
+            "end_ms": 4440
+          },
+          {
+            "word": "the",
+            "start_ms": 4440,
+            "end_ms": 5080
+          },
+          {
+            "word": "pan!",
+            "start_ms": 5080,
+            "end_ms": 5780
+          },
+          {
+            "word": "Fan,",
+            "start_ms": 6580,
+            "end_ms": 7320
+          },
+          {
+            "word": "fan,",
+            "start_ms": 7760,
+            "end_ms": 8160
+          },
+          {
+            "word": "fan.",
+            "start_ms": 8160,
+            "end_ms": 9000
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 10,
+        "text": "Now the jam is not hot. Jam for all. Yum!",
+        "word_timings": [
+          {
+            "word": "Now,",
+            "start_ms": 0,
+            "end_ms": 860
+          },
+          {
+            "word": "the",
+            "start_ms": 1420,
+            "end_ms": 1640
+          },
+          {
+            "word": "jam",
+            "start_ms": 1640,
+            "end_ms": 2180
+          },
+          {
+            "word": "is",
+            "start_ms": 2180,
+            "end_ms": 2960
+          },
+          {
+            "word": "not",
+            "start_ms": 2960,
+            "end_ms": 3560
+          },
+          {
+            "word": "hot.",
+            "start_ms": 3560,
+            "end_ms": 4640
+          },
+          {
+            "word": "Jam",
+            "start_ms": 5200,
+            "end_ms": 5880
+          },
+          {
+            "word": "for",
+            "start_ms": 5880,
+            "end_ms": 6600
+          },
+          {
+            "word": "all.",
+            "start_ms": 6600,
+            "end_ms": 7280
+          },
+          {
+            "word": "Yum!",
+            "start_ms": 8100,
+            "end_ms": 8560
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Jam",
+        "start_ms": 0,
+        "end_ms": 600
+      },
+      {
+        "word": "in",
+        "start_ms": 600,
+        "end_ms": 1120
+      },
+      {
+        "word": "a",
+        "start_ms": 1120,
+        "end_ms": 1280
+      },
+      {
+        "word": "pan!",
+        "start_ms": 1280,
+        "end_ms": 1720
+      }
+    ]
+  },
+  {
+    "id": "L2_S02",
+    "title": "Dad's Map",
+    "level": 2,
+    "unit_number": 2,
+    "phonics_used": [
+      "SHORT-A-AD-AG",
+      "SHORT-A-AP",
+      "SHORT-A-AT"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 34,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 9,
+        "text": "Dad has a cap, a bag, and a big map.",
+        "word_timings": [
+          {
+            "word": "Dad",
+            "start_ms": 0,
+            "end_ms": 920
+          },
+          {
+            "word": "has",
+            "start_ms": 920,
+            "end_ms": 1900
+          },
+          {
+            "word": "a",
+            "start_ms": 1900,
+            "end_ms": 2280
+          },
+          {
+            "word": "cap,",
+            "start_ms": 2280,
+            "end_ms": 2720
+          },
+          {
+            "word": "a",
+            "start_ms": 3400,
+            "end_ms": 3840
+          },
+          {
+            "word": "bag,",
+            "start_ms": 3840,
+            "end_ms": 4460
+          },
+          {
+            "word": "and",
+            "start_ms": 4980,
+            "end_ms": 5580
+          },
+          {
+            "word": "a",
+            "start_ms": 5580,
+            "end_ms": 5880
+          },
+          {
+            "word": "big",
+            "start_ms": 5880,
+            "end_ms": 6660
+          },
+          {
+            "word": "map.",
+            "start_ms": 6660,
+            "end_ms": 7500
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 7,
+        "text": "Oh no! A rat naps on the map!",
+        "word_timings": [
+          {
+            "word": "Oh",
+            "start_ms": 0,
+            "end_ms": 800
+          },
+          {
+            "word": "no!",
+            "start_ms": 800,
+            "end_ms": 1380
+          },
+          {
+            "word": "A",
+            "start_ms": 2280,
+            "end_ms": 2660
+          },
+          {
+            "word": "rat",
+            "start_ms": 2660,
+            "end_ms": 3240
+          },
+          {
+            "word": "naps",
+            "start_ms": 3240,
+            "end_ms": 4480
+          },
+          {
+            "word": "on",
+            "start_ms": 4480,
+            "end_ms": 5200
+          },
+          {
+            "word": "the",
+            "start_ms": 5200,
+            "end_ms": 5480
+          },
+          {
+            "word": "map!",
+            "start_ms": 5480,
+            "end_ms": 6040
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 10,
+        "text": "Dad taps the mat. Tap, tap, tap!",
+        "word_timings": [
+          {
+            "word": "Dad,",
+            "start_ms": 0,
+            "end_ms": 820
+          },
+          {
+            "word": "taps",
+            "start_ms": 1280,
+            "end_ms": 2420
+          },
+          {
+            "word": "the",
+            "start_ms": 2420,
+            "end_ms": 3420
+          },
+          {
+            "word": "mat.",
+            "start_ms": 3420,
+            "end_ms": 4200
+          },
+          {
+            "word": "Tap,",
+            "start_ms": 4880,
+            "end_ms": 5940
+          },
+          {
+            "word": "tap,",
+            "start_ms": 6540,
+            "end_ms": 7400
+          },
+          {
+            "word": "tap.",
+            "start_ms": 7840,
+            "end_ms": 8740
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 9,
+        "text": "The rat runs off. Dad gets the map. Off we go!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "rat",
+            "start_ms": 560,
+            "end_ms": 1060
+          },
+          {
+            "word": "runs",
+            "start_ms": 1060,
+            "end_ms": 2000
+          },
+          {
+            "word": "off.",
+            "start_ms": 2000,
+            "end_ms": 2780
+          },
+          {
+            "word": "Dad",
+            "start_ms": 3740,
+            "end_ms": 4460
+          },
+          {
+            "word": "gets",
+            "start_ms": 4460,
+            "end_ms": 5080
+          },
+          {
+            "word": "the",
+            "start_ms": 5080,
+            "end_ms": 5500
+          },
+          {
+            "word": "map.",
+            "start_ms": 5500,
+            "end_ms": 5940
+          },
+          {
+            "word": "Off",
+            "start_ms": 6860,
+            "end_ms": 7300
+          },
+          {
+            "word": "we",
+            "start_ms": 7300,
+            "end_ms": 7720
+          },
+          {
+            "word": "go.",
+            "start_ms": 7720,
+            "end_ms": 8320
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Dad's",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "word": "Map",
+        "start_ms": 800,
+        "end_ms": 1200
+      }
+    ]
+  },
+  {
+    "id": "L2_S03",
+    "title": "Red Hen",
+    "level": 2,
+    "unit_number": 3,
+    "phonics_used": [
+      "SHORT-E",
+      "SHORT-E-ET",
+      "SHORT-E-EN-ED"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 32,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "A red hen has ten eggs in a pen.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "word": "red",
+            "start_ms": 520,
+            "end_ms": 1080
+          },
+          {
+            "word": "hen",
+            "start_ms": 1080,
+            "end_ms": 1740
+          },
+          {
+            "word": "has",
+            "start_ms": 1740,
+            "end_ms": 2720
+          },
+          {
+            "word": "ten",
+            "start_ms": 2720,
+            "end_ms": 3540
+          },
+          {
+            "word": "eggs",
+            "start_ms": 3540,
+            "end_ms": 4640
+          },
+          {
+            "word": "in",
+            "start_ms": 4640,
+            "end_ms": 5540
+          },
+          {
+            "word": "a",
+            "start_ms": 5540,
+            "end_ms": 6000
+          },
+          {
+            "word": "pen.",
+            "start_ms": 6000,
+            "end_ms": 6480
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 10,
+        "text": "One egg rolls out! It is in a wet web.",
+        "word_timings": [
+          {
+            "word": "One",
+            "start_ms": 0,
+            "end_ms": 1020
+          },
+          {
+            "word": "egg",
+            "start_ms": 1020,
+            "end_ms": 2120
+          },
+          {
+            "word": "rolls",
+            "start_ms": 2120,
+            "end_ms": 3200
+          },
+          {
+            "word": "out.",
+            "start_ms": 3200,
+            "end_ms": 4460
+          },
+          {
+            "word": "It",
+            "start_ms": 5140,
+            "end_ms": 5580
+          },
+          {
+            "word": "is",
+            "start_ms": 5580,
+            "end_ms": 6260
+          },
+          {
+            "word": "in",
+            "start_ms": 6260,
+            "end_ms": 6820
+          },
+          {
+            "word": "a",
+            "start_ms": 6820,
+            "end_ms": 7220
+          },
+          {
+            "word": "wet",
+            "start_ms": 7220,
+            "end_ms": 7760
+          },
+          {
+            "word": "web.",
+            "start_ms": 7760,
+            "end_ms": 8840
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 7,
+        "text": "The vet gets a net. Up comes the egg!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "vet",
+            "start_ms": 540,
+            "end_ms": 1420
+          },
+          {
+            "word": "gets",
+            "start_ms": 1420,
+            "end_ms": 2160
+          },
+          {
+            "word": "a",
+            "start_ms": 2160,
+            "end_ms": 2720
+          },
+          {
+            "word": "net.",
+            "start_ms": 2720,
+            "end_ms": 3340
+          },
+          {
+            "word": "Up",
+            "start_ms": 4340,
+            "end_ms": 4840
+          },
+          {
+            "word": "comes",
+            "start_ms": 4840,
+            "end_ms": 5460
+          },
+          {
+            "word": "the",
+            "start_ms": 5460,
+            "end_ms": 5860
+          },
+          {
+            "word": "egg.",
+            "start_ms": 5860,
+            "end_ms": 6540
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "Ten eggs in the bed. The hen is glad!",
+        "word_timings": [
+          {
+            "word": "10",
+            "start_ms": 0,
+            "end_ms": 1120
+          },
+          {
+            "word": "eggs",
+            "start_ms": 1120,
+            "end_ms": 2200
+          },
+          {
+            "word": "in",
+            "start_ms": 2200,
+            "end_ms": 3180
+          },
+          {
+            "word": "the",
+            "start_ms": 3180,
+            "end_ms": 3720
+          },
+          {
+            "word": "bed.",
+            "start_ms": 3720,
+            "end_ms": 4540
+          },
+          {
+            "word": "The",
+            "start_ms": 4840,
+            "end_ms": 5620
+          },
+          {
+            "word": "hen",
+            "start_ms": 5620,
+            "end_ms": 6120
+          },
+          {
+            "word": "is",
+            "start_ms": 6120,
+            "end_ms": 6860
+          },
+          {
+            "word": "glad!",
+            "start_ms": 6860,
+            "end_ms": 7480
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Red",
+        "start_ms": 0,
+        "end_ms": 540
+      },
+      {
+        "word": "Hen",
+        "start_ms": 540,
+        "end_ms": 1080
+      }
+    ]
+  },
+  {
+    "id": "L2_S04",
+    "title": "Ink on the Bib",
+    "level": 2,
+    "unit_number": 4,
+    "phonics_used": [
+      "SHORT-I",
+      "SHORT-I-IP",
+      "SHORT-I-IB-ID"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 32,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "A kid sits with a bib and a pot of ink.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 660
+          },
+          {
+            "word": "kid",
+            "start_ms": 660,
+            "end_ms": 1240
+          },
+          {
+            "word": "sits",
+            "start_ms": 1240,
+            "end_ms": 2320
+          },
+          {
+            "word": "with",
+            "start_ms": 2320,
+            "end_ms": 2820
+          },
+          {
+            "word": "a",
+            "start_ms": 2820,
+            "end_ms": 3140
+          },
+          {
+            "word": "bib",
+            "start_ms": 3140,
+            "end_ms": 3540
+          },
+          {
+            "word": "and",
+            "start_ms": 3540,
+            "end_ms": 4800
+          },
+          {
+            "word": "a",
+            "start_ms": 4800,
+            "end_ms": 5080
+          },
+          {
+            "word": "part",
+            "start_ms": 5080,
+            "end_ms": 5500
+          },
+          {
+            "word": "of",
+            "start_ms": 5500,
+            "end_ms": 6140
+          },
+          {
+            "word": "ink.",
+            "start_ms": 6140,
+            "end_ms": 6640
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 7,
+        "text": "Tip! The ink is on the bib. Oh no!",
+        "word_timings": [
+          {
+            "word": "Tip!",
+            "start_ms": 0,
+            "end_ms": 760
+          },
+          {
+            "word": "The",
+            "start_ms": 1360,
+            "end_ms": 2000
+          },
+          {
+            "word": "ink",
+            "start_ms": 2000,
+            "end_ms": 2620
+          },
+          {
+            "word": "is",
+            "start_ms": 2620,
+            "end_ms": 3040
+          },
+          {
+            "word": "on",
+            "start_ms": 3040,
+            "end_ms": 3420
+          },
+          {
+            "word": "the",
+            "start_ms": 3420,
+            "end_ms": 3680
+          },
+          {
+            "word": "bib.",
+            "start_ms": 3680,
+            "end_ms": 4120
+          },
+          {
+            "word": "Oh",
+            "start_ms": 4940,
+            "end_ms": 5480
+          },
+          {
+            "word": "no!",
+            "start_ms": 5480,
+            "end_ms": 6080
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 9,
+        "text": "Dad puts the lid on. He dips the bib in.",
+        "word_timings": [
+          {
+            "word": "Dad",
+            "start_ms": 0,
+            "end_ms": 980
+          },
+          {
+            "word": "puts",
+            "start_ms": 980,
+            "end_ms": 1820
+          },
+          {
+            "word": "the",
+            "start_ms": 1820,
+            "end_ms": 2500
+          },
+          {
+            "word": "lid",
+            "start_ms": 2500,
+            "end_ms": 3040
+          },
+          {
+            "word": "on.",
+            "start_ms": 3040,
+            "end_ms": 3920
+          },
+          {
+            "word": "He",
+            "start_ms": 4760,
+            "end_ms": 5260
+          },
+          {
+            "word": "dips",
+            "start_ms": 5260,
+            "end_ms": 5980
+          },
+          {
+            "word": "the",
+            "start_ms": 5980,
+            "end_ms": 6640
+          },
+          {
+            "word": "bib",
+            "start_ms": 6640,
+            "end_ms": 7140
+          },
+          {
+            "word": "in.",
+            "start_ms": 7140,
+            "end_ms": 7920
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 9,
+        "text": "No ink on the bib! The kid grins. Zip, zip!",
+        "word_timings": [
+          {
+            "word": "No",
+            "start_ms": 0,
+            "end_ms": 800
+          },
+          {
+            "word": "ink",
+            "start_ms": 800,
+            "end_ms": 1600
+          },
+          {
+            "word": "on",
+            "start_ms": 1600,
+            "end_ms": 2360
+          },
+          {
+            "word": "the",
+            "start_ms": 2360,
+            "end_ms": 2640
+          },
+          {
+            "word": "bib.",
+            "start_ms": 2640,
+            "end_ms": 3020
+          },
+          {
+            "word": "The",
+            "start_ms": 3740,
+            "end_ms": 4160
+          },
+          {
+            "word": "kid",
+            "start_ms": 4160,
+            "end_ms": 4800
+          },
+          {
+            "word": "grins.",
+            "start_ms": 4800,
+            "end_ms": 5660
+          },
+          {
+            "word": "Zip,",
+            "start_ms": 6460,
+            "end_ms": 7200
+          },
+          {
+            "word": "zip.",
+            "start_ms": 7660,
+            "end_ms": 8060
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Ink",
+        "start_ms": 0,
+        "end_ms": 360
+      },
+      {
+        "word": "on",
+        "start_ms": 360,
+        "end_ms": 820
+      },
+      {
+        "word": "the",
+        "start_ms": 820,
+        "end_ms": 1020
+      },
+      {
+        "word": "bib.",
+        "start_ms": 1020,
+        "end_ms": 1440
+      }
+    ]
+  },
+  {
+    "id": "L2_S05",
+    "title": "Big Fig",
+    "level": 2,
+    "unit_number": 5,
+    "phonics_used": [
+      "SHORT-I-IN",
+      "SHORT-I-IG",
+      "SHORT-I-IT-IX"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 33,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 10,
+        "text": "Six pigs dig and dig. They want a big fig.",
+        "word_timings": [
+          {
+            "word": "six",
+            "start_ms": 0,
+            "end_ms": 980
+          },
+          {
+            "word": "pigs,",
+            "start_ms": 980,
+            "end_ms": 1740
+          },
+          {
+            "word": "dig,",
+            "start_ms": 2180,
+            "end_ms": 2640
+          },
+          {
+            "word": "and",
+            "start_ms": 3200,
+            "end_ms": 4160
+          },
+          {
+            "word": "dig.",
+            "start_ms": 4160,
+            "end_ms": 4920
+          },
+          {
+            "word": "They",
+            "start_ms": 5360,
+            "end_ms": 6400
+          },
+          {
+            "word": "want",
+            "start_ms": 6400,
+            "end_ms": 7080
+          },
+          {
+            "word": "a",
+            "start_ms": 7080,
+            "end_ms": 7740
+          },
+          {
+            "word": "big,",
+            "start_ms": 7740,
+            "end_ms": 8400
+          },
+          {
+            "word": "fig.",
+            "start_ms": 8760,
+            "end_ms": 9400
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "The fig is in a pit! It will not come up.",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 660
+          },
+          {
+            "word": "fig",
+            "start_ms": 660,
+            "end_ms": 1380
+          },
+          {
+            "word": "is",
+            "start_ms": 1380,
+            "end_ms": 2300
+          },
+          {
+            "word": "in",
+            "start_ms": 2300,
+            "end_ms": 3000
+          },
+          {
+            "word": "a",
+            "start_ms": 3000,
+            "end_ms": 3320
+          },
+          {
+            "word": "pit.",
+            "start_ms": 3320,
+            "end_ms": 3800
+          },
+          {
+            "word": "It",
+            "start_ms": 4560,
+            "end_ms": 5080
+          },
+          {
+            "word": "will",
+            "start_ms": 5080,
+            "end_ms": 5460
+          },
+          {
+            "word": "not",
+            "start_ms": 5460,
+            "end_ms": 6040
+          },
+          {
+            "word": "come",
+            "start_ms": 6040,
+            "end_ms": 6740
+          },
+          {
+            "word": "up.",
+            "start_ms": 6740,
+            "end_ms": 7340
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 6,
+        "text": "A pig in a wig gets a big bin.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "pig",
+            "start_ms": 560,
+            "end_ms": 1160
+          },
+          {
+            "word": "in",
+            "start_ms": 1160,
+            "end_ms": 2080
+          },
+          {
+            "word": "a",
+            "start_ms": 2080,
+            "end_ms": 2360
+          },
+          {
+            "word": "wig",
+            "start_ms": 2360,
+            "end_ms": 2860
+          },
+          {
+            "word": "gets",
+            "start_ms": 2860,
+            "end_ms": 3800
+          },
+          {
+            "word": "a",
+            "start_ms": 3800,
+            "end_ms": 4320
+          },
+          {
+            "word": "big",
+            "start_ms": 4320,
+            "end_ms": 5040
+          },
+          {
+            "word": "bin.",
+            "start_ms": 5040,
+            "end_ms": 5900
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 9,
+        "text": "The fig is in the bin. The six pigs win!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "fig",
+            "start_ms": 680,
+            "end_ms": 1340
+          },
+          {
+            "word": "is",
+            "start_ms": 1340,
+            "end_ms": 2100
+          },
+          {
+            "word": "in",
+            "start_ms": 2100,
+            "end_ms": 2700
+          },
+          {
+            "word": "the",
+            "start_ms": 2700,
+            "end_ms": 3360
+          },
+          {
+            "word": "bin.",
+            "start_ms": 3360,
+            "end_ms": 4240
+          },
+          {
+            "word": "The",
+            "start_ms": 5060,
+            "end_ms": 5380
+          },
+          {
+            "word": "six",
+            "start_ms": 5380,
+            "end_ms": 6280
+          },
+          {
+            "word": "pigs",
+            "start_ms": 6280,
+            "end_ms": 7300
+          },
+          {
+            "word": "win.",
+            "start_ms": 7300,
+            "end_ms": 8119
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Big",
+        "start_ms": 0,
+        "end_ms": 420
+      },
+      {
+        "word": "Fig!",
+        "start_ms": 420,
+        "end_ms": 980
+      }
+    ]
+  },
+  {
+    "id": "L2_S06",
+    "title": "Hot Pot",
+    "level": 2,
+    "unit_number": 6,
+    "phonics_used": [
+      "SHORT-O",
+      "SHORT-O-OT",
+      "SHORT-O-OP"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 32,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 8,
+        "text": "A fox sits on a log. A pot is on top.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "fox",
+            "start_ms": 560,
+            "end_ms": 1320
+          },
+          {
+            "word": "sits",
+            "start_ms": 1320,
+            "end_ms": 2120
+          },
+          {
+            "word": "on",
+            "start_ms": 2120,
+            "end_ms": 2960
+          },
+          {
+            "word": "a",
+            "start_ms": 2960,
+            "end_ms": 3440
+          },
+          {
+            "word": "log.",
+            "start_ms": 3440,
+            "end_ms": 4340
+          },
+          {
+            "word": "A",
+            "start_ms": 4980,
+            "end_ms": 5580
+          },
+          {
+            "word": "pot",
+            "start_ms": 5580,
+            "end_ms": 6120
+          },
+          {
+            "word": "is",
+            "start_ms": 6120,
+            "end_ms": 6820
+          },
+          {
+            "word": "on",
+            "start_ms": 6820,
+            "end_ms": 7280
+          },
+          {
+            "word": "top.",
+            "start_ms": 7280,
+            "end_ms": 7700
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "Pop! The hot pot tips. Drops hop out!",
+        "word_timings": [
+          {
+            "word": "Pop.",
+            "start_ms": 0,
+            "end_ms": 760
+          },
+          {
+            "word": "The",
+            "start_ms": 1360,
+            "end_ms": 1800
+          },
+          {
+            "word": "hot",
+            "start_ms": 1800,
+            "end_ms": 2340
+          },
+          {
+            "word": "pot",
+            "start_ms": 2340,
+            "end_ms": 2860
+          },
+          {
+            "word": "tips.",
+            "start_ms": 2860,
+            "end_ms": 3820
+          },
+          {
+            "word": "Drops",
+            "start_ms": 4920,
+            "end_ms": 6120
+          },
+          {
+            "word": "hop",
+            "start_ms": 6120,
+            "end_ms": 6300
+          },
+          {
+            "word": "out.",
+            "start_ms": 6300,
+            "end_ms": 7000
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 8,
+        "text": "An ox runs in with a mop. Mop, mop, mop!",
+        "word_timings": [
+          {
+            "word": "An",
+            "start_ms": 0,
+            "end_ms": 960
+          },
+          {
+            "word": "ox",
+            "start_ms": 960,
+            "end_ms": 1500
+          },
+          {
+            "word": "runs",
+            "start_ms": 1500,
+            "end_ms": 2520
+          },
+          {
+            "word": "in",
+            "start_ms": 2520,
+            "end_ms": 3280
+          },
+          {
+            "word": "with",
+            "start_ms": 3280,
+            "end_ms": 4240
+          },
+          {
+            "word": "a",
+            "start_ms": 4240,
+            "end_ms": 4620
+          },
+          {
+            "word": "mop.",
+            "start_ms": 4620,
+            "end_ms": 5100
+          },
+          {
+            "word": "Mop,",
+            "start_ms": 5840,
+            "end_ms": 6760
+          },
+          {
+            "word": "mop,",
+            "start_ms": 7220,
+            "end_ms": 7760
+          },
+          {
+            "word": "mop!",
+            "start_ms": 7760,
+            "end_ms": 8000
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "Not a dot is left. The fox and the ox hop!",
+        "word_timings": [
+          {
+            "word": "Not",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "word": "a",
+            "start_ms": 720,
+            "end_ms": 1080
+          },
+          {
+            "word": "dot",
+            "start_ms": 1080,
+            "end_ms": 1580
+          },
+          {
+            "word": "is",
+            "start_ms": 1580,
+            "end_ms": 2380
+          },
+          {
+            "word": "left.",
+            "start_ms": 2380,
+            "end_ms": 3000
+          },
+          {
+            "word": "The",
+            "start_ms": 3680,
+            "end_ms": 4040
+          },
+          {
+            "word": "fox",
+            "start_ms": 4040,
+            "end_ms": 4560
+          },
+          {
+            "word": "and",
+            "start_ms": 4560,
+            "end_ms": 5460
+          },
+          {
+            "word": "the",
+            "start_ms": 5460,
+            "end_ms": 5780
+          },
+          {
+            "word": "ox",
+            "start_ms": 5780,
+            "end_ms": 6420
+          },
+          {
+            "word": "hop.",
+            "start_ms": 6420,
+            "end_ms": 7160
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Hot",
+        "start_ms": 0,
+        "end_ms": 440
+      },
+      {
+        "word": "pot!",
+        "start_ms": 440,
+        "end_ms": 860
+      }
+    ]
+  },
+  {
+    "id": "L2_S07",
+    "title": "Pup in Mud",
+    "level": 2,
+    "unit_number": 7,
+    "phonics_used": [
+      "SHORT-U",
+      "SHORT-U-UG",
+      "SHORT-U-UD-UP"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 31,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "The sun is up. A pup runs in the mud.",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 500
+          },
+          {
+            "word": "sun",
+            "start_ms": 500,
+            "end_ms": 1240
+          },
+          {
+            "word": "is",
+            "start_ms": 1240,
+            "end_ms": 1860
+          },
+          {
+            "word": "up.",
+            "start_ms": 1860,
+            "end_ms": 2520
+          },
+          {
+            "word": "A",
+            "start_ms": 3200,
+            "end_ms": 3620
+          },
+          {
+            "word": "pop",
+            "start_ms": 3620,
+            "end_ms": 4100
+          },
+          {
+            "word": "runs",
+            "start_ms": 4100,
+            "end_ms": 5100
+          },
+          {
+            "word": "in",
+            "start_ms": 5100,
+            "end_ms": 5940
+          },
+          {
+            "word": "the",
+            "start_ms": 5940,
+            "end_ms": 6260
+          },
+          {
+            "word": "mud.",
+            "start_ms": 6260,
+            "end_ms": 6740
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "The pup hops on the rug. Mud on the rug!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "pup",
+            "start_ms": 540,
+            "end_ms": 1240
+          },
+          {
+            "word": "hops",
+            "start_ms": 1240,
+            "end_ms": 2220
+          },
+          {
+            "word": "on",
+            "start_ms": 2220,
+            "end_ms": 2800
+          },
+          {
+            "word": "the",
+            "start_ms": 2800,
+            "end_ms": 3200
+          },
+          {
+            "word": "rug",
+            "start_ms": 3200,
+            "end_ms": 4000
+          },
+          {
+            "word": "Mudd",
+            "start_ms": 4860,
+            "end_ms": 5580
+          },
+          {
+            "word": "on",
+            "start_ms": 5580,
+            "end_ms": 6140
+          },
+          {
+            "word": "the",
+            "start_ms": 6140,
+            "end_ms": 6460
+          },
+          {
+            "word": "rug",
+            "start_ms": 6460,
+            "end_ms": 7020
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 9,
+        "text": "Mom fills a jug. Rub the pup, rub the rug.",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 900
+          },
+          {
+            "word": "fills",
+            "start_ms": 900,
+            "end_ms": 1700
+          },
+          {
+            "word": "a",
+            "start_ms": 1700,
+            "end_ms": 2540
+          },
+          {
+            "word": "jug.",
+            "start_ms": 2540,
+            "end_ms": 3300
+          },
+          {
+            "word": "Rub",
+            "start_ms": 3720,
+            "end_ms": 4640
+          },
+          {
+            "word": "the",
+            "start_ms": 4640,
+            "end_ms": 5320
+          },
+          {
+            "word": "pup.",
+            "start_ms": 5320,
+            "end_ms": 5760
+          },
+          {
+            "word": "Rub",
+            "start_ms": 6700,
+            "end_ms": 7120
+          },
+          {
+            "word": "the",
+            "start_ms": 7120,
+            "end_ms": 7900
+          },
+          {
+            "word": "rug.",
+            "start_ms": 7900,
+            "end_ms": 8340
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 7,
+        "text": "No mud now. The pup gets a big hug!",
+        "word_timings": [
+          {
+            "word": "No",
+            "start_ms": 0,
+            "end_ms": 760
+          },
+          {
+            "word": "mud",
+            "start_ms": 760,
+            "end_ms": 1560
+          },
+          {
+            "word": "now.",
+            "start_ms": 1560,
+            "end_ms": 2200
+          },
+          {
+            "word": "The",
+            "start_ms": 2820,
+            "end_ms": 3240
+          },
+          {
+            "word": "pup",
+            "start_ms": 3240,
+            "end_ms": 3720
+          },
+          {
+            "word": "gets",
+            "start_ms": 3720,
+            "end_ms": 4380
+          },
+          {
+            "word": "a",
+            "start_ms": 4380,
+            "end_ms": 4800
+          },
+          {
+            "word": "big",
+            "start_ms": 4800,
+            "end_ms": 5420
+          },
+          {
+            "word": "hug.",
+            "start_ms": 5420,
+            "end_ms": 6180
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Pup",
+        "start_ms": 0,
+        "end_ms": 440
+      },
+      {
+        "word": "in",
+        "start_ms": 440,
+        "end_ms": 840
+      },
+      {
+        "word": "mud.",
+        "start_ms": 840,
+        "end_ms": 1400
+      }
+    ]
+  },
+  {
+    "id": "L2_S08",
+    "title": "Cub in Tub",
+    "level": 2,
+    "unit_number": 8,
+    "phonics_used": [
+      "SHORT-U-UT",
+      "SHORT-U-UB-UM",
+      "SHORT-U-UN"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 30,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 8,
+        "text": "A cub has a bun and a nut in the hut.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "cub",
+            "start_ms": 560,
+            "end_ms": 1140
+          },
+          {
+            "word": "has",
+            "start_ms": 1140,
+            "end_ms": 2040
+          },
+          {
+            "word": "a",
+            "start_ms": 2040,
+            "end_ms": 2440
+          },
+          {
+            "word": "bun",
+            "start_ms": 2440,
+            "end_ms": 2960
+          },
+          {
+            "word": "and",
+            "start_ms": 2960,
+            "end_ms": 4200
+          },
+          {
+            "word": "a",
+            "start_ms": 4200,
+            "end_ms": 4580
+          },
+          {
+            "word": "nut",
+            "start_ms": 4580,
+            "end_ms": 5020
+          },
+          {
+            "word": "in",
+            "start_ms": 5020,
+            "end_ms": 5860
+          },
+          {
+            "word": "the",
+            "start_ms": 5860,
+            "end_ms": 6180
+          },
+          {
+            "word": "hut.",
+            "start_ms": 6180,
+            "end_ms": 6580
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "Gum is on the cub! It will not come off.",
+        "word_timings": [
+          {
+            "word": "Gum",
+            "start_ms": 0,
+            "end_ms": 980
+          },
+          {
+            "word": "is",
+            "start_ms": 980,
+            "end_ms": 1760
+          },
+          {
+            "word": "on",
+            "start_ms": 1760,
+            "end_ms": 2380
+          },
+          {
+            "word": "the",
+            "start_ms": 2380,
+            "end_ms": 3000
+          },
+          {
+            "word": "cub.",
+            "start_ms": 3000,
+            "end_ms": 3620
+          },
+          {
+            "word": "It",
+            "start_ms": 4740,
+            "end_ms": 5060
+          },
+          {
+            "word": "will",
+            "start_ms": 5060,
+            "end_ms": 5380
+          },
+          {
+            "word": "not",
+            "start_ms": 5380,
+            "end_ms": 6040
+          },
+          {
+            "word": "come",
+            "start_ms": 6040,
+            "end_ms": 6740
+          },
+          {
+            "word": "off.",
+            "start_ms": 6740,
+            "end_ms": 7300
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 8,
+        "text": "Mom fills the tub. In you go, cub!",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 1080
+          },
+          {
+            "word": "fills",
+            "start_ms": 1080,
+            "end_ms": 2200
+          },
+          {
+            "word": "the",
+            "start_ms": 2200,
+            "end_ms": 2940
+          },
+          {
+            "word": "tub.",
+            "start_ms": 2940,
+            "end_ms": 3820
+          },
+          {
+            "word": "In",
+            "start_ms": 4580,
+            "end_ms": 5100
+          },
+          {
+            "word": "you",
+            "start_ms": 5100,
+            "end_ms": 5640
+          },
+          {
+            "word": "go,",
+            "start_ms": 5640,
+            "end_ms": 6200
+          },
+          {
+            "word": "cub!",
+            "start_ms": 6680,
+            "end_ms": 6960
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 7,
+        "text": "Rub-a-dub! The cub hums. Fun in the sun!",
+        "word_timings": [
+          {
+            "word": "Rub-a-dub!",
+            "start_ms": 0,
+            "end_ms": 1240
+          },
+          {
+            "word": "The",
+            "start_ms": 1940,
+            "end_ms": 2220
+          },
+          {
+            "word": "cub",
+            "start_ms": 2220,
+            "end_ms": 2920
+          },
+          {
+            "word": "hums.",
+            "start_ms": 2920,
+            "end_ms": 3880
+          },
+          {
+            "word": "Fun",
+            "start_ms": 4340,
+            "end_ms": 5000
+          },
+          {
+            "word": "in",
+            "start_ms": 5000,
+            "end_ms": 5420
+          },
+          {
+            "word": "the",
+            "start_ms": 5420,
+            "end_ms": 5660
+          },
+          {
+            "word": "sun!",
+            "start_ms": 5660,
+            "end_ms": 6120
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Cub",
+        "start_ms": 0,
+        "end_ms": 520
+      },
+      {
+        "word": "in",
+        "start_ms": 520,
+        "end_ms": 1100
+      },
+      {
+        "word": "Tub",
+        "start_ms": 1100,
+        "end_ms": 1640
+      }
+    ]
+  }
+]

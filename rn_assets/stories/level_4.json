@@ -1,0 +1,2289 @@
+[
+  {
+    "id": "L4_S01",
+    "title": "The Black Fly",
+    "level": 4,
+    "unit_number": 1,
+    "phonics_used": [
+      "BL-CL",
+      "BR-CR",
+      "FL-GL"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 38,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 11,
+        "text": "A black fly lands on my clock. It will not go away!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 620
+          },
+          {
+            "word": "black",
+            "start_ms": 620,
+            "end_ms": 1220
+          },
+          {
+            "word": "fly",
+            "start_ms": 1220,
+            "end_ms": 2120
+          },
+          {
+            "word": "lands",
+            "start_ms": 2120,
+            "end_ms": 3600
+          },
+          {
+            "word": "on",
+            "start_ms": 3600,
+            "end_ms": 4300
+          },
+          {
+            "word": "my",
+            "start_ms": 4300,
+            "end_ms": 4820
+          },
+          {
+            "word": "clock.",
+            "start_ms": 4820,
+            "end_ms": 5620
+          },
+          {
+            "word": "It",
+            "start_ms": 6480,
+            "end_ms": 7220
+          },
+          {
+            "word": "will",
+            "start_ms": 7220,
+            "end_ms": 7560
+          },
+          {
+            "word": "not",
+            "start_ms": 7560,
+            "end_ms": 8280
+          },
+          {
+            "word": "go",
+            "start_ms": 8280,
+            "end_ms": 8940
+          },
+          {
+            "word": "away.",
+            "start_ms": 8940,
+            "end_ms": 9820
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "I get my broom. The fly zips to my glass.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 1100
+          },
+          {
+            "word": "get",
+            "start_ms": 1100,
+            "end_ms": 1520
+          },
+          {
+            "word": "my",
+            "start_ms": 1520,
+            "end_ms": 1900
+          },
+          {
+            "word": "broom,",
+            "start_ms": 1900,
+            "end_ms": 2520
+          },
+          {
+            "word": "the",
+            "start_ms": 3280,
+            "end_ms": 3600
+          },
+          {
+            "word": "fly",
+            "start_ms": 3600,
+            "end_ms": 4160
+          },
+          {
+            "word": "zips",
+            "start_ms": 4160,
+            "end_ms": 5360
+          },
+          {
+            "word": "to",
+            "start_ms": 5360,
+            "end_ms": 5780
+          },
+          {
+            "word": "my",
+            "start_ms": 5780,
+            "end_ms": 6080
+          },
+          {
+            "word": "glass.",
+            "start_ms": 6080,
+            "end_ms": 6640
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 9,
+        "text": "I swing my broom. Oh no! The fly is on my globe.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "swing",
+            "start_ms": 580,
+            "end_ms": 1220
+          },
+          {
+            "word": "my",
+            "start_ms": 1220,
+            "end_ms": 1780
+          },
+          {
+            "word": "broom.",
+            "start_ms": 1780,
+            "end_ms": 2500
+          },
+          {
+            "word": "Oh",
+            "start_ms": 3120,
+            "end_ms": 3660
+          },
+          {
+            "word": "no!",
+            "start_ms": 3660,
+            "end_ms": 4200
+          },
+          {
+            "word": "The",
+            "start_ms": 4940,
+            "end_ms": 5220
+          },
+          {
+            "word": "fly",
+            "start_ms": 5220,
+            "end_ms": 5720
+          },
+          {
+            "word": "is",
+            "start_ms": 5720,
+            "end_ms": 6300
+          },
+          {
+            "word": "on",
+            "start_ms": 6300,
+            "end_ms": 6740
+          },
+          {
+            "word": "my",
+            "start_ms": 6740,
+            "end_ms": 7080
+          },
+          {
+            "word": "globe!",
+            "start_ms": 7080,
+            "end_ms": 7640
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 10,
+        "text": "I give up and get in my blanket. The fly naps too!",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "word": "give",
+            "start_ms": 720,
+            "end_ms": 1140
+          },
+          {
+            "word": "up",
+            "start_ms": 1140,
+            "end_ms": 1680
+          },
+          {
+            "word": "and",
+            "start_ms": 1680,
+            "end_ms": 2440
+          },
+          {
+            "word": "get",
+            "start_ms": 2440,
+            "end_ms": 2980
+          },
+          {
+            "word": "in",
+            "start_ms": 2980,
+            "end_ms": 3780
+          },
+          {
+            "word": "my",
+            "start_ms": 3780,
+            "end_ms": 4260
+          },
+          {
+            "word": "blanket.",
+            "start_ms": 4260,
+            "end_ms": 5060
+          },
+          {
+            "word": "The",
+            "start_ms": 5940,
+            "end_ms": 6360
+          },
+          {
+            "word": "fly",
+            "start_ms": 6360,
+            "end_ms": 6880
+          },
+          {
+            "word": "naps",
+            "start_ms": 6880,
+            "end_ms": 7760
+          },
+          {
+            "word": "too!",
+            "start_ms": 7760,
+            "end_ms": 8300
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "The",
+        "start_ms": 0,
+        "end_ms": 260
+      },
+      {
+        "word": "Black",
+        "start_ms": 260,
+        "end_ms": 820
+      },
+      {
+        "word": "Fly!",
+        "start_ms": 820,
+        "end_ms": 1400
+      }
+    ]
+  },
+  {
+    "id": "L4_S02",
+    "title": "Friday at the Park",
+    "level": 4,
+    "unit_number": 2,
+    "phonics_used": [
+      "FR-GR",
+      "PL-SL",
+      "DR-TR"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 35,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 8,
+        "text": "It is Friday. I play at the park in my green dress.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "is",
+            "start_ms": 560,
+            "end_ms": 940
+          },
+          {
+            "word": "Friday.",
+            "start_ms": 940,
+            "end_ms": 1660
+          },
+          {
+            "word": "I",
+            "start_ms": 2560,
+            "end_ms": 3160
+          },
+          {
+            "word": "play",
+            "start_ms": 3160,
+            "end_ms": 3600
+          },
+          {
+            "word": "at",
+            "start_ms": 3600,
+            "end_ms": 4120
+          },
+          {
+            "word": "the",
+            "start_ms": 4120,
+            "end_ms": 4280
+          },
+          {
+            "word": "park",
+            "start_ms": 4280,
+            "end_ms": 4840
+          },
+          {
+            "word": "in",
+            "start_ms": 4840,
+            "end_ms": 5440
+          },
+          {
+            "word": "my",
+            "start_ms": 5440,
+            "end_ms": 5700
+          },
+          {
+            "word": "green",
+            "start_ms": 5700,
+            "end_ms": 6240
+          },
+          {
+            "word": "dress.",
+            "start_ms": 6240,
+            "end_ms": 6900
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 10,
+        "text": "A little frog sits on the slide. Down it slides!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "word": "little",
+            "start_ms": 520,
+            "end_ms": 1120
+          },
+          {
+            "word": "frog",
+            "start_ms": 1120,
+            "end_ms": 2080
+          },
+          {
+            "word": "sits",
+            "start_ms": 2080,
+            "end_ms": 3280
+          },
+          {
+            "word": "on",
+            "start_ms": 3280,
+            "end_ms": 4220
+          },
+          {
+            "word": "the",
+            "start_ms": 4220,
+            "end_ms": 4540
+          },
+          {
+            "word": "slide.",
+            "start_ms": 4540,
+            "end_ms": 5460
+          },
+          {
+            "word": "Down",
+            "start_ms": 6300,
+            "end_ms": 7220
+          },
+          {
+            "word": "it",
+            "start_ms": 7220,
+            "end_ms": 7960
+          },
+          {
+            "word": "slides.",
+            "start_ms": 7960,
+            "end_ms": 8680
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 8,
+        "text": "It hops over the grass to a big tree.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "hops",
+            "start_ms": 580,
+            "end_ms": 1300
+          },
+          {
+            "word": "over",
+            "start_ms": 1300,
+            "end_ms": 2620
+          },
+          {
+            "word": "the",
+            "start_ms": 2620,
+            "end_ms": 3060
+          },
+          {
+            "word": "grass",
+            "start_ms": 3060,
+            "end_ms": 3660
+          },
+          {
+            "word": "to",
+            "start_ms": 3660,
+            "end_ms": 4740
+          },
+          {
+            "word": "a",
+            "start_ms": 4740,
+            "end_ms": 5240
+          },
+          {
+            "word": "big",
+            "start_ms": 5240,
+            "end_ms": 5840
+          },
+          {
+            "word": "tree.",
+            "start_ms": 5840,
+            "end_ms": 6780
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 9,
+        "text": "I rest by the tree. The frog sleeps on my dress!",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 880
+          },
+          {
+            "word": "rest",
+            "start_ms": 880,
+            "end_ms": 1680
+          },
+          {
+            "word": "by",
+            "start_ms": 1680,
+            "end_ms": 2540
+          },
+          {
+            "word": "the",
+            "start_ms": 2540,
+            "end_ms": 2900
+          },
+          {
+            "word": "tree.",
+            "start_ms": 2900,
+            "end_ms": 3480
+          },
+          {
+            "word": "The",
+            "start_ms": 4600,
+            "end_ms": 4920
+          },
+          {
+            "word": "frog",
+            "start_ms": 4920,
+            "end_ms": 5660
+          },
+          {
+            "word": "sleeps",
+            "start_ms": 5660,
+            "end_ms": 6520
+          },
+          {
+            "word": "on",
+            "start_ms": 6520,
+            "end_ms": 7260
+          },
+          {
+            "word": "my",
+            "start_ms": 7260,
+            "end_ms": 7700
+          },
+          {
+            "word": "dress.",
+            "start_ms": 7700,
+            "end_ms": 8200
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Friday",
+        "start_ms": 0,
+        "end_ms": 580
+      },
+      {
+        "word": "at",
+        "start_ms": 580,
+        "end_ms": 1100
+      },
+      {
+        "word": "the",
+        "start_ms": 1100,
+        "end_ms": 1280
+      },
+      {
+        "word": "park!",
+        "start_ms": 1280,
+        "end_ms": 1620
+      }
+    ]
+  },
+  {
+    "id": "L4_S03",
+    "title": "My Snow Snake",
+    "level": 4,
+    "unit_number": 3,
+    "phonics_used": [
+      "SM-SN",
+      "SP-SW",
+      "ST"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 34,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 8,
+        "text": "Snow is on the hill. I run out fast to play.",
+        "word_timings": [
+          {
+            "word": "Snow",
+            "start_ms": 0,
+            "end_ms": 820
+          },
+          {
+            "word": "is",
+            "start_ms": 820,
+            "end_ms": 1520
+          },
+          {
+            "word": "on",
+            "start_ms": 1520,
+            "end_ms": 2020
+          },
+          {
+            "word": "the",
+            "start_ms": 2020,
+            "end_ms": 2360
+          },
+          {
+            "word": "hill.",
+            "start_ms": 2360,
+            "end_ms": 2800
+          },
+          {
+            "word": "I",
+            "start_ms": 3680,
+            "end_ms": 4140
+          },
+          {
+            "word": "run",
+            "start_ms": 4140,
+            "end_ms": 4660
+          },
+          {
+            "word": "out",
+            "start_ms": 4660,
+            "end_ms": 5140
+          },
+          {
+            "word": "fast",
+            "start_ms": 5140,
+            "end_ms": 5720
+          },
+          {
+            "word": "to",
+            "start_ms": 5720,
+            "end_ms": 6360
+          },
+          {
+            "word": "play.",
+            "start_ms": 6360,
+            "end_ms": 6860
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 9,
+        "text": "I make a snake from snow. It is very long.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 640
+          },
+          {
+            "word": "make",
+            "start_ms": 640,
+            "end_ms": 1280
+          },
+          {
+            "word": "a",
+            "start_ms": 1280,
+            "end_ms": 1740
+          },
+          {
+            "word": "snake",
+            "start_ms": 1740,
+            "end_ms": 2380
+          },
+          {
+            "word": "from",
+            "start_ms": 2380,
+            "end_ms": 3140
+          },
+          {
+            "word": "snow.",
+            "start_ms": 3140,
+            "end_ms": 3720
+          },
+          {
+            "word": "It",
+            "start_ms": 4740,
+            "end_ms": 5000
+          },
+          {
+            "word": "is",
+            "start_ms": 5000,
+            "end_ms": 5360
+          },
+          {
+            "word": "very",
+            "start_ms": 5360,
+            "end_ms": 6220
+          },
+          {
+            "word": "long.",
+            "start_ms": 6220,
+            "end_ms": 7040
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 8,
+        "text": "I use a spoon to make a spot for each eye.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 640
+          },
+          {
+            "word": "use",
+            "start_ms": 640,
+            "end_ms": 1220
+          },
+          {
+            "word": "a",
+            "start_ms": 1220,
+            "end_ms": 1600
+          },
+          {
+            "word": "spoon",
+            "start_ms": 1600,
+            "end_ms": 2180
+          },
+          {
+            "word": "to",
+            "start_ms": 2180,
+            "end_ms": 3060
+          },
+          {
+            "word": "make",
+            "start_ms": 3060,
+            "end_ms": 3540
+          },
+          {
+            "word": "a",
+            "start_ms": 3540,
+            "end_ms": 4140
+          },
+          {
+            "word": "spot",
+            "start_ms": 4140,
+            "end_ms": 4720
+          },
+          {
+            "word": "for",
+            "start_ms": 4720,
+            "end_ms": 5600
+          },
+          {
+            "word": "each",
+            "start_ms": 5600,
+            "end_ms": 6220
+          },
+          {
+            "word": "eye.",
+            "start_ms": 6220,
+            "end_ms": 6920
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 9,
+        "text": "Now my snake has a smile. I smile back at it!",
+        "word_timings": [
+          {
+            "word": "Now",
+            "start_ms": 0,
+            "end_ms": 840
+          },
+          {
+            "word": "my",
+            "start_ms": 840,
+            "end_ms": 1740
+          },
+          {
+            "word": "snake",
+            "start_ms": 1740,
+            "end_ms": 2520
+          },
+          {
+            "word": "has",
+            "start_ms": 2520,
+            "end_ms": 3540
+          },
+          {
+            "word": "a",
+            "start_ms": 3540,
+            "end_ms": 3940
+          },
+          {
+            "word": "smile.",
+            "start_ms": 3940,
+            "end_ms": 4340
+          },
+          {
+            "word": "I",
+            "start_ms": 5480,
+            "end_ms": 5960
+          },
+          {
+            "word": "smile",
+            "start_ms": 5960,
+            "end_ms": 6540
+          },
+          {
+            "word": "back",
+            "start_ms": 6540,
+            "end_ms": 7200
+          },
+          {
+            "word": "at",
+            "start_ms": 7200,
+            "end_ms": 7640
+          },
+          {
+            "word": "it.",
+            "start_ms": 7640,
+            "end_ms": 7900
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "My",
+        "start_ms": 0,
+        "end_ms": 520
+      },
+      {
+        "word": "Snow",
+        "start_ms": 520,
+        "end_ms": 1020
+      },
+      {
+        "word": "Snake",
+        "start_ms": 1020,
+        "end_ms": 1700
+      }
+    ]
+  },
+  {
+    "id": "L4_S04",
+    "title": "Lunch on the Ship",
+    "level": 4,
+    "unit_number": 4,
+    "phonics_used": [
+      "SH",
+      "CH-TCH",
+      "PH-WH"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 35,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 9,
+        "text": "We go on a big ship. I bring my lunch.",
+        "word_timings": [
+          {
+            "word": "We",
+            "start_ms": 0,
+            "end_ms": 840
+          },
+          {
+            "word": "go",
+            "start_ms": 840,
+            "end_ms": 1440
+          },
+          {
+            "word": "on",
+            "start_ms": 1440,
+            "end_ms": 2460
+          },
+          {
+            "word": "a",
+            "start_ms": 2460,
+            "end_ms": 2800
+          },
+          {
+            "word": "big",
+            "start_ms": 2800,
+            "end_ms": 3460
+          },
+          {
+            "word": "ship.",
+            "start_ms": 3460,
+            "end_ms": 4480
+          },
+          {
+            "word": "I",
+            "start_ms": 5380,
+            "end_ms": 6020
+          },
+          {
+            "word": "bring",
+            "start_ms": 6020,
+            "end_ms": 6760
+          },
+          {
+            "word": "my",
+            "start_ms": 6760,
+            "end_ms": 7400
+          },
+          {
+            "word": "lunch.",
+            "start_ms": 7400,
+            "end_ms": 7880
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 10,
+        "text": "Dad and I look at the sea. A white whale swims by!",
+        "word_timings": [
+          {
+            "word": "Dad",
+            "start_ms": 0,
+            "end_ms": 840
+          },
+          {
+            "word": "and",
+            "start_ms": 840,
+            "end_ms": 1780
+          },
+          {
+            "word": "I",
+            "start_ms": 1780,
+            "end_ms": 2380
+          },
+          {
+            "word": "look",
+            "start_ms": 2380,
+            "end_ms": 3460
+          },
+          {
+            "word": "at",
+            "start_ms": 3460,
+            "end_ms": 4200
+          },
+          {
+            "word": "the",
+            "start_ms": 4200,
+            "end_ms": 4460
+          },
+          {
+            "word": "sea.",
+            "start_ms": 4460,
+            "end_ms": 5060
+          },
+          {
+            "word": "A",
+            "start_ms": 6160,
+            "end_ms": 6440
+          },
+          {
+            "word": "white",
+            "start_ms": 6440,
+            "end_ms": 7040
+          },
+          {
+            "word": "whale",
+            "start_ms": 7040,
+            "end_ms": 7720
+          },
+          {
+            "word": "swims",
+            "start_ms": 7720,
+            "end_ms": 8580
+          },
+          {
+            "word": "by.",
+            "start_ms": 8580,
+            "end_ms": 9340
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 8,
+        "text": "Then a dolphin jumps up. Dad gets it on his phone.",
+        "word_timings": [
+          {
+            "word": "Then,",
+            "start_ms": 0,
+            "end_ms": 900
+          },
+          {
+            "word": "a",
+            "start_ms": 1320,
+            "end_ms": 1600
+          },
+          {
+            "word": "dolphin",
+            "start_ms": 1600,
+            "end_ms": 2360
+          },
+          {
+            "word": "jumps",
+            "start_ms": 2360,
+            "end_ms": 3180
+          },
+          {
+            "word": "up.",
+            "start_ms": 3180,
+            "end_ms": 3860
+          },
+          {
+            "word": "Dad",
+            "start_ms": 4860,
+            "end_ms": 5180
+          },
+          {
+            "word": "gets",
+            "start_ms": 5180,
+            "end_ms": 5860
+          },
+          {
+            "word": "it",
+            "start_ms": 5860,
+            "end_ms": 6240
+          },
+          {
+            "word": "on",
+            "start_ms": 6240,
+            "end_ms": 6600
+          },
+          {
+            "word": "his",
+            "start_ms": 6600,
+            "end_ms": 6920
+          },
+          {
+            "word": "phone.",
+            "start_ms": 6920,
+            "end_ms": 7400
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 8,
+        "text": "The dolphin looks at my lunch. I toss it a fish!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 480
+          },
+          {
+            "word": "dolphin",
+            "start_ms": 480,
+            "end_ms": 1240
+          },
+          {
+            "word": "looks",
+            "start_ms": 1240,
+            "end_ms": 2180
+          },
+          {
+            "word": "at",
+            "start_ms": 2180,
+            "end_ms": 2900
+          },
+          {
+            "word": "my",
+            "start_ms": 2900,
+            "end_ms": 3380
+          },
+          {
+            "word": "lunch.",
+            "start_ms": 3380,
+            "end_ms": 4120
+          },
+          {
+            "word": "I",
+            "start_ms": 5040,
+            "end_ms": 5400
+          },
+          {
+            "word": "toss",
+            "start_ms": 5400,
+            "end_ms": 5940
+          },
+          {
+            "word": "it",
+            "start_ms": 5940,
+            "end_ms": 6460
+          },
+          {
+            "word": "a",
+            "start_ms": 6460,
+            "end_ms": 6780
+          },
+          {
+            "word": "fish.",
+            "start_ms": 6780,
+            "end_ms": 7240
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Lunch",
+        "start_ms": 0,
+        "end_ms": 420
+      },
+      {
+        "word": "on",
+        "start_ms": 420,
+        "end_ms": 980
+      },
+      {
+        "word": "the",
+        "start_ms": 980,
+        "end_ms": 1200
+      },
+      {
+        "word": "Ship.",
+        "start_ms": 1200,
+        "end_ms": 1540
+      }
+    ]
+  },
+  {
+    "id": "L4_S05",
+    "title": "Three Toys in the Bath",
+    "level": 4,
+    "unit_number": 5,
+    "phonics_used": [
+      "TH-1",
+      "TH-2",
+      "CK-QU"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 40,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 7,
+        "text": "It is bath time. I take three toys to the bath.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 660
+          },
+          {
+            "word": "is",
+            "start_ms": 660,
+            "end_ms": 1000
+          },
+          {
+            "word": "bath",
+            "start_ms": 1000,
+            "end_ms": 1440
+          },
+          {
+            "word": "time.",
+            "start_ms": 1440,
+            "end_ms": 2000
+          },
+          {
+            "word": "I",
+            "start_ms": 2840,
+            "end_ms": 3380
+          },
+          {
+            "word": "take",
+            "start_ms": 3380,
+            "end_ms": 3800
+          },
+          {
+            "word": "three",
+            "start_ms": 3800,
+            "end_ms": 4320
+          },
+          {
+            "word": "toys",
+            "start_ms": 4320,
+            "end_ms": 5160
+          },
+          {
+            "word": "to",
+            "start_ms": 5160,
+            "end_ms": 5680
+          },
+          {
+            "word": "the",
+            "start_ms": 5680,
+            "end_ms": 5860
+          },
+          {
+            "word": "bath.",
+            "start_ms": 5860,
+            "end_ms": 6240
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 10,
+        "text": "This is my duck. That is my rocket and my queen.",
+        "word_timings": [
+          {
+            "word": "This",
+            "start_ms": 0,
+            "end_ms": 880
+          },
+          {
+            "word": "is",
+            "start_ms": 880,
+            "end_ms": 1380
+          },
+          {
+            "word": "my",
+            "start_ms": 1380,
+            "end_ms": 1860
+          },
+          {
+            "word": "duck.",
+            "start_ms": 1860,
+            "end_ms": 2700
+          },
+          {
+            "word": "That",
+            "start_ms": 3880,
+            "end_ms": 4260
+          },
+          {
+            "word": "is",
+            "start_ms": 4260,
+            "end_ms": 4880
+          },
+          {
+            "word": "my",
+            "start_ms": 4880,
+            "end_ms": 5200
+          },
+          {
+            "word": "rocket",
+            "start_ms": 5200,
+            "end_ms": 5920
+          },
+          {
+            "word": "and",
+            "start_ms": 5920,
+            "end_ms": 6960
+          },
+          {
+            "word": "my",
+            "start_ms": 6960,
+            "end_ms": 7740
+          },
+          {
+            "word": "queen.",
+            "start_ms": 7740,
+            "end_ms": 8240
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 12,
+        "text": "Mother helps me brush my teeth. My toys get clean too.",
+        "word_timings": [
+          {
+            "word": "Mother",
+            "start_ms": 0,
+            "end_ms": 1000
+          },
+          {
+            "word": "helps",
+            "start_ms": 1000,
+            "end_ms": 2100
+          },
+          {
+            "word": "me",
+            "start_ms": 2100,
+            "end_ms": 2800
+          },
+          {
+            "word": "brush",
+            "start_ms": 2800,
+            "end_ms": 3820
+          },
+          {
+            "word": "my",
+            "start_ms": 3820,
+            "end_ms": 4700
+          },
+          {
+            "word": "teeth.",
+            "start_ms": 4700,
+            "end_ms": 5480
+          },
+          {
+            "word": "My",
+            "start_ms": 6700,
+            "end_ms": 7200
+          },
+          {
+            "word": "toys",
+            "start_ms": 7200,
+            "end_ms": 7880
+          },
+          {
+            "word": "get",
+            "start_ms": 7880,
+            "end_ms": 8920
+          },
+          {
+            "word": "clean",
+            "start_ms": 8920,
+            "end_ms": 9780
+          },
+          {
+            "word": "too.",
+            "start_ms": 9780,
+            "end_ms": 10480
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 11,
+        "text": "Now I sleep under my quilt with my three toys.",
+        "word_timings": [
+          {
+            "word": "Now",
+            "start_ms": 0,
+            "end_ms": 840
+          },
+          {
+            "word": "I",
+            "start_ms": 840,
+            "end_ms": 2100
+          },
+          {
+            "word": "sleep",
+            "start_ms": 2100,
+            "end_ms": 2980
+          },
+          {
+            "word": "under",
+            "start_ms": 2980,
+            "end_ms": 4300
+          },
+          {
+            "word": "my",
+            "start_ms": 4300,
+            "end_ms": 5040
+          },
+          {
+            "word": "quilt",
+            "start_ms": 5040,
+            "end_ms": 5860
+          },
+          {
+            "word": "with",
+            "start_ms": 5860,
+            "end_ms": 6900
+          },
+          {
+            "word": "my",
+            "start_ms": 6900,
+            "end_ms": 7560
+          },
+          {
+            "word": "three",
+            "start_ms": 7560,
+            "end_ms": 8180
+          },
+          {
+            "word": "toys.",
+            "start_ms": 8180,
+            "end_ms": 9200
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Three",
+        "start_ms": 0,
+        "end_ms": 660
+      },
+      {
+        "word": "toys",
+        "start_ms": 660,
+        "end_ms": 1220
+      },
+      {
+        "word": "in",
+        "start_ms": 1220,
+        "end_ms": 1800
+      },
+      {
+        "word": "the",
+        "start_ms": 1800,
+        "end_ms": 1920
+      },
+      {
+        "word": "bath.",
+        "start_ms": 1920,
+        "end_ms": 2400
+      }
+    ]
+  },
+  {
+    "id": "L4_S06",
+    "title": "Our Pink Tent",
+    "level": 4,
+    "unit_number": 6,
+    "phonics_used": [
+      "NG-NK",
+      "ND-NT",
+      "LT-MP"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 38,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 9,
+        "text": "We go to camp. Dad has a long pink tent.",
+        "word_timings": [
+          {
+            "word": "We",
+            "start_ms": 0,
+            "end_ms": 700
+          },
+          {
+            "word": "go",
+            "start_ms": 700,
+            "end_ms": 1340
+          },
+          {
+            "word": "to",
+            "start_ms": 1340,
+            "end_ms": 1680
+          },
+          {
+            "word": "camp.",
+            "start_ms": 1680,
+            "end_ms": 2360
+          },
+          {
+            "word": "Dad",
+            "start_ms": 3100,
+            "end_ms": 3760
+          },
+          {
+            "word": "has",
+            "start_ms": 3760,
+            "end_ms": 4440
+          },
+          {
+            "word": "a",
+            "start_ms": 4440,
+            "end_ms": 4820
+          },
+          {
+            "word": "long",
+            "start_ms": 4820,
+            "end_ms": 5580
+          },
+          {
+            "word": "pink",
+            "start_ms": 5580,
+            "end_ms": 6420
+          },
+          {
+            "word": "tent.",
+            "start_ms": 6420,
+            "end_ms": 7380
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 9,
+        "text": "The wind is strong. It pulls the tent out of my hand!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "wind",
+            "start_ms": 540,
+            "end_ms": 1380
+          },
+          {
+            "word": "is",
+            "start_ms": 1380,
+            "end_ms": 1900
+          },
+          {
+            "word": "strong.",
+            "start_ms": 1900,
+            "end_ms": 2680
+          },
+          {
+            "word": "It",
+            "start_ms": 3700,
+            "end_ms": 4100
+          },
+          {
+            "word": "pulls",
+            "start_ms": 4100,
+            "end_ms": 4880
+          },
+          {
+            "word": "the",
+            "start_ms": 4880,
+            "end_ms": 5320
+          },
+          {
+            "word": "tent",
+            "start_ms": 5320,
+            "end_ms": 5980
+          },
+          {
+            "word": "out",
+            "start_ms": 5980,
+            "end_ms": 6680
+          },
+          {
+            "word": "of",
+            "start_ms": 6680,
+            "end_ms": 6920
+          },
+          {
+            "word": "my",
+            "start_ms": 6920,
+            "end_ms": 7180
+          },
+          {
+            "word": "hand.",
+            "start_ms": 7180,
+            "end_ms": 7800
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 10,
+        "text": "Dad ties the tent down with his belt. Now it will stay.",
+        "word_timings": [
+          {
+            "word": "Dad",
+            "start_ms": 0,
+            "end_ms": 960
+          },
+          {
+            "word": "ties",
+            "start_ms": 960,
+            "end_ms": 1840
+          },
+          {
+            "word": "the",
+            "start_ms": 1840,
+            "end_ms": 2220
+          },
+          {
+            "word": "tent",
+            "start_ms": 2220,
+            "end_ms": 2740
+          },
+          {
+            "word": "down",
+            "start_ms": 2740,
+            "end_ms": 3460
+          },
+          {
+            "word": "with",
+            "start_ms": 3460,
+            "end_ms": 4260
+          },
+          {
+            "word": "his",
+            "start_ms": 4260,
+            "end_ms": 4640
+          },
+          {
+            "word": "belt.",
+            "start_ms": 4640,
+            "end_ms": 5240
+          },
+          {
+            "word": "Now",
+            "start_ms": 6140,
+            "end_ms": 6820
+          },
+          {
+            "word": "it",
+            "start_ms": 6820,
+            "end_ms": 7580
+          },
+          {
+            "word": "will",
+            "start_ms": 7580,
+            "end_ms": 7960
+          },
+          {
+            "word": "stay.",
+            "start_ms": 7960,
+            "end_ms": 8680
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 10,
+        "text": "At night we sit in the tent by a lamp. We are snug!",
+        "word_timings": [
+          {
+            "word": "At",
+            "start_ms": 0,
+            "end_ms": 660
+          },
+          {
+            "word": "night,",
+            "start_ms": 660,
+            "end_ms": 1320
+          },
+          {
+            "word": "we",
+            "start_ms": 1660,
+            "end_ms": 2300
+          },
+          {
+            "word": "sit",
+            "start_ms": 2300,
+            "end_ms": 2860
+          },
+          {
+            "word": "in",
+            "start_ms": 2860,
+            "end_ms": 3600
+          },
+          {
+            "word": "the",
+            "start_ms": 3600,
+            "end_ms": 3840
+          },
+          {
+            "word": "tent",
+            "start_ms": 3840,
+            "end_ms": 4580
+          },
+          {
+            "word": "by",
+            "start_ms": 4580,
+            "end_ms": 5620
+          },
+          {
+            "word": "a",
+            "start_ms": 5620,
+            "end_ms": 6100
+          },
+          {
+            "word": "lamp.",
+            "start_ms": 6100,
+            "end_ms": 6780
+          },
+          {
+            "word": "We",
+            "start_ms": 7340,
+            "end_ms": 7880
+          },
+          {
+            "word": "are",
+            "start_ms": 7880,
+            "end_ms": 8320
+          },
+          {
+            "word": "snug.",
+            "start_ms": 8320,
+            "end_ms": 9020
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "are",
+        "start_ms": 0,
+        "end_ms": 340
+      },
+      {
+        "word": "pink",
+        "start_ms": 340,
+        "end_ms": 820
+      },
+      {
+        "word": "tent!",
+        "start_ms": 820,
+        "end_ms": 1460
+      }
+    ]
+  },
+  {
+    "id": "L4_S07",
+    "title": "My Bean at School",
+    "level": 4,
+    "unit_number": 7,
+    "phonics_used": [
+      "SK-SC",
+      "SPR-STR",
+      "SPL-SQU"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 35,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 6,
+        "text": "It is spring. I plant a bean at school.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 480
+          },
+          {
+            "word": "is",
+            "start_ms": 480,
+            "end_ms": 780
+          },
+          {
+            "word": "spring.",
+            "start_ms": 780,
+            "end_ms": 1380
+          },
+          {
+            "word": "I",
+            "start_ms": 2300,
+            "end_ms": 2800
+          },
+          {
+            "word": "plant",
+            "start_ms": 2800,
+            "end_ms": 3320
+          },
+          {
+            "word": "a",
+            "start_ms": 3320,
+            "end_ms": 3600
+          },
+          {
+            "word": "bean",
+            "start_ms": 3600,
+            "end_ms": 4100
+          },
+          {
+            "word": "at",
+            "start_ms": 4100,
+            "end_ms": 4700
+          },
+          {
+            "word": "school.",
+            "start_ms": 4700,
+            "end_ms": 5180
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 8,
+        "text": "I splash it with water. It grows up fast.",
+        "word_timings": [
+          {
+            "word": "I",
+            "start_ms": 0,
+            "end_ms": 640
+          },
+          {
+            "word": "splash",
+            "start_ms": 640,
+            "end_ms": 1200
+          },
+          {
+            "word": "it",
+            "start_ms": 1200,
+            "end_ms": 1940
+          },
+          {
+            "word": "with",
+            "start_ms": 1940,
+            "end_ms": 2560
+          },
+          {
+            "word": "water.",
+            "start_ms": 2560,
+            "end_ms": 3300
+          },
+          {
+            "word": "It",
+            "start_ms": 4140,
+            "end_ms": 4580
+          },
+          {
+            "word": "grows",
+            "start_ms": 4580,
+            "end_ms": 5160
+          },
+          {
+            "word": "up",
+            "start_ms": 5160,
+            "end_ms": 5880
+          },
+          {
+            "word": "fast.",
+            "start_ms": 5880,
+            "end_ms": 6780
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 12,
+        "text": "My bean climbs a strong string. It grows past my desk!",
+        "word_timings": [
+          {
+            "word": "My",
+            "start_ms": 0,
+            "end_ms": 800
+          },
+          {
+            "word": "bean",
+            "start_ms": 800,
+            "end_ms": 1820
+          },
+          {
+            "word": "climbs",
+            "start_ms": 1820,
+            "end_ms": 2840
+          },
+          {
+            "word": "a",
+            "start_ms": 2840,
+            "end_ms": 3920
+          },
+          {
+            "word": "strong",
+            "start_ms": 3920,
+            "end_ms": 4640
+          },
+          {
+            "word": "string.",
+            "start_ms": 4640,
+            "end_ms": 5800
+          },
+          {
+            "word": "It",
+            "start_ms": 7060,
+            "end_ms": 7280
+          },
+          {
+            "word": "grows",
+            "start_ms": 7280,
+            "end_ms": 8080
+          },
+          {
+            "word": "past",
+            "start_ms": 8080,
+            "end_ms": 9200
+          },
+          {
+            "word": "my",
+            "start_ms": 9200,
+            "end_ms": 10060
+          },
+          {
+            "word": "desk.",
+            "start_ms": 10060,
+            "end_ms": 10660
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 9,
+        "text": "A little skunk looks in the window. It smiles at my bean!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "little",
+            "start_ms": 560,
+            "end_ms": 1360
+          },
+          {
+            "word": "skunk",
+            "start_ms": 1360,
+            "end_ms": 2260
+          },
+          {
+            "word": "looks",
+            "start_ms": 2260,
+            "end_ms": 2960
+          },
+          {
+            "word": "in",
+            "start_ms": 2960,
+            "end_ms": 3740
+          },
+          {
+            "word": "the",
+            "start_ms": 3740,
+            "end_ms": 4019
+          },
+          {
+            "word": "window.",
+            "start_ms": 4019,
+            "end_ms": 4680
+          },
+          {
+            "word": "It",
+            "start_ms": 5380,
+            "end_ms": 5880
+          },
+          {
+            "word": "smiles",
+            "start_ms": 5880,
+            "end_ms": 6540
+          },
+          {
+            "word": "at",
+            "start_ms": 6540,
+            "end_ms": 7380
+          },
+          {
+            "word": "my",
+            "start_ms": 7380,
+            "end_ms": 7820
+          },
+          {
+            "word": "bean.",
+            "start_ms": 7820,
+            "end_ms": 8440
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "My",
+        "start_ms": 0,
+        "end_ms": 480
+      },
+      {
+        "word": "being",
+        "start_ms": 480,
+        "end_ms": 980
+      },
+      {
+        "word": "at",
+        "start_ms": 980,
+        "end_ms": 1460
+      },
+      {
+        "word": "school.",
+        "start_ms": 1460,
+        "end_ms": 1880
+      }
+    ]
+  },
+  {
+    "id": "L4_S08",
+    "title": "The Giant Giraffe",
+    "level": 4,
+    "unit_number": 8,
+    "phonics_used": [
+      "C",
+      "G",
+      "S"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 38,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 8,
+        "text": "Mom and I go to the zoo in the city.",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 960
+          },
+          {
+            "word": "and",
+            "start_ms": 960,
+            "end_ms": 1840
+          },
+          {
+            "word": "I",
+            "start_ms": 1840,
+            "end_ms": 2480
+          },
+          {
+            "word": "go",
+            "start_ms": 2480,
+            "end_ms": 3460
+          },
+          {
+            "word": "to",
+            "start_ms": 3460,
+            "end_ms": 4019
+          },
+          {
+            "word": "the",
+            "start_ms": 4019,
+            "end_ms": 4380
+          },
+          {
+            "word": "zoo",
+            "start_ms": 4380,
+            "end_ms": 5020
+          },
+          {
+            "word": "in",
+            "start_ms": 5020,
+            "end_ms": 5940
+          },
+          {
+            "word": "the",
+            "start_ms": 5940,
+            "end_ms": 6260
+          },
+          {
+            "word": "city.",
+            "start_ms": 6260,
+            "end_ms": 6860
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 9,
+        "text": "We see a giant giraffe. It has long legs!",
+        "word_timings": [
+          {
+            "word": "We",
+            "start_ms": 0,
+            "end_ms": 820
+          },
+          {
+            "word": "see",
+            "start_ms": 820,
+            "end_ms": 1460
+          },
+          {
+            "word": "a",
+            "start_ms": 1460,
+            "end_ms": 2060
+          },
+          {
+            "word": "giant",
+            "start_ms": 2060,
+            "end_ms": 2960
+          },
+          {
+            "word": "giraffe.",
+            "start_ms": 2960,
+            "end_ms": 3840
+          },
+          {
+            "word": "It",
+            "start_ms": 5020,
+            "end_ms": 5500
+          },
+          {
+            "word": "has",
+            "start_ms": 5500,
+            "end_ms": 5920
+          },
+          {
+            "word": "long",
+            "start_ms": 5920,
+            "end_ms": 6820
+          },
+          {
+            "word": "legs.",
+            "start_ms": 6820,
+            "end_ms": 7620
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 12,
+        "text": "Mom takes a picture with her cell phone. The giraffe bends down.",
+        "word_timings": [
+          {
+            "word": "Mom",
+            "start_ms": 0,
+            "end_ms": 920
+          },
+          {
+            "word": "takes",
+            "start_ms": 920,
+            "end_ms": 1840
+          },
+          {
+            "word": "a",
+            "start_ms": 1840,
+            "end_ms": 2200
+          },
+          {
+            "word": "picture",
+            "start_ms": 2200,
+            "end_ms": 3100
+          },
+          {
+            "word": "with",
+            "start_ms": 3100,
+            "end_ms": 4019
+          },
+          {
+            "word": "her",
+            "start_ms": 4019,
+            "end_ms": 4360
+          },
+          {
+            "word": "cell",
+            "start_ms": 4360,
+            "end_ms": 4940
+          },
+          {
+            "word": "phone.",
+            "start_ms": 4940,
+            "end_ms": 5600
+          },
+          {
+            "word": "The",
+            "start_ms": 7140,
+            "end_ms": 7760
+          },
+          {
+            "word": "giraffe",
+            "start_ms": 7760,
+            "end_ms": 8560
+          },
+          {
+            "word": "bends",
+            "start_ms": 8560,
+            "end_ms": 9980
+          },
+          {
+            "word": "down.",
+            "start_ms": 9980,
+            "end_ms": 10780
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 9,
+        "text": "It eats the rose on my hat! So Mom gets me ice cream.",
+        "word_timings": [
+          {
+            "word": "It",
+            "start_ms": 0,
+            "end_ms": 800
+          },
+          {
+            "word": "eats",
+            "start_ms": 800,
+            "end_ms": 1400
+          },
+          {
+            "word": "the",
+            "start_ms": 1400,
+            "end_ms": 1720
+          },
+          {
+            "word": "rose",
+            "start_ms": 1720,
+            "end_ms": 2480
+          },
+          {
+            "word": "on",
+            "start_ms": 2480,
+            "end_ms": 3020
+          },
+          {
+            "word": "my",
+            "start_ms": 3020,
+            "end_ms": 3360
+          },
+          {
+            "word": "hat.",
+            "start_ms": 3360,
+            "end_ms": 4080
+          },
+          {
+            "word": "So",
+            "start_ms": 4980,
+            "end_ms": 5400
+          },
+          {
+            "word": "mom",
+            "start_ms": 5400,
+            "end_ms": 6040
+          },
+          {
+            "word": "gets",
+            "start_ms": 6040,
+            "end_ms": 6660
+          },
+          {
+            "word": "me",
+            "start_ms": 6660,
+            "end_ms": 7080
+          },
+          {
+            "word": "ice",
+            "start_ms": 7080,
+            "end_ms": 7560
+          },
+          {
+            "word": "cream.",
+            "start_ms": 7560,
+            "end_ms": 8100
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "The",
+        "start_ms": 0,
+        "end_ms": 280
+      },
+      {
+        "word": "giant",
+        "start_ms": 280,
+        "end_ms": 1140
+      },
+      {
+        "word": "giraffe!",
+        "start_ms": 1140,
+        "end_ms": 2020
+      }
+    ]
+  }
+]

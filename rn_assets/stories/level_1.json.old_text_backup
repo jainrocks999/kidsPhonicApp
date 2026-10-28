@@ -1,0 +1,122 @@
+[
+  {
+    "id": "L1_S01",
+    "title": "Apple for All",
+    "level": 1,
+    "after_unit": 1,
+    "phonics_used": ["A", "B", "C"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A bear sees a big red apple on a tree."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "An ant is on the apple too!"},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "A cat comes in a car. Let's share!"},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "The bear, ant, and cat eat the apple. Yum!"}
+    ]
+  },
+  {
+    "id": "L1_S02",
+    "title": "Egg on the Farm",
+    "level": 1,
+    "after_unit": 2,
+    "phonics_used": ["D", "E", "F"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A dog and a duck live on a farm."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "They see a big white egg in the grass."},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "An elephant walks by. Whose egg is this?"},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "A fish jumps up! It is my egg! Splash!"}
+    ]
+  },
+  {
+    "id": "L1_S03",
+    "title": "A Gift for Goat",
+    "level": 1,
+    "after_unit": 3,
+    "phonics_used": ["G", "H", "I"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A goat lives in a small house on a hill."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "One day, a big gift comes to the door."},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "A horse and a girl say, Surprise!"},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "The goat opens the gift. A new red hat!"}
+    ]
+  },
+  {
+    "id": "L1_S04",
+    "title": "King and the Kite",
+    "level": 1,
+    "after_unit": 4,
+    "phonics_used": ["J", "K", "L"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A king has a yellow kite."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "His kite flies up to a green leaf."},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "A kangaroo jumps high and gets the kite!"},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "The king gives him sweet jam and juice."}
+    ]
+  },
+  {
+    "id": "L1_S05",
+    "title": "Monkey's Nut",
+    "level": 1,
+    "after_unit": 5,
+    "phonics_used": ["M", "N", "O"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A monkey has a big brown nut."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "A mouse runs by. Yum, a nut!"},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "An ostrich comes too. Can I have some?"},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "The monkey, mouse, and ostrich share the nut."}
+    ]
+  },
+  {
+    "id": "L1_S06",
+    "title": "Queen's Pink Quilt",
+    "level": 1,
+    "after_unit": 6,
+    "phonics_used": ["P", "Q", "R"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A queen has a soft pink quilt."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "A rabbit hops on the quilt. May I sit?"},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "A panda walks up. He has a sweet peach."},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "The queen, rabbit, and panda eat on the quilt."}
+    ]
+  },
+  {
+    "id": "L1_S07",
+    "title": "Seal and Tiger",
+    "level": 1,
+    "after_unit": 7,
+    "phonics_used": ["S", "T", "U", "V"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A seal and a turtle play in the sun."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "Then dark clouds come. Drip, drop, rain!"},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "A tiger drives up in a big blue van."},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "They all sit under a green umbrella. Dry and happy!"}
+    ]
+  },
+  {
+    "id": "L1_S08",
+    "title": "Friends at the Zoo",
+    "level": 1,
+    "after_unit": 8,
+    "phonics_used": ["W", "X", "Y", "Z"],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {"scene": 1, "name": "intro", "duration_sec": 5, "text": "A wolf and a yak go to the zoo."},
+      {"scene": 2, "name": "problem", "duration_sec": 5, "text": "They see a fox in a box."},
+      {"scene": 3, "name": "solution", "duration_sec": 5, "text": "A zebra plays with a yellow yo-yo."},
+      {"scene": 4, "name": "ending", "duration_sec": 5, "text": "All the friends eat yogurt. Yum yum!"}
+    ]
+  }
+]

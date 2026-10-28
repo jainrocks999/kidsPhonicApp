@@ -1,0 +1,1666 @@
+[
+  {
+    "id": "L1_S01",
+    "title": "Apple, Ant, Cat",
+    "level": 1,
+    "unit_number": 1,
+    "phonics_used": [
+      "A",
+      "B",
+      "C"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "A bear has an apple. The bear is in bed.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 480
+          },
+          {
+            "word": "bear",
+            "start_ms": 480,
+            "end_ms": 1020
+          },
+          {
+            "word": "has",
+            "start_ms": 1020,
+            "end_ms": 2020
+          },
+          {
+            "word": "an",
+            "start_ms": 2020,
+            "end_ms": 2580
+          },
+          {
+            "word": "apple.",
+            "start_ms": 2580,
+            "end_ms": 3100
+          },
+          {
+            "word": "The",
+            "start_ms": 3940,
+            "end_ms": 4400
+          },
+          {
+            "word": "bear",
+            "start_ms": 4400,
+            "end_ms": 4920
+          },
+          {
+            "word": "is",
+            "start_ms": 4920,
+            "end_ms": 5580
+          },
+          {
+            "word": "in",
+            "start_ms": 5580,
+            "end_ms": 6080
+          },
+          {
+            "word": "bed.",
+            "start_ms": 6080,
+            "end_ms": 6600
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "Look! An ant has the apple now!",
+        "word_timings": [
+          {
+            "word": "Look!",
+            "start_ms": 0,
+            "end_ms": 1100
+          },
+          {
+            "word": "An",
+            "start_ms": 1780,
+            "end_ms": 2160
+          },
+          {
+            "word": "ant",
+            "start_ms": 2160,
+            "end_ms": 2660
+          },
+          {
+            "word": "has",
+            "start_ms": 2660,
+            "end_ms": 3340
+          },
+          {
+            "word": "the",
+            "start_ms": 3340,
+            "end_ms": 3680
+          },
+          {
+            "word": "apple",
+            "start_ms": 3680,
+            "end_ms": 4200
+          },
+          {
+            "word": "now!",
+            "start_ms": 4200,
+            "end_ms": 4780
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "The bear and a cat look. Look here, look there.",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "bear",
+            "start_ms": 540,
+            "end_ms": 1040
+          },
+          {
+            "word": "and",
+            "start_ms": 1040,
+            "end_ms": 1780
+          },
+          {
+            "word": "a",
+            "start_ms": 1780,
+            "end_ms": 2040
+          },
+          {
+            "word": "cat",
+            "start_ms": 2040,
+            "end_ms": 2460
+          },
+          {
+            "word": "look",
+            "start_ms": 2460,
+            "end_ms": 3380
+          },
+          {
+            "word": "look",
+            "start_ms": 3380,
+            "end_ms": 4600
+          },
+          {
+            "word": "here",
+            "start_ms": 4600,
+            "end_ms": 5320
+          },
+          {
+            "word": "look",
+            "start_ms": 5320,
+            "end_ms": 6260
+          },
+          {
+            "word": "there",
+            "start_ms": 6260,
+            "end_ms": 7000
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "Find it! All three share the apple. Yum!",
+        "word_timings": [
+          {
+            "word": "Find",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "it!",
+            "start_ms": 680,
+            "end_ms": 1200
+          },
+          {
+            "word": "All",
+            "start_ms": 1620,
+            "end_ms": 2100
+          },
+          {
+            "word": "three",
+            "start_ms": 2100,
+            "end_ms": 2740
+          },
+          {
+            "word": "share",
+            "start_ms": 2740,
+            "end_ms": 3700
+          },
+          {
+            "word": "the",
+            "start_ms": 3700,
+            "end_ms": 4240
+          },
+          {
+            "word": "apple!",
+            "start_ms": 4240,
+            "end_ms": 4800
+          },
+          {
+            "word": "Yum!",
+            "start_ms": 5440,
+            "end_ms": 5940
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Apple",
+        "start_ms": 0,
+        "end_ms": 900
+      },
+      {
+        "word": "and",
+        "start_ms": 900,
+        "end_ms": 2200
+      },
+      {
+        "word": "cat.",
+        "start_ms": 2200,
+        "end_ms": 3760
+      }
+    ]
+  },
+  {
+    "id": "L1_S02",
+    "title": "Egg on the Farm",
+    "level": 1,
+    "unit_number": 2,
+    "phonics_used": [
+      "D",
+      "E",
+      "F"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "A dog and a duck on the farm.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "word": "dog",
+            "start_ms": 460,
+            "end_ms": 1080
+          },
+          {
+            "word": "and",
+            "start_ms": 1080,
+            "end_ms": 2340
+          },
+          {
+            "word": "a",
+            "start_ms": 2340,
+            "end_ms": 2620
+          },
+          {
+            "word": "duck",
+            "start_ms": 2620,
+            "end_ms": 3160
+          },
+          {
+            "word": "on",
+            "start_ms": 3160,
+            "end_ms": 4160
+          },
+          {
+            "word": "the",
+            "start_ms": 4160,
+            "end_ms": 4400
+          },
+          {
+            "word": "farm.",
+            "start_ms": 4400,
+            "end_ms": 5100
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "They see a big egg. Whose egg is this?",
+        "word_timings": [
+          {
+            "word": "They",
+            "start_ms": 0,
+            "end_ms": 660
+          },
+          {
+            "word": "see",
+            "start_ms": 660,
+            "end_ms": 1180
+          },
+          {
+            "word": "a",
+            "start_ms": 1180,
+            "end_ms": 1580
+          },
+          {
+            "word": "big",
+            "start_ms": 1580,
+            "end_ms": 2140
+          },
+          {
+            "word": "egg.",
+            "start_ms": 2140,
+            "end_ms": 2920
+          },
+          {
+            "word": "Whose",
+            "start_ms": 3580,
+            "end_ms": 4240
+          },
+          {
+            "word": "egg",
+            "start_ms": 4240,
+            "end_ms": 4920
+          },
+          {
+            "word": "is",
+            "start_ms": 4920,
+            "end_ms": 5240
+          },
+          {
+            "word": "this?",
+            "start_ms": 5240,
+            "end_ms": 5660
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "An elephant looks. Not my egg!",
+        "word_timings": [
+          {
+            "word": "An",
+            "start_ms": 0,
+            "end_ms": 640
+          },
+          {
+            "word": "elephant",
+            "start_ms": 640,
+            "end_ms": 1660
+          },
+          {
+            "word": "looks.",
+            "start_ms": 1660,
+            "end_ms": 2700
+          },
+          {
+            "word": "Not",
+            "start_ms": 3660,
+            "end_ms": 4380
+          },
+          {
+            "word": "my",
+            "start_ms": 4380,
+            "end_ms": 5100
+          },
+          {
+            "word": "egg.",
+            "start_ms": 5100,
+            "end_ms": 5860
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "A fish jumps. My egg! Splash!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 900
+          },
+          {
+            "word": "fish",
+            "start_ms": 900,
+            "end_ms": 1300
+          },
+          {
+            "word": "jumps.",
+            "start_ms": 1300,
+            "end_ms": 2300
+          },
+          {
+            "word": "My",
+            "start_ms": 3060,
+            "end_ms": 3740
+          },
+          {
+            "word": "egg.",
+            "start_ms": 3740,
+            "end_ms": 4600
+          },
+          {
+            "word": "Splash!",
+            "start_ms": 5280,
+            "end_ms": 6400
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Egg",
+        "start_ms": 0,
+        "end_ms": 520
+      },
+      {
+        "word": "on",
+        "start_ms": 520,
+        "end_ms": 1020
+      },
+      {
+        "word": "the",
+        "start_ms": 1020,
+        "end_ms": 1280
+      },
+      {
+        "word": "Farm",
+        "start_ms": 1280,
+        "end_ms": 1940
+      }
+    ]
+  },
+  {
+    "id": "L1_S03",
+    "title": "A Gift",
+    "level": 1,
+    "unit_number": 3,
+    "phonics_used": [
+      "G",
+      "H",
+      "I"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "Today is Goat's birthday!",
+        "word_timings": [
+          {
+            "word": "Today",
+            "start_ms": 0,
+            "end_ms": 820
+          },
+          {
+            "word": "is",
+            "start_ms": 820,
+            "end_ms": 1560
+          },
+          {
+            "word": "Goats",
+            "start_ms": 1560,
+            "end_ms": 2180
+          },
+          {
+            "word": "Birthday!",
+            "start_ms": 2180,
+            "end_ms": 2760
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "Girl, horse, iguana hide in the house.",
+        "word_timings": [
+          {
+            "word": "Girl,",
+            "start_ms": 0,
+            "end_ms": 940
+          },
+          {
+            "word": "horse,",
+            "start_ms": 2020,
+            "end_ms": 3020
+          },
+          {
+            "word": "iguana",
+            "start_ms": 3340,
+            "end_ms": 4840
+          },
+          {
+            "word": "hide",
+            "start_ms": 4840,
+            "end_ms": 6100
+          },
+          {
+            "word": "in",
+            "start_ms": 6100,
+            "end_ms": 7220
+          },
+          {
+            "word": "the",
+            "start_ms": 7220,
+            "end_ms": 7840
+          },
+          {
+            "word": "house.",
+            "start_ms": 7840,
+            "end_ms": 8900
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "Goat comes in. Where is everyone?",
+        "word_timings": [
+          {
+            "word": "Goat",
+            "start_ms": 0,
+            "end_ms": 1300
+          },
+          {
+            "word": "comes",
+            "start_ms": 1300,
+            "end_ms": 1800
+          },
+          {
+            "word": "in.",
+            "start_ms": 1800,
+            "end_ms": 2440
+          },
+          {
+            "word": "Where",
+            "start_ms": 3140,
+            "end_ms": 3720
+          },
+          {
+            "word": "is",
+            "start_ms": 3720,
+            "end_ms": 4300
+          },
+          {
+            "word": "everyone?",
+            "start_ms": 4300,
+            "end_ms": 5320
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "Surprise! A new hat for Goat. Hooray!",
+        "word_timings": [
+          {
+            "word": "Surprise!",
+            "start_ms": 0,
+            "end_ms": 1040
+          },
+          {
+            "word": "A",
+            "start_ms": 1920,
+            "end_ms": 2240
+          },
+          {
+            "word": "new",
+            "start_ms": 2240,
+            "end_ms": 2620
+          },
+          {
+            "word": "hat",
+            "start_ms": 2620,
+            "end_ms": 3120
+          },
+          {
+            "word": "for",
+            "start_ms": 3120,
+            "end_ms": 3660
+          },
+          {
+            "word": "goat!",
+            "start_ms": 3660,
+            "end_ms": 4100
+          },
+          {
+            "word": "Hurray!",
+            "start_ms": 4960,
+            "end_ms": 5540
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "A",
+        "start_ms": 0,
+        "end_ms": 360
+      },
+      {
+        "word": "gift!",
+        "start_ms": 360,
+        "end_ms": 980
+      }
+    ]
+  },
+  {
+    "id": "L1_S04",
+    "title": "King and Kite",
+    "level": 1,
+    "unit_number": 4,
+    "phonics_used": [
+      "J",
+      "K",
+      "L"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "A king flies a kite up, up high!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "word": "king",
+            "start_ms": 560,
+            "end_ms": 1020
+          },
+          {
+            "word": "flies",
+            "start_ms": 1020,
+            "end_ms": 1760
+          },
+          {
+            "word": "a",
+            "start_ms": 1760,
+            "end_ms": 2160
+          },
+          {
+            "word": "kite",
+            "start_ms": 2160,
+            "end_ms": 2540
+          },
+          {
+            "word": "up,",
+            "start_ms": 2540,
+            "end_ms": 3340
+          },
+          {
+            "word": "up,",
+            "start_ms": 3680,
+            "end_ms": 4220
+          },
+          {
+            "word": "high.",
+            "start_ms": 4580,
+            "end_ms": 5180
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "Oh! The kite is stuck on a leaf!",
+        "word_timings": [
+          {
+            "word": "Oh,",
+            "start_ms": 0,
+            "end_ms": 700
+          },
+          {
+            "word": "the",
+            "start_ms": 1240,
+            "end_ms": 1640
+          },
+          {
+            "word": "kite",
+            "start_ms": 1640,
+            "end_ms": 2160
+          },
+          {
+            "word": "is",
+            "start_ms": 2160,
+            "end_ms": 2800
+          },
+          {
+            "word": "stuck",
+            "start_ms": 2800,
+            "end_ms": 3420
+          },
+          {
+            "word": "on",
+            "start_ms": 3420,
+            "end_ms": 4140
+          },
+          {
+            "word": "a",
+            "start_ms": 4140,
+            "end_ms": 4420
+          },
+          {
+            "word": "leaf.",
+            "start_ms": 4420,
+            "end_ms": 4960
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "A kangaroo jumps. A lion roars.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 480
+          },
+          {
+            "word": "kangaroo",
+            "start_ms": 480,
+            "end_ms": 1600
+          },
+          {
+            "word": "jumps.",
+            "start_ms": 1600,
+            "end_ms": 2920
+          },
+          {
+            "word": "A",
+            "start_ms": 4000,
+            "end_ms": 4240
+          },
+          {
+            "word": "lion",
+            "start_ms": 4240,
+            "end_ms": 4880
+          },
+          {
+            "word": "roars.",
+            "start_ms": 4880,
+            "end_ms": 6020
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "They get the kite. Jam and juice. Yum!",
+        "word_timings": [
+          {
+            "word": "They",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "word": "get",
+            "start_ms": 580,
+            "end_ms": 1020
+          },
+          {
+            "word": "the",
+            "start_ms": 1020,
+            "end_ms": 1560
+          },
+          {
+            "word": "kite.",
+            "start_ms": 1560,
+            "end_ms": 2140
+          },
+          {
+            "word": "Jam",
+            "start_ms": 2960,
+            "end_ms": 3820
+          },
+          {
+            "word": "and",
+            "start_ms": 3820,
+            "end_ms": 4760
+          },
+          {
+            "word": "juice.",
+            "start_ms": 4760,
+            "end_ms": 5340
+          },
+          {
+            "word": "Yum!",
+            "start_ms": 6340,
+            "end_ms": 6580
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "King",
+        "start_ms": 0,
+        "end_ms": 620
+      },
+      {
+        "word": "and",
+        "start_ms": 620,
+        "end_ms": 1680
+      },
+      {
+        "word": "Kite!",
+        "start_ms": 1680,
+        "end_ms": 2720
+      }
+    ]
+  },
+  {
+    "id": "L1_S05",
+    "title": "Monkey's Nut",
+    "level": 1,
+    "unit_number": 5,
+    "phonics_used": [
+      "M",
+      "N",
+      "O"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "A monkey hides a nut in a nest.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "monkey",
+            "start_ms": 540,
+            "end_ms": 1240
+          },
+          {
+            "word": "hides",
+            "start_ms": 1240,
+            "end_ms": 2420
+          },
+          {
+            "word": "a",
+            "start_ms": 2420,
+            "end_ms": 2760
+          },
+          {
+            "word": "nut",
+            "start_ms": 2760,
+            "end_ms": 3280
+          },
+          {
+            "word": "in",
+            "start_ms": 3280,
+            "end_ms": 4140
+          },
+          {
+            "word": "a",
+            "start_ms": 4140,
+            "end_ms": 4460
+          },
+          {
+            "word": "nest.",
+            "start_ms": 4460,
+            "end_ms": 5180
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "A mouse looks. An ostrich looks.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "word": "mouse",
+            "start_ms": 460,
+            "end_ms": 1200
+          },
+          {
+            "word": "looks.",
+            "start_ms": 1200,
+            "end_ms": 1900
+          },
+          {
+            "word": "An",
+            "start_ms": 2780,
+            "end_ms": 3300
+          },
+          {
+            "word": "ostrich",
+            "start_ms": 3300,
+            "end_ms": 4320
+          },
+          {
+            "word": "looks.",
+            "start_ms": 4320,
+            "end_ms": 4760
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "An octopus finds the nut! Yum!",
+        "word_timings": [
+          {
+            "word": "An",
+            "start_ms": 0,
+            "end_ms": 620
+          },
+          {
+            "word": "octopus",
+            "start_ms": 620,
+            "end_ms": 1420
+          },
+          {
+            "word": "finds",
+            "start_ms": 1420,
+            "end_ms": 2740
+          },
+          {
+            "word": "the",
+            "start_ms": 2740,
+            "end_ms": 3240
+          },
+          {
+            "word": "nut.",
+            "start_ms": 3240,
+            "end_ms": 3700
+          },
+          {
+            "word": "Yum!",
+            "start_ms": 4700,
+            "end_ms": 5020
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "All friends laugh. A nut for everyone!",
+        "word_timings": [
+          {
+            "word": "All",
+            "start_ms": 0,
+            "end_ms": 780
+          },
+          {
+            "word": "friends",
+            "start_ms": 780,
+            "end_ms": 1800
+          },
+          {
+            "word": "laugh!",
+            "start_ms": 1800,
+            "end_ms": 2500
+          },
+          {
+            "word": "A",
+            "start_ms": 3280,
+            "end_ms": 3620
+          },
+          {
+            "word": "nut",
+            "start_ms": 3620,
+            "end_ms": 4040
+          },
+          {
+            "word": "for",
+            "start_ms": 4040,
+            "end_ms": 4700
+          },
+          {
+            "word": "everyone!",
+            "start_ms": 4700,
+            "end_ms": 5600
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Monkeys",
+        "start_ms": 0,
+        "end_ms": 1040
+      },
+      {
+        "word": "nut!",
+        "start_ms": 1040,
+        "end_ms": 2040
+      }
+    ]
+  },
+  {
+    "id": "L1_S06",
+    "title": "Queen's Quilt",
+    "level": 1,
+    "unit_number": 6,
+    "phonics_used": [
+      "P",
+      "Q",
+      "R"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "A queen is in bed. She is sick.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "word": "queen",
+            "start_ms": 520,
+            "end_ms": 1060
+          },
+          {
+            "word": "is",
+            "start_ms": 1060,
+            "end_ms": 1660
+          },
+          {
+            "word": "in",
+            "start_ms": 1660,
+            "end_ms": 2100
+          },
+          {
+            "word": "bed.",
+            "start_ms": 2100,
+            "end_ms": 2760
+          },
+          {
+            "word": "She",
+            "start_ms": 3540,
+            "end_ms": 4100
+          },
+          {
+            "word": "is",
+            "start_ms": 4100,
+            "end_ms": 4580
+          },
+          {
+            "word": "sick.",
+            "start_ms": 4580,
+            "end_ms": 5180
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "A rabbit brings a rose. Get well!",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "word": "rabbit",
+            "start_ms": 520,
+            "end_ms": 1160
+          },
+          {
+            "word": "brings",
+            "start_ms": 1160,
+            "end_ms": 2160
+          },
+          {
+            "word": "a",
+            "start_ms": 2160,
+            "end_ms": 2520
+          },
+          {
+            "word": "rose.",
+            "start_ms": 2520,
+            "end_ms": 3200
+          },
+          {
+            "word": "Get",
+            "start_ms": 3920,
+            "end_ms": 4380
+          },
+          {
+            "word": "well!",
+            "start_ms": 4380,
+            "end_ms": 4940
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "A panda brings a peach.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 860
+          },
+          {
+            "word": "panda",
+            "start_ms": 860,
+            "end_ms": 1640
+          },
+          {
+            "word": "brings",
+            "start_ms": 1640,
+            "end_ms": 2760
+          },
+          {
+            "word": "a",
+            "start_ms": 2760,
+            "end_ms": 3280
+          },
+          {
+            "word": "peach.",
+            "start_ms": 3280,
+            "end_ms": 4120
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "The queen smiles. Thank you, friends!",
+        "word_timings": [
+          {
+            "word": "The",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "word": "Queen",
+            "start_ms": 540,
+            "end_ms": 1140
+          },
+          {
+            "word": "smiles.",
+            "start_ms": 1140,
+            "end_ms": 2080
+          },
+          {
+            "word": "Thank",
+            "start_ms": 2760,
+            "end_ms": 3460
+          },
+          {
+            "word": "you,",
+            "start_ms": 3460,
+            "end_ms": 3840
+          },
+          {
+            "word": "friends.",
+            "start_ms": 3860,
+            "end_ms": 4380
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Queens",
+        "start_ms": 0,
+        "end_ms": 1100
+      },
+      {
+        "word": "quilt!",
+        "start_ms": 1100,
+        "end_ms": 2160
+      }
+    ]
+  },
+  {
+    "id": "L1_S07",
+    "title": "Sun and Rain",
+    "level": 1,
+    "unit_number": 7,
+    "phonics_used": [
+      "S",
+      "T",
+      "U",
+      "V"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "A seal, turtle, tiger play in the sun.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 500
+          },
+          {
+            "word": "seal,",
+            "start_ms": 500,
+            "end_ms": 1200
+          },
+          {
+            "word": "turtle,",
+            "start_ms": 1960,
+            "end_ms": 2700
+          },
+          {
+            "word": "tiger",
+            "start_ms": 3660,
+            "end_ms": 4440
+          },
+          {
+            "word": "play",
+            "start_ms": 4440,
+            "end_ms": 5680
+          },
+          {
+            "word": "in",
+            "start_ms": 5680,
+            "end_ms": 6560
+          },
+          {
+            "word": "the",
+            "start_ms": 6560,
+            "end_ms": 6980
+          },
+          {
+            "word": "sun.",
+            "start_ms": 6980,
+            "end_ms": 7740
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "Oh no! Clouds come. Drip! Drop!",
+        "word_timings": [
+          {
+            "word": "Oh",
+            "start_ms": 0,
+            "end_ms": 620
+          },
+          {
+            "word": "no!",
+            "start_ms": 620,
+            "end_ms": 1180
+          },
+          {
+            "word": "Clouds",
+            "start_ms": 1820,
+            "end_ms": 3080
+          },
+          {
+            "word": "come!",
+            "start_ms": 3080,
+            "end_ms": 3380
+          },
+          {
+            "word": "Drip!",
+            "start_ms": 4180,
+            "end_ms": 4800
+          },
+          {
+            "word": "Drop!",
+            "start_ms": 5540,
+            "end_ms": 6100
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "An uncle has a van and an umbrella.",
+        "word_timings": [
+          {
+            "word": "An",
+            "start_ms": 0,
+            "end_ms": 840
+          },
+          {
+            "word": "uncle",
+            "start_ms": 840,
+            "end_ms": 1580
+          },
+          {
+            "word": "has",
+            "start_ms": 1580,
+            "end_ms": 2460
+          },
+          {
+            "word": "a",
+            "start_ms": 2460,
+            "end_ms": 2700
+          },
+          {
+            "word": "van",
+            "start_ms": 2700,
+            "end_ms": 3260
+          },
+          {
+            "word": "and",
+            "start_ms": 3260,
+            "end_ms": 4580
+          },
+          {
+            "word": "an",
+            "start_ms": 4580,
+            "end_ms": 5140
+          },
+          {
+            "word": "umbrella.",
+            "start_ms": 5140,
+            "end_ms": 5880
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "All sit in the van. Dry and happy!",
+        "word_timings": [
+          {
+            "word": "All",
+            "start_ms": 0,
+            "end_ms": 760
+          },
+          {
+            "word": "sit",
+            "start_ms": 760,
+            "end_ms": 1460
+          },
+          {
+            "word": "in",
+            "start_ms": 1460,
+            "end_ms": 2420
+          },
+          {
+            "word": "the",
+            "start_ms": 2420,
+            "end_ms": 2680
+          },
+          {
+            "word": "van.",
+            "start_ms": 2680,
+            "end_ms": 3200
+          },
+          {
+            "word": "Dry",
+            "start_ms": 4180,
+            "end_ms": 4620
+          },
+          {
+            "word": "and",
+            "start_ms": 4620,
+            "end_ms": 5720
+          },
+          {
+            "word": "happy.",
+            "start_ms": 5720,
+            "end_ms": 6380
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "Sun",
+        "start_ms": 0,
+        "end_ms": 780
+      },
+      {
+        "word": "and",
+        "start_ms": 780,
+        "end_ms": 2460
+      },
+      {
+        "word": "rain.",
+        "start_ms": 2460,
+        "end_ms": 3360
+      }
+    ]
+  },
+  {
+    "id": "L1_S08",
+    "title": "At the Zoo",
+    "level": 1,
+    "unit_number": 8,
+    "phonics_used": [
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "narrator_voice": "Achernar",
+    "duration_seconds": 20,
+    "scenes": [
+      {
+        "scene": 1,
+        "name": "intro",
+        "duration_sec": 5,
+        "text": "A wolf and a yak go to the zoo.",
+        "word_timings": [
+          {
+            "word": "A",
+            "start_ms": 0,
+            "end_ms": 500
+          },
+          {
+            "word": "wolf",
+            "start_ms": 500,
+            "end_ms": 1280
+          },
+          {
+            "word": "and",
+            "start_ms": 1280,
+            "end_ms": 2040
+          },
+          {
+            "word": "a",
+            "start_ms": 2040,
+            "end_ms": 2340
+          },
+          {
+            "word": "yak",
+            "start_ms": 2340,
+            "end_ms": 2780
+          },
+          {
+            "word": "go",
+            "start_ms": 2780,
+            "end_ms": 3860
+          },
+          {
+            "word": "to",
+            "start_ms": 3860,
+            "end_ms": 4600
+          },
+          {
+            "word": "the",
+            "start_ms": 4600,
+            "end_ms": 4960
+          },
+          {
+            "word": "zoo.",
+            "start_ms": 4960,
+            "end_ms": 5400
+          }
+        ]
+      },
+      {
+        "scene": 2,
+        "name": "problem",
+        "duration_sec": 5,
+        "text": "They watch a fox in a box.",
+        "word_timings": [
+          {
+            "word": "They",
+            "start_ms": 0,
+            "end_ms": 680
+          },
+          {
+            "word": "watch",
+            "start_ms": 680,
+            "end_ms": 1700
+          },
+          {
+            "word": "a",
+            "start_ms": 1700,
+            "end_ms": 2180
+          },
+          {
+            "word": "fox",
+            "start_ms": 2180,
+            "end_ms": 2920
+          },
+          {
+            "word": "in",
+            "start_ms": 2920,
+            "end_ms": 3940
+          },
+          {
+            "word": "a",
+            "start_ms": 3940,
+            "end_ms": 4460
+          },
+          {
+            "word": "box.",
+            "start_ms": 4460,
+            "end_ms": 5060
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "name": "solution",
+        "duration_sec": 5,
+        "text": "A zebra spins a yellow yo-yo!",
+        "word_timings": [
+          {
+            "word": "Azibra",
+            "start_ms": 0,
+            "end_ms": 1480
+          },
+          {
+            "word": "spins",
+            "start_ms": 1480,
+            "end_ms": 2460
+          },
+          {
+            "word": "a",
+            "start_ms": 2460,
+            "end_ms": 2900
+          },
+          {
+            "word": "yellow",
+            "start_ms": 2900,
+            "end_ms": 3580
+          },
+          {
+            "word": "yo",
+            "start_ms": 3580,
+            "end_ms": 4160
+          },
+          {
+            "word": "-yo.",
+            "start_ms": 4160,
+            "end_ms": 4760
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "name": "ending",
+        "duration_sec": 5,
+        "text": "All eat yogurt. The best day!",
+        "word_timings": [
+          {
+            "word": "All",
+            "start_ms": 0,
+            "end_ms": 700
+          },
+          {
+            "word": "eat",
+            "start_ms": 700,
+            "end_ms": 1480
+          },
+          {
+            "word": "yogurt!",
+            "start_ms": 1480,
+            "end_ms": 2240
+          },
+          {
+            "word": "The",
+            "start_ms": 2920,
+            "end_ms": 3620
+          },
+          {
+            "word": "best",
+            "start_ms": 3620,
+            "end_ms": 4420
+          },
+          {
+            "word": "day!",
+            "start_ms": 4420,
+            "end_ms": 5020
+          },
+          {
+            "word": "The",
+            "start_ms": 5600,
+            "end_ms": 6300
+          },
+          {
+            "word": "best",
+            "start_ms": 6300,
+            "end_ms": 7140
+          },
+          {
+            "word": "day!",
+            "start_ms": 7140,
+            "end_ms": 7780
+          }
+        ]
+      }
+    ],
+    "title_timings": [
+      {
+        "word": "at",
+        "start_ms": 0,
+        "end_ms": 360
+      },
+      {
+        "word": "the",
+        "start_ms": 360,
+        "end_ms": 640
+      },
+      {
+        "word": "zoo.",
+        "start_ms": 640,
+        "end_ms": 1020
+      }
+    ]
+  }
+]
