@@ -1,0 +1,3428 @@
+[
+  {
+    "lesson_id": "L2U01_SHORT-A_cat",
+    "chains": [
+      {
+        "word": "cat",
+        "audio": "01_cat.mp3",
+        "duration_ms": 4732,
+        "segments": [
+          {
+            "card": "t",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "sr",
+            "text": "cat",
+            "start_ms": 1170,
+            "end_ms": 2501
+          },
+          {
+            "card": "w",
+            "text": "cat",
+            "start_ms": 3401,
+            "end_ms": 4732
+          }
+        ]
+      },
+      {
+        "word": "ant",
+        "audio": "02_ant.mp3",
+        "duration_ms": 4838,
+        "segments": [
+          {
+            "card": "t",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "sr",
+            "text": "ant",
+            "start_ms": 1170,
+            "end_ms": 2554
+          },
+          {
+            "card": "w",
+            "text": "ant",
+            "start_ms": 3454,
+            "end_ms": 4838
+          }
+        ]
+      },
+      {
+        "word": "yak",
+        "audio": "03_yak.mp3",
+        "duration_ms": 3259,
+        "segments": [
+          {
+            "card": "t",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "sr",
+            "text": "yak",
+            "start_ms": 1170,
+            "end_ms": 1764
+          },
+          {
+            "card": "w",
+            "text": "yak",
+            "start_ms": 2664,
+            "end_ms": 3258
+          }
+        ]
+      },
+      {
+        "word": "ax",
+        "audio": "04_ax.mp3",
+        "duration_ms": 5195,
+        "segments": [
+          {
+            "card": "t",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "sr",
+            "text": "ax",
+            "start_ms": 1170,
+            "end_ms": 2732
+          },
+          {
+            "card": "w",
+            "text": "ax",
+            "start_ms": 3632,
+            "end_ms": 5194
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U01_SHORT-A-AM_ram",
+    "chains": [
+      {
+        "word": "ram",
+        "audio": "01_ram.mp3",
+        "duration_ms": 6970,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "1o1",
+            "text": "m",
+            "start_ms": 1170,
+            "end_ms": 1426
+          },
+          {
+            "card": "1r",
+            "text": "am",
+            "start_ms": 1846,
+            "end_ms": 2526
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 2946,
+            "end_ms": 3383
+          },
+          {
+            "card": "2o1",
+            "text": "am",
+            "start_ms": 3803,
+            "end_ms": 4483
+          },
+          {
+            "card": "2r",
+            "text": "ram",
+            "start_ms": 4903,
+            "end_ms": 5486
+          },
+          {
+            "card": "w",
+            "text": "ram",
+            "start_ms": 6386,
+            "end_ms": 6969
+          }
+        ]
+      },
+      {
+        "word": "jam",
+        "audio": "02_jam.mp3",
+        "duration_ms": 6276,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "j",
+            "start_ms": 0,
+            "end_ms": 610
+          },
+          {
+            "card": "2o1",
+            "text": "am",
+            "start_ms": 1030,
+            "end_ms": 1710
+          },
+          {
+            "card": "2r",
+            "text": "jam",
+            "start_ms": 2130,
+            "end_ms": 3753
+          },
+          {
+            "card": "w",
+            "text": "jam",
+            "start_ms": 4653,
+            "end_ms": 6276
+          }
+        ]
+      },
+      {
+        "word": "yam",
+        "audio": "03_yam.mp3",
+        "duration_ms": 5827,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "y",
+            "start_ms": 0,
+            "end_ms": 580
+          },
+          {
+            "card": "2o1",
+            "text": "am",
+            "start_ms": 1000,
+            "end_ms": 1680
+          },
+          {
+            "card": "2r",
+            "text": "yam",
+            "start_ms": 2100,
+            "end_ms": 3513
+          },
+          {
+            "card": "w",
+            "text": "yam",
+            "start_ms": 4413,
+            "end_ms": 5826
+          }
+        ]
+      },
+      {
+        "word": "dam",
+        "audio": "04_dam.mp3",
+        "duration_ms": 4603,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "d",
+            "start_ms": 0,
+            "end_ms": 793
+          },
+          {
+            "card": "2o1",
+            "text": "am",
+            "start_ms": 1213,
+            "end_ms": 1893
+          },
+          {
+            "card": "2r",
+            "text": "dam",
+            "start_ms": 2313,
+            "end_ms": 3007
+          },
+          {
+            "card": "w",
+            "text": "dam",
+            "start_ms": 3907,
+            "end_ms": 4601
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U01_SHORT-A-AN_fan",
+    "chains": [
+      {
+        "word": "fan",
+        "audio": "01_fan.mp3",
+        "duration_ms": 8191,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "1o1",
+            "text": "n",
+            "start_ms": 1170,
+            "end_ms": 1550
+          },
+          {
+            "card": "1r",
+            "text": "an",
+            "start_ms": 1970,
+            "end_ms": 2761
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "start_ms": 3181,
+            "end_ms": 3586
+          },
+          {
+            "card": "2o1",
+            "text": "an",
+            "start_ms": 4006,
+            "end_ms": 4797
+          },
+          {
+            "card": "2r",
+            "text": "fan",
+            "start_ms": 5217,
+            "end_ms": 6253
+          },
+          {
+            "card": "w",
+            "text": "fan",
+            "start_ms": 7153,
+            "end_ms": 8189
+          }
+        ]
+      },
+      {
+        "word": "man",
+        "audio": "02_man.mp3",
+        "duration_ms": 4487,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "m",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "2o1",
+            "text": "an",
+            "start_ms": 895,
+            "end_ms": 1686
+          },
+          {
+            "card": "2r",
+            "text": "man",
+            "start_ms": 2106,
+            "end_ms": 2845
+          },
+          {
+            "card": "w",
+            "text": "man",
+            "start_ms": 3745,
+            "end_ms": 4484
+          }
+        ]
+      },
+      {
+        "word": "pan",
+        "audio": "03_pan.mp3",
+        "duration_ms": 6331,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 0,
+            "end_ms": 421
+          },
+          {
+            "card": "2o1",
+            "text": "an",
+            "start_ms": 841,
+            "end_ms": 1632
+          },
+          {
+            "card": "2r",
+            "text": "pan",
+            "start_ms": 2052,
+            "end_ms": 3741
+          },
+          {
+            "card": "w",
+            "text": "pan",
+            "start_ms": 4641,
+            "end_ms": 6330
+          }
+        ]
+      },
+      {
+        "word": "can",
+        "audio": "04_can.mp3",
+        "duration_ms": 6201,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "c",
+            "start_ms": 0,
+            "end_ms": 423
+          },
+          {
+            "card": "2o1",
+            "text": "an",
+            "start_ms": 843,
+            "end_ms": 1634
+          },
+          {
+            "card": "2r",
+            "text": "can",
+            "start_ms": 2054,
+            "end_ms": 3677
+          },
+          {
+            "card": "w",
+            "text": "can",
+            "start_ms": 4577,
+            "end_ms": 6200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U02_SHORT-A-AD-AG_dad",
+    "chains": [
+      {
+        "word": "dad",
+        "audio": "01_dad.mp3",
+        "duration_ms": 10233,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "1o1",
+            "text": "d",
+            "start_ms": 1170,
+            "end_ms": 1963
+          },
+          {
+            "card": "1r",
+            "text": "ad",
+            "start_ms": 2383,
+            "end_ms": 3209
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "start_ms": 3629,
+            "end_ms": 4422
+          },
+          {
+            "card": "2o1",
+            "text": "ad",
+            "start_ms": 4842,
+            "end_ms": 5668
+          },
+          {
+            "card": "2r",
+            "text": "dad",
+            "start_ms": 6088,
+            "end_ms": 7708
+          },
+          {
+            "card": "w",
+            "text": "dad",
+            "start_ms": 8608,
+            "end_ms": 10228
+          }
+        ]
+      },
+      {
+        "word": "pad",
+        "audio": "02_pad.mp3",
+        "duration_ms": 4404,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 0,
+            "end_ms": 421
+          },
+          {
+            "card": "2o1",
+            "text": "ad",
+            "start_ms": 841,
+            "end_ms": 1667
+          },
+          {
+            "card": "2r",
+            "text": "pad",
+            "start_ms": 2087,
+            "end_ms": 2795
+          },
+          {
+            "card": "w",
+            "text": "pad",
+            "start_ms": 3695,
+            "end_ms": 4403
+          }
+        ]
+      },
+      {
+        "word": "bag",
+        "audio": "03_bag.mp3",
+        "duration_ms": 9728,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "1o1",
+            "text": "g",
+            "start_ms": 1170,
+            "end_ms": 1745
+          },
+          {
+            "card": "1r",
+            "text": "ag",
+            "start_ms": 2165,
+            "end_ms": 2919
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 3339,
+            "end_ms": 3861
+          },
+          {
+            "card": "2o1",
+            "text": "ag",
+            "start_ms": 4281,
+            "end_ms": 5035
+          },
+          {
+            "card": "2r",
+            "text": "bag",
+            "start_ms": 5455,
+            "end_ms": 7141
+          },
+          {
+            "card": "w",
+            "text": "bag",
+            "start_ms": 8041,
+            "end_ms": 9727
+          }
+        ]
+      },
+      {
+        "word": "rag",
+        "audio": "04_rag.mp3",
+        "duration_ms": 5401,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 0,
+            "end_ms": 437
+          },
+          {
+            "card": "2o1",
+            "text": "ag",
+            "start_ms": 857,
+            "end_ms": 1611
+          },
+          {
+            "card": "2r",
+            "text": "rag",
+            "start_ms": 2031,
+            "end_ms": 3265
+          },
+          {
+            "card": "w",
+            "text": "rag",
+            "start_ms": 4165,
+            "end_ms": 5399
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U02_SHORT-A-AP_cap",
+    "chains": [
+      {
+        "word": "cap",
+        "audio": "01_cap.mp3",
+        "duration_ms": 8237,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "1o1",
+            "text": "p",
+            "start_ms": 1170,
+            "end_ms": 1591
+          },
+          {
+            "card": "1r",
+            "text": "ap",
+            "start_ms": 2011,
+            "end_ms": 2681
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "start_ms": 3101,
+            "end_ms": 3524
+          },
+          {
+            "card": "2o1",
+            "text": "ap",
+            "start_ms": 3944,
+            "end_ms": 4614
+          },
+          {
+            "card": "2r",
+            "text": "cap",
+            "start_ms": 5034,
+            "end_ms": 6185
+          },
+          {
+            "card": "w",
+            "text": "cap",
+            "start_ms": 7085,
+            "end_ms": 8236
+          }
+        ]
+      },
+      {
+        "word": "map",
+        "audio": "02_map.mp3",
+        "duration_ms": 6003,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "m",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "2o1",
+            "text": "ap",
+            "start_ms": 895,
+            "end_ms": 1565
+          },
+          {
+            "card": "2r",
+            "text": "map",
+            "start_ms": 1985,
+            "end_ms": 3543
+          },
+          {
+            "card": "w",
+            "text": "map",
+            "start_ms": 4443,
+            "end_ms": 6001
+          }
+        ]
+      },
+      {
+        "word": "nap",
+        "audio": "03_nap.mp3",
+        "duration_ms": 4098,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "n",
+            "start_ms": 0,
+            "end_ms": 509
+          },
+          {
+            "card": "2o1",
+            "text": "ap",
+            "start_ms": 929,
+            "end_ms": 1599
+          },
+          {
+            "card": "2r",
+            "text": "nap",
+            "start_ms": 2019,
+            "end_ms": 2608
+          },
+          {
+            "card": "w",
+            "text": "nap",
+            "start_ms": 3508,
+            "end_ms": 4097
+          }
+        ]
+      },
+      {
+        "word": "tap",
+        "audio": "04_tap.mp3",
+        "duration_ms": 4725,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "t",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "card": "2o1",
+            "text": "ap",
+            "start_ms": 1140,
+            "end_ms": 1810
+          },
+          {
+            "card": "2r",
+            "text": "tap",
+            "start_ms": 2230,
+            "end_ms": 3027
+          },
+          {
+            "card": "w",
+            "text": "tap",
+            "start_ms": 3927,
+            "end_ms": 4724
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U02_SHORT-A-AT_bat",
+    "chains": [
+      {
+        "word": "bat",
+        "audio": "01_bat.mp3",
+        "duration_ms": 8390,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "a",
+            "start_ms": 0,
+            "end_ms": 750
+          },
+          {
+            "card": "1o1",
+            "text": "t",
+            "start_ms": 1170,
+            "end_ms": 1390
+          },
+          {
+            "card": "1r",
+            "text": "at",
+            "start_ms": 1810,
+            "end_ms": 2290
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 2710,
+            "end_ms": 3232
+          },
+          {
+            "card": "2o1",
+            "text": "at",
+            "start_ms": 3652,
+            "end_ms": 4132
+          },
+          {
+            "card": "2r",
+            "text": "bat",
+            "start_ms": 4552,
+            "end_ms": 6021
+          },
+          {
+            "card": "w",
+            "text": "bat",
+            "start_ms": 6921,
+            "end_ms": 8390
+          }
+        ]
+      },
+      {
+        "word": "rat",
+        "audio": "02_rat.mp3",
+        "duration_ms": 5600,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 0,
+            "end_ms": 437
+          },
+          {
+            "card": "2o1",
+            "text": "at",
+            "start_ms": 857,
+            "end_ms": 1337
+          },
+          {
+            "card": "2r",
+            "text": "rat",
+            "start_ms": 1757,
+            "end_ms": 3228
+          },
+          {
+            "card": "w",
+            "text": "rat",
+            "start_ms": 4128,
+            "end_ms": 5599
+          }
+        ]
+      },
+      {
+        "word": "hat",
+        "audio": "03_hat.mp3",
+        "duration_ms": 5337,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "h",
+            "start_ms": 0,
+            "end_ms": 736
+          },
+          {
+            "card": "2o1",
+            "text": "at",
+            "start_ms": 1156,
+            "end_ms": 1636
+          },
+          {
+            "card": "2r",
+            "text": "hat",
+            "start_ms": 2056,
+            "end_ms": 3246
+          },
+          {
+            "card": "w",
+            "text": "hat",
+            "start_ms": 4146,
+            "end_ms": 5336
+          }
+        ]
+      },
+      {
+        "word": "mat",
+        "audio": "04_mat.mp3",
+        "duration_ms": 5833,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "m",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "2o1",
+            "text": "at",
+            "start_ms": 895,
+            "end_ms": 1375
+          },
+          {
+            "card": "2r",
+            "text": "mat",
+            "start_ms": 1795,
+            "end_ms": 3363
+          },
+          {
+            "card": "w",
+            "text": "mat",
+            "start_ms": 4263,
+            "end_ms": 5831
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U03_SHORT-E_web",
+    "chains": [
+      {
+        "word": "web",
+        "audio": "01_web.mp3",
+        "duration_ms": 4094,
+        "segments": [
+          {
+            "card": "t",
+            "text": "e",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "sr",
+            "text": "web",
+            "start_ms": 895,
+            "end_ms": 2044
+          },
+          {
+            "card": "w",
+            "text": "web",
+            "start_ms": 2944,
+            "end_ms": 4093
+          }
+        ]
+      },
+      {
+        "word": "egg",
+        "audio": "02_egg.mp3",
+        "duration_ms": 4640,
+        "segments": [
+          {
+            "card": "t",
+            "text": "e",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "sr",
+            "text": "egg",
+            "start_ms": 895,
+            "end_ms": 2317
+          },
+          {
+            "card": "w",
+            "text": "egg",
+            "start_ms": 3217,
+            "end_ms": 4639
+          }
+        ]
+      },
+      {
+        "word": "vet",
+        "audio": "03_vet.mp3",
+        "duration_ms": 3582,
+        "segments": [
+          {
+            "card": "t",
+            "text": "e",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "sr",
+            "text": "vet",
+            "start_ms": 895,
+            "end_ms": 1788
+          },
+          {
+            "card": "w",
+            "text": "vet",
+            "start_ms": 2688,
+            "end_ms": 3581
+          }
+        ]
+      },
+      {
+        "word": "ten",
+        "audio": "04_ten.mp3",
+        "duration_ms": 4561,
+        "segments": [
+          {
+            "card": "t",
+            "text": "e",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "sr",
+            "text": "ten",
+            "start_ms": 895,
+            "end_ms": 2277
+          },
+          {
+            "card": "w",
+            "text": "ten",
+            "start_ms": 3177,
+            "end_ms": 4559
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U03_SHORT-E-ET_jet",
+    "chains": [
+      {
+        "word": "jet",
+        "audio": "01_jet.mp3",
+        "duration_ms": 8133,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "e",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "1o1",
+            "text": "t",
+            "start_ms": 895,
+            "end_ms": 1115
+          },
+          {
+            "card": "1r",
+            "text": "et",
+            "start_ms": 1535,
+            "end_ms": 1975
+          },
+          {
+            "card": "2o0",
+            "text": "j",
+            "start_ms": 2395,
+            "end_ms": 3005
+          },
+          {
+            "card": "2o1",
+            "text": "et",
+            "start_ms": 3425,
+            "end_ms": 3865
+          },
+          {
+            "card": "2r",
+            "text": "jet",
+            "start_ms": 4285,
+            "end_ms": 5759
+          },
+          {
+            "card": "w",
+            "text": "jet",
+            "start_ms": 6659,
+            "end_ms": 8133
+          }
+        ]
+      },
+      {
+        "word": "net",
+        "audio": "02_net.mp3",
+        "duration_ms": 4116,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "n",
+            "start_ms": 0,
+            "end_ms": 509
+          },
+          {
+            "card": "2o1",
+            "text": "et",
+            "start_ms": 929,
+            "end_ms": 1369
+          },
+          {
+            "card": "2r",
+            "text": "net",
+            "start_ms": 1789,
+            "end_ms": 2502
+          },
+          {
+            "card": "w",
+            "text": "net",
+            "start_ms": 3402,
+            "end_ms": 4115
+          }
+        ]
+      },
+      {
+        "word": "wet",
+        "audio": "03_wet.mp3",
+        "duration_ms": 5342,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "w",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "card": "2o1",
+            "text": "et",
+            "start_ms": 960,
+            "end_ms": 1400
+          },
+          {
+            "card": "2r",
+            "text": "wet",
+            "start_ms": 1820,
+            "end_ms": 3131
+          },
+          {
+            "card": "w",
+            "text": "wet",
+            "start_ms": 4031,
+            "end_ms": 5342
+          }
+        ]
+      },
+      {
+        "word": "pet",
+        "audio": "04_pet.mp3",
+        "duration_ms": 4075,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 0,
+            "end_ms": 421
+          },
+          {
+            "card": "2o1",
+            "text": "et",
+            "start_ms": 841,
+            "end_ms": 1281
+          },
+          {
+            "card": "2r",
+            "text": "pet",
+            "start_ms": 1701,
+            "end_ms": 2437
+          },
+          {
+            "card": "w",
+            "text": "pet",
+            "start_ms": 3337,
+            "end_ms": 4073
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U03_SHORT-E-EN-ED_hen",
+    "chains": [
+      {
+        "word": "hen",
+        "audio": "01_hen.mp3",
+        "duration_ms": 6911,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "e",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "1o1",
+            "text": "n",
+            "start_ms": 895,
+            "end_ms": 1275
+          },
+          {
+            "card": "1r",
+            "text": "en",
+            "start_ms": 1695,
+            "end_ms": 2275
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "start_ms": 2695,
+            "end_ms": 3431
+          },
+          {
+            "card": "2o1",
+            "text": "en",
+            "start_ms": 3851,
+            "end_ms": 4431
+          },
+          {
+            "card": "2r",
+            "text": "hen",
+            "start_ms": 4851,
+            "end_ms": 5430
+          },
+          {
+            "card": "w",
+            "text": "hen",
+            "start_ms": 6330,
+            "end_ms": 6909
+          }
+        ]
+      },
+      {
+        "word": "pen",
+        "audio": "02_pen.mp3",
+        "duration_ms": 4151,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 0,
+            "end_ms": 421
+          },
+          {
+            "card": "2o1",
+            "text": "en",
+            "start_ms": 841,
+            "end_ms": 1421
+          },
+          {
+            "card": "2r",
+            "text": "pen",
+            "start_ms": 1841,
+            "end_ms": 2546
+          },
+          {
+            "card": "w",
+            "text": "pen",
+            "start_ms": 3446,
+            "end_ms": 4151
+          }
+        ]
+      },
+      {
+        "word": "red",
+        "audio": "03_red.mp3",
+        "duration_ms": 8913,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "e",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "1o1",
+            "text": "d",
+            "start_ms": 895,
+            "end_ms": 1688
+          },
+          {
+            "card": "1r",
+            "text": "ed",
+            "start_ms": 2108,
+            "end_ms": 2708
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 3128,
+            "end_ms": 3565
+          },
+          {
+            "card": "2o1",
+            "text": "ed",
+            "start_ms": 3985,
+            "end_ms": 4585
+          },
+          {
+            "card": "2r",
+            "text": "red",
+            "start_ms": 5005,
+            "end_ms": 6508
+          },
+          {
+            "card": "w",
+            "text": "red",
+            "start_ms": 7408,
+            "end_ms": 8911
+          }
+        ]
+      },
+      {
+        "word": "bed",
+        "audio": "04_bed.mp3",
+        "duration_ms": 5534,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 0,
+            "end_ms": 522
+          },
+          {
+            "card": "2o1",
+            "text": "ed",
+            "start_ms": 942,
+            "end_ms": 1542
+          },
+          {
+            "card": "2r",
+            "text": "bed",
+            "start_ms": 1962,
+            "end_ms": 3298
+          },
+          {
+            "card": "w",
+            "text": "bed",
+            "start_ms": 4198,
+            "end_ms": 5534
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U04_SHORT-I_hip",
+    "chains": [
+      {
+        "word": "hip",
+        "audio": "01_hip.mp3",
+        "duration_ms": 4051,
+        "segments": [
+          {
+            "card": "t",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "sr",
+            "text": "hip",
+            "start_ms": 1070,
+            "end_ms": 2110
+          },
+          {
+            "card": "w",
+            "text": "hip",
+            "start_ms": 3010,
+            "end_ms": 4050
+          }
+        ]
+      },
+      {
+        "word": "ink",
+        "audio": "02_ink.mp3",
+        "duration_ms": 4373,
+        "segments": [
+          {
+            "card": "t",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "sr",
+            "text": "ink",
+            "start_ms": 1070,
+            "end_ms": 2271
+          },
+          {
+            "card": "w",
+            "text": "ink",
+            "start_ms": 3171,
+            "end_ms": 4372
+          }
+        ]
+      },
+      {
+        "word": "zip",
+        "audio": "03_zip.mp3",
+        "duration_ms": 4976,
+        "segments": [
+          {
+            "card": "t",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "sr",
+            "text": "zip",
+            "start_ms": 1070,
+            "end_ms": 2573
+          },
+          {
+            "card": "w",
+            "text": "zip",
+            "start_ms": 3473,
+            "end_ms": 4976
+          }
+        ]
+      },
+      {
+        "word": "in",
+        "audio": "04_in.mp3",
+        "duration_ms": 4728,
+        "segments": [
+          {
+            "card": "t",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "sr",
+            "text": "in",
+            "start_ms": 1070,
+            "end_ms": 2449
+          },
+          {
+            "card": "w",
+            "text": "in",
+            "start_ms": 3349,
+            "end_ms": 4728
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U04_SHORT-I-IP_lip",
+    "chains": [
+      {
+        "word": "lip",
+        "audio": "01_lip.mp3",
+        "duration_ms": 6753,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "1o1",
+            "text": "p",
+            "start_ms": 1070,
+            "end_ms": 1491
+          },
+          {
+            "card": "1r",
+            "text": "ip",
+            "start_ms": 1911,
+            "end_ms": 2293
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "start_ms": 2713,
+            "end_ms": 3273
+          },
+          {
+            "card": "2o1",
+            "text": "ip",
+            "start_ms": 3693,
+            "end_ms": 4075
+          },
+          {
+            "card": "2r",
+            "text": "lip",
+            "start_ms": 4495,
+            "end_ms": 5173
+          },
+          {
+            "card": "w",
+            "text": "lip",
+            "start_ms": 6073,
+            "end_ms": 6751
+          }
+        ]
+      },
+      {
+        "word": "tip",
+        "audio": "02_tip.mp3",
+        "duration_ms": 3836,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "t",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "card": "2o1",
+            "text": "ip",
+            "start_ms": 1140,
+            "end_ms": 1522
+          },
+          {
+            "card": "2r",
+            "text": "tip",
+            "start_ms": 1942,
+            "end_ms": 2438
+          },
+          {
+            "card": "w",
+            "text": "tip",
+            "start_ms": 3338,
+            "end_ms": 3834
+          }
+        ]
+      },
+      {
+        "word": "sip",
+        "audio": "03_sip.mp3",
+        "duration_ms": 5820,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "s",
+            "start_ms": 0,
+            "end_ms": 604
+          },
+          {
+            "card": "2o1",
+            "text": "ip",
+            "start_ms": 1024,
+            "end_ms": 1406
+          },
+          {
+            "card": "2r",
+            "text": "sip",
+            "start_ms": 1826,
+            "end_ms": 3372
+          },
+          {
+            "card": "w",
+            "text": "sip",
+            "start_ms": 4272,
+            "end_ms": 5818
+          }
+        ]
+      },
+      {
+        "word": "rip",
+        "audio": "04_rip.mp3",
+        "duration_ms": 4991,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 0,
+            "end_ms": 437
+          },
+          {
+            "card": "2o1",
+            "text": "ip",
+            "start_ms": 857,
+            "end_ms": 1239
+          },
+          {
+            "card": "2r",
+            "text": "rip",
+            "start_ms": 1659,
+            "end_ms": 2874
+          },
+          {
+            "card": "w",
+            "text": "rip",
+            "start_ms": 3774,
+            "end_ms": 4989
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U04_SHORT-I-IB-ID_bib",
+    "chains": [
+      {
+        "word": "bib",
+        "audio": "01_bib.mp3",
+        "duration_ms": 8183,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "1o1",
+            "text": "b",
+            "start_ms": 1070,
+            "end_ms": 1600
+          },
+          {
+            "card": "1r",
+            "text": "ib",
+            "start_ms": 2020,
+            "end_ms": 2425
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 2845,
+            "end_ms": 3367
+          },
+          {
+            "card": "2o1",
+            "text": "ib",
+            "start_ms": 3787,
+            "end_ms": 4192
+          },
+          {
+            "card": "2r",
+            "text": "bib",
+            "start_ms": 4612,
+            "end_ms": 5947
+          },
+          {
+            "card": "w",
+            "text": "bib",
+            "start_ms": 6847,
+            "end_ms": 8182
+          }
+        ]
+      },
+      {
+        "word": "rib",
+        "audio": "02_rib.mp3",
+        "duration_ms": 5829,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 0,
+            "end_ms": 437
+          },
+          {
+            "card": "2o1",
+            "text": "ib",
+            "start_ms": 857,
+            "end_ms": 1262
+          },
+          {
+            "card": "2r",
+            "text": "rib",
+            "start_ms": 1682,
+            "end_ms": 3305
+          },
+          {
+            "card": "w",
+            "text": "rib",
+            "start_ms": 4205,
+            "end_ms": 5828
+          }
+        ]
+      },
+      {
+        "word": "kid",
+        "audio": "03_kid.mp3",
+        "duration_ms": 8226,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "1o1",
+            "text": "d",
+            "start_ms": 1070,
+            "end_ms": 1863
+          },
+          {
+            "card": "1r",
+            "text": "id",
+            "start_ms": 2283,
+            "end_ms": 2733
+          },
+          {
+            "card": "2o0",
+            "text": "k",
+            "start_ms": 3153,
+            "end_ms": 3576
+          },
+          {
+            "card": "2o1",
+            "text": "id",
+            "start_ms": 3996,
+            "end_ms": 4446
+          },
+          {
+            "card": "2r",
+            "text": "kid",
+            "start_ms": 4866,
+            "end_ms": 6095
+          },
+          {
+            "card": "w",
+            "text": "kid",
+            "start_ms": 6995,
+            "end_ms": 8224
+          }
+        ]
+      },
+      {
+        "word": "lid",
+        "audio": "04_lid.mp3",
+        "duration_ms": 5276,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "l",
+            "start_ms": 0,
+            "end_ms": 560
+          },
+          {
+            "card": "2o1",
+            "text": "id",
+            "start_ms": 980,
+            "end_ms": 1430
+          },
+          {
+            "card": "2r",
+            "text": "lid",
+            "start_ms": 1850,
+            "end_ms": 3113
+          },
+          {
+            "card": "w",
+            "text": "lid",
+            "start_ms": 4013,
+            "end_ms": 5276
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U05_SHORT-I-IN_pin",
+    "chains": [
+      {
+        "word": "pin",
+        "audio": "01_pin.mp3",
+        "duration_ms": 8905,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "1o1",
+            "text": "n",
+            "start_ms": 1070,
+            "end_ms": 1450
+          },
+          {
+            "card": "1r",
+            "text": "in",
+            "start_ms": 1870,
+            "end_ms": 2580
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 3000,
+            "end_ms": 3421
+          },
+          {
+            "card": "2o1",
+            "text": "in",
+            "start_ms": 3841,
+            "end_ms": 4551
+          },
+          {
+            "card": "2r",
+            "text": "pin",
+            "start_ms": 4971,
+            "end_ms": 6487
+          },
+          {
+            "card": "w",
+            "text": "pin",
+            "start_ms": 7387,
+            "end_ms": 8903
+          }
+        ]
+      },
+      {
+        "word": "fin",
+        "audio": "02_fin.mp3",
+        "duration_ms": 3798,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "f",
+            "start_ms": 0,
+            "end_ms": 405
+          },
+          {
+            "card": "2o1",
+            "text": "in",
+            "start_ms": 825,
+            "end_ms": 1535
+          },
+          {
+            "card": "2r",
+            "text": "fin",
+            "start_ms": 1955,
+            "end_ms": 2426
+          },
+          {
+            "card": "w",
+            "text": "fin",
+            "start_ms": 3326,
+            "end_ms": 3797
+          }
+        ]
+      },
+      {
+        "word": "bin",
+        "audio": "03_bin.mp3",
+        "duration_ms": 4962,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 0,
+            "end_ms": 522
+          },
+          {
+            "card": "2o1",
+            "text": "in",
+            "start_ms": 942,
+            "end_ms": 1652
+          },
+          {
+            "card": "2r",
+            "text": "bin",
+            "start_ms": 2072,
+            "end_ms": 3067
+          },
+          {
+            "card": "w",
+            "text": "bin",
+            "start_ms": 3967,
+            "end_ms": 4962
+          }
+        ]
+      },
+      {
+        "word": "win",
+        "audio": "04_win.mp3",
+        "duration_ms": 5443,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "w",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "card": "2o1",
+            "text": "in",
+            "start_ms": 960,
+            "end_ms": 1670
+          },
+          {
+            "card": "2r",
+            "text": "win",
+            "start_ms": 2090,
+            "end_ms": 3316
+          },
+          {
+            "card": "w",
+            "text": "win",
+            "start_ms": 4216,
+            "end_ms": 5442
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U05_SHORT-I-IG_fig",
+    "chains": [
+      {
+        "word": "fig",
+        "audio": "01_fig.mp3",
+        "duration_ms": 7500,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "1o1",
+            "text": "g",
+            "start_ms": 1070,
+            "end_ms": 1645
+          },
+          {
+            "card": "1r",
+            "text": "ig",
+            "start_ms": 2065,
+            "end_ms": 2645
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "start_ms": 3065,
+            "end_ms": 3470
+          },
+          {
+            "card": "2o1",
+            "text": "ig",
+            "start_ms": 3890,
+            "end_ms": 4470
+          },
+          {
+            "card": "2r",
+            "text": "fig",
+            "start_ms": 4890,
+            "end_ms": 5745
+          },
+          {
+            "card": "w",
+            "text": "fig",
+            "start_ms": 6645,
+            "end_ms": 7500
+          }
+        ]
+      },
+      {
+        "word": "wig",
+        "audio": "02_wig.mp3",
+        "duration_ms": 5668,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "w",
+            "start_ms": 0,
+            "end_ms": 540
+          },
+          {
+            "card": "2o1",
+            "text": "ig",
+            "start_ms": 960,
+            "end_ms": 1540
+          },
+          {
+            "card": "2r",
+            "text": "wig",
+            "start_ms": 1960,
+            "end_ms": 3364
+          },
+          {
+            "card": "w",
+            "text": "wig",
+            "start_ms": 4264,
+            "end_ms": 5668
+          }
+        ]
+      },
+      {
+        "word": "big",
+        "audio": "03_big.mp3",
+        "duration_ms": 4290,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 0,
+            "end_ms": 522
+          },
+          {
+            "card": "2o1",
+            "text": "ig",
+            "start_ms": 942,
+            "end_ms": 1522
+          },
+          {
+            "card": "2r",
+            "text": "big",
+            "start_ms": 1942,
+            "end_ms": 2666
+          },
+          {
+            "card": "w",
+            "text": "big",
+            "start_ms": 3566,
+            "end_ms": 4290
+          }
+        ]
+      },
+      {
+        "word": "dig",
+        "audio": "04_dig.mp3",
+        "duration_ms": 4792,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "d",
+            "start_ms": 0,
+            "end_ms": 793
+          },
+          {
+            "card": "2o1",
+            "text": "ig",
+            "start_ms": 1213,
+            "end_ms": 1793
+          },
+          {
+            "card": "2r",
+            "text": "dig",
+            "start_ms": 2213,
+            "end_ms": 3052
+          },
+          {
+            "card": "w",
+            "text": "dig",
+            "start_ms": 3952,
+            "end_ms": 4791
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U05_SHORT-I-IT-IX_pit",
+    "chains": [
+      {
+        "word": "pit",
+        "audio": "01_pit.mp3",
+        "duration_ms": 8264,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "1o1",
+            "text": "t",
+            "start_ms": 1070,
+            "end_ms": 1290
+          },
+          {
+            "card": "1r",
+            "text": "it",
+            "start_ms": 1710,
+            "end_ms": 2314
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 2734,
+            "end_ms": 3155
+          },
+          {
+            "card": "2o1",
+            "text": "it",
+            "start_ms": 3575,
+            "end_ms": 4179
+          },
+          {
+            "card": "2r",
+            "text": "pit",
+            "start_ms": 4599,
+            "end_ms": 5980
+          },
+          {
+            "card": "w",
+            "text": "pit",
+            "start_ms": 6880,
+            "end_ms": 8261
+          }
+        ]
+      },
+      {
+        "word": "hit",
+        "audio": "02_hit.mp3",
+        "duration_ms": 4946,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "h",
+            "start_ms": 0,
+            "end_ms": 736
+          },
+          {
+            "card": "2o1",
+            "text": "it",
+            "start_ms": 1156,
+            "end_ms": 1760
+          },
+          {
+            "card": "2r",
+            "text": "hit",
+            "start_ms": 2180,
+            "end_ms": 3112
+          },
+          {
+            "card": "w",
+            "text": "hit",
+            "start_ms": 4012,
+            "end_ms": 4944
+          }
+        ]
+      },
+      {
+        "word": "six",
+        "audio": "03_six.mp3",
+        "duration_ms": 7471,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "i",
+            "start_ms": 0,
+            "end_ms": 650
+          },
+          {
+            "card": "1o1",
+            "text": "x",
+            "start_ms": 1070,
+            "end_ms": 1523
+          },
+          {
+            "card": "1r",
+            "text": "ix",
+            "start_ms": 1943,
+            "end_ms": 2535
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "start_ms": 2955,
+            "end_ms": 3559
+          },
+          {
+            "card": "2o1",
+            "text": "ix",
+            "start_ms": 3979,
+            "end_ms": 4571
+          },
+          {
+            "card": "2r",
+            "text": "six",
+            "start_ms": 4991,
+            "end_ms": 5779
+          },
+          {
+            "card": "w",
+            "text": "six",
+            "start_ms": 6679,
+            "end_ms": 7467
+          }
+        ]
+      },
+      {
+        "word": "mix",
+        "audio": "04_mix.mp3",
+        "duration_ms": 5422,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "m",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "2o1",
+            "text": "ix",
+            "start_ms": 895,
+            "end_ms": 1487
+          },
+          {
+            "card": "2r",
+            "text": "mix",
+            "start_ms": 1907,
+            "end_ms": 3214
+          },
+          {
+            "card": "w",
+            "text": "mix",
+            "start_ms": 4114,
+            "end_ms": 5421
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U06_SHORT-O_fox",
+    "chains": [
+      {
+        "word": "fox",
+        "audio": "01_fox.mp3",
+        "duration_ms": 4442,
+        "segments": [
+          {
+            "card": "t",
+            "text": "o",
+            "start_ms": 0,
+            "end_ms": 930
+          },
+          {
+            "card": "sr",
+            "text": "fox",
+            "start_ms": 1350,
+            "end_ms": 2446
+          },
+          {
+            "card": "w",
+            "text": "fox",
+            "start_ms": 3346,
+            "end_ms": 4442
+          }
+        ]
+      },
+      {
+        "word": "log",
+        "audio": "02_log.mp3",
+        "duration_ms": 3744,
+        "segments": [
+          {
+            "card": "t",
+            "text": "o",
+            "start_ms": 0,
+            "end_ms": 930
+          },
+          {
+            "card": "sr",
+            "text": "log",
+            "start_ms": 1350,
+            "end_ms": 2097
+          },
+          {
+            "card": "w",
+            "text": "log",
+            "start_ms": 2997,
+            "end_ms": 3744
+          }
+        ]
+      },
+      {
+        "word": "ox",
+        "audio": "03_ox.mp3",
+        "duration_ms": 3777,
+        "segments": [
+          {
+            "card": "t",
+            "text": "o",
+            "start_ms": 0,
+            "end_ms": 930
+          },
+          {
+            "card": "sr",
+            "text": "ox",
+            "start_ms": 1350,
+            "end_ms": 2113
+          },
+          {
+            "card": "w",
+            "text": "ox",
+            "start_ms": 3013,
+            "end_ms": 3776
+          }
+        ]
+      },
+      {
+        "word": "rod",
+        "audio": "04_rod.mp3",
+        "duration_ms": 4492,
+        "segments": [
+          {
+            "card": "t",
+            "text": "o",
+            "start_ms": 0,
+            "end_ms": 930
+          },
+          {
+            "card": "sr",
+            "text": "rod",
+            "start_ms": 1350,
+            "end_ms": 2471
+          },
+          {
+            "card": "w",
+            "text": "rod",
+            "start_ms": 3371,
+            "end_ms": 4492
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U06_SHORT-O-OT_pot",
+    "chains": [
+      {
+        "word": "pot",
+        "audio": "01_pot.mp3",
+        "duration_ms": 8797,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "o",
+            "start_ms": 0,
+            "end_ms": 930
+          },
+          {
+            "card": "1o1",
+            "text": "t",
+            "start_ms": 1350,
+            "end_ms": 1570
+          },
+          {
+            "card": "1r",
+            "text": "ot",
+            "start_ms": 1990,
+            "end_ms": 2600
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 3020,
+            "end_ms": 3441
+          },
+          {
+            "card": "2o1",
+            "text": "ot",
+            "start_ms": 3861,
+            "end_ms": 4471
+          },
+          {
+            "card": "2r",
+            "text": "pot",
+            "start_ms": 4891,
+            "end_ms": 6393
+          },
+          {
+            "card": "w",
+            "text": "pot",
+            "start_ms": 7293,
+            "end_ms": 8795
+          }
+        ]
+      },
+      {
+        "word": "hot",
+        "audio": "02_hot.mp3",
+        "duration_ms": 6093,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "h",
+            "start_ms": 0,
+            "end_ms": 736
+          },
+          {
+            "card": "2o1",
+            "text": "ot",
+            "start_ms": 1156,
+            "end_ms": 1766
+          },
+          {
+            "card": "2r",
+            "text": "hot",
+            "start_ms": 2186,
+            "end_ms": 3689
+          },
+          {
+            "card": "w",
+            "text": "hot",
+            "start_ms": 4589,
+            "end_ms": 6092
+          }
+        ]
+      },
+      {
+        "word": "cot",
+        "audio": "03_cot.mp3",
+        "duration_ms": 5786,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "c",
+            "start_ms": 0,
+            "end_ms": 423
+          },
+          {
+            "card": "2o1",
+            "text": "ot",
+            "start_ms": 843,
+            "end_ms": 1453
+          },
+          {
+            "card": "2r",
+            "text": "cot",
+            "start_ms": 1873,
+            "end_ms": 3379
+          },
+          {
+            "card": "w",
+            "text": "cot",
+            "start_ms": 4279,
+            "end_ms": 5785
+          }
+        ]
+      },
+      {
+        "word": "dot",
+        "audio": "04_dot.mp3",
+        "duration_ms": 5331,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "d",
+            "start_ms": 0,
+            "end_ms": 793
+          },
+          {
+            "card": "2o1",
+            "text": "ot",
+            "start_ms": 1213,
+            "end_ms": 1823
+          },
+          {
+            "card": "2r",
+            "text": "dot",
+            "start_ms": 2243,
+            "end_ms": 3336
+          },
+          {
+            "card": "w",
+            "text": "dot",
+            "start_ms": 4236,
+            "end_ms": 5329
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U06_SHORT-O-OP_top",
+    "chains": [
+      {
+        "word": "top",
+        "audio": "01_top.mp3",
+        "duration_ms": 10142,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "o",
+            "start_ms": 0,
+            "end_ms": 930
+          },
+          {
+            "card": "1o1",
+            "text": "p",
+            "start_ms": 1350,
+            "end_ms": 1771
+          },
+          {
+            "card": "1r",
+            "text": "op",
+            "start_ms": 2191,
+            "end_ms": 3325
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "start_ms": 3745,
+            "end_ms": 4465
+          },
+          {
+            "card": "2o1",
+            "text": "op",
+            "start_ms": 4885,
+            "end_ms": 6019
+          },
+          {
+            "card": "2r",
+            "text": "top",
+            "start_ms": 6439,
+            "end_ms": 7840
+          },
+          {
+            "card": "w",
+            "text": "top",
+            "start_ms": 8740,
+            "end_ms": 10141
+          }
+        ]
+      },
+      {
+        "word": "mop",
+        "audio": "02_mop.mp3",
+        "duration_ms": 5243,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "m",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "2o1",
+            "text": "op",
+            "start_ms": 895,
+            "end_ms": 2029
+          },
+          {
+            "card": "2r",
+            "text": "mop",
+            "start_ms": 2449,
+            "end_ms": 3396
+          },
+          {
+            "card": "w",
+            "text": "mop",
+            "start_ms": 4296,
+            "end_ms": 5243
+          }
+        ]
+      },
+      {
+        "word": "hop",
+        "audio": "03_hop.mp3",
+        "duration_ms": 4815,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "h",
+            "start_ms": 0,
+            "end_ms": 736
+          },
+          {
+            "card": "2o1",
+            "text": "op",
+            "start_ms": 1156,
+            "end_ms": 2290
+          },
+          {
+            "card": "2r",
+            "text": "hop",
+            "start_ms": 2710,
+            "end_ms": 3312
+          },
+          {
+            "card": "w",
+            "text": "hop",
+            "start_ms": 4212,
+            "end_ms": 4814
+          }
+        ]
+      },
+      {
+        "word": "pop",
+        "audio": "04_pop.mp3",
+        "duration_ms": 5824,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 0,
+            "end_ms": 421
+          },
+          {
+            "card": "2o1",
+            "text": "op",
+            "start_ms": 841,
+            "end_ms": 1975
+          },
+          {
+            "card": "2r",
+            "text": "pop",
+            "start_ms": 2395,
+            "end_ms": 3659
+          },
+          {
+            "card": "w",
+            "text": "pop",
+            "start_ms": 4559,
+            "end_ms": 5823
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U07_SHORT-U_sun",
+    "chains": [
+      {
+        "word": "sun",
+        "audio": "01_sun.mp3",
+        "duration_ms": 2843,
+        "segments": [
+          {
+            "card": "t",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "sr",
+            "text": "sun",
+            "start_ms": 1010,
+            "end_ms": 1476
+          },
+          {
+            "card": "w",
+            "text": "sun",
+            "start_ms": 2376,
+            "end_ms": 2842
+          }
+        ]
+      },
+      {
+        "word": "up",
+        "audio": "02_up.mp3",
+        "duration_ms": 4577,
+        "segments": [
+          {
+            "card": "t",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "sr",
+            "text": "up",
+            "start_ms": 1010,
+            "end_ms": 2343
+          },
+          {
+            "card": "w",
+            "text": "up",
+            "start_ms": 3243,
+            "end_ms": 4576
+          }
+        ]
+      },
+      {
+        "word": "jug",
+        "audio": "03_jug.mp3",
+        "duration_ms": 5156,
+        "segments": [
+          {
+            "card": "t",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "sr",
+            "text": "jug",
+            "start_ms": 1010,
+            "end_ms": 2633
+          },
+          {
+            "card": "w",
+            "text": "jug",
+            "start_ms": 3533,
+            "end_ms": 5156
+          }
+        ]
+      },
+      {
+        "word": "hug",
+        "audio": "04_hug.mp3",
+        "duration_ms": 4830,
+        "segments": [
+          {
+            "card": "t",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "sr",
+            "text": "hug",
+            "start_ms": 1010,
+            "end_ms": 2470
+          },
+          {
+            "card": "w",
+            "text": "hug",
+            "start_ms": 3370,
+            "end_ms": 4830
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U07_SHORT-U-UG_bug",
+    "chains": [
+      {
+        "word": "bug",
+        "audio": "01_bug.mp3",
+        "duration_ms": 8637,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "1o1",
+            "text": "g",
+            "start_ms": 1010,
+            "end_ms": 1585
+          },
+          {
+            "card": "1r",
+            "text": "ug",
+            "start_ms": 2005,
+            "end_ms": 2478
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 2898,
+            "end_ms": 3420
+          },
+          {
+            "card": "2o1",
+            "text": "ug",
+            "start_ms": 3840,
+            "end_ms": 4313
+          },
+          {
+            "card": "2r",
+            "text": "bug",
+            "start_ms": 4733,
+            "end_ms": 6234
+          },
+          {
+            "card": "w",
+            "text": "bug",
+            "start_ms": 7134,
+            "end_ms": 8635
+          }
+        ]
+      },
+      {
+        "word": "rug",
+        "audio": "02_rug.mp3",
+        "duration_ms": 4643,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 0,
+            "end_ms": 437
+          },
+          {
+            "card": "2o1",
+            "text": "ug",
+            "start_ms": 857,
+            "end_ms": 1330
+          },
+          {
+            "card": "2r",
+            "text": "rug",
+            "start_ms": 1750,
+            "end_ms": 2745
+          },
+          {
+            "card": "w",
+            "text": "rug",
+            "start_ms": 3645,
+            "end_ms": 4640
+          }
+        ]
+      },
+      {
+        "word": "mug",
+        "audio": "03_mug.mp3",
+        "duration_ms": 5621,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "m",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "2o1",
+            "text": "ug",
+            "start_ms": 895,
+            "end_ms": 1368
+          },
+          {
+            "card": "2r",
+            "text": "mug",
+            "start_ms": 1788,
+            "end_ms": 3253
+          },
+          {
+            "card": "w",
+            "text": "mug",
+            "start_ms": 4153,
+            "end_ms": 5618
+          }
+        ]
+      },
+      {
+        "word": "jug",
+        "audio": "04_jug.mp3",
+        "duration_ms": 4669,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "j",
+            "start_ms": 0,
+            "end_ms": 610
+          },
+          {
+            "card": "2o1",
+            "text": "ug",
+            "start_ms": 1030,
+            "end_ms": 1503
+          },
+          {
+            "card": "2r",
+            "text": "jug",
+            "start_ms": 1923,
+            "end_ms": 2845
+          },
+          {
+            "card": "w",
+            "text": "jug",
+            "start_ms": 3745,
+            "end_ms": 4667
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U07_SHORT-U-UD-UP_bud",
+    "chains": [
+      {
+        "word": "bud",
+        "audio": "01_bud.mp3",
+        "duration_ms": 8475,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "1o1",
+            "text": "d",
+            "start_ms": 1010,
+            "end_ms": 1803
+          },
+          {
+            "card": "1r",
+            "text": "ud",
+            "start_ms": 2223,
+            "end_ms": 2673
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 3093,
+            "end_ms": 3615
+          },
+          {
+            "card": "2o1",
+            "text": "ud",
+            "start_ms": 4035,
+            "end_ms": 4485
+          },
+          {
+            "card": "2r",
+            "text": "bud",
+            "start_ms": 4905,
+            "end_ms": 6239
+          },
+          {
+            "card": "w",
+            "text": "bud",
+            "start_ms": 7139,
+            "end_ms": 8473
+          }
+        ]
+      },
+      {
+        "word": "mud",
+        "audio": "02_mud.mp3",
+        "duration_ms": 5399,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "m",
+            "start_ms": 0,
+            "end_ms": 475
+          },
+          {
+            "card": "2o1",
+            "text": "ud",
+            "start_ms": 895,
+            "end_ms": 1345
+          },
+          {
+            "card": "2r",
+            "text": "mud",
+            "start_ms": 1765,
+            "end_ms": 3131
+          },
+          {
+            "card": "w",
+            "text": "mud",
+            "start_ms": 4031,
+            "end_ms": 5397
+          }
+        ]
+      },
+      {
+        "word": "pup",
+        "audio": "03_pup.mp3",
+        "duration_ms": 7725,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "1o1",
+            "text": "p",
+            "start_ms": 1010,
+            "end_ms": 1431
+          },
+          {
+            "card": "1r",
+            "text": "up",
+            "start_ms": 1851,
+            "end_ms": 2281
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "start_ms": 2701,
+            "end_ms": 3122
+          },
+          {
+            "card": "2o1",
+            "text": "up",
+            "start_ms": 3542,
+            "end_ms": 3972
+          },
+          {
+            "card": "2r",
+            "text": "pup",
+            "start_ms": 4392,
+            "end_ms": 5608
+          },
+          {
+            "card": "w",
+            "text": "pup",
+            "start_ms": 6508,
+            "end_ms": 7724
+          }
+        ]
+      },
+      {
+        "word": "cup",
+        "audio": "04_cup.mp3",
+        "duration_ms": 4652,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "c",
+            "start_ms": 0,
+            "end_ms": 423
+          },
+          {
+            "card": "2o1",
+            "text": "up",
+            "start_ms": 843,
+            "end_ms": 1273
+          },
+          {
+            "card": "2r",
+            "text": "cup",
+            "start_ms": 1693,
+            "end_ms": 2722
+          },
+          {
+            "card": "w",
+            "text": "cup",
+            "start_ms": 3622,
+            "end_ms": 4651
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U08_SHORT-U-UT_nut",
+    "chains": [
+      {
+        "word": "nut",
+        "audio": "01_nut.mp3",
+        "duration_ms": 8223,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "1o1",
+            "text": "t",
+            "start_ms": 1010,
+            "end_ms": 1230
+          },
+          {
+            "card": "1r",
+            "text": "ut",
+            "start_ms": 1650,
+            "end_ms": 2297
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "start_ms": 2717,
+            "end_ms": 3226
+          },
+          {
+            "card": "2o1",
+            "text": "ut",
+            "start_ms": 3646,
+            "end_ms": 4293
+          },
+          {
+            "card": "2r",
+            "text": "nut",
+            "start_ms": 4713,
+            "end_ms": 6018
+          },
+          {
+            "card": "w",
+            "text": "nut",
+            "start_ms": 6918,
+            "end_ms": 8223
+          }
+        ]
+      },
+      {
+        "word": "hut",
+        "audio": "02_hut.mp3",
+        "duration_ms": 4541,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "h",
+            "start_ms": 0,
+            "end_ms": 736
+          },
+          {
+            "card": "2o1",
+            "text": "ut",
+            "start_ms": 1156,
+            "end_ms": 1803
+          },
+          {
+            "card": "2r",
+            "text": "hut",
+            "start_ms": 2223,
+            "end_ms": 2932
+          },
+          {
+            "card": "w",
+            "text": "hut",
+            "start_ms": 3832,
+            "end_ms": 4541
+          }
+        ]
+      },
+      {
+        "word": "cut",
+        "audio": "03_cut.mp3",
+        "duration_ms": 3639,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "c",
+            "start_ms": 0,
+            "end_ms": 423
+          },
+          {
+            "card": "2o1",
+            "text": "ut",
+            "start_ms": 843,
+            "end_ms": 1490
+          },
+          {
+            "card": "2r",
+            "text": "cut",
+            "start_ms": 1910,
+            "end_ms": 2324
+          },
+          {
+            "card": "w",
+            "text": "cut",
+            "start_ms": 3224,
+            "end_ms": 3638
+          }
+        ]
+      },
+      {
+        "word": "but",
+        "audio": "04_but.mp3",
+        "duration_ms": 5843,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 0,
+            "end_ms": 522
+          },
+          {
+            "card": "2o1",
+            "text": "ut",
+            "start_ms": 942,
+            "end_ms": 1589
+          },
+          {
+            "card": "2r",
+            "text": "but",
+            "start_ms": 2009,
+            "end_ms": 3476
+          },
+          {
+            "card": "w",
+            "text": "but",
+            "start_ms": 4376,
+            "end_ms": 5843
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U08_SHORT-U-UB-UM_cub",
+    "chains": [
+      {
+        "word": "cub",
+        "audio": "01_cub.mp3",
+        "duration_ms": 8113,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "1o1",
+            "text": "b",
+            "start_ms": 1010,
+            "end_ms": 1540
+          },
+          {
+            "card": "1r",
+            "text": "ub",
+            "start_ms": 1960,
+            "end_ms": 2409
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "start_ms": 2829,
+            "end_ms": 3252
+          },
+          {
+            "card": "2o1",
+            "text": "ub",
+            "start_ms": 3672,
+            "end_ms": 4121
+          },
+          {
+            "card": "2r",
+            "text": "cub",
+            "start_ms": 4541,
+            "end_ms": 5876
+          },
+          {
+            "card": "w",
+            "text": "cub",
+            "start_ms": 6776,
+            "end_ms": 8111
+          }
+        ]
+      },
+      {
+        "word": "tub",
+        "audio": "02_tub.mp3",
+        "duration_ms": 5380,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "t",
+            "start_ms": 0,
+            "end_ms": 720
+          },
+          {
+            "card": "2o1",
+            "text": "ub",
+            "start_ms": 1140,
+            "end_ms": 1589
+          },
+          {
+            "card": "2r",
+            "text": "tub",
+            "start_ms": 2009,
+            "end_ms": 3244
+          },
+          {
+            "card": "w",
+            "text": "tub",
+            "start_ms": 4144,
+            "end_ms": 5379
+          }
+        ]
+      },
+      {
+        "word": "gum",
+        "audio": "03_gum.mp3",
+        "duration_ms": 7381,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "1o1",
+            "text": "m",
+            "start_ms": 1010,
+            "end_ms": 1266
+          },
+          {
+            "card": "1r",
+            "text": "um",
+            "start_ms": 1686,
+            "end_ms": 2436
+          },
+          {
+            "card": "2o0",
+            "text": "g",
+            "start_ms": 2856,
+            "end_ms": 3416
+          },
+          {
+            "card": "2o1",
+            "text": "um",
+            "start_ms": 3836,
+            "end_ms": 4586
+          },
+          {
+            "card": "2r",
+            "text": "gum",
+            "start_ms": 5006,
+            "end_ms": 5743
+          },
+          {
+            "card": "w",
+            "text": "gum",
+            "start_ms": 6643,
+            "end_ms": 7380
+          }
+        ]
+      },
+      {
+        "word": "hum",
+        "audio": "04_hum.mp3",
+        "duration_ms": 4933,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "h",
+            "start_ms": 0,
+            "end_ms": 736
+          },
+          {
+            "card": "2o1",
+            "text": "um",
+            "start_ms": 1156,
+            "end_ms": 1906
+          },
+          {
+            "card": "2r",
+            "text": "hum",
+            "start_ms": 2326,
+            "end_ms": 3179
+          },
+          {
+            "card": "w",
+            "text": "hum",
+            "start_ms": 4079,
+            "end_ms": 4932
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L2U08_SHORT-U-UN_bun",
+    "chains": [
+      {
+        "word": "bun",
+        "audio": "01_bun.mp3",
+        "duration_ms": 8329,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "u",
+            "start_ms": 0,
+            "end_ms": 590
+          },
+          {
+            "card": "1o1",
+            "text": "n",
+            "start_ms": 1010,
+            "end_ms": 1390
+          },
+          {
+            "card": "1r",
+            "text": "un",
+            "start_ms": 1810,
+            "end_ms": 2392
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "start_ms": 2812,
+            "end_ms": 3334
+          },
+          {
+            "card": "2o1",
+            "text": "un",
+            "start_ms": 3754,
+            "end_ms": 4336
+          },
+          {
+            "card": "2r",
+            "text": "bun",
+            "start_ms": 4756,
+            "end_ms": 6091
+          },
+          {
+            "card": "w",
+            "text": "bun",
+            "start_ms": 6991,
+            "end_ms": 8326
+          }
+        ]
+      },
+      {
+        "word": "run",
+        "audio": "02_run.mp3",
+        "duration_ms": 4653,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "r",
+            "start_ms": 0,
+            "end_ms": 437
+          },
+          {
+            "card": "2o1",
+            "text": "un",
+            "start_ms": 857,
+            "end_ms": 1439
+          },
+          {
+            "card": "2r",
+            "text": "run",
+            "start_ms": 1859,
+            "end_ms": 2805
+          },
+          {
+            "card": "w",
+            "text": "run",
+            "start_ms": 3705,
+            "end_ms": 4651
+          }
+        ]
+      },
+      {
+        "word": "fun",
+        "audio": "03_fun.mp3",
+        "duration_ms": 5473,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "f",
+            "start_ms": 0,
+            "end_ms": 405
+          },
+          {
+            "card": "2o1",
+            "text": "un",
+            "start_ms": 825,
+            "end_ms": 1407
+          },
+          {
+            "card": "2r",
+            "text": "fun",
+            "start_ms": 1827,
+            "end_ms": 3199
+          },
+          {
+            "card": "w",
+            "text": "fun",
+            "start_ms": 4099,
+            "end_ms": 5471
+          }
+        ]
+      },
+      {
+        "word": "sun",
+        "audio": "04_sun.mp3",
+        "duration_ms": 6031,
+        "segments": [
+          {
+            "card": "2o0",
+            "text": "s",
+            "start_ms": 0,
+            "end_ms": 604
+          },
+          {
+            "card": "2o1",
+            "text": "un",
+            "start_ms": 1024,
+            "end_ms": 1606
+          },
+          {
+            "card": "2r",
+            "text": "sun",
+            "start_ms": 2026,
+            "end_ms": 3577
+          },
+          {
+            "card": "w",
+            "text": "sun",
+            "start_ms": 4477,
+            "end_ms": 6028
+          }
+        ]
+      }
+    ]
+  }
+]

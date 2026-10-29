@@ -1,0 +1,314 @@
+[
+  {
+    "lesson_id": "L5U01_AR_car",
+    "start_ms": 13440,
+    "speed_ms": 843,
+    "edge_speed_ms": 600,
+    "slide_ms": 3360,
+    "slide_starts_ms": [
+      3432,
+      6762,
+      10957,
+      13416
+    ]
+  },
+  {
+    "lesson_id": "L5U01_IR-UR_bird",
+    "start_ms": 14592,
+    "speed_ms": 945,
+    "edge_speed_ms": 600,
+    "slide_ms": 3648,
+    "slide_starts_ms": [
+      3449,
+      7037,
+      10803,
+      14538
+    ]
+  },
+  {
+    "lesson_id": "L5U01_ER-OR_teacher",
+    "start_ms": 19584,
+    "speed_ms": 1061,
+    "edge_speed_ms": 600,
+    "slide_ms": 4896,
+    "slide_starts_ms": [
+      4796,
+      9748,
+      14475,
+      19584
+    ]
+  },
+  {
+    "lesson_id": "L5U02_OU-OW_mouse",
+    "start_ms": 12120,
+    "speed_ms": 912,
+    "edge_speed_ms": 600,
+    "slide_ms": 3030,
+    "slide_starts_ms": [
+      2868,
+      5831,
+      8767,
+      12005
+    ]
+  },
+  {
+    "lesson_id": "L5U02_OI-OY_coin",
+    "start_ms": 15480,
+    "speed_ms": 1129,
+    "edge_speed_ms": 600,
+    "slide_ms": 3870,
+    "slide_starts_ms": [
+      3421,
+      7407,
+      11344,
+      15184
+    ]
+  },
+  {
+    "lesson_id": "L5U02_OO-U_book",
+    "start_ms": 12432,
+    "speed_ms": 997,
+    "edge_speed_ms": 600,
+    "slide_ms": 3108,
+    "slide_starts_ms": [
+      2819,
+      5802,
+      9002,
+      12387
+    ]
+  },
+  {
+    "lesson_id": "L5U03_AU-AW_sauce",
+    "start_ms": 14472,
+    "speed_ms": 954,
+    "edge_speed_ms": 600,
+    "slide_ms": 3618,
+    "slide_starts_ms": [
+      3502,
+      7321,
+      10879,
+      14472
+    ]
+  },
+  {
+    "lesson_id": "L5U03_ALL-WA_ball",
+    "start_ms": 14112,
+    "speed_ms": 934,
+    "edge_speed_ms": 600,
+    "slide_ms": 3528,
+    "slide_starts_ms": [
+      3395,
+      6993,
+      10702,
+      14112
+    ]
+  },
+  {
+    "lesson_id": "L5U03_OR-OAR_horse",
+    "start_ms": 14232,
+    "speed_ms": 809,
+    "edge_speed_ms": 600,
+    "slide_ms": 3558,
+    "slide_starts_ms": [
+      3344,
+      6690,
+      10401,
+      14227
+    ]
+  },
+  {
+    "lesson_id": "L5U04_ARE-AIR_square",
+    "start_ms": 14832,
+    "speed_ms": 1022,
+    "edge_speed_ms": 600,
+    "slide_ms": 3708,
+    "slide_starts_ms": [
+      3816,
+      7409,
+      11058,
+      14696
+    ]
+  },
+  {
+    "lesson_id": "L5U04_EA-EAR_bread",
+    "start_ms": 13584,
+    "speed_ms": 1059,
+    "edge_speed_ms": 600,
+    "slide_ms": 3396,
+    "slide_starts_ms": [
+      3383,
+      6787,
+      10070,
+      13476
+    ]
+  },
+  {
+    "lesson_id": "L5U04_EAR-EER_ear",
+    "start_ms": 13632,
+    "speed_ms": 953,
+    "edge_speed_ms": 600,
+    "slide_ms": 3408,
+    "slide_starts_ms": [
+      3186,
+      6754,
+      10240,
+      13593
+    ]
+  },
+  {
+    "lesson_id": "L5U05_A-1_acorn",
+    "start_ms": 18504,
+    "speed_ms": 1002,
+    "edge_speed_ms": 600,
+    "slide_ms": 4626,
+    "slide_starts_ms": [
+      4106,
+      8397,
+      14124,
+      18504
+    ]
+  },
+  {
+    "lesson_id": "L5U05_E-I-1_he",
+    "start_ms": 14232,
+    "speed_ms": 769,
+    "edge_speed_ms": 600,
+    "slide_ms": 3558,
+    "slide_starts_ms": [
+      3436,
+      6836,
+      10540,
+      14169
+    ]
+  },
+  {
+    "lesson_id": "L5U05_O-U-1_cold",
+    "start_ms": 17280,
+    "speed_ms": 1071,
+    "edge_speed_ms": 600,
+    "slide_ms": 4320,
+    "slide_starts_ms": [
+      3182,
+      7792,
+      12659,
+      17252
+    ]
+  },
+  {
+    "lesson_id": "L5U06_A-2_panda",
+    "start_ms": 17640,
+    "speed_ms": 1254,
+    "edge_speed_ms": 663,
+    "slide_ms": 4410,
+    "slide_starts_ms": [
+      4133,
+      8468,
+      12989,
+      17624
+    ]
+  },
+  {
+    "lesson_id": "L5U06_E-I-O-U-2_chicken",
+    "start_ms": 16752,
+    "speed_ms": 989,
+    "edge_speed_ms": 685,
+    "slide_ms": 4188,
+    "slide_starts_ms": [
+      3648,
+      7719,
+      11888,
+      16727
+    ]
+  },
+  {
+    "lesson_id": "L5U06_O-2_monkey",
+    "start_ms": 14880,
+    "speed_ms": 983,
+    "edge_speed_ms": 600,
+    "slide_ms": 3720,
+    "slide_starts_ms": [
+      3764,
+      7354,
+      10864,
+      14745
+    ]
+  },
+  {
+    "lesson_id": "L5U07_KN-WR_knife",
+    "start_ms": 16392,
+    "speed_ms": 950,
+    "edge_speed_ms": 600,
+    "slide_ms": 4098,
+    "slide_starts_ms": [
+      4291,
+      8427,
+      12381,
+      16277
+    ]
+  },
+  {
+    "lesson_id": "L5U07_MB-VE_lamb",
+    "start_ms": 15384,
+    "speed_ms": 1207,
+    "edge_speed_ms": 600,
+    "slide_ms": 3846,
+    "slide_starts_ms": [
+      3938,
+      7752,
+      11659,
+      15367
+    ]
+  },
+  {
+    "lesson_id": "L5U07_RH-ST_rhino",
+    "start_ms": 15672,
+    "speed_ms": 1130,
+    "edge_speed_ms": 600,
+    "slide_ms": 3918,
+    "slide_starts_ms": [
+      3740,
+      7800,
+      11605,
+      15672
+    ]
+  },
+  {
+    "lesson_id": "L5U08_TURE-SURE_picture",
+    "start_ms": 14520,
+    "speed_ms": 903,
+    "edge_speed_ms": 624,
+    "slide_ms": 3630,
+    "slide_starts_ms": [
+      3043,
+      6760,
+      10571,
+      14501
+    ]
+  },
+  {
+    "lesson_id": "L5U08_TION-SION_station",
+    "start_ms": 21000,
+    "speed_ms": 1229,
+    "edge_speed_ms": 699,
+    "slide_ms": 5250,
+    "slide_starts_ms": [
+      4308,
+      10132,
+      16036,
+      21000
+    ]
+  },
+  {
+    "lesson_id": "L5U08_OUS-FUL_famous",
+    "start_ms": 16992,
+    "speed_ms": 1032,
+    "edge_speed_ms": 600,
+    "slide_ms": 4248,
+    "slide_starts_ms": [
+      3407,
+      7878,
+      12774,
+      16424
+    ]
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "lesson_id": "L2U02_SHORT-A-AD-AG_dad",
+    "start_ms": 10464,
+    "speed_ms": 987,
+    "edge_speed_ms": 600,
+    "slide_ms": 2616
+  },
+  {
+    "lesson_id": "L2U02_SHORT-A-AP_cap",
+    "start_ms": 9240,
+    "speed_ms": 934,
+    "edge_speed_ms": 600,
+    "slide_ms": 2310
+  },
+  {
+    "lesson_id": "L2U02_SHORT-A-AT_bat",
+    "start_ms": 10152,
+    "speed_ms": 694,
+    "edge_speed_ms": 600,
+    "slide_ms": 3038
+  },
+  {
+    "lesson_id": "L2U03_SHORT-E_web",
+    "start_ms": 9552,
+    "speed_ms": 810,
+    "edge_speed_ms": 600,
+    "slide_ms": 2388
+  },
+  {
+    "lesson_id": "L2U03_SHORT-E-ET_jet",
+    "start_ms": 10152,
+    "speed_ms": 900,
+    "edge_speed_ms": 600,
+    "slide_ms": 2538
+  },
+  {
+    "lesson_id": "L2U05_SHORT-I-IT-IX_pit",
+    "start_ms": 9792,
+    "speed_ms": 737,
+    "edge_speed_ms": 600,
+    "slide_ms": 2448
+  },
+  {
+    "lesson_id": "L2U04_SHORT-I-IP_lip",
+    "start_ms": 11472,
+    "speed_ms": 872,
+    "edge_speed_ms": 600,
+    "slide_ms": 2868
+  },
+  {
+    "lesson_id": "L2U04_SHORT-I-IB-ID_bib",
+    "start_ms": 10336,
+    "speed_ms": 937,
+    "edge_speed_ms": 600,
+    "slide_ms": 2584
+  },
+  {
+    "lesson_id": "L2U05_SHORT-I-IN_pin",
+    "start_ms": 10032,
+    "speed_ms": 837,
+    "edge_speed_ms": 600,
+    "slide_ms": 2508
+  },
+  {
+    "lesson_id": "L2U07_SHORT-U_sun",
+    "start_ms": 10080,
+    "speed_ms": 770,
+    "edge_speed_ms": 600,
+    "slide_ms": 2520
+  },
+  {
+    "lesson_id": "L2U07_SHORT-U-UG_bug",
+    "start_ms": 12552,
+    "speed_ms": 932,
+    "edge_speed_ms": 600,
+    "slide_ms": 3138
+  },
+  {
+    "lesson_id": "L2U08_SHORT-U-UB-UM_cub",
+    "start_ms": 9640,
+    "speed_ms": 861,
+    "edge_speed_ms": 600,
+    "slide_ms": 2410
+  },
+  {
+    "lesson_id": "L2U08_SHORT-U-UN_bun",
+    "start_ms": 9080,
+    "speed_ms": 902,
+    "edge_speed_ms": 600,
+    "slide_ms": 2270
+  },
+  {
+    "lesson_id": "L2U05_SHORT-I-IG_fig",
+    "start_ms": 11640,
+    "speed_ms": 874,
+    "edge_speed_ms": 600,
+    "slide_ms": 2910
+  },
+  {
+    "lesson_id": "L2U06_SHORT-O_fox",
+    "start_ms": 10080,
+    "speed_ms": 746,
+    "edge_speed_ms": 600,
+    "slide_ms": 2520,
+    "slide_starts_ms": [
+      2795,
+      5262,
+      7761,
+      10080
+    ]
+  },
+  {
+    "lesson_id": "L2U06_SHORT-O-OP_top",
+    "start_ms": 9880,
+    "speed_ms": 1038,
+    "edge_speed_ms": 600,
+    "slide_ms": 2470
+  },
+  {
+    "lesson_id": "L2U01_SHORT-A_cat",
+    "start_ms": 9792,
+    "speed_ms": 690,
+    "edge_speed_ms": 600,
+    "slide_ms": 2948
+  },
+  {
+    "lesson_id": "L2U01_SHORT-A-AM_ram",
+    "start_ms": 11396,
+    "speed_ms": 803,
+    "edge_speed_ms": 600,
+    "slide_ms": 2849
+  },
+  {
+    "lesson_id": "L2U01_SHORT-A-AN_fan",
+    "start_ms": 10992,
+    "speed_ms": 912,
+    "edge_speed_ms": 600,
+    "slide_ms": 2748
+  },
+  {
+    "lesson_id": "L2U03_SHORT-E-EN-ED_hen",
+    "start_ms": 10431,
+    "speed_ms": 931,
+    "edge_speed_ms": 600,
+    "slide_ms": 2607
+  },
+  {
+    "lesson_id": "L2U04_SHORT-I_hip",
+    "start_ms": 8640,
+    "speed_ms": 600,
+    "edge_speed_ms": 600,
+    "slide_ms": 2160
+  },
+  {
+    "lesson_id": "L2U07_SHORT-U-UD-UP_bud",
+    "start_ms": 10037,
+    "speed_ms": 834,
+    "edge_speed_ms": 600,
+    "slide_ms": 3009
+  },
+  {
+    "lesson_id": "L2U08_SHORT-U-UT_nut",
+    "start_ms": 9822,
+    "speed_ms": 1009,
+    "edge_speed_ms": 600,
+    "slide_ms": 2955
+  },
+  {
+    "lesson_id": "L2U06_SHORT-O-OT_pot",
+    "start_ms": 9840,
+    "speed_ms": 712,
+    "edge_speed_ms": 600,
+    "slide_ms": 2460
+  }
+]

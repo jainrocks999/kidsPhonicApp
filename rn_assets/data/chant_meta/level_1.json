@@ -1,0 +1,160 @@
+[
+  {
+    "lesson_id": "L1U01_A_apple",
+    "start_ms": 8832,
+    "speed_ms": 829,
+    "edge_speed_ms": 600,
+    "slide_ms": 2708
+  },
+  {
+    "lesson_id": "L1U01_B_bear",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U01_C_cat",
+    "start_ms": 9000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U02_D_dog",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U02_E_egg",
+    "start_ms": 11000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U02_F_fish",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U03_G_gorilla",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U03_H_horse",
+    "start_ms": 8039,
+    "speed_ms": 903,
+    "edge_speed_ms": 600,
+    "slide_ms": 2509
+  },
+  {
+    "lesson_id": "L1U03_I_insect",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U04_J_jet",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U04_K_kangaroo",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U04_L_lion",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U05_M_monkey",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U05_N_nut",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U05_O_octopus",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U06_P_peach",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U06_Q_queen",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U06_R_rabbit",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U07_S_seal",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U07_T_turtle",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U07_U_umbrella",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U07_V_van",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U08_W_wolf",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U08_X_fox",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U08_Y_yo_yo",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  },
+  {
+    "lesson_id": "L1U08_Z_zipper",
+    "start_ms": 10000,
+    "speed_ms": 800,
+    "edge_speed_ms": 800
+  }
+]

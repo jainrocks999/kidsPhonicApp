@@ -1,0 +1,314 @@
+[
+  {
+    "lesson_id": "L4U01_BL-CL_black",
+    "start_ms": 14760,
+    "speed_ms": 942,
+    "edge_speed_ms": 600,
+    "slide_ms": 3690,
+    "slide_starts_ms": [
+      3450,
+      7491,
+      11230,
+      14748
+    ]
+  },
+  {
+    "lesson_id": "L4U04_SH_shell",
+    "start_ms": 13752,
+    "speed_ms": 963,
+    "edge_speed_ms": 600,
+    "slide_ms": 3438,
+    "slide_starts_ms": [
+      3544,
+      6876,
+      9902,
+      13697
+    ]
+  },
+  {
+    "lesson_id": "L4U05_TH-1_this",
+    "start_ms": 16344,
+    "speed_ms": 1000,
+    "edge_speed_ms": 600,
+    "slide_ms": 4086,
+    "slide_starts_ms": [
+      3541,
+      7007,
+      11781,
+      16327
+    ]
+  },
+  {
+    "lesson_id": "L4U01_BR-CR_broom",
+    "start_ms": 19200,
+    "speed_ms": 1059,
+    "edge_speed_ms": 630,
+    "slide_ms": 4800,
+    "slide_starts_ms": [
+      3723,
+      8057,
+      12378,
+      19064
+    ]
+  },
+  {
+    "lesson_id": "L4U01_FL-GL_fly",
+    "start_ms": 13584,
+    "speed_ms": 886,
+    "edge_speed_ms": 600,
+    "slide_ms": 3396,
+    "slide_starts_ms": [
+      3197,
+      6587,
+      9932,
+      13552
+    ]
+  },
+  {
+    "lesson_id": "L4U02_FR-GR_frog",
+    "start_ms": 14880,
+    "speed_ms": 937,
+    "edge_speed_ms": 600,
+    "slide_ms": 3720,
+    "slide_starts_ms": [
+      3307,
+      7633,
+      11276,
+      14880
+    ]
+  },
+  {
+    "lesson_id": "L4U02_PL-SL_plate",
+    "start_ms": 14760,
+    "speed_ms": 849,
+    "edge_speed_ms": 600,
+    "slide_ms": 3690,
+    "slide_starts_ms": [
+      3198,
+      7068,
+      11098,
+      14757
+    ]
+  },
+  {
+    "lesson_id": "L4U02_DR-TR_drum",
+    "start_ms": 14760,
+    "speed_ms": 1213,
+    "edge_speed_ms": 600,
+    "slide_ms": 3690,
+    "slide_starts_ms": [
+      3288,
+      6923,
+      10543,
+      14371
+    ]
+  },
+  {
+    "lesson_id": "L4U03_SM-SN_smile",
+    "start_ms": 13320,
+    "speed_ms": 960,
+    "edge_speed_ms": 600,
+    "slide_ms": 3330,
+    "slide_starts_ms": [
+      2982,
+      6173,
+      9662,
+      13320
+    ]
+  },
+  {
+    "lesson_id": "L4U03_SP-SW_spoon",
+    "start_ms": 17640,
+    "speed_ms": 976,
+    "edge_speed_ms": 600,
+    "slide_ms": 4410,
+    "slide_starts_ms": [
+      4307,
+      8618,
+      13183,
+      17588
+    ]
+  },
+  {
+    "lesson_id": "L4U03_ST_stop",
+    "start_ms": 13992,
+    "speed_ms": 1010,
+    "edge_speed_ms": 600,
+    "slide_ms": 3498,
+    "slide_starts_ms": [
+      2909,
+      6698,
+      10224,
+      13816
+    ]
+  },
+  {
+    "lesson_id": "L4U04_CH-TCH_chick",
+    "start_ms": 12552,
+    "speed_ms": 703,
+    "edge_speed_ms": 600,
+    "slide_ms": 3138,
+    "slide_starts_ms": [
+      2332,
+      5887,
+      9358,
+      12201
+    ]
+  },
+  {
+    "lesson_id": "L4U04_PH-WH_phone",
+    "start_ms": 13824,
+    "speed_ms": 880,
+    "edge_speed_ms": 600,
+    "slide_ms": 3456,
+    "slide_starts_ms": [
+      3361,
+      7007,
+      10376,
+      13755
+    ]
+  },
+  {
+    "lesson_id": "L4U05_TH-2_three",
+    "start_ms": 15504,
+    "speed_ms": 876,
+    "edge_speed_ms": 600,
+    "slide_ms": 3876,
+    "slide_starts_ms": [
+      4016,
+      7990,
+      11619,
+      15504
+    ]
+  },
+  {
+    "lesson_id": "L4U05_CK-QU_duck",
+    "start_ms": 14640,
+    "speed_ms": 969,
+    "edge_speed_ms": 600,
+    "slide_ms": 3660,
+    "slide_starts_ms": [
+      3453,
+      7265,
+      11002,
+      14598
+    ]
+  },
+  {
+    "lesson_id": "L4U06_NG-NK_king",
+    "start_ms": 14352,
+    "speed_ms": 977,
+    "edge_speed_ms": 600,
+    "slide_ms": 3588,
+    "slide_starts_ms": [
+      3291,
+      7320,
+      10914,
+      14285
+    ]
+  },
+  {
+    "lesson_id": "L4U06_ND-NT_wind",
+    "start_ms": 13512,
+    "speed_ms": 1085,
+    "edge_speed_ms": 600,
+    "slide_ms": 3378,
+    "slide_starts_ms": [
+      3298,
+      6699,
+      10033,
+      13512
+    ]
+  },
+  {
+    "lesson_id": "L4U06_LT-MP_belt",
+    "start_ms": 13872,
+    "speed_ms": 1037,
+    "edge_speed_ms": 600,
+    "slide_ms": 3468,
+    "slide_starts_ms": [
+      3523,
+      7072,
+      10585,
+      13856
+    ]
+  },
+  {
+    "lesson_id": "L4U07_SK-SC_skunk",
+    "start_ms": 12432,
+    "speed_ms": 1046,
+    "edge_speed_ms": 600,
+    "slide_ms": 3108,
+    "slide_starts_ms": [
+      2991,
+      6067,
+      9238,
+      12392
+    ]
+  },
+  {
+    "lesson_id": "L4U07_SPR-STR_spray",
+    "start_ms": 14784,
+    "speed_ms": 1024,
+    "edge_speed_ms": 600,
+    "slide_ms": 3696,
+    "slide_starts_ms": [
+      3478,
+      7238,
+      10962,
+      14698
+    ]
+  },
+  {
+    "lesson_id": "L4U07_SPL-SQU_splash",
+    "start_ms": 16440,
+    "speed_ms": 902,
+    "edge_speed_ms": 600,
+    "slide_ms": 4110,
+    "slide_starts_ms": [
+      4074,
+      8153,
+      12201,
+      16440
+    ]
+  },
+  {
+    "lesson_id": "L4U08_C_rice",
+    "start_ms": 14592,
+    "speed_ms": 1002,
+    "edge_speed_ms": 671,
+    "slide_ms": 3648,
+    "slide_starts_ms": [
+      3290,
+      6797,
+      10641,
+      14592
+    ]
+  },
+  {
+    "lesson_id": "L4U08_G_giraffe",
+    "start_ms": 16680,
+    "speed_ms": 1111,
+    "edge_speed_ms": 600,
+    "slide_ms": 4170,
+    "slide_starts_ms": [
+      4386,
+      8379,
+      12515,
+      16646
+    ]
+  },
+  {
+    "lesson_id": "L4U08_S_rose",
+    "start_ms": 13800,
+    "speed_ms": 1005,
+    "edge_speed_ms": 600,
+    "slide_ms": 3450,
+    "slide_starts_ms": [
+      3265,
+      6729,
+      10199,
+      13660
+    ]
+  }
+]

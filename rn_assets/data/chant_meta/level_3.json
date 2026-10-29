@@ -1,0 +1,302 @@
+[
+  {
+    "lesson_id": "L3U01_A_E_tape",
+    "start_ms": 10512,
+    "speed_ms": 857,
+    "edge_speed_ms": 600,
+    "slide_ms": 2628,
+    "slide_starts_ms": [
+      2673,
+      5195,
+      8000,
+      10512
+    ]
+  },
+  {
+    "lesson_id": "L3U05_Y-EY_candy",
+    "start_ms": 10800,
+    "speed_ms": 1054,
+    "edge_speed_ms": 600,
+    "slide_ms": 2700,
+    "slide_starts_ms": [
+      3082,
+      5608,
+      8258,
+      10789
+    ]
+  },
+  {
+    "lesson_id": "L3U06_Y_spy",
+    "start_ms": 10824,
+    "speed_ms": 970,
+    "edge_speed_ms": 600,
+    "slide_ms": 2706,
+    "slide_starts_ms": [
+      2815,
+      5493,
+      8143,
+      10823
+    ]
+  },
+  {
+    "lesson_id": "L3U03_O_E_home",
+    "start_ms": 11280,
+    "speed_ms": 998,
+    "edge_speed_ms": 600,
+    "slide_ms": 2820,
+    "slide_starts_ms": [
+      2818,
+      5746,
+      8615,
+      11280
+    ]
+  },
+  {
+    "lesson_id": "L3U01_A_E-ATE-AVE_gate",
+    "start_ms": 11952,
+    "speed_ms": 1056,
+    "edge_speed_ms": 600,
+    "slide_ms": 2988,
+    "slide_starts_ms": [
+      2928,
+      5983,
+      8899,
+      11952
+    ]
+  },
+  {
+    "lesson_id": "L3U02_I_E_kite",
+    "start_ms": 10800,
+    "speed_ms": 1134,
+    "edge_speed_ms": 600,
+    "slide_ms": 2700,
+    "slide_starts_ms": [
+      2724,
+      5586,
+      8090,
+      10800
+    ]
+  },
+  {
+    "lesson_id": "L3U02_I_E-IVE-INE_five",
+    "start_ms": 10344,
+    "speed_ms": 1080,
+    "edge_speed_ms": 603,
+    "slide_ms": 2586
+  },
+  {
+    "lesson_id": "L3U03_U_E-1_cube",
+    "start_ms": 11112,
+    "speed_ms": 1009,
+    "edge_speed_ms": 600,
+    "slide_ms": 2778,
+    "slide_starts_ms": [
+      2938,
+      5587,
+      8227,
+      11112
+    ]
+  },
+  {
+    "lesson_id": "L3U03_U_E-2_tube",
+    "start_ms": 10104,
+    "speed_ms": 958,
+    "edge_speed_ms": 600,
+    "slide_ms": 2526,
+    "slide_starts_ms": [
+      2548,
+      5150,
+      7626,
+      10075
+    ]
+  },
+  {
+    "lesson_id": "L3U04_AY_bay",
+    "start_ms": 11184,
+    "speed_ms": 1070,
+    "edge_speed_ms": 600,
+    "slide_ms": 2796,
+    "slide_starts_ms": [
+      2352,
+      4540,
+      8945,
+      11135
+    ]
+  },
+  {
+    "lesson_id": "L3U04_AI-AY_sail",
+    "start_ms": 11472,
+    "speed_ms": 923,
+    "edge_speed_ms": 600,
+    "slide_ms": 2868
+  },
+  {
+    "lesson_id": "L3U06_IGH_light",
+    "start_ms": 9912,
+    "speed_ms": 1192,
+    "edge_speed_ms": 600,
+    "slide_ms": 2478,
+    "slide_starts_ms": [
+      2605,
+      5145,
+      7529,
+      9912
+    ]
+  },
+  {
+    "lesson_id": "L3U06_IE_pie",
+    "start_ms": 9384,
+    "speed_ms": 938,
+    "edge_speed_ms": 600,
+    "slide_ms": 2346,
+    "slide_starts_ms": [
+      2547,
+      4827,
+      7124,
+      9384
+    ]
+  },
+  {
+    "lesson_id": "L3U07_OA_boat",
+    "start_ms": 8400,
+    "speed_ms": 888,
+    "edge_speed_ms": 600,
+    "slide_ms": 2100,
+    "slide_starts_ms": [
+      2172,
+      4225,
+      6280,
+      8400
+    ]
+  },
+  {
+    "lesson_id": "L3U07_OW_bow",
+    "start_ms": 8952,
+    "speed_ms": 1045,
+    "edge_speed_ms": 600,
+    "slide_ms": 2238,
+    "slide_starts_ms": [
+      2337,
+      4521,
+      6808,
+      8952
+    ]
+  },
+  {
+    "lesson_id": "L3U07_OA-OW_goat",
+    "start_ms": 9864,
+    "speed_ms": 1080,
+    "edge_speed_ms": 651,
+    "slide_ms": 2466,
+    "slide_starts_ms": [
+      2478,
+      4911,
+      7380,
+      9809
+    ]
+  },
+  {
+    "lesson_id": "L3U08_UE_blue",
+    "start_ms": 9672,
+    "speed_ms": 1045,
+    "edge_speed_ms": 600,
+    "slide_ms": 2418,
+    "slide_starts_ms": [
+      2597,
+      4952,
+      7226,
+      9606
+    ]
+  },
+  {
+    "lesson_id": "L3U01_A_E-AME-AKE_game",
+    "start_ms": 10584,
+    "speed_ms": 895,
+    "edge_speed_ms": 600,
+    "slide_ms": 2646,
+    "slide_starts_ms": [
+      2861,
+      5377,
+      8170,
+      10584
+    ]
+  },
+  {
+    "lesson_id": "L3U02_I_E-IME-IKE_lime",
+    "start_ms": 9912,
+    "speed_ms": 1140,
+    "edge_speed_ms": 600,
+    "slide_ms": 2478,
+    "slide_starts_ms": [
+      2660,
+      5064,
+      7655,
+      9912
+    ]
+  },
+  {
+    "lesson_id": "L3U04_AI_rain",
+    "start_ms": 11784,
+    "speed_ms": 1053,
+    "edge_speed_ms": 600,
+    "slide_ms": 2946,
+    "slide_starts_ms": [
+      2938,
+      5883,
+      8921,
+      11748
+    ]
+  },
+  {
+    "lesson_id": "L3U08_OO_moon",
+    "start_ms": 11040,
+    "speed_ms": 825,
+    "edge_speed_ms": 600,
+    "slide_ms": 2760,
+    "slide_starts_ms": [
+      3144,
+      5860,
+      8582,
+      11040
+    ]
+  },
+  {
+    "lesson_id": "L3U05_EE_bee",
+    "start_ms": 11424,
+    "speed_ms": 1014,
+    "edge_speed_ms": 600,
+    "slide_ms": 2856,
+    "slide_starts_ms": [
+      2856,
+      6125,
+      8959,
+      11424
+    ]
+  },
+  {
+    "lesson_id": "L3U08_UI-EW_fruit",
+    "start_ms": 10272,
+    "speed_ms": 789,
+    "edge_speed_ms": 600,
+    "slide_ms": 2568,
+    "slide_starts_ms": [
+      2627,
+      5096,
+      7733,
+      10272
+    ]
+  },
+  {
+    "lesson_id": "L3U05_EA_leaf",
+    "start_ms": 11521,
+    "speed_ms": 1014,
+    "edge_speed_ms": 600,
+    "slide_ms": 2880,
+    "slide_starts_ms": [
+      2923,
+      5907,
+      8871,
+      11455
+    ]
+  }
+]

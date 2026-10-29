@@ -1,0 +1,7706 @@
+[
+  {
+    "lesson_id": "L3U01_A_E_tape",
+    "chains": [
+      {
+        "word": "tape",
+        "audio": "01_tape.mp3",
+        "duration_ms": 9193,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1680
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2180,
+            "end_ms": 2640
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3140,
+            "end_ms": 3326
+          },
+          {
+            "card": "2r",
+            "text": "tape",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3826,
+            "end_ms": 4576
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5576,
+            "end_ms": 6296
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6796,
+            "end_ms": 7256
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7756,
+            "end_ms": 7942
+          },
+          {
+            "card": "2r",
+            "text": "tape",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8442,
+            "end_ms": 9192
+          }
+        ]
+      },
+      {
+        "word": "cape",
+        "audio": "02_cape.mp3",
+        "duration_ms": 9771,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1383
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1883,
+            "end_ms": 2343
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2843,
+            "end_ms": 3029
+          },
+          {
+            "card": "2r",
+            "text": "cape",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3529,
+            "end_ms": 4865
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5865,
+            "end_ms": 6288
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6788,
+            "end_ms": 7248
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7748,
+            "end_ms": 7934
+          },
+          {
+            "card": "2r",
+            "text": "cape",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8434,
+            "end_ms": 9770
+          }
+        ]
+      },
+      {
+        "word": "cane",
+        "audio": "03_cane.mp3",
+        "duration_ms": 8632,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1383
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1883,
+            "end_ms": 2343
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2843,
+            "end_ms": 3223
+          },
+          {
+            "card": "2r",
+            "text": "cane",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3723,
+            "end_ms": 4295
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5295,
+            "end_ms": 5718
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6218,
+            "end_ms": 6678
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7178,
+            "end_ms": 7558
+          },
+          {
+            "card": "2r",
+            "text": "cane",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8058,
+            "end_ms": 8630
+          }
+        ]
+      },
+      {
+        "word": "mane",
+        "audio": "04_mane.mp3",
+        "duration_ms": 11010,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1435
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1935,
+            "end_ms": 2395
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2895,
+            "end_ms": 3275
+          },
+          {
+            "card": "2r",
+            "text": "mane",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3775,
+            "end_ms": 5484
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6484,
+            "end_ms": 6959
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7459,
+            "end_ms": 7919
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8419,
+            "end_ms": 8799
+          },
+          {
+            "card": "2r",
+            "text": "mane",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9299,
+            "end_ms": 11008
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U01_A_E-AME-AKE_game",
+    "chains": [
+      {
+        "word": "game",
+        "audio": "01_game.mp3",
+        "duration_ms": 11743,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "m",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1216
+          },
+          {
+            "card": "1r",
+            "text": "ame",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1716,
+            "end_ms": 2160
+          },
+          {
+            "card": "2o0",
+            "text": "g",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2660,
+            "end_ms": 3220
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3720,
+            "end_ms": 4180
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4680,
+            "end_ms": 4936
+          },
+          {
+            "card": "2r",
+            "text": "game",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5436,
+            "end_ms": 6700
+          },
+          {
+            "card": "2o0",
+            "text": "g",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7700,
+            "end_ms": 8260
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8760,
+            "end_ms": 9220
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9720,
+            "end_ms": 9976
+          },
+          {
+            "card": "2r",
+            "text": "game",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10476,
+            "end_ms": 11740
+          }
+        ]
+      },
+      {
+        "word": "cake",
+        "audio": "02_cake.mp3",
+        "duration_ms": 10025,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "k",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1139
+          },
+          {
+            "card": "1r",
+            "text": "ake",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1639,
+            "end_ms": 2137
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2637,
+            "end_ms": 3060
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3560,
+            "end_ms": 4020
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4520,
+            "end_ms": 4699
+          },
+          {
+            "card": "2r",
+            "text": "cake",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5199,
+            "end_ms": 5829
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6829,
+            "end_ms": 7252
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7752,
+            "end_ms": 8212
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8712,
+            "end_ms": 8891
+          },
+          {
+            "card": "2r",
+            "text": "cake",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9391,
+            "end_ms": 10021
+          }
+        ]
+      },
+      {
+        "word": "name",
+        "audio": "03_name.mp3",
+        "duration_ms": 10597,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "m",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1216
+          },
+          {
+            "card": "1r",
+            "text": "ame",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1716,
+            "end_ms": 2160
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2660,
+            "end_ms": 3169
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3669,
+            "end_ms": 4129
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4629,
+            "end_ms": 4885
+          },
+          {
+            "card": "2r",
+            "text": "name",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5385,
+            "end_ms": 6127
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7127,
+            "end_ms": 7636
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8136,
+            "end_ms": 8596
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9096,
+            "end_ms": 9352
+          },
+          {
+            "card": "2r",
+            "text": "name",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9852,
+            "end_ms": 10594
+          }
+        ]
+      },
+      {
+        "word": "lake",
+        "audio": "04_lake.mp3",
+        "duration_ms": 10462,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "k",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1139
+          },
+          {
+            "card": "1r",
+            "text": "ake",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1639,
+            "end_ms": 2137
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2637,
+            "end_ms": 3197
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3697,
+            "end_ms": 4157
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4657,
+            "end_ms": 4836
+          },
+          {
+            "card": "2r",
+            "text": "lake",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5336,
+            "end_ms": 6048
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7048,
+            "end_ms": 7608
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8108,
+            "end_ms": 8568
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9068,
+            "end_ms": 9247
+          },
+          {
+            "card": "2r",
+            "text": "lake",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9747,
+            "end_ms": 10459
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U01_A_E-ATE-AVE_gate",
+    "chains": [
+      {
+        "word": "gate",
+        "audio": "01_gate.mp3",
+        "duration_ms": 11483,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "t",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1370
+          },
+          {
+            "card": "1r",
+            "text": "ate",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1870,
+            "end_ms": 2226
+          },
+          {
+            "card": "2o0",
+            "text": "g",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2726,
+            "end_ms": 3286
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3786,
+            "end_ms": 4246
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4746,
+            "end_ms": 5156
+          },
+          {
+            "card": "2r",
+            "text": "gate",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5656,
+            "end_ms": 6603
+          },
+          {
+            "card": "2o0",
+            "text": "g",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7603,
+            "end_ms": 8163
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8663,
+            "end_ms": 9123
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9623,
+            "end_ms": 10033
+          },
+          {
+            "card": "2r",
+            "text": "gate",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10533,
+            "end_ms": 11480
+          }
+        ]
+      },
+      {
+        "word": "wave",
+        "audio": "02_wave.mp3",
+        "duration_ms": 12396,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "v",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1343
+          },
+          {
+            "card": "1r",
+            "text": "ave",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1843,
+            "end_ms": 2359
+          },
+          {
+            "card": "2o0",
+            "text": "w",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2859,
+            "end_ms": 3399
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3899,
+            "end_ms": 4359
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4859,
+            "end_ms": 5242
+          },
+          {
+            "card": "2r",
+            "text": "wave",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5742,
+            "end_ms": 7126
+          },
+          {
+            "card": "2o0",
+            "text": "w",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8126,
+            "end_ms": 8666
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9166,
+            "end_ms": 9626
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10126,
+            "end_ms": 10509
+          },
+          {
+            "card": "2r",
+            "text": "wave",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 11009,
+            "end_ms": 12393
+          }
+        ]
+      },
+      {
+        "word": "skate",
+        "audio": "03_skate.mp3",
+        "duration_ms": 12262,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "t",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1370
+          },
+          {
+            "card": "1r",
+            "text": "ate",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1870,
+            "end_ms": 2226
+          },
+          {
+            "card": "2o0",
+            "text": "sk",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2726,
+            "end_ms": 3286
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3786,
+            "end_ms": 4246
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4746,
+            "end_ms": 5156
+          },
+          {
+            "card": "2r",
+            "text": "skate",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5656,
+            "end_ms": 6992
+          },
+          {
+            "card": "2o0",
+            "text": "sk",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7992,
+            "end_ms": 8552
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9052,
+            "end_ms": 9512
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10012,
+            "end_ms": 10422
+          },
+          {
+            "card": "2r",
+            "text": "skate",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10922,
+            "end_ms": 12258
+          }
+        ]
+      },
+      {
+        "word": "cave",
+        "audio": "04_cave.mp3",
+        "duration_ms": 10867,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "1o1",
+            "text": "v",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 960,
+            "end_ms": 1343
+          },
+          {
+            "card": "1r",
+            "text": "ave",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1843,
+            "end_ms": 2359
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2859,
+            "end_ms": 3282
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3782,
+            "end_ms": 4242
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 4742,
+            "end_ms": 5125
+          },
+          {
+            "card": "2r",
+            "text": "cave",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5625,
+            "end_ms": 6361
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7361,
+            "end_ms": 7784
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8284,
+            "end_ms": 8744
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9244,
+            "end_ms": 9627
+          },
+          {
+            "card": "2r",
+            "text": "cave",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10127,
+            "end_ms": 10863
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U02_I_E_kite",
+    "chains": [
+      {
+        "word": "kite",
+        "audio": "01_kite.mp3",
+        "duration_ms": 9569,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "k",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1660
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2160,
+            "end_ms": 2897
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3397,
+            "end_ms": 3807
+          },
+          {
+            "card": "2r",
+            "text": "kite",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4307,
+            "end_ms": 4901
+          },
+          {
+            "card": "2o0",
+            "text": "k",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5901,
+            "end_ms": 6324
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6824,
+            "end_ms": 7561
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8061,
+            "end_ms": 8471
+          },
+          {
+            "card": "2r",
+            "text": "kite",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8971,
+            "end_ms": 9565
+          }
+        ]
+      },
+      {
+        "word": "pine",
+        "audio": "02_pine.mp3",
+        "duration_ms": 9731,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1658
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2158,
+            "end_ms": 2895
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3395,
+            "end_ms": 3775
+          },
+          {
+            "card": "2r",
+            "text": "pine",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4275,
+            "end_ms": 4983
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5983,
+            "end_ms": 6404
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6904,
+            "end_ms": 7641
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8141,
+            "end_ms": 8521
+          },
+          {
+            "card": "2r",
+            "text": "pine",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9021,
+            "end_ms": 9729
+          }
+        ]
+      },
+      {
+        "word": "ripe",
+        "audio": "03_ripe.mp3",
+        "duration_ms": 10729,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1674
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2174,
+            "end_ms": 2911
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3411,
+            "end_ms": 3597
+          },
+          {
+            "card": "2r",
+            "text": "ripe",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4097,
+            "end_ms": 5481
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6481,
+            "end_ms": 6918
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7418,
+            "end_ms": 8155
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8655,
+            "end_ms": 8841
+          },
+          {
+            "card": "2r",
+            "text": "ripe",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9341,
+            "end_ms": 10725
+          }
+        ]
+      },
+      {
+        "word": "fine",
+        "audio": "04_fine.mp3",
+        "duration_ms": 10523,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1642
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2142,
+            "end_ms": 2879
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3379,
+            "end_ms": 3759
+          },
+          {
+            "card": "2r",
+            "text": "fine",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4259,
+            "end_ms": 5380
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6380,
+            "end_ms": 6785
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7285,
+            "end_ms": 8022
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8522,
+            "end_ms": 8902
+          },
+          {
+            "card": "2r",
+            "text": "fine",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9402,
+            "end_ms": 10523
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U02_I_E-IME-IKE_lime",
+    "chains": [
+      {
+        "word": "lime",
+        "audio": "01_lime.mp3",
+        "duration_ms": 12822,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "m",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1493
+          },
+          {
+            "card": "1r",
+            "text": "ime",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1993,
+            "end_ms": 2471
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2971,
+            "end_ms": 3531
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 4031,
+            "end_ms": 4768
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5268,
+            "end_ms": 5524
+          },
+          {
+            "card": "2r",
+            "text": "lime",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6024,
+            "end_ms": 7395
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8395,
+            "end_ms": 8955
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9455,
+            "end_ms": 10192
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10692,
+            "end_ms": 10948
+          },
+          {
+            "card": "2r",
+            "text": "lime",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 11448,
+            "end_ms": 12819
+          }
+        ]
+      },
+      {
+        "word": "bike",
+        "audio": "02_bike.mp3",
+        "duration_ms": 11343,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "k",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1416
+          },
+          {
+            "card": "1r",
+            "text": "ike",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1916,
+            "end_ms": 2411
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2911,
+            "end_ms": 3433
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 3933,
+            "end_ms": 4670
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5170,
+            "end_ms": 5349
+          },
+          {
+            "card": "2r",
+            "text": "bike",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5849,
+            "end_ms": 6624
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7624,
+            "end_ms": 8146
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8646,
+            "end_ms": 9383
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9883,
+            "end_ms": 10062
+          },
+          {
+            "card": "2r",
+            "text": "bike",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10562,
+            "end_ms": 11337
+          }
+        ]
+      },
+      {
+        "word": "time",
+        "audio": "03_time.mp3",
+        "duration_ms": 11516,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "m",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1493
+          },
+          {
+            "card": "1r",
+            "text": "ime",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1993,
+            "end_ms": 2471
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2971,
+            "end_ms": 3691
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 4191,
+            "end_ms": 4928
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5428,
+            "end_ms": 5684
+          },
+          {
+            "card": "2r",
+            "text": "time",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6184,
+            "end_ms": 6742
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7742,
+            "end_ms": 8462
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8962,
+            "end_ms": 9699
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10199,
+            "end_ms": 10455
+          },
+          {
+            "card": "2r",
+            "text": "time",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10955,
+            "end_ms": 11513
+          }
+        ]
+      },
+      {
+        "word": "hike",
+        "audio": "04_hike.mp3",
+        "duration_ms": 11425,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "k",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1416
+          },
+          {
+            "card": "1r",
+            "text": "ike",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 1916,
+            "end_ms": 2411
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 2911,
+            "end_ms": 3647
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 4147,
+            "end_ms": 4884
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5384,
+            "end_ms": 5563
+          },
+          {
+            "card": "2r",
+            "text": "hike",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6063,
+            "end_ms": 6664
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7664,
+            "end_ms": 8400
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8900,
+            "end_ms": 9637
+          },
+          {
+            "card": "2c",
+            "text": "k",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10137,
+            "end_ms": 10316
+          },
+          {
+            "card": "2r",
+            "text": "hike",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10816,
+            "end_ms": 11417
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U02_I_E-IVE-INE_five",
+    "chains": [
+      {
+        "word": "five",
+        "audio": "01_five.mp3",
+        "duration_ms": 12185,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "v",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1620
+          },
+          {
+            "card": "1r",
+            "text": "ive",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 2120,
+            "end_ms": 2730
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 3230,
+            "end_ms": 3635
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 4135,
+            "end_ms": 4872
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5372,
+            "end_ms": 5755
+          },
+          {
+            "card": "2r",
+            "text": "five",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6255,
+            "end_ms": 7206
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8206,
+            "end_ms": 8611
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9111,
+            "end_ms": 9848
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10348,
+            "end_ms": 10731
+          },
+          {
+            "card": "2r",
+            "text": "five",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 11231,
+            "end_ms": 12182
+          }
+        ]
+      },
+      {
+        "word": "nine",
+        "audio": "02_nine.mp3",
+        "duration_ms": 13222,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "n",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1617
+          },
+          {
+            "card": "1r",
+            "text": "ine",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 2117,
+            "end_ms": 2646
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 3146,
+            "end_ms": 3655
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 4155,
+            "end_ms": 4892
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5392,
+            "end_ms": 5772
+          },
+          {
+            "card": "2r",
+            "text": "nine",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6272,
+            "end_ms": 7682
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8682,
+            "end_ms": 9191
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9691,
+            "end_ms": 10428
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10928,
+            "end_ms": 11308
+          },
+          {
+            "card": "2r",
+            "text": "nine",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 11808,
+            "end_ms": 13218
+          }
+        ]
+      },
+      {
+        "word": "dive",
+        "audio": "03_dive.mp3",
+        "duration_ms": 14165,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "v",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1620
+          },
+          {
+            "card": "1r",
+            "text": "ive",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 2120,
+            "end_ms": 2730
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 3230,
+            "end_ms": 4023
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 4523,
+            "end_ms": 5260
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5760,
+            "end_ms": 6143
+          },
+          {
+            "card": "2r",
+            "text": "dive",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6643,
+            "end_ms": 8195
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 9195,
+            "end_ms": 9988
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 10488,
+            "end_ms": 11225
+          },
+          {
+            "card": "2c",
+            "text": "v",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 11725,
+            "end_ms": 12108
+          },
+          {
+            "card": "2r",
+            "text": "dive",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 12608,
+            "end_ms": 14160
+          }
+        ]
+      },
+      {
+        "word": "line",
+        "audio": "04_line.mp3",
+        "duration_ms": 13722,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "1o1",
+            "text": "n",
+            "row": 1,
+            "slot": 1,
+            "start_ms": 1237,
+            "end_ms": 1617
+          },
+          {
+            "card": "1r",
+            "text": "ine",
+            "row": 1,
+            "slot": 2,
+            "start_ms": 2117,
+            "end_ms": 2646
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 3146,
+            "end_ms": 3706
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 4206,
+            "end_ms": 4943
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 5443,
+            "end_ms": 5823
+          },
+          {
+            "card": "2r",
+            "text": "line",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6323,
+            "end_ms": 7933
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8933,
+            "end_ms": 9493
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9993,
+            "end_ms": 10730
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 11230,
+            "end_ms": 11610
+          },
+          {
+            "card": "2r",
+            "text": "line",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 12110,
+            "end_ms": 13720
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U03_O_E_home",
+    "chains": [
+      {
+        "word": "home",
+        "audio": "01_home.mp3",
+        "duration_ms": 10939,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1970
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2470,
+            "end_ms": 3204
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3704,
+            "end_ms": 3960
+          },
+          {
+            "card": "2r",
+            "text": "home",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4460,
+            "end_ms": 5583
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6583,
+            "end_ms": 7319
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7819,
+            "end_ms": 8553
+          },
+          {
+            "card": "2c",
+            "text": "m",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9053,
+            "end_ms": 9309
+          },
+          {
+            "card": "2r",
+            "text": "home",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9809,
+            "end_ms": 10932
+          }
+        ]
+      },
+      {
+        "word": "bone",
+        "audio": "02_bone.mp3",
+        "duration_ms": 11795,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1756
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2256,
+            "end_ms": 2990
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3490,
+            "end_ms": 3870
+          },
+          {
+            "card": "2r",
+            "text": "bone",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4370,
+            "end_ms": 6013
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7013,
+            "end_ms": 7535
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8035,
+            "end_ms": 8769
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9269,
+            "end_ms": 9649
+          },
+          {
+            "card": "2r",
+            "text": "bone",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10149,
+            "end_ms": 11792
+          }
+        ]
+      },
+      {
+        "word": "cone",
+        "audio": "03_cone.mp3",
+        "duration_ms": 11080,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1657
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2157,
+            "end_ms": 2891
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3391,
+            "end_ms": 3771
+          },
+          {
+            "card": "2r",
+            "text": "cone",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4271,
+            "end_ms": 5655
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6655,
+            "end_ms": 7078
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7578,
+            "end_ms": 8312
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8812,
+            "end_ms": 9192
+          },
+          {
+            "card": "2r",
+            "text": "cone",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9692,
+            "end_ms": 11076
+          }
+        ]
+      },
+      {
+        "word": "rope",
+        "audio": "04_rope.mp3",
+        "duration_ms": 10811,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1671
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2171,
+            "end_ms": 2905
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3405,
+            "end_ms": 3591
+          },
+          {
+            "card": "2r",
+            "text": "rope",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4091,
+            "end_ms": 5521
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6521,
+            "end_ms": 6958
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7458,
+            "end_ms": 8192
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8692,
+            "end_ms": 8878
+          },
+          {
+            "card": "2r",
+            "text": "rope",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9378,
+            "end_ms": 10808
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U03_U_E-1_cube",
+    "chains": [
+      {
+        "word": "cube",
+        "audio": "01_cube.mp3",
+        "duration_ms": 9913,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_u",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 850
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1350,
+            "end_ms": 1773
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2273,
+            "end_ms": 3123
+          },
+          {
+            "card": "2c",
+            "text": "b",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3623,
+            "end_ms": 4153
+          },
+          {
+            "card": "2r",
+            "text": "cube",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4653,
+            "end_ms": 5130
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6130,
+            "end_ms": 6553
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7053,
+            "end_ms": 7903
+          },
+          {
+            "card": "2c",
+            "text": "b",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8403,
+            "end_ms": 8933
+          },
+          {
+            "card": "2r",
+            "text": "cube",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9433,
+            "end_ms": 9910
+          }
+        ]
+      },
+      {
+        "word": "mute",
+        "audio": "02_mute.mp3",
+        "duration_ms": 10513,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_u",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 850
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1350,
+            "end_ms": 1825
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2325,
+            "end_ms": 3175
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3675,
+            "end_ms": 4085
+          },
+          {
+            "card": "2r",
+            "text": "mute",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4585,
+            "end_ms": 5429
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6429,
+            "end_ms": 6904
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7404,
+            "end_ms": 8254
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8754,
+            "end_ms": 9164
+          },
+          {
+            "card": "2r",
+            "text": "mute",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9664,
+            "end_ms": 10508
+          }
+        ]
+      },
+      {
+        "word": "cute",
+        "audio": "03_cute.mp3",
+        "duration_ms": 10428,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_u",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 850
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1350,
+            "end_ms": 1773
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2273,
+            "end_ms": 3123
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3623,
+            "end_ms": 4033
+          },
+          {
+            "card": "2r",
+            "text": "cute",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4533,
+            "end_ms": 5387
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6387,
+            "end_ms": 6810
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7310,
+            "end_ms": 8160
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8660,
+            "end_ms": 9070
+          },
+          {
+            "card": "2r",
+            "text": "cute",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9570,
+            "end_ms": 10424
+          }
+        ]
+      },
+      {
+        "word": "mule",
+        "audio": "04_mule.mp3",
+        "duration_ms": 11446,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_u",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 850
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1350,
+            "end_ms": 1825
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2325,
+            "end_ms": 3175
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3675,
+            "end_ms": 4235
+          },
+          {
+            "card": "2r",
+            "text": "mule",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4735,
+            "end_ms": 5897
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6897,
+            "end_ms": 7372
+          },
+          {
+            "card": "2v",
+            "text": "long_u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7872,
+            "end_ms": 8722
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9222,
+            "end_ms": 9782
+          },
+          {
+            "card": "2r",
+            "text": "mule",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10282,
+            "end_ms": 11444
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U03_U_E-2_tube",
+    "chains": [
+      {
+        "word": "tube",
+        "audio": "01_tube.mp3",
+        "duration_ms": 10033,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1740
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2240,
+            "end_ms": 2760
+          },
+          {
+            "card": "2c",
+            "text": "b",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3260,
+            "end_ms": 3790
+          },
+          {
+            "card": "2r",
+            "text": "tube",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4290,
+            "end_ms": 5026
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6026,
+            "end_ms": 6746
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7246,
+            "end_ms": 7766
+          },
+          {
+            "card": "2c",
+            "text": "b",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8266,
+            "end_ms": 8796
+          },
+          {
+            "card": "2r",
+            "text": "tube",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9296,
+            "end_ms": 10032
+          }
+        ]
+      },
+      {
+        "word": "june",
+        "audio": "02_june.mp3",
+        "duration_ms": 9468,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "j",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1630
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2130,
+            "end_ms": 2650
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3150,
+            "end_ms": 3530
+          },
+          {
+            "card": "2r",
+            "text": "june",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4030,
+            "end_ms": 4744
+          },
+          {
+            "card": "2o0",
+            "text": "j",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5744,
+            "end_ms": 6354
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6854,
+            "end_ms": 7374
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7874,
+            "end_ms": 8254
+          },
+          {
+            "card": "2r",
+            "text": "june",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8754,
+            "end_ms": 9468
+          }
+        ]
+      },
+      {
+        "word": "tune",
+        "audio": "03_tune.mp3",
+        "duration_ms": 9837,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1740
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2240,
+            "end_ms": 2760
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3260,
+            "end_ms": 3640
+          },
+          {
+            "card": "2r",
+            "text": "tune",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4140,
+            "end_ms": 4928
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5928,
+            "end_ms": 6648
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7148,
+            "end_ms": 7668
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8168,
+            "end_ms": 8548
+          },
+          {
+            "card": "2r",
+            "text": "tune",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9048,
+            "end_ms": 9836
+          }
+        ]
+      },
+      {
+        "word": "rule",
+        "audio": "04_rule.mp3",
+        "duration_ms": 9471,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1457
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1957,
+            "end_ms": 2477
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2977,
+            "end_ms": 3537
+          },
+          {
+            "card": "2r",
+            "text": "rule",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4037,
+            "end_ms": 4745
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5745,
+            "end_ms": 6182
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6682,
+            "end_ms": 7202
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7702,
+            "end_ms": 8262
+          },
+          {
+            "card": "2r",
+            "text": "rule",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8762,
+            "end_ms": 9470
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U04_AI_rain",
+    "chains": [
+      {
+        "word": "rain",
+        "audio": "01_rain.mp3",
+        "duration_ms": 9947,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1397
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1897,
+            "end_ms": 2357
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2857,
+            "end_ms": 3237
+          },
+          {
+            "card": "2r",
+            "text": "rain",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3737,
+            "end_ms": 4953
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5953,
+            "end_ms": 6390
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6890,
+            "end_ms": 7350
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7850,
+            "end_ms": 8230
+          },
+          {
+            "card": "2r",
+            "text": "rain",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8730,
+            "end_ms": 9946
+          }
+        ]
+      },
+      {
+        "word": "nail",
+        "audio": "02_nail.mp3",
+        "duration_ms": 10326,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1469
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1969,
+            "end_ms": 2429
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2929,
+            "end_ms": 3489
+          },
+          {
+            "card": "2r",
+            "text": "nail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3989,
+            "end_ms": 5142
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6142,
+            "end_ms": 6651
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7151,
+            "end_ms": 7611
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8111,
+            "end_ms": 8671
+          },
+          {
+            "card": "2r",
+            "text": "nail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9171,
+            "end_ms": 10324
+          }
+        ]
+      },
+      {
+        "word": "tail",
+        "audio": "03_tail.mp3",
+        "duration_ms": 11305,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1680
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2180,
+            "end_ms": 2640
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3140,
+            "end_ms": 3700
+          },
+          {
+            "card": "2r",
+            "text": "tail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4200,
+            "end_ms": 5632
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6632,
+            "end_ms": 7352
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7852,
+            "end_ms": 8312
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8812,
+            "end_ms": 9372
+          },
+          {
+            "card": "2r",
+            "text": "tail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9872,
+            "end_ms": 11304
+          }
+        ]
+      },
+      {
+        "word": "wait",
+        "audio": "04_wait.mp3",
+        "duration_ms": 11025,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "w",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1500
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2000,
+            "end_ms": 2460
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2960,
+            "end_ms": 3370
+          },
+          {
+            "card": "2r",
+            "text": "wait",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3870,
+            "end_ms": 5491
+          },
+          {
+            "card": "2o0",
+            "text": "w",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6491,
+            "end_ms": 7031
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7531,
+            "end_ms": 7991
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8491,
+            "end_ms": 8901
+          },
+          {
+            "card": "2r",
+            "text": "wait",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9401,
+            "end_ms": 11022
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U04_AY_bay",
+    "chains": [
+      {
+        "word": "bay",
+        "audio": "01_bay.mp3",
+        "duration_ms": 7854,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1482
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1982,
+            "end_ms": 2442
+          },
+          {
+            "card": "2r",
+            "text": "bay",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 2942,
+            "end_ms": 3907
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4907,
+            "end_ms": 5429
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5929,
+            "end_ms": 6389
+          },
+          {
+            "card": "2r",
+            "text": "bay",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6889,
+            "end_ms": 7854
+          }
+        ]
+      },
+      {
+        "word": "day",
+        "audio": "02_day.mp3",
+        "duration_ms": 7678,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1753
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2253,
+            "end_ms": 2713
+          },
+          {
+            "card": "2r",
+            "text": "day",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3213,
+            "end_ms": 3818
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4818,
+            "end_ms": 5611
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6111,
+            "end_ms": 6571
+          },
+          {
+            "card": "2r",
+            "text": "day",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7071,
+            "end_ms": 7676
+          }
+        ]
+      },
+      {
+        "word": "say",
+        "audio": "03_say.mp3",
+        "duration_ms": 7058,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1564
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2064,
+            "end_ms": 2524
+          },
+          {
+            "card": "2r",
+            "text": "say",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3024,
+            "end_ms": 3508
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4508,
+            "end_ms": 5112
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5612,
+            "end_ms": 6072
+          },
+          {
+            "card": "2r",
+            "text": "say",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6572,
+            "end_ms": 7056
+          }
+        ]
+      },
+      {
+        "word": "pay",
+        "audio": "04_pay.mp3",
+        "duration_ms": 7196,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1381
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1881,
+            "end_ms": 2341
+          },
+          {
+            "card": "2r",
+            "text": "pay",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 2841,
+            "end_ms": 3577
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4577,
+            "end_ms": 4998
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5498,
+            "end_ms": 5958
+          },
+          {
+            "card": "2r",
+            "text": "pay",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6458,
+            "end_ms": 7194
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U04_AI-AY_sail",
+    "chains": [
+      {
+        "word": "sail",
+        "audio": "01_sail.mp3",
+        "duration_ms": 11066,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1564
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2064,
+            "end_ms": 2524
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3024,
+            "end_ms": 3584
+          },
+          {
+            "card": "2r",
+            "text": "sail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4084,
+            "end_ms": 5512
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6512,
+            "end_ms": 7116
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7616,
+            "end_ms": 8076
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8576,
+            "end_ms": 9136
+          },
+          {
+            "card": "2r",
+            "text": "sail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9636,
+            "end_ms": 11064
+          }
+        ]
+      },
+      {
+        "word": "mail",
+        "audio": "02_mail.mp3",
+        "duration_ms": 10798,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1435
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1935,
+            "end_ms": 2395
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2895,
+            "end_ms": 3455
+          },
+          {
+            "card": "2r",
+            "text": "mail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3955,
+            "end_ms": 5378
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6378,
+            "end_ms": 6853
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7353,
+            "end_ms": 7813
+          },
+          {
+            "card": "2c",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8313,
+            "end_ms": 8873
+          },
+          {
+            "card": "2r",
+            "text": "mail",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9373,
+            "end_ms": 10796
+          }
+        ]
+      },
+      {
+        "word": "hay",
+        "audio": "03_hay.mp3",
+        "duration_ms": 7239,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1696
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2196,
+            "end_ms": 2656
+          },
+          {
+            "card": "2r",
+            "text": "hay",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3156,
+            "end_ms": 3599
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4599,
+            "end_ms": 5335
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5835,
+            "end_ms": 6295
+          },
+          {
+            "card": "2r",
+            "text": "hay",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6795,
+            "end_ms": 7238
+          }
+        ]
+      },
+      {
+        "word": "may",
+        "audio": "04_may.mp3",
+        "duration_ms": 7526,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_a",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 460
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 960,
+            "end_ms": 1435
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1935,
+            "end_ms": 2395
+          },
+          {
+            "card": "2r",
+            "text": "may",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 2895,
+            "end_ms": 3742
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4742,
+            "end_ms": 5217
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5717,
+            "end_ms": 6177
+          },
+          {
+            "card": "2r",
+            "text": "may",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6677,
+            "end_ms": 7524
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U05_EE_bee",
+    "chains": [
+      {
+        "word": "bee",
+        "audio": "01_bee.mp3",
+        "duration_ms": 6863,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1472
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1972,
+            "end_ms": 2422
+          },
+          {
+            "card": "2r",
+            "text": "bee",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 2922,
+            "end_ms": 3406
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4406,
+            "end_ms": 4928
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5428,
+            "end_ms": 5878
+          },
+          {
+            "card": "2r",
+            "text": "bee",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6378,
+            "end_ms": 6862
+          }
+        ]
+      },
+      {
+        "word": "feet",
+        "audio": "02_feet.mp3",
+        "duration_ms": 9084,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1355
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1855,
+            "end_ms": 2305
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2805,
+            "end_ms": 3215
+          },
+          {
+            "card": "2r",
+            "text": "feet",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3715,
+            "end_ms": 4516
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5516,
+            "end_ms": 5921
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6421,
+            "end_ms": 6871
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7371,
+            "end_ms": 7781
+          },
+          {
+            "card": "2r",
+            "text": "feet",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8281,
+            "end_ms": 9082
+          }
+        ]
+      },
+      {
+        "word": "seed",
+        "audio": "03_seed.mp3",
+        "duration_ms": 10143,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1554
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2054,
+            "end_ms": 2504
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3004,
+            "end_ms": 3797
+          },
+          {
+            "card": "2r",
+            "text": "seed",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4297,
+            "end_ms": 5044
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6044,
+            "end_ms": 6648
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7148,
+            "end_ms": 7598
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8098,
+            "end_ms": 8891
+          },
+          {
+            "card": "2r",
+            "text": "seed",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9391,
+            "end_ms": 10138
+          }
+        ]
+      },
+      {
+        "word": "jeep",
+        "audio": "04_jeep.mp3",
+        "duration_ms": 9104,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "j",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1560
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2060,
+            "end_ms": 2510
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3010,
+            "end_ms": 3196
+          },
+          {
+            "card": "2r",
+            "text": "jeep",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3696,
+            "end_ms": 4527
+          },
+          {
+            "card": "2o0",
+            "text": "j",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5527,
+            "end_ms": 6137
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6637,
+            "end_ms": 7087
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7587,
+            "end_ms": 7773
+          },
+          {
+            "card": "2r",
+            "text": "jeep",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8273,
+            "end_ms": 9104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U05_EA_leaf",
+    "chains": [
+      {
+        "word": "leaf",
+        "audio": "01_leaf.mp3",
+        "duration_ms": 9124,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1510
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2010,
+            "end_ms": 2460
+          },
+          {
+            "card": "2c",
+            "text": "f",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2960,
+            "end_ms": 3300
+          },
+          {
+            "card": "2r",
+            "text": "leaf",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3800,
+            "end_ms": 4536
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5536,
+            "end_ms": 6096
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6596,
+            "end_ms": 7046
+          },
+          {
+            "card": "2c",
+            "text": "f",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7546,
+            "end_ms": 7886
+          },
+          {
+            "card": "2r",
+            "text": "leaf",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8386,
+            "end_ms": 9122
+          }
+        ]
+      },
+      {
+        "word": "eat",
+        "audio": "02_eat.mp3",
+        "duration_ms": 7703,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1400
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1900,
+            "end_ms": 2310
+          },
+          {
+            "card": "2r",
+            "text": "eat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 2810,
+            "end_ms": 3825
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4825,
+            "end_ms": 5275
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5775,
+            "end_ms": 6185
+          },
+          {
+            "card": "2r",
+            "text": "eat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6685,
+            "end_ms": 7700
+          }
+        ]
+      },
+      {
+        "word": "sea",
+        "audio": "03_sea.mp3",
+        "duration_ms": 7561,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1554
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2054,
+            "end_ms": 2504
+          },
+          {
+            "card": "2r",
+            "text": "sea",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3004,
+            "end_ms": 3754
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4754,
+            "end_ms": 5358
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5858,
+            "end_ms": 6308
+          },
+          {
+            "card": "2r",
+            "text": "sea",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6808,
+            "end_ms": 7558
+          }
+        ]
+      },
+      {
+        "word": "meat",
+        "audio": "04_meat.mp3",
+        "duration_ms": 9709,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1425
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1925,
+            "end_ms": 2375
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2875,
+            "end_ms": 3285
+          },
+          {
+            "card": "2r",
+            "text": "meat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3785,
+            "end_ms": 4828
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5828,
+            "end_ms": 6303
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6803,
+            "end_ms": 7253
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7753,
+            "end_ms": 8163
+          },
+          {
+            "card": "2r",
+            "text": "meat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8663,
+            "end_ms": 9706
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U05_Y-EY_candy",
+    "chains": [
+      {
+        "word": "candy",
+        "audio": "01_candy.mp3",
+        "duration_ms": 16051,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1373
+          },
+          {
+            "card": "2v",
+            "text": "a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1873,
+            "end_ms": 2623
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3123,
+            "end_ms": 3632
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4132,
+            "end_ms": 4925
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 4,
+            "start_ms": 5425,
+            "end_ms": 5875
+          },
+          {
+            "card": "2r",
+            "text": "candy",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6375,
+            "end_ms": 7998
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8998,
+            "end_ms": 9421
+          },
+          {
+            "card": "2v",
+            "text": "a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9921,
+            "end_ms": 10671
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 11171,
+            "end_ms": 11680
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 12180,
+            "end_ms": 12973
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 4,
+            "start_ms": 13473,
+            "end_ms": 13923
+          },
+          {
+            "card": "2r",
+            "text": "candy",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 14423,
+            "end_ms": 16046
+          }
+        ]
+      },
+      {
+        "word": "key",
+        "audio": "02_key.mp3",
+        "duration_ms": 7281,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "k",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1373
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1873,
+            "end_ms": 2323
+          },
+          {
+            "card": "2r",
+            "text": "key",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 2823,
+            "end_ms": 3614
+          },
+          {
+            "card": "2o0",
+            "text": "k",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4614,
+            "end_ms": 5037
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5537,
+            "end_ms": 5987
+          },
+          {
+            "card": "2r",
+            "text": "key",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6487,
+            "end_ms": 7278
+          }
+        ]
+      },
+      {
+        "word": "happy",
+        "audio": "03_happy.mp3",
+        "duration_ms": 12088,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1686
+          },
+          {
+            "card": "2v",
+            "text": "a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2186,
+            "end_ms": 2936
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3436,
+            "end_ms": 3857
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4357,
+            "end_ms": 4807
+          },
+          {
+            "card": "2r",
+            "text": "happy",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5307,
+            "end_ms": 6017
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7017,
+            "end_ms": 7753
+          },
+          {
+            "card": "2v",
+            "text": "a",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8253,
+            "end_ms": 9003
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9503,
+            "end_ms": 9924
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 10424,
+            "end_ms": 10874
+          },
+          {
+            "card": "2r",
+            "text": "happy",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 11374,
+            "end_ms": 12084
+          }
+        ]
+      },
+      {
+        "word": "money",
+        "audio": "04_money.mp3",
+        "duration_ms": 11209,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_e",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 450
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 950,
+            "end_ms": 1425
+          },
+          {
+            "card": "2v",
+            "text": "u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1925,
+            "end_ms": 2515
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3015,
+            "end_ms": 3524
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4024,
+            "end_ms": 4474
+          },
+          {
+            "card": "2r",
+            "text": "money",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4974,
+            "end_ms": 5578
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6578,
+            "end_ms": 7053
+          },
+          {
+            "card": "2v",
+            "text": "u",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7553,
+            "end_ms": 8143
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8643,
+            "end_ms": 9152
+          },
+          {
+            "card": "2v",
+            "text": "long_e",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 9652,
+            "end_ms": 10102
+          },
+          {
+            "card": "2r",
+            "text": "money",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10602,
+            "end_ms": 11206
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U06_IGH_light",
+    "chains": [
+      {
+        "word": "light",
+        "audio": "01_light.mp3",
+        "duration_ms": 11277,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1797
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2297,
+            "end_ms": 3034
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3534,
+            "end_ms": 3944
+          },
+          {
+            "card": "2r",
+            "text": "light",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4444,
+            "end_ms": 5756
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6756,
+            "end_ms": 7316
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7816,
+            "end_ms": 8553
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9053,
+            "end_ms": 9463
+          },
+          {
+            "card": "2r",
+            "text": "light",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9963,
+            "end_ms": 11275
+          }
+        ]
+      },
+      {
+        "word": "night",
+        "audio": "02_night.mp3",
+        "duration_ms": 11347,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1746
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2246,
+            "end_ms": 2983
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3483,
+            "end_ms": 3893
+          },
+          {
+            "card": "2r",
+            "text": "night",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4393,
+            "end_ms": 5790
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6790,
+            "end_ms": 7299
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7799,
+            "end_ms": 8536
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9036,
+            "end_ms": 9446
+          },
+          {
+            "card": "2r",
+            "text": "night",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9946,
+            "end_ms": 11343
+          }
+        ]
+      },
+      {
+        "word": "high",
+        "audio": "03_high.mp3",
+        "duration_ms": 9285,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1973
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2473,
+            "end_ms": 3210
+          },
+          {
+            "card": "2r",
+            "text": "high",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3710,
+            "end_ms": 4759
+          },
+          {
+            "card": "2o0",
+            "text": "h",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5759,
+            "end_ms": 6495
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6995,
+            "end_ms": 7732
+          },
+          {
+            "card": "2r",
+            "text": "high",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8232,
+            "end_ms": 9281
+          }
+        ]
+      },
+      {
+        "word": "right",
+        "audio": "04_right.mp3",
+        "duration_ms": 10411,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1674
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2174,
+            "end_ms": 2911
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3411,
+            "end_ms": 3821
+          },
+          {
+            "card": "2r",
+            "text": "right",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4321,
+            "end_ms": 5322
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6322,
+            "end_ms": 6759
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7259,
+            "end_ms": 7996
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8496,
+            "end_ms": 8906
+          },
+          {
+            "card": "2r",
+            "text": "right",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9406,
+            "end_ms": 10407
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U06_IE_pie",
+    "chains": [
+      {
+        "word": "pie",
+        "audio": "01_pie.mp3",
+        "duration_ms": 9524,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1658
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2158,
+            "end_ms": 2895
+          },
+          {
+            "card": "2r",
+            "text": "pie",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3395,
+            "end_ms": 4879
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5879,
+            "end_ms": 6300
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6800,
+            "end_ms": 7537
+          },
+          {
+            "card": "2r",
+            "text": "pie",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8037,
+            "end_ms": 9521
+          }
+        ]
+      },
+      {
+        "word": "tie",
+        "audio": "02_tie.mp3",
+        "duration_ms": 8609,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1957
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2457,
+            "end_ms": 3194
+          },
+          {
+            "card": "2r",
+            "text": "tie",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3694,
+            "end_ms": 4423
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5423,
+            "end_ms": 6143
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6643,
+            "end_ms": 7380
+          },
+          {
+            "card": "2r",
+            "text": "tie",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7880,
+            "end_ms": 8609
+          }
+        ]
+      },
+      {
+        "word": "lie",
+        "audio": "03_lie.mp3",
+        "duration_ms": 8308,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1797
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2297,
+            "end_ms": 3034
+          },
+          {
+            "card": "2r",
+            "text": "lie",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3534,
+            "end_ms": 4272
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5272,
+            "end_ms": 5832
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6332,
+            "end_ms": 7069
+          },
+          {
+            "card": "2r",
+            "text": "lie",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7569,
+            "end_ms": 8307
+          }
+        ]
+      },
+      {
+        "word": "die",
+        "audio": "04_die.mp3",
+        "duration_ms": 10243,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 2030
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2530,
+            "end_ms": 3267
+          },
+          {
+            "card": "2r",
+            "text": "die",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3767,
+            "end_ms": 5238
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6238,
+            "end_ms": 7031
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7531,
+            "end_ms": 8268
+          },
+          {
+            "card": "2r",
+            "text": "die",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8768,
+            "end_ms": 10239
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U06_Y_spy",
+    "chains": [
+      {
+        "word": "spy",
+        "audio": "01_spy.mp3",
+        "duration_ms": 7703,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "sp",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1777
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2277,
+            "end_ms": 3014
+          },
+          {
+            "card": "2r",
+            "text": "spy",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3514,
+            "end_ms": 3969
+          },
+          {
+            "card": "2o0",
+            "text": "sp",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4969,
+            "end_ms": 5509
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6009,
+            "end_ms": 6746
+          },
+          {
+            "card": "2r",
+            "text": "spy",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7246,
+            "end_ms": 7701
+          }
+        ]
+      },
+      {
+        "word": "sky",
+        "audio": "02_sky.mp3",
+        "duration_ms": 10081,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "sk",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1797
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2297,
+            "end_ms": 3034
+          },
+          {
+            "card": "2r",
+            "text": "sky",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3534,
+            "end_ms": 5159
+          },
+          {
+            "card": "2o0",
+            "text": "sk",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6159,
+            "end_ms": 6719
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7219,
+            "end_ms": 7956
+          },
+          {
+            "card": "2r",
+            "text": "sky",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8456,
+            "end_ms": 10081
+          }
+        ]
+      },
+      {
+        "word": "cry",
+        "audio": "03_cry.mp3",
+        "duration_ms": 8338,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "cr",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1708
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2208,
+            "end_ms": 2945
+          },
+          {
+            "card": "2r",
+            "text": "cry",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3445,
+            "end_ms": 4286
+          },
+          {
+            "card": "2o0",
+            "text": "cr",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5286,
+            "end_ms": 5757
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6257,
+            "end_ms": 6994
+          },
+          {
+            "card": "2r",
+            "text": "cry",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7494,
+            "end_ms": 8335
+          }
+        ]
+      },
+      {
+        "word": "my",
+        "audio": "04_my.mp3",
+        "duration_ms": 8334,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_i",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 737
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1237,
+            "end_ms": 1712
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2212,
+            "end_ms": 2949
+          },
+          {
+            "card": "2r",
+            "text": "my",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3449,
+            "end_ms": 4284
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5284,
+            "end_ms": 5759
+          },
+          {
+            "card": "2v",
+            "text": "long_i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6259,
+            "end_ms": 6996
+          },
+          {
+            "card": "2r",
+            "text": "my",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7496,
+            "end_ms": 8331
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U07_OA_boat",
+    "chains": [
+      {
+        "word": "boat",
+        "audio": "01_boat.mp3",
+        "duration_ms": 10762,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1756
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2256,
+            "end_ms": 2990
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3490,
+            "end_ms": 3900
+          },
+          {
+            "card": "2r",
+            "text": "boat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4400,
+            "end_ms": 5496
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6496,
+            "end_ms": 7018
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7518,
+            "end_ms": 8252
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8752,
+            "end_ms": 9162
+          },
+          {
+            "card": "2r",
+            "text": "boat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9662,
+            "end_ms": 10758
+          }
+        ]
+      },
+      {
+        "word": "coat",
+        "audio": "02_coat.mp3",
+        "duration_ms": 10724,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1657
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2157,
+            "end_ms": 2891
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3391,
+            "end_ms": 3801
+          },
+          {
+            "card": "2r",
+            "text": "coat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4301,
+            "end_ms": 5476
+          },
+          {
+            "card": "2o0",
+            "text": "c",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6476,
+            "end_ms": 6899
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7399,
+            "end_ms": 8133
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8633,
+            "end_ms": 9043
+          },
+          {
+            "card": "2r",
+            "text": "coat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9543,
+            "end_ms": 10718
+          }
+        ]
+      },
+      {
+        "word": "soap",
+        "audio": "03_soap.mp3",
+        "duration_ms": 9547,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1838
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2338,
+            "end_ms": 3072
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3572,
+            "end_ms": 3758
+          },
+          {
+            "card": "2r",
+            "text": "soap",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4258,
+            "end_ms": 4888
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5888,
+            "end_ms": 6492
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6992,
+            "end_ms": 7726
+          },
+          {
+            "card": "2c",
+            "text": "p",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8226,
+            "end_ms": 8412
+          },
+          {
+            "card": "2r",
+            "text": "soap",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8912,
+            "end_ms": 9542
+          }
+        ]
+      },
+      {
+        "word": "road",
+        "audio": "04_road.mp3",
+        "duration_ms": 11846,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1671
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2171,
+            "end_ms": 2905
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3405,
+            "end_ms": 4198
+          },
+          {
+            "card": "2r",
+            "text": "road",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4698,
+            "end_ms": 6037
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7037,
+            "end_ms": 7474
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7974,
+            "end_ms": 8708
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9208,
+            "end_ms": 10001
+          },
+          {
+            "card": "2r",
+            "text": "road",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10501,
+            "end_ms": 11840
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U07_OW_bow",
+    "chains": [
+      {
+        "word": "bow",
+        "audio": "01_bow.mp3",
+        "duration_ms": 8468,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1756
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2256,
+            "end_ms": 2990
+          },
+          {
+            "card": "2r",
+            "text": "bow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3490,
+            "end_ms": 4349
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5349,
+            "end_ms": 5871
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6371,
+            "end_ms": 7105
+          },
+          {
+            "card": "2r",
+            "text": "bow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7605,
+            "end_ms": 8464
+          }
+        ]
+      },
+      {
+        "word": "row",
+        "audio": "02_row.mp3",
+        "duration_ms": 9589,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1671
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2171,
+            "end_ms": 2905
+          },
+          {
+            "card": "2r",
+            "text": "row",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3405,
+            "end_ms": 4910
+          },
+          {
+            "card": "2o0",
+            "text": "r",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5910,
+            "end_ms": 6347
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6847,
+            "end_ms": 7581
+          },
+          {
+            "card": "2r",
+            "text": "row",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8081,
+            "end_ms": 9586
+          }
+        ]
+      },
+      {
+        "word": "yellow",
+        "audio": "03_yellow.mp3",
+        "duration_ms": 13148,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "y",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1814
+          },
+          {
+            "card": "2v",
+            "text": "e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2314,
+            "end_ms": 2789
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3289,
+            "end_ms": 3849
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4349,
+            "end_ms": 5083
+          },
+          {
+            "card": "2r",
+            "text": "yellow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5583,
+            "end_ms": 6689
+          },
+          {
+            "card": "2o0",
+            "text": "y",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7689,
+            "end_ms": 8269
+          },
+          {
+            "card": "2v",
+            "text": "e",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8769,
+            "end_ms": 9244
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9744,
+            "end_ms": 10304
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 10804,
+            "end_ms": 11538
+          },
+          {
+            "card": "2r",
+            "text": "yellow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 12038,
+            "end_ms": 13144
+          }
+        ]
+      },
+      {
+        "word": "pillow",
+        "audio": "04_pillow.mp3",
+        "duration_ms": 13957,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1655
+          },
+          {
+            "card": "2v",
+            "text": "i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2155,
+            "end_ms": 2805
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3305,
+            "end_ms": 3865
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4365,
+            "end_ms": 5099
+          },
+          {
+            "card": "2r",
+            "text": "pillow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5599,
+            "end_ms": 7094
+          },
+          {
+            "card": "2o0",
+            "text": "p",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8094,
+            "end_ms": 8515
+          },
+          {
+            "card": "2v",
+            "text": "i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9015,
+            "end_ms": 9665
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10165,
+            "end_ms": 10725
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 11225,
+            "end_ms": 11959
+          },
+          {
+            "card": "2r",
+            "text": "pillow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 12459,
+            "end_ms": 13954
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U07_OA-OW_goat",
+    "chains": [
+      {
+        "word": "goat",
+        "audio": "01_goat.mp3",
+        "duration_ms": 10873,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "g",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1794
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2294,
+            "end_ms": 3028
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3528,
+            "end_ms": 3938
+          },
+          {
+            "card": "2r",
+            "text": "goat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4438,
+            "end_ms": 5551
+          },
+          {
+            "card": "2o0",
+            "text": "g",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6551,
+            "end_ms": 7111
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7611,
+            "end_ms": 8345
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8845,
+            "end_ms": 9255
+          },
+          {
+            "card": "2r",
+            "text": "goat",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9755,
+            "end_ms": 10868
+          }
+        ]
+      },
+      {
+        "word": "toad",
+        "audio": "02_toad.mp3",
+        "duration_ms": 11860,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1954
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2454,
+            "end_ms": 3188
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3688,
+            "end_ms": 4481
+          },
+          {
+            "card": "2r",
+            "text": "toad",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4981,
+            "end_ms": 6044
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7044,
+            "end_ms": 7764
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8264,
+            "end_ms": 8998
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9498,
+            "end_ms": 10291
+          },
+          {
+            "card": "2r",
+            "text": "toad",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 10791,
+            "end_ms": 11854
+          }
+        ]
+      },
+      {
+        "word": "elbow",
+        "audio": "03_elbow.mp3",
+        "duration_ms": 13612,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2v",
+            "text": "e",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1709
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2209,
+            "end_ms": 2769
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3269,
+            "end_ms": 3791
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4291,
+            "end_ms": 5025
+          },
+          {
+            "card": "2r",
+            "text": "elbow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 5525,
+            "end_ms": 6921
+          },
+          {
+            "card": "2v",
+            "text": "e",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 7921,
+            "end_ms": 8396
+          },
+          {
+            "card": "2o0",
+            "text": "l",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 8896,
+            "end_ms": 9456
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 9956,
+            "end_ms": 10478
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 10978,
+            "end_ms": 11712
+          },
+          {
+            "card": "2r",
+            "text": "elbow",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 12212,
+            "end_ms": 13608
+          }
+        ]
+      },
+      {
+        "word": "window",
+        "audio": "04_window.mp3",
+        "duration_ms": 16919,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_o",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 734
+          },
+          {
+            "card": "2o0",
+            "text": "w",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1234,
+            "end_ms": 1774
+          },
+          {
+            "card": "2v",
+            "text": "i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2274,
+            "end_ms": 2924
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3424,
+            "end_ms": 3933
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4433,
+            "end_ms": 5226
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 4,
+            "start_ms": 5726,
+            "end_ms": 6460
+          },
+          {
+            "card": "2r",
+            "text": "window",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6960,
+            "end_ms": 8573
+          },
+          {
+            "card": "2o0",
+            "text": "w",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 9573,
+            "end_ms": 10113
+          },
+          {
+            "card": "2v",
+            "text": "i",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 10613,
+            "end_ms": 11263
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 11763,
+            "end_ms": 12272
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 12772,
+            "end_ms": 13565
+          },
+          {
+            "card": "2v",
+            "text": "long_o",
+            "row": 2,
+            "slot": 4,
+            "start_ms": 14065,
+            "end_ms": 14799
+          },
+          {
+            "card": "2r",
+            "text": "window",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 15299,
+            "end_ms": 16912
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U08_UE_blue",
+    "chains": [
+      {
+        "word": "blue",
+        "audio": "01_blue.mp3",
+        "duration_ms": 7708,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "bl",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1580
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2080,
+            "end_ms": 2600
+          },
+          {
+            "card": "2r",
+            "text": "blue",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3100,
+            "end_ms": 3864
+          },
+          {
+            "card": "2o0",
+            "text": "bl",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4864,
+            "end_ms": 5424
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5924,
+            "end_ms": 6444
+          },
+          {
+            "card": "2r",
+            "text": "blue",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6944,
+            "end_ms": 7708
+          }
+        ]
+      },
+      {
+        "word": "glue",
+        "audio": "02_glue.mp3",
+        "duration_ms": 9505,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "gl",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1700
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2200,
+            "end_ms": 2720
+          },
+          {
+            "card": "2r",
+            "text": "glue",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3220,
+            "end_ms": 4762
+          },
+          {
+            "card": "2o0",
+            "text": "gl",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5762,
+            "end_ms": 6442
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6942,
+            "end_ms": 7462
+          },
+          {
+            "card": "2r",
+            "text": "glue",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7962,
+            "end_ms": 9504
+          }
+        ]
+      },
+      {
+        "word": "clue",
+        "audio": "03_clue.mp3",
+        "duration_ms": 7714,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "cl",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1610
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2110,
+            "end_ms": 2630
+          },
+          {
+            "card": "2r",
+            "text": "clue",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3130,
+            "end_ms": 3867
+          },
+          {
+            "card": "2o0",
+            "text": "cl",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4867,
+            "end_ms": 5457
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5957,
+            "end_ms": 6477
+          },
+          {
+            "card": "2r",
+            "text": "clue",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6977,
+            "end_ms": 7714
+          }
+        ]
+      },
+      {
+        "word": "tuesday",
+        "audio": "04_tuesday.mp3",
+        "duration_ms": 14989,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1740
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2240,
+            "end_ms": 2760
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3260,
+            "end_ms": 3864
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 4364,
+            "end_ms": 5157
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 4,
+            "start_ms": 5657,
+            "end_ms": 6117
+          },
+          {
+            "card": "2r",
+            "text": "tuesday",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6617,
+            "end_ms": 7502
+          },
+          {
+            "card": "2o0",
+            "text": "t",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 8502,
+            "end_ms": 9222
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 9722,
+            "end_ms": 10242
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 10742,
+            "end_ms": 11346
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 3,
+            "start_ms": 11846,
+            "end_ms": 12639
+          },
+          {
+            "card": "2v",
+            "text": "long_a",
+            "row": 2,
+            "slot": 4,
+            "start_ms": 13139,
+            "end_ms": 13599
+          },
+          {
+            "card": "2r",
+            "text": "tuesday",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 14099,
+            "end_ms": 14984
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U08_UI-EW_fruit",
+    "chains": [
+      {
+        "word": "fruit",
+        "audio": "01_fruit.mp3",
+        "duration_ms": 9428,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "fr",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1570
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2070,
+            "end_ms": 2590
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3090,
+            "end_ms": 3500
+          },
+          {
+            "card": "2r",
+            "text": "fruit",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4000,
+            "end_ms": 4723
+          },
+          {
+            "card": "2o0",
+            "text": "fr",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5723,
+            "end_ms": 6273
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6773,
+            "end_ms": 7293
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7793,
+            "end_ms": 8203
+          },
+          {
+            "card": "2r",
+            "text": "fruit",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8703,
+            "end_ms": 9426
+          }
+        ]
+      },
+      {
+        "word": "suit",
+        "audio": "02_suit.mp3",
+        "duration_ms": 9800,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1624
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2124,
+            "end_ms": 2644
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3144,
+            "end_ms": 3554
+          },
+          {
+            "card": "2r",
+            "text": "suit",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4054,
+            "end_ms": 4908
+          },
+          {
+            "card": "2o0",
+            "text": "s",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5908,
+            "end_ms": 6512
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7012,
+            "end_ms": 7532
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8032,
+            "end_ms": 8442
+          },
+          {
+            "card": "2r",
+            "text": "suit",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8942,
+            "end_ms": 9796
+          }
+        ]
+      },
+      {
+        "word": "new",
+        "audio": "03_new.mp3",
+        "duration_ms": 7812,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1529
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2029,
+            "end_ms": 2549
+          },
+          {
+            "card": "2r",
+            "text": "new",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3049,
+            "end_ms": 3915
+          },
+          {
+            "card": "2o0",
+            "text": "n",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 4915,
+            "end_ms": 5424
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 5924,
+            "end_ms": 6444
+          },
+          {
+            "card": "2r",
+            "text": "new",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 6944,
+            "end_ms": 7810
+          }
+        ]
+      },
+      {
+        "word": "dew",
+        "audio": "04_dew.mp3",
+        "duration_ms": 9654,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1813
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2313,
+            "end_ms": 2833
+          },
+          {
+            "card": "2r",
+            "text": "dew",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3333,
+            "end_ms": 4836
+          },
+          {
+            "card": "2o0",
+            "text": "d",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5836,
+            "end_ms": 6629
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7129,
+            "end_ms": 7649
+          },
+          {
+            "card": "2r",
+            "text": "dew",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8149,
+            "end_ms": 9652
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson_id": "L3U08_OO_moon",
+    "chains": [
+      {
+        "word": "moon",
+        "audio": "01_moon.mp3",
+        "duration_ms": 9243,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1495
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1995,
+            "end_ms": 2515
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3015,
+            "end_ms": 3395
+          },
+          {
+            "card": "2r",
+            "text": "moon",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3895,
+            "end_ms": 4631
+          },
+          {
+            "card": "2o0",
+            "text": "m",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5631,
+            "end_ms": 6106
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6606,
+            "end_ms": 7126
+          },
+          {
+            "card": "2c",
+            "text": "n",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7626,
+            "end_ms": 8006
+          },
+          {
+            "card": "2r",
+            "text": "moon",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 8506,
+            "end_ms": 9242
+          }
+        ]
+      },
+      {
+        "word": "zoo",
+        "audio": "02_zoo.mp3",
+        "duration_ms": 8789,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "z",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1550
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2050,
+            "end_ms": 2570
+          },
+          {
+            "card": "2r",
+            "text": "zoo",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3070,
+            "end_ms": 4404
+          },
+          {
+            "card": "2o0",
+            "text": "z",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5404,
+            "end_ms": 5934
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6434,
+            "end_ms": 6954
+          },
+          {
+            "card": "2r",
+            "text": "zoo",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 7454,
+            "end_ms": 8788
+          }
+        ]
+      },
+      {
+        "word": "food",
+        "audio": "03_food.mp3",
+        "duration_ms": 9879,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1425
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 1925,
+            "end_ms": 2445
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 2945,
+            "end_ms": 3738
+          },
+          {
+            "card": "2r",
+            "text": "food",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 4238,
+            "end_ms": 4948
+          },
+          {
+            "card": "2o0",
+            "text": "f",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 5948,
+            "end_ms": 6353
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 6853,
+            "end_ms": 7373
+          },
+          {
+            "card": "2c",
+            "text": "d",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 7873,
+            "end_ms": 8666
+          },
+          {
+            "card": "2r",
+            "text": "food",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9166,
+            "end_ms": 9876
+          }
+        ]
+      },
+      {
+        "word": "boot",
+        "audio": "04_boot.mp3",
+        "duration_ms": 10453,
+        "segments": [
+          {
+            "card": "1o0",
+            "text": "long_oo",
+            "row": 1,
+            "slot": 0,
+            "start_ms": 0,
+            "end_ms": 520
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 1020,
+            "end_ms": 1542
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 2042,
+            "end_ms": 2562
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 3062,
+            "end_ms": 3472
+          },
+          {
+            "card": "2r",
+            "text": "boot",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 3972,
+            "end_ms": 5235
+          },
+          {
+            "card": "2o0",
+            "text": "b",
+            "row": 2,
+            "slot": 0,
+            "start_ms": 6235,
+            "end_ms": 6757
+          },
+          {
+            "card": "2v",
+            "text": "long_oo",
+            "row": 2,
+            "slot": 1,
+            "start_ms": 7257,
+            "end_ms": 7777
+          },
+          {
+            "card": "2c",
+            "text": "t",
+            "row": 2,
+            "slot": 2,
+            "start_ms": 8277,
+            "end_ms": 8687
+          },
+          {
+            "card": "2r",
+            "text": "boot",
+            "row": 2,
+            "slot": -1,
+            "start_ms": 9187,
+            "end_ms": 10450
+          }
+        ]
+      }
+    ]
+  }
+]

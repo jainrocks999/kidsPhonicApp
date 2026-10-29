@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "ABC Phonics Kids",
+    "slug": "abc-phonics-kids",
+    "scheme": "phonicskids",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFF8E1",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.beely.phonicskids"
+    },
+    "android": {
+      "package": "com.beely.phonicskids",
+      "versionCode": 18,
+      "adaptiveIcon": {
+        "backgroundColor": "#FFD43B",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-audio",
+      "expo-font",
+      "expo-image",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "backgroundColor": "#FFD43B"
+        }
+      ],
+      "expo-localization",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
