@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { Redirect, router, useLocalSearchParams } from 'expo-router';
 import { AppText } from '@/components/AppText';
-import { PackDownload } from '@/components/PackDownload';
 import { ProgressBar } from '@/components/ProgressBar';
 import { Pressy } from '@/components/Pressy';
 import { Screen } from '@/components/Screen';
@@ -10,7 +9,6 @@ import { promptAudio } from '@/assets';
 import { getLevel, getUnitStory } from '@/data/curriculum';
 import { GAME_META, GAMES_FOR_LEVEL } from '@/features/games/types';
 import { play } from '@/services/audio';
-import { packId } from '@/services/content';
 import { isUnitComplete, useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
@@ -46,7 +44,6 @@ export default function LevelScreen() {
                 {complete && <AppText>✅</AppText>}
               </View>
               <ProgressBar value={done / unit.lessons.length} color={accent} height={6} />
-              <PackDownload pack={packId(level.number, unit.number)} accent={accent} />
 
               <View style={styles.lessons}>
                 {unit.lessons.map((lesson, i) => {

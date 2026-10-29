@@ -4,12 +4,10 @@ import { router } from 'expo-router';
 import { AppText } from '@/components/AppText';
 import { Pressy } from '@/components/Pressy';
 import { Screen } from '@/components/Screen';
-import { levels } from '@/data/curriculum';
-import { deletePack, downloadPack, formatMB, packInfo, packsForLevel, isBundled, useContent } from '@/services/content';
 import { openStoreListing } from '@/services/review';
 import { useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
-import { useT, type StringKey } from '@/i18n';
+import { useT } from '@/i18n';
 import { colors, radius, shadow, space } from '@/theme';
 
 const extra = (Constants.expoConfig?.extra ?? {}) as { privacyUrl?: string; termsUrl?: string; supportEmail?: string };
@@ -28,8 +26,6 @@ export default function Settings() {
   const t = useT();
   const s = useSettings();
   const reset = useProgress((p) => p.reset);
-  const installed = useContent((c) => c.installed);
-  const progress = useContent((c) => c.progress);
   const version = Constants.expoConfig?.version ?? '';
 
   return (
@@ -43,44 +39,6 @@ export default function Settings() {
             onPress={() => s.setLanguage(s.language === 'en' ? 'vi' : 'en')}
           />
           <Row label={t('setting_sound_effects')} right={<Switch value={s.soundEffects} onValueChange={s.setSoundEffects} />} />
-        </View>
-
-        <AppText variant="caption">{t('setting_storage_title')}</AppText>
-        <View style={styles.group}>
-          {levels.map((l) => {
-            const packs = packsForLevel(l.number).filter((p) => !isBundled(p));
-            const have = packs.filter((p) => installed[p]);
-            const busy = packs.some((p) => progress[p] != null);
-            const bytes = packs.reduce((n, p) => n + (packInfo(p)?.bytes ?? 0), 0);
-            const name = t('level_name', l.number, t(`home_level_${l.number}_title` as StringKey));
-            const value = busy
-              ? `${t('common_loading')} ${have.length}/${packs.length}`
-              : have.length === packs.length
-                ? t('setting_storage_downloaded', formatMB(bytes))
-                : `${t('setting_storage_not_downloaded')} · ${formatMB(bytes)}`;
-            return (
-              <Row
-                key={l.id}
-                label={name}
-                value={value}
-                onPress={
-                  busy
-                    ? undefined
-                    : have.length === packs.length
-                      ? () =>
-                          Alert.alert(name, t('setting_storage_delete_confirm'), [
-                            { text: t('common_cancel'), style: 'cancel' },
-                            { text: t('setting_storage_delete'), style: 'destructive', onPress: () => packs.forEach(deletePack) },
-                          ])
-                      : () =>
-                          packs
-                            .filter((p) => !installed[p])
-                            .reduce((chain, p) => chain.then(() => downloadPack(p)), Promise.resolve())
-                            .catch(() => Alert.alert(t('error_network'), t('error_network_description')))
-                }
-              />
-            );
-          })}
         </View>
 
         <AppText variant="caption">{t('setting_support_title')}</AppText>

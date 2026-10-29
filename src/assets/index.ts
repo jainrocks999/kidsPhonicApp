@@ -1,16 +1,15 @@
 import { ASSETS } from './registry.generated';
 import { slug } from '@/data/curriculum';
 import type { LessonRef, Story, Word } from '@/data/types';
-import { remotePaths, resolveRemote } from '@/services/content';
 
-/** Bundled module id, or a file URI for content downloaded from a pack. */
+/** Bundled module id (or a file URI, e.g. a voice recording). */
 export type AssetId = number | { uri: string };
 
-const keys = [...Object.keys(ASSETS), ...remotePaths];
+const keys = Object.keys(ASSETS);
 const pad2 = (n: number) => String(n).padStart(2, '0');
 
-/** Bundled first, then installed packs. undefined => caller falls back (TTS / emoji / gradient). */
-export const asset = (path: string): AssetId | undefined => ASSETS[path] ?? resolveRemote(path);
+/** undefined => caller falls back (TTS / emoji / gradient). */
+export const asset = (path: string): AssetId | undefined => ASSETS[path];
 
 /** First asset under `dir` whose file name starts with `prefix` (e.g. "01_"). */
 function findByPrefix(dir: string, prefix: string): AssetId | undefined {

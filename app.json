@@ -59,7 +59,6 @@
       "typedRoutes": true
     },
     "extra": {
-      "contentCdn": "https://storage.googleapis.com/abc-phonics-kids-content/content",
       "privacyUrl": "",
       "termsUrl": "",
       "supportEmail": ""
