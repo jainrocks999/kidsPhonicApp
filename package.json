@@ -11,7 +11,8 @@
     "postinstall": "node scripts/generate-asset-registry.mjs && node scripts/generate-licenses.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "expo lint",
-    "licenses": "node scripts/generate-licenses.mjs"
+    "licenses": "node scripts/generate-licenses.mjs",
+    "timing": "python3 scripts/generate-voice-timing.py"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",

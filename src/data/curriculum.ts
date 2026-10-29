@@ -13,7 +13,8 @@ import chant2 from '@rn_assets/data/chant_meta/level_2.json';
 import chant3 from '@rn_assets/data/chant_meta/level_3.json';
 import chant4 from '@rn_assets/data/chant_meta/level_4.json';
 import chant5 from '@rn_assets/data/chant_meta/level_5.json';
-import type { BlendChain, ChantMeta, Lesson, LessonRef, Level, Story, Unit } from './types';
+import voiceTimingJson from '@rn_assets/data/voice_timing.json';
+import type { BlendChain, ChantMeta, Lesson, LessonRef, Level, Story, Unit, VoiceTiming } from './types';
 
 export const levels: Level[] = (curriculumJson as { levels: Level[] }).levels;
 export const stories: Story[] = [story1, story2, story3, story4, story5].flat() as Story[];
@@ -61,6 +62,8 @@ export const getUnitStory = (level: Level, unit: Unit) =>
 
 export const getBlendChains = (assetKey: string) => blendByLesson.get(assetKey) ?? [];
 export const getChantMeta = (assetKey: string) => chantByLesson.get(assetKey);
+/** Measured speech timing (scripts/generate-voice-timing.py) — undefined when not generated. */
+export const getVoiceTiming = (assetKey: string) => (voiceTimingJson as unknown as Record<string, VoiceTiming>)[assetKey];
 
 /** Ordered list of lessons in the next unit / level, used for "Next lesson". */
 export function nextLessonId(lessonId: string): string | undefined {

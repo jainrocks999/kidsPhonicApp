@@ -55,3 +55,5 @@ Docs: https://docs.expo.dev/eas/index.md
 - No analytics yet: `services/analytics.ts` is a no-op boundary already called app-wide.
 - Native-only features (Play in-app updates) need a dev build: `npx expo run:android`.
 - `npm run licenses` regenerates `src/data/licenses.generated.json` (also on install).
+- `npm run timing` (macOS only — uses `afconvert`) measures when words are spoken in the sound-intro and
+  chant audio → `rn_assets/data/voice_timing.json`, which drives the lesson highlights. Re-run after changing lesson audio.

@@ -99,3 +99,19 @@ export interface LessonRef {
   /** Asset folder key, e.g. "L1U01_A_apple". */
   assetKey: string;
 }
+
+/** [startMs, endMs] of one spoken burst. */
+export type Span = [number, number];
+
+/** Measured from the lesson audio by scripts/generate-voice-timing.py. */
+export interface VoiceTiming {
+  /** Every voiced burst of 00_sound_intro.mp3. */
+  intro?: Span[];
+  /**
+   * 02_chant.mp3 as heard: first round one entry per line ("A-A-Apple", with per-chunk spans);
+   * sung rounds one entry per word burst (`word: true` → light that card's word).
+   */
+  chant?: { line: number; start: number; end: number; chunks: Span[] | null; word?: boolean }[];
+  /** Bursts of the sung part — used to dance when its lines aren't reliable. */
+  beats?: Span[];
+}

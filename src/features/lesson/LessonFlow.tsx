@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import Animated, { FadeInRight, ZoomIn } from 'react-native-reanimated';
+import Animated, { FadeInLeft, FadeInRight, ZoomIn } from 'react-native-reanimated';
 import { router } from 'expo-router';
 import { AppText } from '@/components/AppText';
 import { Celebration } from '@/components/Celebration';
-import { ProgressBar } from '@/components/ProgressBar';
+import { Icon } from '@/components/Icon';
+import { IconButton } from '@/components/IconButton';
+import { RainbowText } from '@/components/RainbowText';
 import { Pressy } from '@/components/Pressy';
 import { Screen } from '@/components/Screen';
 import { promptAudio, type PromptId } from '@/assets';
@@ -16,7 +18,8 @@ import { play, stopVoice } from '@/services/audio';
 import { isLevelComplete, isUnitComplete, useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
-import { levelColors, space } from '@/theme';
+import { colors, fonts, levelColors, levelInk, radius, shadow, space } from '@/theme';
+import { Bouncy } from './fx';
 import { stepsFor, type StepId, type StepProps } from './types';
 import { SoundIntro } from './steps/SoundIntro';
 import { Chant } from './steps/Chant';
@@ -48,7 +51,10 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
   const [milestone, setMilestone] = useState<'unit' | 'level' | null>(null);
   /** Step index whose spoken intro has finished (step content mounts after it). */
   const [introDoneFor, setIntroDoneFor] = useState(-1);
-  const scores = useRef<number[]>([]);
+  /** Score per step index — redoing a step overwrites, skipping leaves it out. */
+  const scores = useRef<Record<number, number>>({});
+  const [dir, setDir] = useState<1 | -1>(1);
+  const [readyFor, setReadyFor] = useState(-1);
   const { lesson, level } = lessonRef;
   const step = STEPS[steps[stepIndex]];
   const StepComponent = step.component;
@@ -70,13 +76,26 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
     };
   }, [step.prompt, stepIndex, lang]);
 
-  const next = (score?: number) => {
-    if (score != null) scores.current.push(score);
-    if (stepIndex + 1 < steps.length) {
-      setStepIndex(stepIndex + 1);
+  const goTo = (i: number) => {
+    if (i < 0 || i === stepIndex) return;
+    stopVoice();
+    if (i >= steps.length) {
+      finish();
       return;
     }
-    const avg = scores.current.length ? scores.current.reduce((a, b) => a + b, 0) / scores.current.length : 1;
+    setDir(i > stepIndex ? 1 : -1);
+    setStepIndex(i);
+  };
+
+  const next = (score?: number) => {
+    if (score != null) scores.current[stepIndex] = score;
+    goTo(stepIndex + 1);
+  };
+
+  const finish = () => {
+    if (stars != null) return;
+    const list = Object.values(scores.current);
+    const avg = list.length ? list.reduce((a, b) => a + b, 0) / list.length : 1;
     const s = avg >= 0.85 ? 3 : avg >= 0.5 ? 2 : 1;
     const before = useProgress.getState().lessons;
     const unitWasDone = isUnitComplete(lessonRef.unit, before);
@@ -105,27 +124,60 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
 
   return (
     <Screen title={`${lesson.displayLetter} · ${t(step.title)}`}>
-      <View style={styles.progress}>
-        <ProgressBar value={(stepIndex + (stars != null ? 1 : 0)) / steps.length} color={levelColors[level.number - 1]} />
-        <AppText variant="caption">
-          {stepIndex + 1}/{steps.length}
-        </AppText>
-      </View>
       {introDoneFor === stepIndex ? (
-        <Animated.View key={`${lesson.id}-${stepIndex}`} entering={FadeInRight} style={{ flex: 1 }}>
-          <StepComponent lessonRef={lessonRef} onDone={next} />
+        <Animated.View
+          key={`${lesson.id}-${stepIndex}`}
+          entering={(dir === 1 ? FadeInRight : FadeInLeft).springify().damping(16)}
+          style={{ flex: 1 }}>
+          <StepComponent lessonRef={lessonRef} onDone={next} onReady={() => setReadyFor(stepIndex)} />
         </Animated.View>
       ) : (
         <Pressy silent onPress={() => (stopVoice(), setIntroDoneFor(stepIndex))} style={styles.intro}>
-          <Animated.View key={stepIndex} entering={ZoomIn.springify()} style={{ alignItems: 'center', gap: space.sm }}>
-            <AppText variant="huge" style={{ color: levelColors[level.number - 1] }}>
-              {lesson.displayLetter}
-            </AppText>
-            <AppText variant="title">{t(step.title)}</AppText>
-            <AppText variant="caption">👆 {t('common_skip')}</AppText>
+          <Animated.View key={stepIndex} entering={ZoomIn.springify().damping(9)} style={styles.introCard}>
+            <Bouncy active popKey={stepIndex} strength={0.6}>
+              <RainbowText text={lesson.displayLetter} size={110} palette={levelInk[level.number - 1]} />
+            </Bouncy>
+            <AppText style={styles.introTitle}>{t(step.title)}</AppText>
+            <View style={styles.skip}>
+              <AppText style={styles.skipText}>👆 {t('common_skip')}</AppText>
+            </View>
           </Animated.View>
         </Pressy>
       )}
+
+      {/* ---------- step navigation ---------- */}
+      <View style={styles.footer}>
+        <IconButton
+          icon="prev"
+          size={52}
+          color={stepIndex === 0 ? colors.locked : colors.orange}
+          onPress={() => goTo(stepIndex - 1)}
+          accessibilityLabel={t('chant_previous')}
+        />
+        <View style={styles.dots}>
+          {steps.map((id, i) => (
+            <Pressy
+              key={id}
+              onPress={() => goTo(i)}
+              hitSlop={6}
+              accessibilityLabel={t(STEPS[id].title)}
+              style={[
+                styles.dot,
+                i === stepIndex
+                  ? { width: 26, backgroundColor: levelColors[level.number - 1], borderColor: levelColors[level.number - 1] }
+                  : i < stepIndex && { backgroundColor: colors.green, borderColor: colors.green },
+              ]}
+            />
+          ))}
+        </View>
+        <Bouncy active={readyFor === stepIndex} strength={0.4}>
+          <Pressy onPress={() => goTo(stepIndex + 1)} accessibilityRole="button" style={styles.next}>
+            <AppText style={styles.nextText}>{t('common_next')}</AppText>
+            <Icon name="next" size={22} />
+          </Pressy>
+        </Bouncy>
+      </View>
+
       <Celebration
         visible={stars != null}
         stars={stars ?? 0}
@@ -145,6 +197,50 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
 }
 
 const styles = StyleSheet.create({
-  progress: { flexDirection: 'row', alignItems: 'center', gap: space.sm, paddingHorizontal: space.lg },
-  intro: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+  intro: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: space.lg },
+  introCard: {
+    alignSelf: 'stretch',
+    alignItems: 'center',
+    gap: space.md,
+    backgroundColor: colors.surface,
+    borderRadius: radius.lg,
+    borderWidth: 4,
+    borderColor: '#fff',
+    borderBottomWidth: 10,
+    borderBottomColor: colors.border,
+    paddingVertical: space.lg,
+    ...shadow,
+  },
+  introTitle: { fontFamily: fonts.bold, fontSize: 30, lineHeight: 38, color: colors.primaryDark },
+  skip: { backgroundColor: colors.bg, borderRadius: radius.pill, paddingHorizontal: 16, paddingVertical: 6 },
+  skipText: { fontFamily: fonts.bold, fontSize: 16, color: colors.textMuted },
+  footer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: space.sm,
+    marginHorizontal: space.md,
+    marginTop: space.sm,
+    marginBottom: space.xs,
+    padding: 8,
+    backgroundColor: 'rgba(255,255,255,0.95)',
+    borderRadius: 28,
+    ...shadow,
+  },
+  dots: { flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 6, flexWrap: 'wrap' },
+  dot: { width: 12, height: 12, borderRadius: 6, borderWidth: 2, borderColor: colors.border, backgroundColor: '#fff' },
+  next: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    height: 52,
+    paddingLeft: 18,
+    paddingRight: 12,
+    borderRadius: 18,
+    backgroundColor: colors.green,
+    borderWidth: 3,
+    borderColor: '#fff',
+    borderBottomWidth: 6,
+    borderBottomColor: '#13A850',
+  },
+  nextText: { color: '#fff', fontFamily: fonts.bold, fontSize: 20, lineHeight: 26 },
 });

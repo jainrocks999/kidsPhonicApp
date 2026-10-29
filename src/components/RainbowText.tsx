@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { StyleSheet, View, type StyleProp, type TextStyle } from 'react-native';
+import { StyleSheet, Text, View, type StyleProp, type TextStyle } from 'react-native';
 import Animated, { Easing, useAnimatedStyle, useSharedValue, withRepeat, withTiming, type SharedValue } from 'react-native-reanimated';
 import { AppText } from './AppText';
 import { fonts } from '@/theme';
@@ -34,9 +34,10 @@ export function RainbowText({
       minimumFontScale={0.6}
       style={[styles.base, { fontSize: size, lineHeight: size * 1.25 }, style]}>
       {[...text].map((ch, i) => (
-        <AppText key={i} style={{ color: /\s/.test(ch) ? undefined : colorAt(n++, offset, palette) }}>
+        // plain Text so it inherits the parent's size/font (AppText would reset to 16px body)
+        <Text key={i} style={{ color: /\s/.test(ch) ? undefined : colorAt(n++, offset, palette) }}>
           {ch}
-        </AppText>
+        </Text>
       ))}
     </AppText>
   );
