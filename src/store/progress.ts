@@ -3,6 +3,9 @@ import { persist } from 'zustand/middleware';
 import { persistStorage } from './storage';
 import type { Level, Unit } from '@/data/types';
 
+export const isLevelComplete = (level: Level, lessons: Record<string, number>) =>
+  level.units.every((u) => u.lessons.every((l) => lessons[l.id]));
+
 interface ProgressState {
   /** lessonId -> stars (1–3) */
   lessons: Record<string, number>;
@@ -33,11 +36,6 @@ export const useProgress = create<ProgressState>()(
 
 export const isUnitComplete = (unit: Unit, lessons: Record<string, number>) =>
   unit.lessons.every((l) => lessons[l.id]);
-
-/** Units unlock in order: a unit opens once the previous unit's lessons are all done. */
-export function isUnitUnlocked(level: Level, unitIndex: number, lessons: Record<string, number>) {
-  return unitIndex === 0 || isUnitComplete(level.units[unitIndex - 1], lessons);
-}
 
 export function levelProgress(level: Level, lessons: Record<string, number>) {
   const all = level.units.flatMap((u) => u.lessons);

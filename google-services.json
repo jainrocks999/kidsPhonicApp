@@ -1,0 +1,19 @@
+{
+  "project_info": {
+    "project_number": "70173684124",
+    "project_id": "abc-phonics-kids",
+    "storage_bucket": "abc-phonics-kids.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70173684124:android:191f02663404082e9b1859",
+        "android_client_info": { "package_name": "com.beely.phonicskids" }
+      },
+      "oauth_client": [],
+      "api_key": [{ "current_key": "AIzaSyBJnOEba4dNgWyNxgvb2w_vRDP2VV2ETys" }],
+      "services": { "appinvite_service": { "other_platform_oauth_client": [] } }
+    }
+  ],
+  "configuration_version": "1"
+}

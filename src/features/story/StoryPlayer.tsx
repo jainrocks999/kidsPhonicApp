@@ -13,6 +13,7 @@ import type { Story } from '@/data/types';
 import { useVoiceTime } from '@/hooks/useVoiceTime';
 import { play, speak, stopVoice } from '@/services/audio';
 import { useProgress } from '@/store/progress';
+import { logEvent } from '@/services/analytics';
 import { useT } from '@/i18n';
 import { colors, levelColors, radius, shadow, space } from '@/theme';
 
@@ -60,6 +61,7 @@ export function StoryPlayer({ story }: { story: Story }) {
       const n = p + d;
       if (n >= story.scenes.length) {
         completeStory(story.id);
+        logEvent('story_complete', { story_id: story.id });
         setFinished(true);
         return p;
       }

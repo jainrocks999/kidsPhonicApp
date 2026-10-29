@@ -1,15 +1,18 @@
-import { useState } from 'react';
-import { Alert, ScrollView, Share, StyleSheet, Switch, View } from 'react-native';
+import { Alert, Linking, ScrollView, Share, StyleSheet, Switch, View } from 'react-native';
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
 import { AppText } from '@/components/AppText';
 import { Pressy } from '@/components/Pressy';
 import { Screen } from '@/components/Screen';
 import { levels } from '@/data/curriculum';
+import { deletePack, downloadPack, formatMB, packInfo, packsForLevel, isBundled, useContent } from '@/services/content';
+import { openStoreListing } from '@/services/review';
 import { useProgress } from '@/store/progress';
-import { isLevelOwned, useSettings } from '@/store/settings';
+import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
 import { colors, radius, shadow, space } from '@/theme';
+
+const extra = (Constants.expoConfig?.extra ?? {}) as { privacyUrl?: string; termsUrl?: string; supportEmail?: string };
 
 function Row({ label, value, onPress, right }: { label: string; value?: string; onPress?: () => void; right?: React.ReactNode }) {
   return (
@@ -25,7 +28,9 @@ export default function Settings() {
   const t = useT();
   const s = useSettings();
   const reset = useProgress((p) => p.reset);
-  const [versionTaps, setVersionTaps] = useState(0);
+  const installed = useContent((c) => c.installed);
+  const progress = useContent((c) => c.progress);
+  const version = Constants.expoConfig?.version ?? '';
 
   return (
     <Screen title={t('setting_title')}>
@@ -40,16 +45,39 @@ export default function Settings() {
           <Row label={t('setting_sound_effects')} right={<Switch value={s.soundEffects} onValueChange={s.setSoundEffects} />} />
         </View>
 
-        <AppText variant="caption">{t('setting_parent_control_title')}</AppText>
+        <AppText variant="caption">{t('setting_storage_title')}</AppText>
         <View style={styles.group}>
           {levels.map((l) => {
-            const owned = isLevelOwned(l.id, l.isPremium, s.purchases, s.devMode);
+            const packs = packsForLevel(l.number).filter((p) => !isBundled(p));
+            const have = packs.filter((p) => installed[p]);
+            const busy = packs.some((p) => progress[p] != null);
+            const bytes = packs.reduce((n, p) => n + (packInfo(p)?.bytes ?? 0), 0);
+            const name = t('level_name', l.number, t(`home_level_${l.number}_title` as StringKey));
+            const value = busy
+              ? `${t('common_loading')} ${have.length}/${packs.length}`
+              : have.length === packs.length
+                ? t('setting_storage_downloaded', formatMB(bytes))
+                : `${t('setting_storage_not_downloaded')} · ${formatMB(bytes)}`;
             return (
               <Row
                 key={l.id}
-                label={t('level_name', l.number, t(`home_level_${l.number}_title` as StringKey))}
-                value={!l.isPremium ? t('unit_free_label') : owned ? t('setting_unlocked_label') : t('setting_parent_control_buy_plain')}
-                onPress={owned ? undefined : () => router.push(`/paywall?level=${l.id}`)}
+                label={name}
+                value={value}
+                onPress={
+                  busy
+                    ? undefined
+                    : have.length === packs.length
+                      ? () =>
+                          Alert.alert(name, t('setting_storage_delete_confirm'), [
+                            { text: t('common_cancel'), style: 'cancel' },
+                            { text: t('setting_storage_delete'), style: 'destructive', onPress: () => packs.forEach(deletePack) },
+                          ])
+                      : () =>
+                          packs
+                            .filter((p) => !installed[p])
+                            .reduce((chain, p) => chain.then(() => downloadPack(p)), Promise.resolve())
+                            .catch(() => Alert.alert(t('error_network'), t('error_network_description')))
+                }
               />
             );
           })}
@@ -57,7 +85,14 @@ export default function Settings() {
 
         <AppText variant="caption">{t('setting_support_title')}</AppText>
         <View style={styles.group}>
-          <Row label={t('setting_support_share')} onPress={() => Share.share({ message: t('setting_share_message') })} />
+          <Row label={`⭐ ${t('setting_support_rate')}`} onPress={openStoreListing} />
+          {!!extra.supportEmail && (
+            <Row
+              label={`✉️ ${t('setting_support_feedback')}`}
+              onPress={() => Linking.openURL(`mailto:${extra.supportEmail}?subject=${encodeURIComponent(`ABC Phonics Kids ${version} feedback`)}`)}
+            />
+          )}
+          <Row label={`📤 ${t('setting_support_share')}`} onPress={() => Share.share({ message: t('setting_share_message') })} />
           <Row
             label={t('setting_reset_progress')}
             onPress={() =>
@@ -69,23 +104,12 @@ export default function Settings() {
           />
         </View>
 
-        <AppText variant="caption">{t('setting_information')}</AppText>
+        <AppText variant="caption">{t('setting_other')}</AppText>
         <View style={styles.group}>
-          <Row
-            label={t('setting_information_app_version')}
-            value={Constants.expoConfig?.version ?? ''}
-            onPress={() => {
-              // 7 taps toggles developer mode (unlocks all levels/units for QA).
-              const n = versionTaps + 1;
-              setVersionTaps(n);
-              if (n >= 7) {
-                s.setDevMode(!s.devMode);
-                setVersionTaps(0);
-                Alert.alert(t('setting_other_developer_mode'), s.devMode ? 'OFF' : 'ON');
-              }
-            }}
-          />
-          {s.devMode && <Row label={`🛠 ${t('setting_other_developer_mode')}`} right={<Switch value onValueChange={() => s.setDevMode(false)} />} />}
+          {!!extra.privacyUrl && <Row label={t('setting_other_privacy_policy')} onPress={() => Linking.openURL(extra.privacyUrl!)} />}
+          {!!extra.termsUrl && <Row label={t('setting_other_team_of_service')} onPress={() => Linking.openURL(extra.termsUrl!)} />}
+          <Row label={t('setting_other_open_source_license')} onPress={() => router.push('/licenses')} />
+          <Row label={t('setting_information_app_version')} value={version} />
         </View>
       </ScrollView>
     </Screen>

@@ -1,19 +1,22 @@
 import { ASSETS } from './registry.generated';
 import { slug } from '@/data/curriculum';
 import type { LessonRef, Story, Word } from '@/data/types';
+import { remotePaths, resolveRemote } from '@/services/content';
 
-export type AssetId = number;
+/** Bundled module id, or a file URI for content downloaded from a pack. */
+export type AssetId = number | { uri: string };
 
-const keys = Object.keys(ASSETS);
+const keys = [...Object.keys(ASSETS), ...remotePaths];
 const pad2 = (n: number) => String(n).padStart(2, '0');
 
-export const asset = (path: string): AssetId | undefined => ASSETS[path];
+/** Bundled first, then installed packs. undefined => caller falls back (TTS / emoji / gradient). */
+export const asset = (path: string): AssetId | undefined => ASSETS[path] ?? resolveRemote(path);
 
 /** First asset under `dir` whose file name starts with `prefix` (e.g. "01_"). */
 function findByPrefix(dir: string, prefix: string): AssetId | undefined {
   const start = `${dir}/${prefix}`;
   const key = keys.find((k) => k.startsWith(start) && !k.slice(start.length).includes('/'));
-  return key ? ASSETS[key] : undefined;
+  return key ? asset(key) : undefined;
 }
 
 function lessonDir(ref: LessonRef) {

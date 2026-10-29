@@ -14,7 +14,11 @@ export function Celebration({
   stars,
   primary,
   secondary,
+  emoji = '🎉',
+  silent,
 }: {
+  emoji?: string;
+  silent?: boolean;
   visible: boolean;
   title: string;
   subtitle?: string;
@@ -23,14 +27,14 @@ export function Celebration({
   secondary?: { label: string; onPress: () => void };
 }) {
   useEffect(() => {
-    if (visible) playSfx(sfx.complete);
-  }, [visible]);
+    if (visible && !silent) playSfx(sfx.complete);
+  }, [visible, silent]);
 
   return (
     <Modal visible={visible} transparent animationType="fade" statusBarTranslucent>
       <View style={styles.overlay}>
         <Animated.View entering={ZoomIn.springify()} style={styles.card}>
-          <AppText style={{ fontSize: 72 }}>🎉</AppText>
+          <AppText style={{ fontSize: 72 }}>{emoji}</AppText>
           {stars != null && (
             <AppText style={{ fontSize: 40, letterSpacing: 4 }}>
               {'⭐'.repeat(stars)}

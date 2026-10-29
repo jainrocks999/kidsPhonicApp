@@ -5,6 +5,7 @@ import { Button } from '@/components/Button';
 import { IconButton } from '@/components/IconButton';
 import { Pressy } from '@/components/Pressy';
 import { WordPicture } from '@/components/WordPicture';
+import { VoiceRecorder } from '../VoiceRecorder';
 import { lessonAudio } from '@/assets';
 import { play } from '@/services/audio';
 import { useT } from '@/i18n';
@@ -45,6 +46,10 @@ export function Vocabulary({ lessonRef, onDone }: StepProps) {
           <AppText variant="caption">🔊 {t('vocabulary_listen_cd')}</AppText>
         </Pressy>
         <IconButton icon="▶️" onPress={() => go(1)} accessibilityLabel={t('vocabulary_next_cd')} />
+      </View>
+      <View style={{ alignItems: 'center', gap: 4 }}>
+        <VoiceRecorder word={word.word} onSuccess={() => go(1)} />
+        <AppText variant="caption">{t('sound_intro_can_you_say', word.word)}</AppText>
       </View>
       <View style={styles.dots}>
         {lesson.words.map((_, i) => (

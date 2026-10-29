@@ -13,6 +13,7 @@ import { MemoryMatch } from '@/features/games/MemoryMatch';
 import { PickWord } from '@/features/games/PickWord';
 import { SpellLetters } from '@/features/games/SpellLetters';
 import { GAME_META, type GameId, type GameProps } from '@/features/games/types';
+import { logEvent } from '@/services/analytics';
 import { play, stopVoice } from '@/services/audio';
 import { useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
@@ -71,6 +72,7 @@ export default function GameScreen() {
         patterns={patterns}
         onFinish={(s) => {
           completeGame(found.unit.id, gameId);
+          logEvent('game_complete', { game: gameId, unit_id: found.unit.id, score: Math.round(s * 100) });
           setScore(s);
         }}
       />

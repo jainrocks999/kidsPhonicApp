@@ -47,6 +47,12 @@ Docs: https://docs.expo.dev/eas/index.md
   **Run `npm run assets` after adding/removing files in `rn_assets/`** (also runs on `npm install`).
   Look media up through helpers in `src/assets/index.ts`, never by hand-built require paths.
 - Lesson audio folder key = `L{level}U{unit:02}_{letter}_{firstWord}` (see `lessonAssetKey`).
-  Only units 1–2 of each level are bundled; missing audio falls back to `expo-speech` TTS (`services/audio.ts`).
+- Units 1–2 are bundled; units 3–8 are downloadable packs (`services/content.ts`), fetched from
+  `{extra.contentCdn}/{hash}/{path}` per `rn_assets/data/content_manifest.json`. Anything still missing
+  falls back to `expo-speech` TTS / emoji.
 - State: zustand + AsyncStorage (`src/store`). Strings: `src/i18n/{en,vi}.json` (decoded from the APK).
-- Billing is stubbed in `src/services/purchases.ts` (dev builds unlock locally).
+- No paywall/ads/locks by design: every level, unit, story and game is open.
+- Firebase (Analytics + Crashlytics) is wired in `app.config.ts` only when `google-services.json`
+  (and for iOS `GoogleService-Info.plist`) exist; `services/analytics.ts` no-ops in Expo Go.
+- Native-only features (Firebase, Play in-app updates) need a dev build: `npx expo run:android`.
+- `npm run licenses` regenerates `src/data/licenses.generated.json` (also on install).
