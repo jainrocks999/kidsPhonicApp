@@ -70,7 +70,7 @@ export function Identify({ lessonRef, onDone }: StepProps) {
         {t('identify_round_progress', round + 1, rounds.length)} · {t('step_guide_identify')}
       </AppText>
       <View style={{ alignItems: 'center', gap: space.sm }}>
-        <IconButton icon="🔊" size={88} color={colors.yellow} onPress={sayTarget} accessibilityLabel={t('identify_listen_cd')} />
+        <IconButton icon="speaker" size={88} color={colors.yellow} onPress={sayTarget} accessibilityLabel={t('identify_listen_cd')} />
       </View>
       <Animated.View style={[styles.options, shakeStyle]}>
         {options.map((w) => (

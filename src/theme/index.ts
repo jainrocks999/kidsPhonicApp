@@ -17,11 +17,18 @@ export const colors = {
   overlay: 'rgba(25, 20, 60, 0.5)',
 };
 
-/** Accent per level (index 0 = Level 1). */
+/** Accent per level (index 0 = Level 1). Home cards inhe use karti hain. */
 export const levelColors = [colors.red, colors.blue, colors.green, colors.purple, colors.orange];
 
 /** Chunky 3D edge ke liye har accent ka dark version. */
 export const levelDark = ['#D63A5A', '#1288D6', '#13A850', '#7A3FD6', '#E07A1F'];
+
+/**
+ * Unit cards on the level screen cycle these — same swatches as home, plus pink.
+ * Change `colors` above and both home and unit cards update.
+ */
+export const unitColors = [...levelColors, colors.pink];
+export const unitDark = [...levelDark, '#E056B0'];
 
 export const fonts = {
   regular: 'Quicksand-Regular',
@@ -41,3 +48,14 @@ export const shadow = {
   shadowOffset: { width: 0, height: 6 },
   elevation: 6,
 };
+/**
+ * Letter colours per level (index 0 = Level 1) — each level reads in its own colour family.
+ * All are dark enough to read on white.
+ */
+export const levelInk = [
+  ['#FF3D68', '#FF7A00', '#D6246E'],
+  ['#1E8FFF', '#0057D9', '#00A0C2'],
+  ['#12B054', '#0A8F6A', '#4FA600'],
+  ['#8A4DFF', '#C2389E', '#5B2FD6'],
+  ['#FF7A00', '#E8430C', '#D18A00'],
+];

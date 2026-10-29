@@ -89,7 +89,7 @@ export function StoryPlayer({ story }: { story: Story }) {
   return (
     <Screen
       title={t('story_title')}
-      right={<IconButton icon={autoPlay ? '⏯️' : '▶️'} onPress={() => setAutoPlay(!autoPlay)} accessibilityLabel="Auto play" />}>
+      right={<IconButton icon={autoPlay ? 'pause' : 'play'} color={colors.green} onPress={() => setAutoPlay(!autoPlay)} accessibilityLabel="Auto play" />}>
       <View style={styles.root}>
         <Animated.View key={page} entering={FadeIn.duration(400)} style={[styles.frame, { height: imgH }]}>
           {img ? (
@@ -123,9 +123,9 @@ export function StoryPlayer({ story }: { story: Story }) {
         </View>
 
         <View style={styles.controls}>
-          <IconButton icon="⏮️" onPress={() => turn(-1)} accessibilityLabel={t('slide_previous_cd')} />
-          <IconButton icon="🔊" size={72} color={colors.yellow} onPress={narrate} accessibilityLabel={t('story_audio_cd')} />
-          <IconButton icon="⏭️" onPress={() => turn(1)} accessibilityLabel={t('slide_next_cd')} />
+          <IconButton icon="prev" onPress={() => turn(-1)} accessibilityLabel={t('slide_previous_cd')} />
+          <IconButton icon="speaker" size={72} color={colors.yellow} onPress={narrate} accessibilityLabel={t('story_audio_cd')} />
+          <IconButton icon="next" onPress={() => turn(1)} accessibilityLabel={t('slide_next_cd')} />
         </View>
       </View>
       <Celebration

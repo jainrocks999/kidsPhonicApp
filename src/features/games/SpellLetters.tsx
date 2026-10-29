@@ -58,7 +58,7 @@ function SpellRound({ item, progress, accent, onSpelled }: { item: Word; progres
       </AppText>
       <View style={styles.picture}>
         <WordPicture word={item} size={140} />
-        <IconButton icon="🔊" size={40} onPress={() => play(undefined, item.word)} />
+        <IconButton icon="speaker" size={40} onPress={() => play(undefined, item.word)} />
       </View>
       <View style={styles.slots}>
         {target.split('').map((ch, i) => (

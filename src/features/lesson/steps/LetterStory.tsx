@@ -57,7 +57,7 @@ export function LetterStory({ lessonRef, onDone }: StepProps) {
         <AppText variant="title" style={{ textAlign: 'center' }}>
           {sentence}
         </AppText>
-        <IconButton icon="🔊" onPress={narrate} accessibilityLabel={t('story_audio_cd')} />
+        <IconButton icon="speaker" onPress={narrate} accessibilityLabel={t('story_audio_cd')} />
       </Animated.View>
       <Button
         label={last ? t('common_finish') : t('common_next')}

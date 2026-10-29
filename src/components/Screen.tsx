@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { AppText } from './AppText';
 import { IconButton } from './IconButton';
-import { space } from '@/theme';
+import { colors, fonts, shadow, space } from '@/theme';
 import { stopVoice } from '@/services/audio';
 
 type Pair = readonly [string, string];
@@ -322,7 +322,8 @@ export function Screen({
             <View style={styles.side}>
               {back && (
                 <IconButton
-                  icon="⬅️"
+                  icon="back"
+                  color={colors.orange}
                   accessibilityLabel="Back"
                   onPress={() => {
                     stopVoice();
@@ -332,9 +333,15 @@ export function Screen({
                 />
               )}
             </View>
-            <AppText variant="heading" numberOfLines={1} style={styles.title}>
-              {title}
-            </AppText>
+            <View style={styles.titleWrap}>
+              {!!title && (
+                <View style={styles.titleTile}>
+                  <AppText numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7} style={styles.title}>
+                    {title}
+                  </AppText>
+                </View>
+              )}
+            </View>
             <View style={[styles.side, { alignItems: 'flex-end' }]}>{right}</View>
           </View>
         )}
@@ -346,8 +353,22 @@ export function Screen({
 
 const styles = StyleSheet.create({
   root: { flex: 1 },
-  header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: space.md, paddingVertical: space.sm },
-  side: { width: 56 },
-  title: { flex: 1, textAlign: 'center' },
+  header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: space.md, paddingVertical: space.sm, gap: space.sm },
+  side: { width: 52 },
+  titleWrap: { flex: 1, alignItems: 'center' },
+  titleTile: {
+    maxWidth: '100%',
+    minHeight: 48,
+    justifyContent: 'center',
+    backgroundColor: colors.surface,
+    borderRadius: 16,
+    borderWidth: 3,
+    borderColor: '#fff',
+    borderBottomWidth: 6,
+    borderBottomColor: colors.border,
+    paddingHorizontal: space.md,
+    ...shadow,
+  },
+  title: { fontFamily: fonts.bold, fontSize: 22, lineHeight: 28, color: colors.primaryDark, textAlign: 'center' },
   body: { flex: 1 },
 });

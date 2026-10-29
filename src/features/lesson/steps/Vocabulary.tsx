@@ -39,13 +39,13 @@ export function Vocabulary({ lessonRef, onDone }: StepProps) {
         👆 {t('step_guide_vocabulary')}
       </AppText>
       <View style={styles.row}>
-        <IconButton icon="◀️" onPress={() => go(-1)} accessibilityLabel={t('vocabulary_previous_cd')} />
+        <IconButton icon="prev" onPress={() => go(-1)} accessibilityLabel={t('vocabulary_previous_cd')} />
         <Pressy onPress={() => say()} silent style={styles.card} accessibilityLabel={t('vocabulary_listen_cd')}>
           <WordPicture word={word} size={180} />
           <WordLabel word={word.word} split={word.split} patternIndex={word.patternIndex} accent={accent} />
           <AppText variant="caption">🔊 {t('vocabulary_listen_cd')}</AppText>
         </Pressy>
-        <IconButton icon="▶️" onPress={() => go(1)} accessibilityLabel={t('vocabulary_next_cd')} />
+        <IconButton icon="next" onPress={() => go(1)} accessibilityLabel={t('vocabulary_next_cd')} />
       </View>
       <View style={{ alignItems: 'center', gap: 4 }}>
         <VoiceRecorder word={word.word} onSuccess={() => go(1)} />

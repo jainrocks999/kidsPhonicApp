@@ -125,7 +125,7 @@ export function BubblePop({ level, patterns, onFinish }: GameProps) {
         <AppText variant="heading">
           {t('bubble_game_find_letter', display(target ?? '', level.number))} · {found}/{PER_ROUND}
         </AppText>
-        <IconButton icon="🔊" onPress={say} accessibilityLabel={t('bubble_game_listen_cd')} />
+        <IconButton icon="speaker" onPress={say} accessibilityLabel={t('bubble_game_listen_cd')} />
       </View>
       <AppText variant="caption" style={{ textAlign: 'center' }}>
         {t('bubble_game_round_label', round + 1, order.length)} · ⏱ {secondsLeft}s

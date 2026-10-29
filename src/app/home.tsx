@@ -33,7 +33,7 @@ export default function Home() {
       theme="candySky"
       title={t('home_title')}
       back={false}
-      right={<IconButton icon="⚙️" onPress={() => openGated('/settings')} accessibilityLabel={t('nav_settings')} />}>
+      right={<IconButton icon="settings" color={colors.primary} onPress={() => openGated('/settings')} accessibilityLabel={t('nav_settings')} />}>
       <ScrollView contentContainerStyle={styles.list} showsVerticalScrollIndicator={false}>
         <View style={styles.summary}>
           <AppText variant="heading" style={styles.summaryStar}>⭐</AppText>
