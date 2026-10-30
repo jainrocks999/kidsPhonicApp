@@ -133,10 +133,8 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
         </Animated.View>
       ) : (
         <Pressy silent onPress={() => (stopVoice(), setIntroDoneFor(stepIndex))} style={styles.intro}>
-          <Animated.View key={stepIndex} entering={ZoomIn.springify().damping(9)} style={styles.introCard}>
-            <Bouncy active popKey={stepIndex} strength={0.6}>
-              <RainbowText text={lesson.displayLetter} size={110} palette={levelInk[level.number - 1]} />
-            </Bouncy>
+          <Animated.View key={stepIndex} entering={ZoomIn.springify().damping(18)} style={styles.introCard}>
+            <RainbowText text={lesson.displayLetter} size={110} palette={levelInk[level.number - 1]} />
             <AppText style={styles.introTitle}>{t(step.title)}</AppText>
             <View style={styles.skip}>
               <AppText style={styles.skipText}>👆 {t('common_skip')}</AppText>
@@ -180,6 +178,7 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
 
       <Celebration
         visible={stars != null}
+        accent={levelColors[level.number - 1]}
         stars={stars ?? 0}
         title={t('identify_all_done_title')}
         subtitle={milestone === 'unit' ? `${t('home_unit_label', lessonRef.unit.number, lessonRef.unit.title)} ✅` : lesson.sentence}

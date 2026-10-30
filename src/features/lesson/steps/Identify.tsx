@@ -75,14 +75,14 @@ export function Identify({ lessonRef, onDone }: StepProps) {
       <StepGuide emoji="🎯" text={`${t('identify_round_progress', round + 1, rounds.length)} · ${t('step_guide_identify')}`} />
       <View style={styles.speaker}>
         <SoundWaves active={speaking && !right} size={120} color={colors.orange} />
-        <Bouncy active={speaking && !right}>
+        <Bouncy active={speaking && !right} strength={0.4}>
           <IconButton icon="speaker" size={104} color={colors.orange} onPress={sayTarget} accessibilityLabel={t('identify_listen_cd')} />
         </Bouncy>
       </View>
       <Animated.View style={[styles.options, shakeStyle]}>
         {options.map((w, i) => (
-          <Animated.View key={`${round}-${w.word}`} entering={ZoomIn.delay(i * 120).springify().damping(10)}>
-            <Bouncy active={right === w.word} popKey={right === w.word ? 'hit' : undefined} strength={1.3}>
+          <Animated.View key={`${round}-${w.word}`} entering={ZoomIn.delay(i * 100).springify().damping(18)}>
+            <Bouncy active={right === w.word} strength={0.5}>
               <Pressy
                 silent
                 onPress={() => pick(w)}

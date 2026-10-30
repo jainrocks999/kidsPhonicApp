@@ -18,7 +18,7 @@ import { play, stopVoice } from '@/services/audio';
 import { useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
-import { space } from '@/theme';
+import { levelColors, space } from '@/theme';
 
 const GAMES: Record<GameId, (p: GameProps) => React.JSX.Element> = {
   bubble: BubblePop,
@@ -78,6 +78,7 @@ export default function GameScreen() {
       />
       <Celebration
         visible={score != null}
+        accent={levelColors[found.level.number - 1]}
         stars={score == null ? 0 : score >= 0.85 ? 3 : score >= 0.5 ? 2 : 1}
         title={t(meta.doneTitle)}
         subtitle={t(meta.doneSubtitle)}

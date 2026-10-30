@@ -83,7 +83,7 @@ export function SoundIntro({ lessonRef, onReady }: StepProps) {
       <Pressy onPress={readAlong} silent style={[styles.card, { borderBottomColor: accent }]} accessibilityLabel={t('sound_intro_listen')}>
         <View style={styles.letterBox}>
           <SoundWaves active={letterTalks} size={170} color={accent} />
-          <Bouncy active={part === 'sound' || part === 'stretch'} beatKey={burst} strength={1.1}>
+          <Bouncy active={part === 'sound' || part === 'stretch'} beatKey={burst} strength={0.4}>
             <RainbowText text={lesson.displayLetter} size={120} palette={levelInk[level.number - 1]} />
           </Bouncy>
         </View>

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./node_modules/**)",
+      "Read(./ios/**)",
+      "Read(./android/**)",
+      "Read(./.expo/**)",
+      "Read(./dist/**)",
+      "Read(./rn_assets/audio/**)",
+      "Read(./rn_assets/images/**)",
+      "Read(./rn_assets/fonts/**)",
+      "Read(./rn_assets/sfx/**)",
+      "Read(./package-lock.json)",
+      "Read(./src/assets/registry.generated.ts)",
+      "Read(./src/data/licenses.generated.json)",
+      "Read(./rn_assets/data/aboutlibraries.json)",
+      "Read(./rn_assets/data/content_manifest.json)",
+      "Read(./rn_assets/data/voice_timing.json)"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "haiku"
+  }
+}

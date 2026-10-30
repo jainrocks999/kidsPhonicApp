@@ -2,6 +2,7 @@ import { useEffect, type ReactNode } from 'react';
 import { StyleSheet, View, type StyleProp, type ViewStyle } from 'react-native';
 import Animated, {
   Easing,
+  FadeInDown,
   cancelAnimation,
   useAnimatedStyle,
   useSharedValue,
@@ -111,6 +112,7 @@ export function KaraokeLine({
   accent,
   size = 30,
   isKey,
+  stagger,
 }: {
   chunks: string[];
   /** Index being spoken, -1 = nothing. */
@@ -119,12 +121,22 @@ export function KaraokeLine({
   size?: number;
   /** Chunks that carry the lesson's sound — always drawn in the accent colour. */
   isKey?: (chunk: string) => boolean;
+  /** ms between chunks floating in one after another (omit = all appear at once). */
+  stagger?: number;
 }) {
   return (
     <View style={styles.line}>
-      {chunks.map((c, i) => (
-        <KaraokeChunk key={`${i}-${c}`} text={c} now={i === active} keyWord={!!isKey?.(c)} accent={accent} size={size} />
-      ))}
+      {chunks.map((c, i) => {
+        const chunk = <KaraokeChunk text={c} now={i === active} keyWord={!!isKey?.(c)} accent={accent} size={size} />;
+        return stagger ? (
+          // separate wrapper: an entering animation and the chunk's own transform would fight on one view
+          <Animated.View key={`${i}-${c}`} entering={FadeInDown.delay(i * stagger).duration(320)}>
+            {chunk}
+          </Animated.View>
+        ) : (
+          <View key={`${i}-${c}`}>{chunk}</View>
+        );
+      })}
     </View>
   );
 }

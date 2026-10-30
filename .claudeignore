@@ -1,0 +1,12 @@
+# Advisory: keep Claude out of big / generated / binary stuff (hard blocks live in .claude/settings.json)
+node_modules/
+ios/
+android/
+.expo/
+dist/
+web-build/
+*.lock
+package-lock.json
+*.generated.*
+*.min.js
+*.min.css
