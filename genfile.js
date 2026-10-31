@@ -6,31 +6,37 @@ const OUTPUT_FILE = path.join(AUDIO_DIR, "index.js");
 
 const extensions = [".mp3", ".wav", ".m4a", ".aac", ".ogg"];
 
-const files = fs
-  .readdirSync(AUDIO_DIR)
-  .filter((file) => extensions.includes(path.extname(file).toLowerCase()))
-  .sort();
+function getFiles(dir) {
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const fullPath = path.join(dir, entry.name);
 
-const toVariableName = (filename) =>
-  path
-    .basename(filename, path.extname(filename))
-    .replace(/[^a-zA-Z0-9_$]/g, "_")
-    .replace(/^(\d)/, "_$1");
+    if (entry.isDirectory()) {
+      return getFiles(fullPath);
+    }
 
-const imports = files.map((file) => {
-  const name = toVariableName(file);
-  return `  ${name}: require("./${file}"),`;
+    return extensions.includes(path.extname(entry.name).toLowerCase())
+      ? [fullPath]
+      : [];
+  });
+}
+
+const files = getFiles(AUDIO_DIR).filter(
+  (file) => file !== OUTPUT_FILE
+);
+
+const audio = files.map((file) => {
+  const relativePath = "./" + path.relative(AUDIO_DIR, file).split(path.sep).join("/");
+  const name = path
+    .basename(file, path.extname(file))
+    .replace(/[^a-zA-Z0-9_$]/g, "_");
+
+  return `  "${name}": require("${relativePath}"),`;
 });
 
-const content = `// Auto-generated file. Do not edit manually.
+fs.writeFileSync(
+  OUTPUT_FILE,
+  `// Auto-generated file. Do not edit manually.\n\nconst audio = {\n${audio.join("\n")}\n};\n\nexport default audio;\n`
+);
 
-const audio = {
-${imports.join("\n")}
-};
-
-export default audio;
-`;
-
-fs.writeFileSync(OUTPUT_FILE, content);
-
-console.log(`Generated ${files.length} audio assets in rn_assets/audio/index.js`);
+console.log(`Found ${files.length} audio files`);
+console.log(`Generated: ${OUTPUT_FILE}`);
