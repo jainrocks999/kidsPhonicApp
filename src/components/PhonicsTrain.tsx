@@ -53,6 +53,7 @@ export function PhonicsTrain({
   startLabel,
   allDone,
   palette,
+  start = true,
 }: {
   levelNumber: number;
   color: string;
@@ -64,6 +65,8 @@ export function PhonicsTrain({
   allDone: boolean;
   /** Letter colours for the car name plates (the level's ink). */
   palette?: readonly string[];
+  /** The train waits off-screen until this turns true (e.g. once the page has scrolled it into view). */
+  start?: boolean;
 }) {
   const { width } = useWindowDimensions();
   const scroll = useRef<ScrollViewInstance>(null);
@@ -85,7 +88,10 @@ export function PhonicsTrain({
   // chug in from the right, then park the current car mid-screen
   const drive = useSharedValue(width);
   const rattle = useSharedValue(0);
+  const started = useRef(false);
   useEffect(() => {
+    if (!start || started.current) return;
+    started.current = true;
     drive.set(withTiming(0, { duration: 1800, easing: Easing.out(Easing.cubic) }));
     rattle.set(withRepeat(withTiming(1, { duration: 900, easing: Easing.linear }), -1, false));
     const target = current >= 0 ? xs[current] + carWidth(cars[current]) / 2 : contentW;
@@ -94,9 +100,9 @@ export function PhonicsTrain({
       1500,
     );
     return () => clearTimeout(id);
-    // run once on mount
+    // run once, as soon as `start` is true
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [start]);
 
   const trainStyle = useAnimatedStyle(() => ({ transform: [{ translateX: drive.value }] }));
 

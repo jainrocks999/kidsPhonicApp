@@ -12,7 +12,9 @@ import { colors, levelColors, levelInk, radius, shadow, space } from '@/theme';
 import { Bouncy, KaraokeLine, SoundWaves, StepGuide } from '../fx';
 import type { StepProps } from '../types';
 
-/** "The Aa Story": a title page, then one page per word — "A is for apple!". */
+const NEXT_PAGE_DELAY = 900; // pause after narration before the page turns by itself
+
+/** "The Aa Story": a title page, then one page per word — "A is for apple!". Pages turn by themselves. */
 export function LetterStory({ lessonRef, onReady }: StepProps) {
   const t = useT();
   const { lesson, level } = lessonRef;
@@ -21,6 +23,7 @@ export function LetterStory({ lessonRef, onReady }: StepProps) {
   /** Which chunk is being read right now (-1 idle, chunks.length = all read). */
   const [reading, setReading] = useState(-1);
   const runId = useRef(0);
+  const autoTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const accent = levelColors[level.number - 1];
   const word = page >= 0 ? lesson.words[page] : null;
   const letter = lesson.displayLetter.charAt(0).toUpperCase();
@@ -29,7 +32,21 @@ export function LetterStory({ lessonRef, onReady }: StepProps) {
   // what's on the page, split the same way it's narrated
   const chunks = word ? [`${letter} is for`, `${word.word}!`] : [t('story_letter_title', letter, letter.toLowerCase())];
 
+  const clearAuto = () => {
+    if (autoTimer.current) clearTimeout(autoTimer.current);
+    autoTimer.current = null;
+  };
+
+  const go = (d: 1 | -1) => {
+    const n = page + d;
+    if (n < -1 || n > last) return;
+    setDir(d);
+    setReading(-1);
+    setPage(n);
+  };
+
   const narrate = async () => {
+    clearAuto();
     const my = ++runId.current;
     if (word && page >= 0) {
       setReading(0);
@@ -44,21 +61,26 @@ export function LetterStory({ lessonRef, onReady }: StepProps) {
     if (my !== runId.current) return;
     setReading(chunks.length);
     if (page === last) onReady();
+    else autoTimer.current = setTimeout(() => go(1), NEXT_PAGE_DELAY);
   };
 
   useEffect(() => {
     const id = setTimeout(narrate, 350);
-    return () => clearTimeout(id);
+    return () => {
+      clearTimeout(id);
+      clearAuto();
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
-  const go = (d: 1 | -1) => {
-    const n = page + d;
-    if (n < -1 || n > last) return;
-    setDir(d);
-    setReading(-1);
-    setPage(n);
-  };
+  // leaving the step mid-story: drop the pending page turn and any narration still finishing
+  useEffect(
+    () => () => {
+      runId.current++;
+      clearAuto();
+    },
+    [],
+  );
 
   const busy = reading >= 0 && reading < chunks.length;
 

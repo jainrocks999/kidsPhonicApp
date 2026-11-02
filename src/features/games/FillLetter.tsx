@@ -60,8 +60,12 @@ export function FillLetter({ level, words, patterns, onFinish }: GameProps) {
   const tileH = Math.round(tileW * 1.3);
   const slotW = missing.length * tileW + (missing.length - 1) * GAP;
 
-  const [placed, setPlaced] = useState<string | null>(null); // the chip that landed in the blank
-  const [wrong, setWrong] = useState<{ label: string; n: number } | null>(null);
+  // both are tagged with their round: on the first render of a new round the reset effect hasn't run yet,
+  // and a chip with the same label as last round's answer would otherwise mount already "placed" (hidden)
+  const [placedAt, setPlacedAt] = useState<{ round: number; label: string } | null>(null); // the chip that landed in the blank
+  const [wrongAt, setWrongAt] = useState<{ round: number; label: string; n: number } | null>(null);
+  const placed = placedAt?.round === index ? placedAt.label : null;
+  const wrong = wrongAt?.round === index ? wrongAt : null;
   const [mood, setMood] = useState<Mood>('idle');
   const [streak, setStreak] = useState(0);
   const locked = useRef(false);
@@ -91,8 +95,6 @@ export function FillLetter({ level, words, patterns, onFinish }: GameProps) {
   const measure = () => slotRef.current?.measureInWindow((x, y, w, h) => slot.set({ x, y, w, h }));
 
   useEffect(() => {
-    setPlaced(null);
-    setWrong(null);
     setMood('idle');
     locked.current = false;
     play(undefined, item.word);
@@ -110,14 +112,14 @@ export function FillLetter({ level, words, patterns, onFinish }: GameProps) {
     if (locked.current) return;
     if (label === missing) {
       locked.current = true;
-      setPlaced(label);
+      setPlacedAt({ round: index, label });
       setMood('happy');
       setStreak((s) => s + 1);
       later(() => answer(true), 1100);
     } else {
       setStreak(0);
       setMood('oops');
-      setWrong((w) => ({ label, n: (w?.n ?? 0) + 1 }));
+      setWrongAt((w) => ({ round: index, label, n: (w?.round === index ? w.n : 0) + 1 }));
       answer(false);
       later(() => setMood('idle'), 800);
     }

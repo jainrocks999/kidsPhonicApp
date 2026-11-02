@@ -186,7 +186,7 @@
  },
  {
   "name": "@babel/plugin-transform-block-scoping",
-  "version": "7.29.11",
+  "version": "7.29.12",
   "license": "MIT"
  },
  {
@@ -346,7 +346,7 @@
  },
  {
   "name": "@expo/cli",
-  "version": "58.1.17",
+  "version": "58.1.18",
   "license": "MIT"
  },
  {
@@ -356,7 +356,7 @@
  },
  {
   "name": "@expo/config",
-  "version": "58.0.9",
+  "version": "58.0.10",
   "license": "MIT"
  },
  {
@@ -391,7 +391,7 @@
  },
  {
   "name": "@expo/fingerprint",
-  "version": "0.21.7",
+  "version": "0.21.8",
   "license": "MIT"
  },
  {
@@ -411,12 +411,12 @@
  },
  {
   "name": "@expo/local-build-cache-provider",
-  "version": "58.0.9",
+  "version": "58.0.10",
   "license": "MIT"
  },
  {
   "name": "@expo/log-box",
-  "version": "58.0.13",
+  "version": "58.0.14",
   "license": "MIT"
  },
  {
@@ -431,7 +431,7 @@
  },
  {
   "name": "@expo/metro-config",
-  "version": "58.0.19",
+  "version": "58.0.20",
   "license": "MIT"
  },
  {
@@ -441,7 +441,7 @@
  },
  {
   "name": "@expo/metro-runtime",
-  "version": "58.0.15",
+  "version": "58.0.16",
   "license": "MIT"
  },
  {
@@ -466,7 +466,7 @@
  },
  {
   "name": "@expo/prebuild-config",
-  "version": "58.0.17",
+  "version": "58.0.18",
   "license": "MIT"
  },
  {
@@ -476,12 +476,12 @@
  },
  {
   "name": "@expo/router-server",
-  "version": "58.0.19",
+  "version": "58.0.20",
   "license": "MIT"
  },
  {
   "name": "@expo/schema-utils",
-  "version": "58.0.2",
+  "version": "58.0.3",
   "license": "MIT"
  },
  {
@@ -651,11 +651,6 @@
  },
  {
   "name": "@react-native/asset-utils",
-  "version": "0.88.0",
-  "license": "MIT"
- },
- {
-  "name": "@react-native/asset-utils",
   "version": "0.88.1",
   "license": "MIT"
  },
@@ -666,17 +661,12 @@
  },
  {
   "name": "@react-native/codegen",
-  "version": "0.88.0",
-  "license": "MIT"
- },
- {
-  "name": "@react-native/codegen",
   "version": "0.88.1",
   "license": "MIT"
  },
  {
   "name": "@react-native/community-cli-plugin",
-  "version": "0.88.0",
+  "version": "0.88.1",
   "license": "MIT"
  },
  {
@@ -685,33 +675,18 @@
   "license": "BSD-3-Clause"
  },
  {
-  "name": "@react-native/debugger-frontend",
-  "version": "0.88.0",
-  "license": "BSD-3-Clause"
- },
- {
   "name": "@react-native/debugger-shell",
   "version": "0.88.1",
   "license": "MIT"
  },
  {
-  "name": "@react-native/debugger-shell",
-  "version": "0.88.0",
-  "license": "MIT"
- },
- {
   "name": "@react-native/dev-middleware",
   "version": "0.88.1",
-  "license": "MIT"
- },
- {
-  "name": "@react-native/dev-middleware",
-  "version": "0.88.0",
   "license": "MIT"
  },
  {
   "name": "@react-native/gradle-plugin",
-  "version": "0.88.0",
+  "version": "0.88.1",
   "license": "MIT"
  },
  {
@@ -725,13 +700,8 @@
   "license": "MIT"
  },
  {
-  "name": "@react-native/normalize-colors",
-  "version": "0.88.0",
-  "license": "MIT"
- },
- {
   "name": "@react-native/virtualized-lists",
-  "version": "0.88.0",
+  "version": "0.88.1",
   "license": "MIT"
  },
  {
@@ -911,7 +881,7 @@
  },
  {
   "name": "babel-preset-expo",
-  "version": "58.0.22",
+  "version": "58.0.23",
   "license": "MIT"
  },
  {
@@ -1145,11 +1115,6 @@
   "license": "MIT"
  },
  {
-  "name": "deepmerge",
-  "version": "4.3.1",
-  "license": "MIT"
- },
- {
   "name": "defaults",
   "version": "1.0.4",
   "license": "MIT"
@@ -1261,7 +1226,7 @@
  },
  {
   "name": "expo",
-  "version": "58.0.21",
+  "version": "58.0.22",
   "license": "MIT"
  },
  {
@@ -1271,7 +1236,7 @@
  },
  {
   "name": "expo-audio",
-  "version": "58.0.10",
+  "version": "58.0.11",
   "license": "MIT"
  },
  {
@@ -1341,7 +1306,7 @@
  },
  {
   "name": "expo-modules-core",
-  "version": "58.0.28",
+  "version": "58.0.29",
   "license": "MIT"
  },
  {
@@ -1356,7 +1321,7 @@
  },
  {
   "name": "expo-router",
-  "version": "58.0.28",
+  "version": "58.0.29",
   "license": "MIT"
  },
  {
@@ -1501,7 +1466,7 @@
  },
  {
   "name": "hermes-compiler",
-  "version": "260318099.0.4",
+  "version": "260318099.0.5",
   "license": "MIT"
  },
  {
@@ -2051,7 +2016,7 @@
  },
  {
   "name": "react-native",
-  "version": "0.88.0",
+  "version": "0.88.1",
   "license": "MIT"
  },
  {
@@ -2506,7 +2471,7 @@
  },
  {
   "name": "ws",
-  "version": "8.22.0",
+  "version": "8.22.1",
   "license": "MIT"
  },
  {
@@ -2548,11 +2513,6 @@
   "name": "yargs-parser",
   "version": "21.1.1",
   "license": "ISC"
- },
- {
-  "name": "zod",
-  "version": "3.25.76",
-  "license": "MIT"
  },
  {
   "name": "zustand",

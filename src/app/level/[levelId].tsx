@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import { ScrollView, StyleSheet, View, type ScrollViewInstance } from 'react-native';
 import { Redirect, router, useLocalSearchParams } from 'expo-router';
 import { Image } from 'expo-image';
 import { AppText } from '@/components/AppText';
@@ -26,6 +26,27 @@ export default function LevelScreen() {
     play(promptAudio('pick_unit', language));
   }, [language]);
 
+  // on small screens the train sits below the fold: scroll down to it first, then let it chug in
+  const scroll = useRef<ScrollViewInstance>(null);
+  const viewH = useRef(0);
+  const contentH = useRef(0);
+  const checked = useRef(false);
+  const [trainGo, setTrainGo] = useState(false);
+  const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
+  useEffect(() => () => timers.current.forEach(clearTimeout), []);
+  const revealTrain = () => {
+    if (checked.current || !viewH.current || !contentH.current) return;
+    checked.current = true;
+    if (contentH.current <= viewH.current + 1) {
+      setTrainGo(true);
+      return;
+    }
+    timers.current.push(
+      setTimeout(() => scroll.current?.scrollToEnd({ animated: true }), 350),
+      setTimeout(() => setTrainGo(true), 900), // after the scroll has settled
+    );
+  };
+
   if (!level) return <Redirect href="/home" />;
 
   const accent = levelColors[level.number - 1];
@@ -48,7 +69,18 @@ export default function LevelScreen() {
     <Screen
       theme="candySky"
       title={t('level_name', level.number, t(`home_level_${level.number}_title` as StringKey))}>
-      <ScrollView contentContainerStyle={styles.list} showsVerticalScrollIndicator={false}>
+      <ScrollView
+        ref={scroll}
+        contentContainerStyle={styles.list}
+        showsVerticalScrollIndicator={false}
+        onLayout={(e) => {
+          viewH.current = e.nativeEvent.layout.height;
+          revealTrain();
+        }}
+        onContentSizeChange={(_w, h) => {
+          contentH.current = h;
+          revealTrain();
+        }}>
         {/* ---------- level banner ---------- */}
         <View style={[styles.banner, { backgroundColor: accent, borderBottomColor: dark }]}>
           <View style={[styles.bubble, { top: -24, left: -20, width: 90, height: 90 }]} />
@@ -99,6 +131,7 @@ export default function LevelScreen() {
           allDone={current === -1}
           palette={levelInk[level.number - 1]}
           startLabel={t('home_start_button')}
+          start={trainGo}
         />
       </ScrollView>
     </Screen>
