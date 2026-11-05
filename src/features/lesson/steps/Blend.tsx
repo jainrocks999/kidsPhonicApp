@@ -41,6 +41,8 @@ export function Blend({ lessonRef, onReady }: StepProps) {
       end_ms: 0,
     }));
   const activeCard = src != null && chain ? cards.findIndex((s) => ms >= s.start_ms && ms <= s.end_ms + 300) : ttsCard;
+  // long words have 9 segments; shrink the chips so the chain wraps into ~2 rows instead of pushing the step off-screen
+  const dense = cards.length > 3;
 
   const runId = useRef(0);
   const run = async () => {
@@ -92,9 +94,9 @@ export function Blend({ lessonRef, onReady }: StepProps) {
           const now = i === activeCard;
           return (
             <View key={i} style={styles.chainItem}>
-              {i > 0 && <AppText style={styles.arrow}>➜</AppText>}
-              <Bouncy active={now} strength={0.8} style={[styles.card, now && { borderColor: accent, backgroundColor: '#FFF8E1' }]}>
-                <AppText style={[styles.cardText, { color: c.card === 't' || now ? accent : colors.text }]}>{c.text}</AppText>
+              {i > 0 && <AppText style={[styles.arrow, dense && styles.arrowDense]}>➜</AppText>}
+              <Bouncy active={now} strength={0.8} style={[styles.card, dense && styles.cardDense, now && { borderColor: accent, backgroundColor: '#FFF8E1' }]}>
+                <AppText style={[styles.cardText, dense && styles.cardTextDense, { color: c.card === 't' || now ? accent : colors.text }]}>{c.text}</AppText>
               </Bouncy>
             </View>
           );
@@ -128,10 +130,12 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     ...shadow,
   },
-  chain: { flexDirection: 'row', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', rowGap: space.sm },
+  chain: { flexDirection: 'row', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', rowGap: space.xs, columnGap: 2 },
   chainItem: { flexDirection: 'row', alignItems: 'center' },
   arrow: { fontSize: 20, color: colors.textMuted, marginHorizontal: 4 },
+  arrowDense: { fontSize: 14, marginHorizontal: 2 },
   cardText: { fontFamily: fonts.bold, fontSize: 30, lineHeight: 38 },
+  cardTextDense: { fontSize: 21, lineHeight: 26 },
   dots: { flexDirection: 'row', justifyContent: 'center', gap: space.sm },
   dot: { width: 16, height: 16, borderRadius: 8, borderWidth: 2, borderColor: 'rgba(43,42,76,0.15)' },
   card: {
@@ -145,4 +149,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     ...shadow,
   },
+  cardDense: { minWidth: 0, paddingHorizontal: space.sm, paddingVertical: space.xs + 2, borderWidth: 3 },
 });
