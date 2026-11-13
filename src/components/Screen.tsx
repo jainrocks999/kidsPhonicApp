@@ -1,4 +1,4 @@
-import { memo, useEffect, useId, useRef, type ReactNode } from 'react';
+import { memo, useEffect, useId, useMemo, useRef, type ReactNode } from 'react';
 import { Animated, Easing, StyleSheet, View, useWindowDimensions, type ViewStyle } from 'react-native';
 import Svg, { Circle, Defs, G, LinearGradient, Path, RadialGradient, Rect, Stop } from 'react-native-svg';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -31,9 +31,23 @@ export const THEMES = {
     hills: [['#B6EBB0', '#8DDB9A'], ['#78D68F', '#4DBE78'], ['#43B974', '#2C9E60']] as Pair[],
     tree: '#35AE6A',
   },
+  night: {
+    sky: ['#1E2A6B', '#3B3F8F', '#6A4C9C'],
+    hills: [['#3E7A6A', '#2C5E52'], ['#2F6A58', '#22503F'], ['#255A48', '#1A4234']] as Pair[],
+    tree: '#2A6B55',
+  },
 } as const;
 
 export type ThemeName = keyof typeof THEMES;
+
+/** Background follows the device clock: morning → day → evening → night. */
+export function themeForTime(date: Date = new Date()): ThemeName {
+  const h = date.getHours();
+  if (h >= 5 && h < 11) return 'sunnyDay';
+  if (h >= 11 && h < 17) return 'candySky';
+  if (h >= 17 && h < 20) return 'sunset';
+  return 'night';
+}
 
 const RAINBOW = ['#FF6B6B', '#FFA94D', '#FFE066', '#69DB7C', '#4DABF7', '#9775FA'];
 
@@ -299,7 +313,7 @@ export function Screen({
   right,
   children,
   bg,
-  theme = 'candySky',
+  theme: themeProp,
   animated = true,
   style,
 }: {
@@ -308,10 +322,11 @@ export function Screen({
   right?: ReactNode;
   children: ReactNode;
   bg?: string; // agar diya to flat color
-  theme?: ThemeName;
+  theme?: ThemeName; // default: time of day
   animated?: boolean;
   style?: ViewStyle;
 }) {
+  const theme = useMemo(() => themeProp ?? themeForTime(), [themeProp]);
   return (
     <View style={[styles.root, { backgroundColor: bg ?? THEMES[theme].sky[0] }]}>
       {!bg && <StaticScene theme={theme} />}

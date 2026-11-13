@@ -8,8 +8,11 @@ import { PhonicsTrain, type TrainCar } from '@/components/PhonicsTrain';
 import { ProgressBar } from '@/components/ProgressBar';
 import { Screen } from '@/components/Screen';
 import { levelImage, promptAudio } from '@/assets';
+import { LOCK_CONTENT } from '@/config';
 import { getLevel } from '@/data/curriculum';
+import type { Unit } from '@/data/types';
 import { play } from '@/services/audio';
+import { lockedFeedback } from '@/services/lock';
 import { isUnitComplete, levelProgress, useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
@@ -53,21 +56,30 @@ export default function LevelScreen() {
   const dark = levelDark[level.number - 1];
   const overall = levelProgress(level, lessons);
 
-  const cars: TrainCar[] = level.units.map((unit, i) => ({
-    key: unit.id,
-    number: unit.number,
-    title: unit.title,
-    color: unitColors[i % unitColors.length],
-    edge: unitDark[i % unitDark.length],
-    seats: unit.lessons.map((l) => !!lessons[l.id]),
-    onPress: () => router.push(`/unit/${unit.id}`),
-    accessibilityLabel: t('home_unit_label', unit.number, unit.title),
-  }));
+  // A unit opens only once the one before it is finished — the first unit is always open.
+  const unitUnlocked = (i: number) => !LOCK_CONTENT || i === 0 || isUnitComplete(level.units[i - 1], lessons);
+  // Within the open unit, a lesson opens once the previous one is done.
+  const lessonUnlocked = (unit: Unit, i: number) =>
+    !LOCK_CONTENT || i === 0 || !!lessons[unit.lessons[i - 1].id];
+
+  const cars: TrainCar[] = level.units.map((unit, i) => {
+    const locked = !unitUnlocked(i);
+    return {
+      key: unit.id,
+      number: unit.number,
+      title: unit.title,
+      color: unitColors[i % unitColors.length],
+      edge: unitDark[i % unitDark.length],
+      seats: unit.lessons.map((l) => !!lessons[l.id]),
+      locked,
+      onPress: () => (locked ? lockedFeedback(language) : router.push(`/unit/${unit.id}`)),
+      accessibilityLabel: t('home_unit_label', unit.number, unit.title),
+    };
+  });
   const current = level.units.findIndex((u) => !isUnitComplete(u, lessons));
 
   return (
     <Screen
-      theme="candySky"
       title={t('level_name', level.number, t(`home_level_${level.number}_title` as StringKey))}>
       <ScrollView
         ref={scroll}
@@ -118,6 +130,8 @@ export default function LevelScreen() {
           replayLabel={t('level_complete_replay')}
           onStart={() => router.push(`/unit/${level.units[current === -1 ? 0 : current].id}`)}
           onLesson={(id) => router.push(`/lesson/${id}`)}
+          lessonUnlocked={(i) => (current === -1 ? true : lessonUnlocked(level.units[current], i))}
+          onLocked={() => lockedFeedback(language)}
           palette={levelInk[level.number - 1]}
         />
 

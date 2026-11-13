@@ -15,12 +15,13 @@ import { logEvent } from '@/services/analytics';
 import { maybeRequestReview } from '@/services/review';
 import type { LessonRef } from '@/data/types';
 import { play, stopVoice } from '@/services/audio';
+import { lockedFeedback } from '@/services/lock';
 import { isLevelComplete, isUnitComplete, useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
 import { colors, fonts, levelColors, levelInk, radius, shadow, space } from '@/theme';
 import { Bouncy } from './fx';
-import { stepsFor, type StepId, type StepProps } from './types';
+import { isScoredStep, stepsFor, type StepId, type StepProps } from './types';
 import { SoundIntro } from './steps/SoundIntro';
 import { Chant } from './steps/Chant';
 import { Vocabulary } from './steps/Vocabulary';
@@ -47,12 +48,16 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
   const completeLesson = useProgress((s) => s.completeLesson);
   const steps = useMemo(() => stepsFor(lessonRef), [lessonRef]);
   const [stepIndex, setStepIndex] = useState(0);
+  /** Furthest step reached — you can revisit anything up to here, but not skip ahead of it. */
+  const [maxIndex, setMaxIndex] = useState(0);
   const [stars, setStars] = useState<number | null>(null);
   const [milestone, setMilestone] = useState<'unit' | 'level' | null>(null);
   /** Step index whose spoken intro has finished (step content mounts after it). */
   const [introDoneFor, setIntroDoneFor] = useState(-1);
   /** Score per step index — redoing a step overwrites, skipping leaves it out. */
   const scores = useRef<Record<number, number>>({});
+  /** Indices of interactive steps that have been finished — drives the "finish first" gate. */
+  const [cleared, setCleared] = useState<Set<number>>(() => new Set());
   const [dir, setDir] = useState<1 | -1>(1);
   const [readyFor, setReadyFor] = useState(-1);
   const { lesson, level } = lessonRef;
@@ -85,18 +90,40 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
     }
     setDir(i > stepIndex ? 1 : -1);
     setStepIndex(i);
+    setMaxIndex((m) => Math.max(m, i));
   };
 
+  // An interactive step (identify / match / trace) must be finished before moving on —
+  // it reports a score via onDone; until then there's no leaving it.
+  const scoredPending = isScoredStep(steps[stepIndex]) && !cleared.has(stepIndex);
+
   const next = (score?: number) => {
-    if (score != null) scores.current[stepIndex] = score;
+    if (score != null) {
+      scores.current[stepIndex] = score;
+      setCleared((c) => new Set(c).add(stepIndex));
+    }
     goTo(stepIndex + 1);
+  };
+
+  // Forward taps from the footer / dots: blocked while the current step is still unfinished,
+  // or when jumping past the furthest step reached. Going back to review is always allowed.
+  const tryGoTo = (i: number) => {
+    if (i > stepIndex && (scoredPending || i > maxIndex + 1)) {
+      lockedFeedback(lang);
+      return;
+    }
+    goTo(i);
   };
 
   const finish = () => {
     if (stars != null) return;
-    const list = Object.values(scores.current);
-    const avg = list.length ? list.reduce((a, b) => a + b, 0) / list.length : 1;
-    const s = avg >= 0.85 ? 3 : avg >= 0.5 ? 2 : 1;
+    // Strict scoring: average over every interactive step the lesson *expects*, not just the
+    // ones that were played. A skipped scored step counts as zero, so three stars means the
+    // child actually did the identify / match / trace work well.
+    const expected = steps.filter(isScoredStep).length;
+    const earned = steps.reduce((sum, id, i) => sum + (isScoredStep(id) ? scores.current[i] ?? 0 : 0), 0);
+    const avg = expected ? earned / expected : 1;
+    const s = avg >= 0.9 ? 3 : avg >= 0.6 ? 2 : 1;
     const before = useProgress.getState().lessons;
     const unitWasDone = isUnitComplete(lessonRef.unit, before);
     const levelWasDone = isLevelComplete(level, before);
@@ -153,25 +180,33 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
           accessibilityLabel={t('chant_previous')}
         />
         <View style={styles.dots}>
-          {steps.map((id, i) => (
-            <Pressy
-              key={id}
-              onPress={() => goTo(i)}
-              hitSlop={6}
-              accessibilityLabel={t(STEPS[id].title)}
-              style={[
-                styles.dot,
-                i === stepIndex
-                  ? { width: 26, backgroundColor: levelColors[level.number - 1], borderColor: levelColors[level.number - 1] }
-                  : i < stepIndex && { backgroundColor: colors.green, borderColor: colors.green },
-              ]}
-            />
-          ))}
+          {steps.map((id, i) => {
+            const locked = i > stepIndex && (scoredPending || i > maxIndex + 1);
+            return (
+              <Pressy
+                key={id}
+                onPress={() => tryGoTo(i)}
+                hitSlop={6}
+                accessibilityLabel={t(STEPS[id].title)}
+                style={[
+                  styles.dot,
+                  i === stepIndex
+                    ? { width: 26, backgroundColor: levelColors[level.number - 1], borderColor: levelColors[level.number - 1] }
+                    : i < stepIndex && { backgroundColor: colors.green, borderColor: colors.green },
+                  locked && styles.dotLocked,
+                ]}
+              />
+            );
+          })}
         </View>
-        <Bouncy active={readyFor === stepIndex} strength={0.4}>
-          <Pressy onPress={() => goTo(stepIndex + 1)} accessibilityRole="button" style={styles.next}>
-            <AppText style={styles.nextText}>{t('common_next')}</AppText>
-            <Icon name="next" size={22} />
+        <Bouncy active={readyFor === stepIndex && !scoredPending} strength={0.4}>
+          <Pressy
+            onPress={() => tryGoTo(stepIndex + 1)}
+            accessibilityRole="button"
+            accessibilityState={{ disabled: scoredPending }}
+            style={[styles.next, scoredPending && styles.nextLocked]}>
+            <AppText style={styles.nextText}>{scoredPending ? t('common_finish') : t('common_next')}</AppText>
+            <Icon name={scoredPending ? 'lock' : 'next'} size={22} />
           </Pressy>
         </Bouncy>
       </View>
@@ -227,6 +262,7 @@ const styles = StyleSheet.create({
   },
   dots: { flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 6, flexWrap: 'wrap' },
   dot: { width: 12, height: 12, borderRadius: 6, borderWidth: 2, borderColor: colors.border, backgroundColor: '#fff' },
+  dotLocked: { backgroundColor: colors.locked, borderColor: colors.locked, opacity: 0.5 },
   next: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -241,5 +277,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 6,
     borderBottomColor: '#13A850',
   },
+  nextLocked: { backgroundColor: colors.locked, borderBottomColor: '#9EA3BF' },
   nextText: { color: '#fff', fontFamily: fonts.bold, fontSize: 20, lineHeight: 26 },
 });

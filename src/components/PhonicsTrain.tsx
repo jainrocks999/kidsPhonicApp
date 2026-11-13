@@ -23,6 +23,8 @@ export interface TrainCar {
   edge: string;
   /** One entry per lesson — true once it's finished (a passenger boards). */
   seats: boolean[];
+  /** Not reachable yet — shown greyed with a padlock; tapping gives the locked cue. */
+  locked?: boolean;
   onPress: () => void;
   accessibilityLabel?: string;
 }
@@ -251,19 +253,23 @@ function Car({
 }) {
   const w = carWidth(car);
   const complete = car.seats.every(Boolean);
+  const locked = !!car.locked;
+  const bodyColor = locked ? colors.locked : car.color;
+  const edgeColor = locked ? '#9EA3BF' : car.edge;
   const bob = useRattle(rattle, index * 0.17);
 
   return (
     <View style={{ width: w, height: TRAIN_H }}>
-      {active && <StartFlag label={startLabel} color={car.color} />}
+      {active && !locked && <StartFlag label={startLabel} color={car.color} />}
       <Animated.View style={[StyleSheet.absoluteFill, bob]}>
         <Pressy
           onPress={car.onPress}
           accessibilityRole="button"
+          accessibilityState={{ disabled: locked }}
           accessibilityLabel={car.accessibilityLabel ?? car.title}
           style={StyleSheet.absoluteFill}>
-          <View style={[styles.roof, { width: w + 8, backgroundColor: car.edge }]} />
-          <View style={[styles.body, { width: w, backgroundColor: car.color, borderBottomColor: car.edge }]}>
+          <View style={[styles.roof, { width: w + 8, backgroundColor: edgeColor }]} />
+          <View style={[styles.body, { width: w, backgroundColor: bodyColor, borderBottomColor: edgeColor }]}>
             <View style={styles.windows}>
               {car.seats.map((filled, s) => (
                 <View key={s} style={[styles.window, filled && styles.windowLit]}>
@@ -272,15 +278,15 @@ function Car({
               ))}
             </View>
             <View style={styles.plate}>
-              <RainbowText text={car.title} size={22} palette={palette} numberOfLines={1} />
+              <RainbowText text={car.title} size={22} palette={locked ? undefined : palette} numberOfLines={1} />
             </View>
           </View>
-          <View style={[styles.badge, { left: w / 2 - 18, borderBottomColor: car.edge }]}>
-            <AppText style={[styles.badgeText, { color: complete ? colors.green : car.color }]}>
-              {complete ? '✓' : car.number}
+          <View style={[styles.badge, { left: w / 2 - 18, borderBottomColor: edgeColor }]}>
+            <AppText style={[styles.badgeText, { color: locked ? '#9EA3BF' : complete ? colors.green : car.color }]}>
+              {locked ? '🔒' : complete ? '✓' : car.number}
             </AppText>
           </View>
-          {active && <View style={[styles.glow, { width: w + 14, borderColor: colors.yellow }]} pointerEvents="none" />}
+          {active && !locked && <View style={[styles.glow, { width: w + 14, borderColor: colors.yellow }]} pointerEvents="none" />}
         </Pressy>
       </Animated.View>
       <View style={[styles.chassis, { width: w - 8, left: 4 }]} />

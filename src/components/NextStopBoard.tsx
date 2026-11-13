@@ -18,6 +18,8 @@ export function NextStopBoard({
   replayLabel,
   onStart,
   onLesson,
+  lessonUnlocked,
+  onLocked,
   palette,
 }: {
   unit?: Unit;
@@ -30,6 +32,10 @@ export function NextStopBoard({
   replayLabel: string;
   onStart: () => void;
   onLesson: (lessonId: string) => void;
+  /** Whether the lesson at this index is open yet (defaults to always open). */
+  lessonUnlocked?: (index: number) => boolean;
+  /** Tapped a locked lesson tile. */
+  onLocked?: () => void;
 }) {
   const color = unit ? unitColors[colorIndex % unitColors.length] : colors.yellow;
   const edge = unit ? unitDark[colorIndex % unitDark.length] : '#E0A800';
@@ -63,20 +69,29 @@ export function NextStopBoard({
                 const twoLines = text.includes('\n');
                 const longest = Math.max(...text.split('\n').map((l) => l.length));
                 const fontSize = (twoLines ? 28 : 50) * (longest <= 2 ? 1 : longest === 3 ? 0.82 : 0.68);
+                const locked = lessonUnlocked ? !lessonUnlocked(i) : false;
                 return (
                   <Pressy
                     key={lesson.id}
-                    onPress={() => onLesson(lesson.id)}
+                    onPress={() => (locked ? onLocked?.() : onLesson(lesson.id))}
                     accessibilityLabel={lesson.displayLetter}
-                    style={[styles.tile, { backgroundColor: c, borderBottomColor: e }]}>
+                    accessibilityState={{ disabled: locked }}
+                    style={[
+                      styles.tile,
+                      { backgroundColor: locked ? colors.locked : c, borderBottomColor: locked ? '#9EA3BF' : e },
+                    ]}>
                     <View style={styles.tileShine} />
-                    <AppText
-                      numberOfLines={twoLines ? 2 : 1}
-                      adjustsFontSizeToFit
-                      minimumFontScale={0.5}
-                      style={[styles.tileText, { fontSize, lineHeight: fontSize * 1.15 }]}>
-                      {text}
-                    </AppText>
+                    {locked ? (
+                      <AppText style={styles.tileLock}>🔒</AppText>
+                    ) : (
+                      <AppText
+                        numberOfLines={twoLines ? 2 : 1}
+                        adjustsFontSizeToFit
+                        minimumFontScale={0.5}
+                        style={[styles.tileText, { fontSize, lineHeight: fontSize * 1.15 }]}>
+                        {text}
+                      </AppText>
+                    )}
                     {!!done[lesson.id] && (
                       <View style={styles.check}>
                         <AppText style={styles.checkText}>✓</AppText>
@@ -143,6 +158,7 @@ const styles = StyleSheet.create({
     ...shadow,
   },
   tileShine: { position: 'absolute', top: 8, left: 10, width: 22, height: 10, borderRadius: 6, backgroundColor: 'rgba(255,255,255,0.35)', transform: [{ rotate: '-25deg' }] },
+  tileLock: { fontSize: 40, lineHeight: 50 },
   tileText: {
     color: '#fff',
     fontFamily: fonts.bold,

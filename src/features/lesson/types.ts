@@ -16,3 +16,11 @@ export function stepsFor(ref: LessonRef): StepId[] {
     ? ['sound', 'chant', 'vocab', 'identify', 'match', 'trace', 'story']
     : ['sound', 'blend', 'chant', 'vocab', 'identify', 'match'];
 }
+
+/**
+ * Interactive steps the child must actually complete (they report a 0..1 score via `onDone`).
+ * The lesson gate blocks skipping past these, and the star rating is averaged over them —
+ * a skipped scored step counts as zero, so stars only come from real work.
+ */
+const SCORED: ReadonlySet<StepId> = new Set(['identify', 'match', 'trace']);
+export const isScoredStep = (id: StepId) => SCORED.has(id);

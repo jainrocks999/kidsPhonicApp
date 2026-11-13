@@ -8,10 +8,12 @@ import { ProgressBar } from '@/components/ProgressBar';
 import { Pressy } from '@/components/Pressy';
 import { Screen } from '@/components/Screen';
 import { levelImage, promptAudio } from '@/assets';
+import { LOCK_CONTENT } from '@/config';
 import { levels } from '@/data/curriculum';
 import { openGated } from '@/features/parental';
 import { play } from '@/services/audio';
-import { levelProgress, useProgress } from '@/store/progress';
+import { lockedFeedback } from '@/services/lock';
+import { isLevelComplete, levelProgress, useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
 import { colors, levelColors, levelDark, radius, shadow, space } from '@/theme';
@@ -20,6 +22,9 @@ export default function Home() {
   const t = useT();
   const lessons = useProgress((s) => s.lessons);
   const language = useSettings((s) => s.language);
+
+  // A level opens only once the one before it is fully finished — level 1 is always open.
+  const unlocked = (i: number) => !LOCK_CONTENT || i === 0 || isLevelComplete(levels[i - 1], lessons);
 
   useEffect(() => {
     play(promptAudio('pick_level', language));
@@ -30,7 +35,6 @@ export default function Home() {
 
   return (
     <Screen
-      theme="candySky"
       title={t('home_title')}
       back={false}
       right={<IconButton icon="settings" color={colors.primary} onPress={() => openGated('/settings')} accessibilityLabel={t('nav_settings')} />}>
@@ -45,15 +49,23 @@ export default function Home() {
 
         {levels.map((level, i) => {
           const progress = levelProgress(level, lessons);
-          const accent = levelColors[i];
-          const dark = levelDark[i];
-          const badge = progress >= 1 ? t('common_completed') : progress > 0 ? t('home_badge_active') : t('home_badge_ready');
+          const open = unlocked(i);
+          const accent = open ? levelColors[i] : colors.locked;
+          const dark = open ? levelDark[i] : '#9EA3BF';
+          const badge = !open
+            ? t('home_badge_locked')
+            : progress >= 1
+            ? t('common_completed')
+            : progress > 0
+            ? t('home_badge_active')
+            : t('home_badge_ready');
           const tilt = i % 2 === 0 ? '-3deg' : '3deg';
 
           return (
             <Pressy
               key={level.id}
-              onPress={() => router.push(`/level/${level.id}`)}
+              onPress={() => (open ? router.push(`/level/${level.id}`) : lockedFeedback(language))}
+              accessibilityState={{ disabled: !open }}
               style={[styles.card, { backgroundColor: accent, borderBottomColor: dark }]}>
               <View style={[styles.bubble, { top: -24, left: -20, width: 90, height: 90 }]} />
               <View style={[styles.bubble, { bottom: -30, right: 70, width: 70, height: 70 }]} />
@@ -71,14 +83,18 @@ export default function Home() {
                 </AppText>
 
                 <View style={styles.badge}>
-                  <AppText variant="caption" style={{ color: dark }}>{badge}</AppText>
+                  <AppText variant="caption" style={{ color: dark }}>{open ? badge : `🔒 ${badge}`}</AppText>
                 </View>
 
                 <ProgressBar value={progress} color={colors.yellow} height={10} />
               </View>
 
               <View style={[styles.imageWrap, { transform: [{ rotate: tilt }], borderColor: dark }]}>
-                <Image source={levelImage(level.number)} style={styles.image} contentFit="contain" />
+                {open ? (
+                  <Image source={levelImage(level.number)} style={styles.image} contentFit="contain" />
+                ) : (
+                  <AppText style={styles.lockGlyph}>🔒</AppText>
+                )}
               </View>
             </Pressy>
           );
@@ -147,4 +163,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   image: { width: 90, height: 90 },
+  lockGlyph: { fontSize: 52, lineHeight: 64 },
 });

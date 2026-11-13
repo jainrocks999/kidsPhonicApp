@@ -8,9 +8,11 @@ import { RainbowText } from '@/components/RainbowText';
 import { Screen } from '@/components/Screen';
 import { WordPicture } from '@/components/WordPicture';
 import { promptAudio, storyImage } from '@/assets';
+import { LOCK_CONTENT } from '@/config';
 import { getUnit, getUnitStory } from '@/data/curriculum';
 import { GAME_META, GAMES_FOR_LEVEL } from '@/features/games/types';
 import { play } from '@/services/audio';
+import { lockedFeedback } from '@/services/lock';
 import { useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
@@ -40,19 +42,23 @@ export default function UnitScreen() {
   const cover = story ? storyImage(story, story.scenes[0]?.scene ?? 1) : undefined;
   const doneCount = unit.lessons.filter((l) => lessons[l.id]).length;
   const nextLesson = unit.lessons.findIndex((l) => !lessons[l.id]);
+  // A lesson opens once the one before it is done; story + games wait until every lesson is done.
+  const lessonLocked = (i: number) => LOCK_CONTENT && nextLesson !== -1 && i > nextLesson;
+  const extrasLocked = LOCK_CONTENT && doneCount < unit.lessons.length;
   const gameW = (width - PAD * 2 - GAP) / 2;
   // "Lesson %1$d: %2$s" → "Lesson 2" (keeps the translated word)
   const lessonName = (n: number) => t('lesson_sheet_lesson_label', n, '').replace(/[\s:]+$/, '');
 
   return (
-    <Screen theme="candySky" title={t('home_unit_label', unit.number, unit.title)}>
+    <Screen title={t('home_unit_label', unit.number, unit.title)}>
       <ScrollView contentContainerStyle={styles.page} showsVerticalScrollIndicator={false}>
         {/* ---------- lessons ---------- */}
         <SectionHeader emoji="🔤" title={lessonName(0).replace(/[\s\d]+$/, '')} count={`${doneCount}/${unit.lessons.length}`} />
         <View style={styles.stack}>
           {unit.lessons.map((lesson, i) => {
-            const color = unitColors[(colorIndex + i) % unitColors.length];
-            const edge = unitDark[(colorIndex + i) % unitDark.length];
+            const locked = lessonLocked(i);
+            const color = locked ? colors.locked : unitColors[(colorIndex + i) % unitColors.length];
+            const edge = locked ? '#9EA3BF' : unitDark[(colorIndex + i) % unitDark.length];
             const stars = lessons[lesson.id] ?? 0;
             const isNext = i === nextLesson;
             // "ame ake" → two lines so each chunk stays big
@@ -64,20 +70,25 @@ export default function UnitScreen() {
             return (
               <Pressy
                 key={lesson.id}
-                onPress={() => router.push(`/lesson/${lesson.id}`)}
+                onPress={() => (locked ? lockedFeedback(language) : router.push(`/lesson/${lesson.id}`))}
                 accessibilityLabel={t('lesson_sheet_lesson_label', i + 1, lesson.displayLetter)}
+                accessibilityState={{ disabled: locked }}
                 style={[
                   styles.lesson,
                   { borderColor: isNext ? colors.yellow : '#fff', borderBottomColor: isNext ? '#E0A800' : edge },
                 ]}>
                 <View style={[styles.letterTile, { backgroundColor: color + '1F', borderColor: color }]}>
-                  <RainbowText
-                    text={letters}
-                    size={letterSize}
-                    palette={ink}
-                    numberOfLines={twoLines ? 2 : 1}
-                    style={styles.center}
-                  />
+                  {locked ? (
+                    <AppText style={styles.lockGlyph}>🔒</AppText>
+                  ) : (
+                    <RainbowText
+                      text={letters}
+                      size={letterSize}
+                      palette={ink}
+                      numberOfLines={twoLines ? 2 : 1}
+                      style={styles.center}
+                    />
+                  )}
                 </View>
 
                 <View style={styles.lessonInfo}>
@@ -101,7 +112,7 @@ export default function UnitScreen() {
                     styles.play,
                     { backgroundColor: stars ? colors.green : color, borderBottomColor: stars ? '#13A850' : edge },
                   ]}>
-                  <AppText style={styles.playText}>{stars ? '✓' : '▶'}</AppText>
+                  <AppText style={styles.playText}>{locked ? '🔒' : stars ? '✓' : '▶'}</AppText>
                 </View>
 
                 {isNext && (
@@ -119,8 +130,9 @@ export default function UnitScreen() {
           <>
             <SectionHeader emoji="📖" title={t('lesson_sheet_story_label')} />
             <Pressy
-              onPress={() => router.push(`/story/${story.id}`)}
+              onPress={() => (extrasLocked ? lockedFeedback(language) : router.push(`/story/${story.id}`))}
               accessibilityLabel={story.title}
+              accessibilityState={{ disabled: extrasLocked }}
               style={[styles.story, { borderBottomColor: unitDark[unitColors.indexOf(colors.orange)] }]}>
               <View style={styles.cover}>
                 {cover ? (
@@ -129,8 +141,9 @@ export default function UnitScreen() {
                   <AppText style={styles.coverEmoji}>📖</AppText>
                 )}
                 <View style={styles.coverPlay}>
-                  <AppText style={styles.coverPlayText}>▶</AppText>
+                  <AppText style={styles.coverPlayText}>{extrasLocked ? '🔒' : '▶'}</AppText>
                 </View>
+                {extrasLocked && <View style={styles.lockVeil} pointerEvents="none" />}
                 {!!stories[story.id] && (
                   <View style={[styles.doneBadge, { top: 10, right: 10 }]}>
                     <AppText style={styles.doneBadgeText}>✓</AppText>
@@ -154,14 +167,15 @@ export default function UnitScreen() {
             return (
               <Pressy
                 key={g}
-                onPress={() => router.push(`/game/${unit.id}/${g}`)}
+                onPress={() => (extrasLocked ? lockedFeedback(language) : router.push(`/game/${unit.id}/${g}`))}
                 accessibilityLabel={label}
-                style={[styles.game, { width: gameW, borderBottomColor: edge }]}>
-                <View style={[styles.gameArt, { backgroundColor: color }]}>
+                accessibilityState={{ disabled: extrasLocked }}
+                style={[styles.game, { width: gameW, borderBottomColor: extrasLocked ? '#9EA3BF' : edge }]}>
+                <View style={[styles.gameArt, { backgroundColor: extrasLocked ? colors.locked : color }]}>
                   <View style={styles.gameShine} />
-                  <AppText style={styles.gameEmoji}>{meta.emoji}</AppText>
+                  <AppText style={styles.gameEmoji}>{extrasLocked ? '🔒' : meta.emoji}</AppText>
                 </View>
-                <AppText style={[styles.gameLabel, { color: edge }]} numberOfLines={2}>{label}</AppText>
+                <AppText style={[styles.gameLabel, { color: extrasLocked ? '#9EA3BF' : edge }]} numberOfLines={2}>{label}</AppText>
                 {played && (
                   <View style={[styles.doneBadge, { top: -8, right: -8 }]}>
                     <AppText style={styles.doneBadgeText}>⭐</AppText>
@@ -232,6 +246,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingHorizontal: 6,
   },
+  lockGlyph: { fontSize: 46, lineHeight: 58 },
+  lockVeil: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(158,163,191,0.45)' },
   lessonInfo: { flex: 1, gap: 6 },
   lessonTitle: { fontFamily: fonts.bold, fontSize: 22, lineHeight: 28 },
   words: { flexDirection: 'row', gap: 6 },

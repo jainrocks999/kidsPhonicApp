@@ -1,6 +1,6 @@
 import Svg, { Circle, G, Path } from 'react-native-svg';
 
-export type IconName = 'back' | 'settings' | 'speaker' | 'prev' | 'next' | 'play' | 'pause';
+export type IconName = 'back' | 'settings' | 'speaker' | 'prev' | 'next' | 'play' | 'pause' | 'lock';
 
 /** Chunky rounded line icons drawn in a 24×24 box — no icon font needed. */
 export function Icon({ name, size = 24, color = '#fff' }: { name: IconName; size?: number; color?: string }) {
@@ -12,6 +12,12 @@ export function Icon({ name, size = 24, color = '#fff' }: { name: IconName; size
       {name === 'next' && <Path d="M9 4.5l7.5 7.5L9 19.5" {...line} />}
       {name === 'play' && <Path d="M8 5.5v13l10.5-6.5z" fill={color} stroke={color} strokeWidth={2} strokeLinejoin="round" />}
       {name === 'pause' && <Path d="M8.5 6v12M15.5 6v12" {...line} strokeWidth={4} />}
+      {name === 'lock' && (
+        <G>
+          <Path d="M7.5 10.5V8a4.5 4.5 0 019 0v2.5" {...line} />
+          <Path d="M5.8 10.5h12.4v8.2H5.8z" fill={color} stroke={color} strokeWidth={2} strokeLinejoin="round" />
+        </G>
+      )}
       {name === 'speaker' && (
         <G>
           <Path d="M3.5 9.2h3.8L12.5 5v14l-5.2-4.2H3.5z" fill={color} stroke={color} strokeWidth={1.5} strokeLinejoin="round" />
