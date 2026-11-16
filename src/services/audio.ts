@@ -82,7 +82,12 @@ export function play(source: AssetId | undefined, fallbackText?: string): Promis
     const p = getVoice();
     p.replace(source);
     p.seekTo(0).finally(() => {
-      if (my === token) p.play();
+      if (my === token) {
+        p.play();
+      } else {
+        // Interrupted before playback started — settle immediately so callers don't hang.
+        resolve();
+      }
     });
   });
 }

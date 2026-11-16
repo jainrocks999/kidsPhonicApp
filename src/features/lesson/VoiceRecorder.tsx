@@ -41,6 +41,15 @@ export function VoiceRecorder({ word, onSuccess }: { word: string; onSuccess?: (
     transform: [{ scale: withSpring(recording ? 1.15 : 1) }],
   }));
 
+  // BUG #2 fix: store timeout ID in a ref so we can clear it on unmount.
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current != null) clearTimeout(timeoutRef.current);
+    };
+  }, []);
+
   const start = async () => {
     try {
       const perm = await requestRecordingPermissionsAsync();
@@ -52,8 +61,10 @@ export function VoiceRecorder({ word, onSuccess }: { word: string; onSuccess?: (
       await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
       await recorder.prepareToRecordAsync();
       peak.current = -160;
-      recorder.record();
-      setTimeout(finish, RECORD_MS);
+      // BUG #3 fix: await recorder.record() so recording has actually started
+      // before the timeout fires and calls recorder.stop().
+      await recorder.record();
+      timeoutRef.current = setTimeout(finish, RECORD_MS);
     } catch (e) {
       recordError(e, 'voice record start');
     }
