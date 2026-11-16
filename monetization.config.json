@@ -1,17 +1,18 @@
 {
   "admob": {
-    "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+    "childDirectedOnly": true,
+    "androidAppId": "ca-app-pub-3339897183017333~4156085932",
     "iosAppId": "ca-app-pub-3940256099942544~1458002511",
-    "androidBannerUnitId": "ca-app-pub-3940256099942544/6300978111",
+    "androidBannerUnitId": "ca-app-pub-3339897183017333/3830596969",
     "iosBannerUnitId": "ca-app-pub-3940256099942544/2934735716",
-    "androidInterstitialUnitId": "ca-app-pub-3940256099942544/1033173712",
+    "androidInterstitialUnitId": "ca-app-pub-3339897183017333/3120150520",
     "iosInterstitialUnitId": "ca-app-pub-3940256099942544/4411468910",
     "testDeviceIdentifiers": [],
     "interstitialCooldownSeconds": 180,
     "interstitialMaxPerSession": 3
   },
   "iap": {
-    "noAdsProductId": "ad_free",
-    "allLevelsProductId": "ad_free_all_levels"
+    "noAdsProductId": "phonicskids_remove_ads",
+    "allLevelsProductId": "phonicskids_full_unlock"
   }
 }

@@ -13,7 +13,9 @@ export default ({ config }: ConfigContext) => ({
       {
         androidAppId: monetization.admob.androidAppId,
         iosAppId: monetization.admob.iosAppId,
+        // Kids app: no measurement before the child-directed request configuration is set.
+        delayAppMeasurementInit: true,
       },
-    ] as [string, Record<string, string>];
+    ] as [string, Record<string, string | boolean>];
   }),
 });

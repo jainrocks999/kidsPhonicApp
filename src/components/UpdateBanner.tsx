@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 import Animated, { SlideInDown } from 'react-native-reanimated';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useBottomInset } from './AdBanner';
 import { AppText } from './AppText';
 import { Pressy } from './Pressy';
 import { installUpdate, useAppUpdate } from '@/services/appUpdate';
@@ -10,10 +10,10 @@ import { colors, radius, shadow, space } from '@/theme';
 export function UpdateBanner() {
   const t = useT();
   const ready = useAppUpdate((s) => s.ready);
-  const insets = useSafeAreaInsets();
+  const bottomInset = useBottomInset();
   if (!ready) return null;
   return (
-    <Animated.View entering={SlideInDown} style={[styles.banner, { bottom: insets.bottom + space.md }]}>
+    <Animated.View entering={SlideInDown} style={[styles.banner, { bottom: bottomInset + space.md }]}>
       <View style={{ flex: 1 }}>
         <AppText variant="heading" style={{ color: '#fff' }}>
           {t('update_ready_title')}

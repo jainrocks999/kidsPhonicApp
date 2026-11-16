@@ -4,6 +4,10 @@ import { useEventListener } from 'expo';
 import { Image } from 'expo-image';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
+import { create } from 'zustand';
+
+/** False while the launch intro still covers the app — screens wait for it before speaking. */
+export const useIntroDone = create(() => ({ done: false }));
 
 // expo-video is a native module: an app binary built before it was added (or Expo Go
 // without it) throws on import, which would take the whole root layout down with it.
@@ -112,7 +116,10 @@ export function IntroSplash({ appReady, onDone }: { appReady: boolean; onDone: (
 
   useEffect(() => {
     if (!logoTimeUp || !appReady) return;
-    Animated.timing(rootOpacity, { toValue: 0, duration: FADE_MS, useNativeDriver: true }).start(() => onDone());
+    Animated.timing(rootOpacity, { toValue: 0, duration: FADE_MS, useNativeDriver: true }).start(() => {
+      useIntroDone.setState({ done: true });
+      onDone();
+    });
   }, [logoTimeUp, appReady, rootOpacity, onDone]);
 
   const logoSize = Math.min(width * 0.6, 280);

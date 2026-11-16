@@ -1,10 +1,13 @@
 import { useCallback, useEffect, useState } from 'react';
+import { View } from 'react-native';
 import { Stack, usePathname } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import { useFonts } from 'expo-font';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { BottomAdBanner } from '@/components/AdBanner';
 import { IntroSplash } from '@/components/IntroSplash';
+import { sceneGroundColor } from '@/components/Screen';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { useHydrated } from '@/hooks/useHydrated';
 import { initCrashReporting, logScreen } from '@/services/analytics';
@@ -50,16 +53,22 @@ export default function RootLayout() {
   const [introDone, setIntroDone] = useState(false);
   const finishIntro = useCallback(() => setIntroDone(true), []);
 
+  const [groundColor] = useState(() => sceneGroundColor());
+
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <StatusBar style="dark" />
       {ready && (
         <>
-          <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: 'slide_from_right' }}>
-            <Stack.Screen name="parental-gate" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
-            <Stack.Screen name="level-complete/[levelId]" options={{ animation: 'fade', gestureEnabled: false }} />
-          </Stack>
-          <UpdateBanner />
+          <View style={{ flex: 1 }}>
+            <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: 'slide_from_right' }}>
+              <Stack.Screen name="parental-gate" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
+              <Stack.Screen name="level-complete/[levelId]" options={{ animation: 'fade', gestureEnabled: false }} />
+            </Stack>
+            <UpdateBanner />
+          </View>
+          {/* Outside the screens' view: takes its own space, in the colour of the scene's ground. */}
+          <BottomAdBanner backgroundColor={groundColor} />
         </>
       )}
       {!introDone && <IntroSplash appReady={ready} onDone={finishIntro} />}

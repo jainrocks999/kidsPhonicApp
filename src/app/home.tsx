@@ -2,9 +2,9 @@ import { useEffect } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { router } from 'expo-router';
 import { Image } from 'expo-image';
-import { AdBanner } from '@/components/AdBanner';
 import { AppText } from '@/components/AppText';
 import { IconButton } from '@/components/IconButton';
+import { useIntroDone } from '@/components/IntroSplash';
 import { ProgressBar } from '@/components/ProgressBar';
 import { Pressy } from '@/components/Pressy';
 import { Screen } from '@/components/Screen';
@@ -30,9 +30,11 @@ export default function Home() {
   const unlocked = (i: number) =>
     allLevels || !LOCK_CONTENT || i === 0 || isLevelComplete(levels[i - 1], lessons);
 
+  // Home mounts underneath the launch intro: hold the prompt until the intro is gone.
+  const introDone = useIntroDone((s) => s.done);
   useEffect(() => {
-    play(promptAudio('pick_level', language));
-  }, [language]);
+    if (introDone) play(promptAudio('pick_level', language));
+  }, [language, introDone]);
 
   const all = levels.map((l) => levelProgress(l, lessons));
   const overall = Math.round((all.reduce((a, b) => a + b, 0) / Math.max(all.length, 1)) * 100);
@@ -114,7 +116,6 @@ export default function Home() {
             </Pressy>
           );
         })}
-        <AdBanner />
       </ScrollView>
     </Screen>
   );

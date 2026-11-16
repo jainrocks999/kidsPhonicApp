@@ -1,8 +1,9 @@
-import { memo, useEffect, useId, useMemo, useRef, type ReactNode } from 'react';
+import { memo, useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Animated, Easing, StyleSheet, View, useWindowDimensions, type ViewStyle } from 'react-native';
 import Svg, { Circle, Defs, G, LinearGradient, Path, RadialGradient, Rect, Stop } from 'react-native-svg';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
+import { useBottomInset } from './AdBanner';
 import { AppText } from './AppText';
 import { IconButton } from './IconButton';
 import { colors, fonts, shadow, space } from '@/theme';
@@ -77,8 +78,15 @@ function Flower({ x, y, c }: { x: number; y: number; c: string }) {
   );
 }
 
-const StaticScene = memo(function StaticScene({ theme }: { theme: ThemeName }) {
-  const { width: w, height: h } = useWindowDimensions();
+/** Colour the scene ends in at its bottom edge — whatever sits below a screen continues it. */
+export function sceneGroundColor(theme: ThemeName = themeForTime()) {
+  return THEMES[theme].hills[2][1];
+}
+
+/** `height` is the screen's own height: the hills must stand on its bottom edge, not the window's. */
+const StaticScene = memo(function StaticScene({ theme, height }: { theme: ThemeName; height?: number }) {
+  const { width: w, height: windowHeight } = useWindowDimensions();
+  const h = height ?? windowHeight;
   const uid = useId().replace(/:/g, '');
   const t = THEMES[theme];
 
@@ -307,6 +315,8 @@ function AnimatedLayer() {
 
 /* ---------- Screen ---------- */
 
+const EDGES = ['top', 'left', 'right'] as const;
+
 export function Screen({
   title,
   back = true,
@@ -327,11 +337,17 @@ export function Screen({
   style?: ViewStyle;
 }) {
   const theme = useMemo(() => themeProp ?? themeForTime(), [themeProp]);
+  // Covers the bottom safe area and, while it shows, the app-wide ad banner floating above it.
+  const bottomInset = useBottomInset();
+  // The screen is shorter than the window while the ad banner shows below it.
+  const [height, setHeight] = useState<number>();
   return (
-    <View style={[styles.root, { backgroundColor: bg ?? THEMES[theme].sky[0] }]}>
-      {!bg && <StaticScene theme={theme} />}
+    <View
+      style={[styles.root, { backgroundColor: bg ?? THEMES[theme].sky[0] }]}
+      onLayout={(e) => setHeight(e.nativeEvent.layout.height)}>
+      {!bg && <StaticScene theme={theme} height={height} />}
       {!bg && animated && <AnimatedLayer />}
-      <SafeAreaView style={styles.root} edges={['top', 'left', 'right', 'bottom']}>
+      <SafeAreaView style={styles.root} edges={EDGES}>
         {(title || back || right) && (
           <View style={styles.header}>
             <View style={styles.side}>
@@ -360,7 +376,7 @@ export function Screen({
             <View style={[styles.side, { alignItems: 'flex-end' }]}>{right}</View>
           </View>
         )}
-        <View style={[styles.body, style]}>{children}</View>
+        <View style={[styles.body, { marginBottom: bottomInset }, style]}>{children}</View>
       </SafeAreaView>
     </View>
   );
