@@ -66,7 +66,23 @@
     "extra": {
       "privacyUrl": "",
       "termsUrl": "",
-      "supportEmail": ""
+      "supportEmail": "",
+      "eas": {
+        "projectId": "13b57adc-834e-4622-8e7e-1d46a4274c25"
+      }
+    },
+    "owner": "rjbhai",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/13b57adc-834e-4622-8e7e-1d46a4274c25",
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      },
+      "assetPatternsToBeBundled": [
+        "assets/**/*.png"
+      ]
     }
   }
 }

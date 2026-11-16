@@ -3,4 +3,4 @@
  *   true  → normal gating (unlock by finishing whatever comes before)
  *   false → everything unlocked
  */
-export const LOCK_CONTENT = false;
+export const LOCK_CONTENT = true;
