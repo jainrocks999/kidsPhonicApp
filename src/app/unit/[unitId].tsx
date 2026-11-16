@@ -14,6 +14,7 @@ import { GAME_META, GAMES_FOR_LEVEL } from '@/features/games/types';
 import { play } from '@/services/audio';
 import { lockedFeedback } from '@/services/lock';
 import { useProgress } from '@/store/progress';
+import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
 import { colors, fonts, levelInk, radius, shadow, space, unitColors, unitDark } from '@/theme';
@@ -26,6 +27,7 @@ export default function UnitScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const found = getUnit(unitId);
   const { lessons, stories, games } = useProgress();
+  const allLevels = usePurchases((s) => s.allLevels);
   const language = useSettings((s) => s.language);
   const { width } = useWindowDimensions();
 
@@ -43,8 +45,9 @@ export default function UnitScreen() {
   const doneCount = unit.lessons.filter((l) => lessons[l.id]).length;
   const nextLesson = unit.lessons.findIndex((l) => !lessons[l.id]);
   // A lesson opens once the one before it is done; story + games wait until every lesson is done.
-  const lessonLocked = (i: number) => LOCK_CONTENT && nextLesson !== -1 && i > nextLesson;
-  const extrasLocked = LOCK_CONTENT && doneCount < unit.lessons.length;
+  const unlockAll = allLevels || !LOCK_CONTENT;
+  const lessonLocked = (i: number) => !unlockAll && nextLesson !== -1 && i > nextLesson;
+  const extrasLocked = !unlockAll && doneCount < unit.lessons.length;
   const gameW = (width - PAD * 2 - GAP) / 2;
   // "Lesson %1$d: %2$s" → "Lesson 2" (keeps the translated word)
   const lessonName = (n: number) => t('lesson_sheet_lesson_label', n, '').replace(/[\s:]+$/, '');

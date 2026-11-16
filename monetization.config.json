@@ -1,0 +1,17 @@
+{
+  "admob": {
+    "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+    "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+    "androidBannerUnitId": "ca-app-pub-3940256099942544/6300978111",
+    "iosBannerUnitId": "ca-app-pub-3940256099942544/2934735716",
+    "androidInterstitialUnitId": "ca-app-pub-3940256099942544/1033173712",
+    "iosInterstitialUnitId": "ca-app-pub-3940256099942544/4411468910",
+    "testDeviceIdentifiers": [],
+    "interstitialCooldownSeconds": 180,
+    "interstitialMaxPerSession": 3
+  },
+  "iap": {
+    "noAdsProductId": "ad_free",
+    "allLevelsProductId": "ad_free_all_levels"
+  }
+}

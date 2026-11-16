@@ -8,8 +8,10 @@ import { IntroSplash } from '@/components/IntroSplash';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { useHydrated } from '@/hooks/useHydrated';
 import { initCrashReporting, logScreen } from '@/services/analytics';
+import { initAds } from '@/services/ads';
 import { initAppUpdates } from '@/services/appUpdate';
 import { initAudio } from '@/services/audio';
+import { closeIAP, initIAP } from '@/services/iap';
 import { colors, fonts } from '@/theme';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -30,7 +32,13 @@ export default function RootLayout() {
 
   useEffect(() => {
     initAudio().catch(() => {});
-    return initAppUpdates();
+    initIAP().catch(() => {});
+    initAds().catch(() => {});
+    const stopUpdates = initAppUpdates();
+    return () => {
+      stopUpdates();
+      void closeIAP();
+    };
   }, []);
 
   useEffect(() => {

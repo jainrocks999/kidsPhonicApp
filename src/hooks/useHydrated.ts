@@ -1,8 +1,9 @@
 import { useSyncExternalStore } from 'react';
 import { useProgress } from '@/store/progress';
+import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
 
-const stores = [useSettings, useProgress];
+const stores = [useSettings, useProgress, usePurchases];
 const getSnapshot = () => stores.every((s) => s.persist.hasHydrated());
 const subscribe = (cb: () => void) => {
   const unsubs = stores.map((s) => s.persist.onFinishHydration(cb));

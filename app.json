@@ -58,7 +58,9 @@
       ],
       "expo-localization",
       "expo-asset",
-      "expo-video"
+      "expo-video",
+      "expo-iap",
+      "react-native-google-mobile-ads"
     ],
     "experiments": {
       "typedRoutes": true

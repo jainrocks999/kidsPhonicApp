@@ -1,11 +1,12 @@
 import { Alert, Linking, ScrollView, Share, StyleSheet, Switch, View } from 'react-native';
 import Constants from 'expo-constants';
-import { router } from 'expo-router';
+import { router, type Href } from 'expo-router';
 import { AppText } from '@/components/AppText';
 import { Pressy } from '@/components/Pressy';
 import { Screen } from '@/components/Screen';
 import { openStoreListing } from '@/services/review';
 import { useProgress } from '@/store/progress';
+import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
 import { useT } from '@/i18n';
 import { colors, fonts, radius, shadow, space } from '@/theme';
@@ -59,6 +60,7 @@ export default function Settings() {
   const t = useT();
   const s = useSettings();
   const reset = useProgress((p) => p.reset);
+  const allLevels = usePurchases((p) => p.allLevels);
   const version = Constants.expoConfig?.version ?? '';
 
   return (
@@ -89,6 +91,13 @@ export default function Settings() {
                 ios_backgroundColor={colors.locked}
               />
             }
+          />
+          <Row
+            icon="🔓"
+            tint={colors.green}
+            label={t('setting_unlock_all')}
+            value={allLevels ? t('setting_unlocked_label') : undefined}
+            onPress={allLevels ? undefined : () => router.push('/paywall' as Href)}
           />
         </View>
 

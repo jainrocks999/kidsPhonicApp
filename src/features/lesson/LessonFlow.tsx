@@ -12,6 +12,7 @@ import { Screen } from '@/components/Screen';
 import { promptAudio, type PromptId } from '@/assets';
 import { nextLessonId } from '@/data/curriculum';
 import { logEvent } from '@/services/analytics';
+import { showInterstitial } from '@/services/ads';
 import { maybeRequestReview } from '@/services/review';
 import type { LessonRef } from '@/data/types';
 import { play, stopVoice } from '@/services/audio';
@@ -149,6 +150,11 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
   const nextId = nextLessonId(lesson.id);
   const nextInSameUnit = nextId && lessonRef.unit.lessons.some((l) => l.id === nextId);
 
+  const act = (action: () => void) => () => {
+    void showInterstitial();
+    action();
+  };
+
   return (
     <Screen title={`${lesson.displayLetter} · ${t(step.title)}`}>
       {introDoneFor === stepIndex ? (
@@ -219,12 +225,12 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
         subtitle={milestone === 'unit' ? `${t('home_unit_label', lessonRef.unit.number, lessonRef.unit.title)} ✅` : lesson.sentence}
         primary={
           milestone === 'level'
-            ? { label: t('common_next'), onPress: () => router.replace(`/level-complete/${level.id}`) }
+            ? { label: t('common_next'), onPress: act(() => router.replace(`/level-complete/${level.id}`)) }
             : nextInSameUnit
-            ? { label: t('sound_intro_next_lesson'), onPress: () => router.replace(`/lesson/${nextId}`) }
-            : { label: t('lesson_complete_back_to_list'), onPress: () => router.back() }
+            ? { label: t('sound_intro_next_lesson'), onPress: act(() => router.replace(`/lesson/${nextId}`)) }
+            : { label: t('lesson_complete_back_to_list'), onPress: act(() => router.back()) }
         }
-        secondary={nextInSameUnit ? { label: t('lesson_complete_back_to_list'), onPress: () => router.back() } : undefined}
+        secondary={nextInSameUnit ? { label: t('lesson_complete_back_to_list'), onPress: act(() => router.back()) } : undefined}
       />
     </Screen>
   );

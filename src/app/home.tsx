@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { router } from 'expo-router';
 import { Image } from 'expo-image';
+import { AdBanner } from '@/components/AdBanner';
 import { AppText } from '@/components/AppText';
 import { IconButton } from '@/components/IconButton';
 import { ProgressBar } from '@/components/ProgressBar';
@@ -14,6 +15,7 @@ import { openGated } from '@/features/parental';
 import { play } from '@/services/audio';
 import { lockedFeedback } from '@/services/lock';
 import { isLevelComplete, levelProgress, useProgress } from '@/store/progress';
+import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
 import { colors, levelColors, levelDark, radius, shadow, space } from '@/theme';
@@ -21,10 +23,12 @@ import { colors, levelColors, levelDark, radius, shadow, space } from '@/theme';
 export default function Home() {
   const t = useT();
   const lessons = useProgress((s) => s.lessons);
+  const allLevels = usePurchases((s) => s.allLevels);
   const language = useSettings((s) => s.language);
 
   // A level opens only once the one before it is fully finished — level 1 is always open.
-  const unlocked = (i: number) => !LOCK_CONTENT || i === 0 || isLevelComplete(levels[i - 1], lessons);
+  const unlocked = (i: number) =>
+    allLevels || !LOCK_CONTENT || i === 0 || isLevelComplete(levels[i - 1], lessons);
 
   useEffect(() => {
     play(promptAudio('pick_level', language));
@@ -46,6 +50,17 @@ export default function Home() {
           </View>
           <AppText variant="heading" style={{ color: colors.primaryDark }}>{overall}%</AppText>
         </View>
+
+        {!allLevels && (
+          <Pressy
+            onPress={() => openGated('/paywall')}
+            accessibilityLabel={t('home_unlock_all')}
+            style={styles.unlock}>
+            <AppText style={styles.unlockEmoji}>🔓</AppText>
+            <AppText variant="heading" style={styles.unlockText}>{t('home_unlock_all')}</AppText>
+            <AppText style={styles.unlockChevron}>›</AppText>
+          </Pressy>
+        )}
 
         {levels.map((level, i) => {
           const progress = levelProgress(level, lessons);
@@ -99,6 +114,7 @@ export default function Home() {
             </Pressy>
           );
         })}
+        <AdBanner />
       </ScrollView>
     </Screen>
   );
@@ -118,6 +134,22 @@ const styles = StyleSheet.create({
     ...shadow,
   },
   summaryStar: { fontSize: 22 },
+
+  unlock: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: space.sm,
+    backgroundColor: colors.green,
+    borderRadius: radius.lg,
+    borderBottomWidth: 6,
+    borderBottomColor: '#13A850',
+    paddingVertical: space.sm + 2,
+    paddingHorizontal: space.md,
+    ...shadow,
+  },
+  unlockEmoji: { fontSize: 26, lineHeight: 34 },
+  unlockText: { flex: 1, color: '#fff' },
+  unlockChevron: { color: '#fff', fontSize: 28, lineHeight: 32 },
 
   card: {
     flexDirection: 'row',

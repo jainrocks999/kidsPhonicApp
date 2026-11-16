@@ -14,6 +14,7 @@ import type { Unit } from '@/data/types';
 import { play } from '@/services/audio';
 import { lockedFeedback } from '@/services/lock';
 import { isUnitComplete, levelProgress, useProgress } from '@/store/progress';
+import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
 import { colors, levelColors, levelDark, levelInk, radius, shadow, space, unitColors, unitDark } from '@/theme';
@@ -23,6 +24,7 @@ export default function LevelScreen() {
   const { levelId } = useLocalSearchParams<{ levelId: string }>();
   const level = getLevel(levelId);
   const lessons = useProgress((s) => s.lessons);
+  const allLevels = usePurchases((s) => s.allLevels);
   const language = useSettings((s) => s.language);
 
   useEffect(() => {
@@ -57,10 +59,11 @@ export default function LevelScreen() {
   const overall = levelProgress(level, lessons);
 
   // A unit opens only once the one before it is finished — the first unit is always open.
-  const unitUnlocked = (i: number) => !LOCK_CONTENT || i === 0 || isUnitComplete(level.units[i - 1], lessons);
+  const unitUnlocked = (i: number) =>
+    allLevels || !LOCK_CONTENT || i === 0 || isUnitComplete(level.units[i - 1], lessons);
   // Within the open unit, a lesson opens once the previous one is done.
   const lessonUnlocked = (unit: Unit, i: number) =>
-    !LOCK_CONTENT || i === 0 || !!lessons[unit.lessons[i - 1].id];
+    allLevels || !LOCK_CONTENT || i === 0 || !!lessons[unit.lessons[i - 1].id];
 
   const cars: TrainCar[] = level.units.map((unit, i) => {
     const locked = !unitUnlocked(i);

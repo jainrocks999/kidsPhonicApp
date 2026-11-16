@@ -9,6 +9,7 @@ import { Button } from '@/components/Button';
 import { levelImage, promptAudio, sfx } from '@/assets';
 import { getLevel } from '@/data/curriculum';
 import { play, playSfx } from '@/services/audio';
+import { showInterstitial } from '@/services/ads';
 import { useSettings } from '@/store/settings';
 import { useT, type StringKey } from '@/i18n';
 import { colors, levelColors, space } from '@/theme';
@@ -28,6 +29,10 @@ export default function LevelComplete() {
   const accent = levelColors[level.number - 1];
   const title = t(`home_level_${level.number}_title` as StringKey);
   const count = level.units.reduce((n, u) => n + u.lessons.length, 0);
+  const act = (action: () => void) => () => {
+    void showInterstitial();
+    action();
+  };
 
   return (
     <SafeAreaView style={[styles.root, { backgroundColor: accent + '22' }]}>
@@ -43,8 +48,8 @@ export default function LevelComplete() {
         <AppText variant="heading">{t('level_complete_letter_count', count)}</AppText>
       </Animated.View>
       <View style={styles.actions}>
-        <Button label={t('level_complete_go_home')} color={accent} onPress={() => router.dismissTo('/home')} />
-        <Button label={t('level_complete_replay')} variant="outline" color={accent} onPress={() => router.replace(`/level/${level.id}`)} />
+        <Button label={t('level_complete_go_home')} color={accent} onPress={act(() => router.dismissTo('/home'))} />
+        <Button label={t('level_complete_replay')} variant="outline" color={accent} onPress={act(() => router.replace(`/level/${level.id}`))} />
       </View>
     </SafeAreaView>
   );
