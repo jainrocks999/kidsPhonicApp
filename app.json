@@ -64,7 +64,8 @@
       "expo-asset",
       "expo-video",
       "expo-iap",
-      "react-native-google-mobile-ads"
+      "react-native-google-mobile-ads",
+      "./plugins/withReleaseSigning"
     ],
     "experiments": {
       "typedRoutes": true
