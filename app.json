@@ -1,22 +1,23 @@
 {
   "expo": {
-    "name": "ABC Phonics Kids",
-    "slug": "abc-phonics-kids",
-    "scheme": "phonicskids",
-    "version": "0.1.0",
+    "name": "Phonics Flashcards for Kids",
+    "slug": "phonics-flashcards-kids",
+    "scheme": "phonicsflashcards",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "backgroundColor": "#FFF8E1",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.beely.phonicskids"
+      "buildNumber": "1",
+      "bundleIdentifier": "com.phonicsflashcards.kids"
     },
     "android": {
-      "package": "com.beely.phonicskids",
-      "versionCode": 18,
+      "package": "com.phonicsflashcards.kids",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundColor": "#FFD43B",
+        "backgroundColor": "#0EC19F",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
@@ -37,7 +38,7 @@
       [
         "expo-audio",
         {
-          "microphonePermission": "Allow ABC Phonics Kids to record your child saying words so they can listen back.",
+          "microphonePermission": "Allow Phonics Flashcards for Kids to record your child saying words so they can listen back.",
           "recordAudioAndroid": true,
           "enableBackgroundPlayback": false
         }
@@ -49,11 +50,15 @@
         {
           "image": "./assets/splash-icon.png",
           "imageWidth": 200,
-          "backgroundColor": "#FFD43B"
+          "backgroundColor": "#0EC19F",
+          "android": {
+            "image": "./assets/splash-icon-android.png"
+          }
         }
       ],
       "expo-localization",
-      "expo-asset"
+      "expo-asset",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true

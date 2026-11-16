@@ -1,5 +1,5 @@
 {
-  "name": "abc-phonics-kids",
+  "name": "phonics-flashcards-kids",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
@@ -33,6 +33,7 @@
     "expo-status-bar": "~58.0.4",
     "expo-store-review": "~58.0.2",
     "expo-system-ui": "~58.0.7",
+    "expo-video": "~58.0.14",
     "react": "19.3.0",
     "react-native": "0.88.1",
     "react-native-gesture-handler": "~3.3.0",

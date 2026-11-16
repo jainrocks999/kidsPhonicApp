@@ -1,9 +1,10 @@
-import { useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Stack, usePathname } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import { useFonts } from 'expo-font';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { IntroSplash } from '@/components/IntroSplash';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { useHydrated } from '@/hooks/useHydrated';
 import { initCrashReporting, logScreen } from '@/services/analytics';
@@ -37,20 +38,23 @@ export default function RootLayout() {
     logScreen(pathname.replace(/\/(L\dU\d+[^/]*|L\d_S\d+|L\d)(?=\/|$)/g, '/[id]'));
   }, [pathname]);
 
-  useEffect(() => {
-    if (ready) SplashScreen.hideAsync().catch(() => {});
-  }, [ready]);
-
-  if (!ready) return null;
+  // The native splash is hidden by <IntroSplash> once the intro video's first frame is up.
+  const [introDone, setIntroDone] = useState(false);
+  const finishIntro = useCallback(() => setIntroDone(true), []);
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <StatusBar style="dark" />
-      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: 'slide_from_right' }}>
-        <Stack.Screen name="parental-gate" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
-        <Stack.Screen name="level-complete/[levelId]" options={{ animation: 'fade', gestureEnabled: false }} />
-      </Stack>
-      <UpdateBanner />
+      {ready && (
+        <>
+          <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: 'slide_from_right' }}>
+            <Stack.Screen name="parental-gate" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
+            <Stack.Screen name="level-complete/[levelId]" options={{ animation: 'fade', gestureEnabled: false }} />
+          </Stack>
+          <UpdateBanner />
+        </>
+      )}
+      {!introDone && <IntroSplash appReady={ready} onDone={finishIntro} />}
     </GestureHandlerRootView>
   );
 }

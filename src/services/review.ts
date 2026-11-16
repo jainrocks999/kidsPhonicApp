@@ -13,8 +13,8 @@ export async function maybeRequestReview(unitId: string) {
 
 /** Settings → "Rate app": open the store listing directly (always works, unlike the sheet). */
 export async function openStoreListing() {
-  const url = StoreReview.storeUrl() ?? 'market://details?id=com.beely.phonicskids';
+  const url = StoreReview.storeUrl() ?? 'market://details?id=com.phonicsflashcards.kids';
   await Linking.openURL(url).catch(() =>
-    Linking.openURL('https://play.google.com/store/apps/details?id=com.beely.phonicskids'),
+    Linking.openURL('https://play.google.com/store/apps/details?id=com.phonicsflashcards.kids'),
   );
 }
