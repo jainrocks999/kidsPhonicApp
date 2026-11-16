@@ -34,8 +34,8 @@ yarn-error.*
 .env*.local
 
 # signing credentials (never commit)
-# credentials.json
-# /credentials
+credentials.json
+/credentials
 
 # typescript
 *.tsbuildinfo

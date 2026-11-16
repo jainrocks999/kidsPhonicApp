@@ -68,21 +68,21 @@
       "termsUrl": "",
       "supportEmail": "",
       "eas": {
-        "projectId": "13b57adc-834e-4622-8e7e-1d46a4274c25"
+        "projectId": "1391f053-53ce-409f-b91c-7938a56f7939"
       }
     },
-    "owner": "rjbhai",
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/13b57adc-834e-4622-8e7e-1d46a4274c25",
+      "url": "https://u.expo.dev/1391f053-53ce-409f-b91c-7938a56f7939",
       "requestHeaders": {
         "expo-channel-name": "production"
       },
       "assetPatternsToBeBundled": [
         "assets/**/*.png"
       ]
-    }
+    },
+    "owner": "forebearpros"
   }
 }
