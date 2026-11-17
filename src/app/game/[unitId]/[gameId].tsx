@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { router, Redirect, useLocalSearchParams } from 'expo-router';
 import { AppText } from '@/components/AppText';
 import { Celebration } from '@/components/Celebration';
@@ -14,6 +14,8 @@ import { PickWord } from '@/features/games/PickWord';
 import { SpellLetters } from '@/features/games/SpellLetters';
 import { GAME_META, type GameId, type GameProps } from '@/features/games/types';
 import { logEvent } from '@/services/analytics';
+import { reportAbandon, reportProgress } from '@/services/activity';
+import { showInterstitial } from '@/services/ads';
 import { play, stopVoice } from '@/services/audio';
 import { useProgress } from '@/store/progress';
 import { useSettings } from '@/store/settings';
@@ -29,6 +31,8 @@ const GAMES: Record<GameId, (p: GameProps) => React.JSX.Element> = {
   drag: DragWords,
 };
 
+const starsFor = (score: number) => (score >= 0.85 ? 3 : score >= 0.5 ? 2 : 1);
+
 export default function GameScreen() {
   const t = useT();
   const { unitId, gameId } = useLocalSearchParams<{ unitId: string; gameId: GameId }>();
@@ -37,6 +41,8 @@ export default function GameScreen() {
   const completeGame = useProgress((s) => s.completeGame);
   const [score, setScore] = useState<number | null>(null);
   const [runKey, setRunKey] = useState(0);
+  const acting = useRef(false);
+  const finished = useRef(false);
   const meta = GAME_META[gameId];
 
   const words = useMemo(() => {
@@ -54,6 +60,13 @@ export default function GameScreen() {
     if (meta) play(promptAudio(meta.prompt, language));
     return () => stopVoice();
   }, [meta, language]);
+
+  useEffect(
+    () => () => {
+      if (!finished.current) reportAbandon();
+    },
+    [],
+  );
 
   if (!found || !meta) return <Redirect href="/home" />;
   const Game = GAMES[gameId];
@@ -73,16 +86,28 @@ export default function GameScreen() {
         onFinish={(s) => {
           completeGame(found.unit.id, gameId);
           logEvent('game_complete', { game: gameId, unit_id: found.unit.id, score: Math.round(s * 100) });
+          finished.current = true;
+          reportProgress(starsFor(s));
           setScore(s);
         }}
       />
       <Celebration
         visible={score != null}
         accent={levelColors[found.level.number - 1]}
-        stars={score == null ? 0 : score >= 0.85 ? 3 : score >= 0.5 ? 2 : 1}
+        stars={score == null ? 0 : starsFor(score)}
         title={t(meta.doneTitle)}
         subtitle={t(meta.doneSubtitle)}
-        primary={{ label: t('step_home_action'), onPress: () => router.back() }}
+        primary={{
+          label: t('step_home_action'),
+          onPress: () => {
+            if (acting.current) return;
+            acting.current = true;
+            void showInterstitial().then(() => {
+              acting.current = false;
+              router.back();
+            });
+          },
+        }}
         secondary={{ label: t('level_complete_replay'), onPress: () => (setScore(null), setRunKey((k) => k + 1)) }}
       />
     </Screen>

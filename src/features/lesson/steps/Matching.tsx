@@ -13,6 +13,7 @@ import Animated, {
 import Svg, { Circle, Path } from 'react-native-svg';
 import { AppText } from '@/components/AppText';
 import { WordPicture } from '@/components/WordPicture';
+import { reportCorrect, reportWrong } from '@/services/activity';
 import { click, play, playSfx, tryAgain } from '@/services/audio';
 import { sfx } from '@/assets';
 import { shuffle } from '@/hooks/shuffle';
@@ -103,10 +104,12 @@ export function MatchPairs({
     const word = a.side === 'pic' ? b : a;
     const w = wordOf(pic);
     if (w === wordOf(word)) {
+      reportCorrect();
       playSfx(sfx.correct);
       play(undefined, w);
       setMatched(new Set(matched).add(w));
     } else {
+      reportWrong();
       setMistakes(mistakes + 1);
       setWrong({ pic: pic.index, word: word.index });
       tryAgain();

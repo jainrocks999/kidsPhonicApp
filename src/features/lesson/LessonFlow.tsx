@@ -12,7 +12,8 @@ import { Screen } from '@/components/Screen';
 import { promptAudio, type PromptId } from '@/assets';
 import { nextLessonId } from '@/data/curriculum';
 import { logEvent } from '@/services/analytics';
-import { showInterstitial } from '@/services/ads';
+import { reportAbandon, reportCorrect, reportProgress, reportWrong } from '@/services/activity';
+import { navTap, showInterstitial } from '@/services/ads';
 import { maybeRequestReview } from '@/services/review';
 import type { LessonRef } from '@/data/types';
 import { play, stopVoice } from '@/services/audio';
@@ -45,6 +46,7 @@ const STEPS: Record<StepId, { component: (p: StepProps) => React.JSX.Element; ti
 
 export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
   const acting = useRef(false);
+  const finished = useRef(false);
   const t = useT();
   const lang = useSettings((s) => s.language);
   const completeLesson = useProgress((s) => s.completeLesson);
@@ -68,7 +70,10 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
 
   useEffect(() => {
     logEvent('lesson_start', { lesson_id: lesson.id, level: level.number });
-    return () => stopVoice();
+    return () => {
+      stopVoice();
+      if (!finished.current) reportAbandon();
+    };
   }, [lesson.id, level.number]);
 
   useEffect(() => {
@@ -102,6 +107,8 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
   const next = (score?: number) => {
     if (score != null) {
       scores.current[stepIndex] = score;
+      if (score >= 0.6) reportCorrect();
+      else reportWrong();
       setCleared((c) => new Set(c).add(stepIndex));
     }
     goTo(stepIndex + 1);
@@ -126,6 +133,8 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
     const earned = steps.reduce((sum, id, i) => sum + (isScoredStep(id) ? scores.current[i] ?? 0 : 0), 0);
     const avg = expected ? earned / expected : 1;
     const s = avg >= 0.9 ? 3 : avg >= 0.6 ? 2 : 1;
+    finished.current = true;
+    reportProgress(s);
     const before = useProgress.getState().lessons;
     const unitWasDone = isUnitComplete(lessonRef.unit, before);
     const levelWasDone = isLevelComplete(level, before);
@@ -198,7 +207,7 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
             return (
               <Pressy
                 key={id}
-                onPress={() => tryGoTo(i)}
+                onPress={() => navTap(() => tryGoTo(i))}
                 hitSlop={6}
                 accessibilityLabel={t(STEPS[id].title)}
                 style={[
@@ -214,7 +223,7 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
         </View>
         <Bouncy active={readyFor === stepIndex && !scoredPending} strength={0.4}>
           <Pressy
-            onPress={() => tryGoTo(stepIndex + 1)}
+            onPress={() => navTap(() => tryGoTo(stepIndex + 1))}
             accessibilityRole="button"
             accessibilityState={{ disabled: scoredPending }}
             style={[styles.next, scoredPending && styles.nextLocked]}>

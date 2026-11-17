@@ -16,6 +16,7 @@ import { IconButton } from '@/components/IconButton';
 import { Pressy } from '@/components/Pressy';
 import { WordPicture } from '@/components/WordPicture';
 import { sfx } from '@/assets';
+import { reportCorrect, reportWrong } from '@/services/activity';
 import { play, playSfx, stopVoice, tryAgain } from '@/services/audio';
 import type { Word } from '@/data/types';
 import { shuffle } from '@/hooks/shuffle';
@@ -106,12 +107,14 @@ function SpellRound({
     if (done || used.includes(tile.id)) return;
     const expected = target[used.length];
     if (tile.ch !== expected) {
+      reportWrong();
       tryAgain();
       setMood('oops');
       setWrong((w) => ({ id: tile.id, n: (w?.n ?? 0) + 1 }));
       later(() => setMood('idle'), 700);
       return;
     }
+    reportCorrect();
     playSfx(sfx.click);
     const next = [...used, tile.id];
     setUsed(next);

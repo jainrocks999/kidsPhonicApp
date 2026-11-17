@@ -6,6 +6,7 @@ import { IconButton } from '@/components/IconButton';
 import { Pressy } from '@/components/Pressy';
 import { WordPicture } from '@/components/WordPicture';
 import { lessonAudio } from '@/assets';
+import { reportCorrect, reportWrong } from '@/services/activity';
 import { play, praise, tryAgain } from '@/services/audio';
 import { sample, shuffle } from '@/hooks/shuffle';
 import { useSpeaking } from '@/hooks/useSpeaking';
@@ -50,12 +51,14 @@ export function Identify({ lessonRef, onDone }: StepProps) {
     if (locked) return;
     if (w.word !== current.word.word) {
       missed.current = true;
+      reportWrong();
       setWrong(w.word);
       shake.set(withSequence(withTiming(-10, { duration: 60 }), withTiming(10, { duration: 60 }), withTiming(0, { duration: 60 })));
       await tryAgain();
       return;
     }
     setLocked(true);
+    reportCorrect();
     setRight(w.word);
     if (!missed.current) firstTry.current++;
     await praise();

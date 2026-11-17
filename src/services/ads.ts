@@ -4,6 +4,8 @@ import { create } from 'zustand';
 import type * as Ads from 'react-native-google-mobile-ads';
 import monetization from '../../monetization.config.json';
 import { recordError } from './analytics';
+import { interstitialAllowed, noteAdShown, reportNav } from './activity';
+import { stopVoice } from './audio';
 import { usePurchases } from '@/store/purchases';
 
 type AdsModule = typeof Ads;
@@ -130,7 +132,6 @@ export function pauseBannerAfterFailure() {
 const AD_TTL_MS = 50 * 60 * 1000;
 
 let lastFailedAt = 0;
-let lastShownAt = 0;
 let shownThisSession = 0;
 // Only one full-screen ad at a time.
 let busy = false;
@@ -257,12 +258,12 @@ export async function showInterstitial(): Promise<boolean> {
   if (!adsReady() || usePurchases.getState().noAds || busy) return false;
   if (AppState.currentState !== 'active') return false;
   if (shownThisSession >= cfg.interstitialMaxPerSession) return false;
-  if (Date.now() - lastShownAt < cfg.interstitialCooldownSeconds * 1000) return false;
+  if (!interstitialAllowed()) return false;
 
   try {
     const shown = await (adUnitIds().native ? showNativeAd() : showInterstitialAd());
     if (shown) {
-      lastShownAt = Date.now();
+      noteAdShown();
       shownThisSession += 1;
     }
     return shown;
@@ -270,4 +271,19 @@ export async function showInterstitial(): Promise<boolean> {
     recordError(error, 'full-screen ad');
     return false;
   }
+}
+
+/**
+ * Wrap every next / previous tap in this. Normally it just runs `action`. When the kid is
+ * flipping back and forth fast, a full-screen ad comes up right there instead of waiting for
+ * the next break (the fast-activity gap and the session cap still apply) and `action` runs
+ * once the ad is closed — so the new page's audio never starts behind the ad.
+ */
+export function navTap(action: () => void) {
+  if (!reportNav()) {
+    action();
+    return;
+  }
+  stopVoice();
+  void showInterstitial().then(action);
 }

@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import { Icon, type IconName } from './Icon';
 import { Pressy } from './Pressy';
+import { navTap } from '@/services/ads';
 import { colors, shadow } from '@/theme';
 
 /** Darken a #rrggbb colour for the button's 3D bottom edge. */
@@ -28,7 +29,8 @@ export function IconButton({
   const edge = light ? colors.border : shade(color);
   return (
     <Pressy
-      onPress={onPress}
+      // Every previous / next arrow in the app goes through the fast-flipping check.
+      onPress={icon === 'prev' || icon === 'next' ? () => navTap(onPress) : onPress}
       accessibilityRole="button"
       accessibilityLabel={accessibilityLabel}
       style={[

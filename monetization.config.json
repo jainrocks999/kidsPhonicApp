@@ -13,6 +13,22 @@
     "interstitialCooldownSeconds": 180,
     "interstitialMaxPerSession": 3
   },
+  "activityAd": {
+    "ewmaAlpha": 0.25,
+    "engagementWeight": 2,
+    "maxSkippedBreaks": 2,
+    "maxCooldownSeconds": 540,
+    "wrongStreakThreshold": 3,
+    "lowStarThreshold": 1,
+    "rapidTapWindowSeconds": 10,
+    "rapidTapThreshold": 25,
+    "priorityCooldownSeconds": 120,
+    "rapidNavWindowSeconds": 6,
+    "rapidNavThreshold": 5,
+    "idleSeconds": 30,
+    "longSessionSeconds": 300,
+    "returningGapDays": 2
+  },
   "iap": {
     "noAdsProductId": "phonicskids_remove_ads",
     "allLevelsProductId": "phonicskids_full_unlock"

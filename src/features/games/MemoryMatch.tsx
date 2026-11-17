@@ -17,6 +17,7 @@ import { AppText } from '@/components/AppText';
 import { Pressy } from '@/components/Pressy';
 import { WordPicture } from '@/components/WordPicture';
 import { play, playSfx, praise, stopVoice } from '@/services/audio';
+import { reportCorrect, reportWrong } from '@/services/activity';
 import { sfx } from '@/assets';
 import { sample, shuffle } from '@/hooks/shuffle';
 import { colors, levelColors, levelDark, radius, shadow, space } from '@/theme';
@@ -85,6 +86,7 @@ export function MemoryMatch({ level, words, onFinish }: GameProps) {
     if (a.word === b.word) {
       const m = new Set(matched).add(a.word);
       setMatched(m);
+      reportCorrect();
       setStreak((s) => s + 1);
       const done = m.size === picked.length;
       if (done) {
@@ -99,6 +101,7 @@ export function MemoryMatch({ level, words, onFinish }: GameProps) {
       setOpen([]);
       if (done) later(() => onFinish(Math.min(1, (picked.length * 1.5) / flips.current)), 1500);
     } else {
+      reportWrong();
       setStreak(0);
       setMood('oops');
       setWrong(now);

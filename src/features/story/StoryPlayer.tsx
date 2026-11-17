@@ -20,6 +20,8 @@ import { Screen } from '@/components/Screen';
 import { storyAudio, storyImage } from '@/assets';
 import type { Story } from '@/data/types';
 import { useVoiceTime } from '@/hooks/useVoiceTime';
+import { reportAbandon, reportProgress } from '@/services/activity';
+import { navTap, showInterstitial } from '@/services/ads';
 import { play, speak, stopVoice } from '@/services/audio';
 import { useProgress } from '@/store/progress';
 import { logEvent } from '@/services/analytics';
@@ -74,6 +76,8 @@ export function StoryPlayer({ story }: { story: Story }) {
   // Refs keep async callbacks (narration, auto page turn) in step with the latest state.
   const runId = useRef(0);
   const pageRef = useRef(-1);
+  const completed = useRef(false);
+  const acting = useRef(false);
   const [dir, setDir] = useState(1); // +1 forward, -1 back → decides which way the page turns
   const autoRef = useRef(true);
   useEffect(() => {
@@ -113,6 +117,8 @@ export function StoryPlayer({ story }: { story: Story }) {
     halt();
     completeStory(story.id);
     logEvent('story_complete', { story_id: story.id });
+    completed.current = true;
+    reportProgress(3);
     setFinished(true);
   };
 
@@ -163,6 +169,7 @@ export function StoryPlayer({ story }: { story: Story }) {
       runId.current++;
       clearAuto();
       stopVoice();
+      if (!completed.current) reportAbandon();
     },
     [],
   );
@@ -262,7 +269,7 @@ export function StoryPlayer({ story }: { story: Story }) {
         {/* tap a dot to jump straight to that page */}
         <View style={styles.dots}>
           {[-1, ...story.scenes.map((_, i) => i)].map((i) => (
-            <Dot key={i} active={i === page} visited={i < page} accent={accent} onPress={() => jump(i)} />
+            <Dot key={i} active={i === page} visited={i < page} accent={accent} onPress={() => navTap(() => jump(i))} />
           ))}
         </View>
 
@@ -287,7 +294,17 @@ export function StoryPlayer({ story }: { story: Story }) {
         accent={accent}
         title={t('identify_all_done_title')}
         subtitle={story.title}
-        primary={{ label: t('step_home_action'), onPress: () => router.back() }}
+        primary={{
+          label: t('step_home_action'),
+          onPress: () => {
+            if (acting.current) return;
+            acting.current = true;
+            void showInterstitial().then(() => {
+              acting.current = false;
+              router.back();
+            });
+          },
+        }}
         secondary={{ label: t('level_complete_replay'), onPress: replay }}
       />
     </Screen>

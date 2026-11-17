@@ -12,6 +12,7 @@ import { sceneGroundColor } from '@/components/Screen';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { useHydrated } from '@/hooks/useHydrated';
 import { initCrashReporting, logScreen } from '@/services/analytics';
+import { initActivity, reportTouch } from '@/services/activity';
 import { initAds } from '@/services/ads';
 import { initAppUpdates } from '@/services/appUpdate';
 import { initAudio } from '@/services/audio';
@@ -37,6 +38,7 @@ export default function RootLayout() {
   useEffect(() => {
     initAudio().catch(() => {});
     initIAP().catch(() => {});
+    initActivity().catch(() => {});
     initAds().catch(() => {});
     const stopUpdates = initAppUpdates();
     return () => {
@@ -61,7 +63,12 @@ export default function RootLayout() {
       <StatusBar style="dark" />
       {ready && (
         <>
-          <View style={{ flex: 1 }}>
+          <View
+            style={{ flex: 1 }}
+            onStartShouldSetResponderCapture={() => {
+              reportTouch();
+              return false;
+            }}>
             <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: 'slide_from_right' }}>
               <Stack.Screen name="parental-gate" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
               <Stack.Screen name="level-complete/[levelId]" options={{ animation: 'fade', gestureEnabled: false }} />

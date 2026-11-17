@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from 'react';
 import { praise, tryAgain } from '@/services/audio';
+import { reportCorrect, reportWrong } from '@/services/activity';
 import { sample } from '@/hooks/shuffle';
 import { ROUNDS } from './types';
 
@@ -15,9 +16,11 @@ export function useRounds<T>(pool: T[], onFinish: (score: number) => void, round
     if (busy) return;
     if (!correct) {
       missed.current = true;
+      reportWrong();
       await tryAgain();
       return;
     }
+    reportCorrect();
     setBusy(true);
     if (!missed.current) firstTry.current++;
     missed.current = false;

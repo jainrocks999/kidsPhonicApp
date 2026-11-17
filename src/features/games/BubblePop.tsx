@@ -18,6 +18,7 @@ import { IconButton } from '@/components/IconButton';
 import { Pressy } from '@/components/Pressy';
 import { patternSound, sfx } from '@/assets';
 import { isSpeaking, play, playSfx, praise, stopVoice, subscribeSpeaking, tryAgain } from '@/services/audio';
+import { reportCorrect, reportWrong } from '@/services/activity';
 import { shuffle } from '@/hooks/shuffle';
 import { useT } from '@/i18n';
 import { colors, fonts, levelColors, space } from '@/theme';
@@ -233,12 +234,14 @@ export function BubblePop({ level, patterns, onFinish }: GameProps) {
     if (roundOver.current || poppedIds.current.has(b.id)) return;
     if (!b.target) {
       misses.current++;
+      reportWrong();
       setStreak(0);
       react('oops');
       tryAgain();
       return;
     }
     poppedIds.current.add(b.id); // blocks double-taps on the same bubble
+    reportCorrect();
     const f = Math.min(need, foundRef.current + (b.golden ? 2 : 1));
     foundRef.current = f;
     hits.current++;
