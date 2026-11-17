@@ -11,8 +11,8 @@ import { promptAudio, storyImage } from '@/assets';
 import { LOCK_CONTENT } from '@/config';
 import { getUnit, getUnitStory } from '@/data/curriculum';
 import { GAME_META, GAMES_FOR_LEVEL } from '@/features/games/types';
+import { openLockedPaywall } from '@/features/parental';
 import { play } from '@/services/audio';
-import { lockedFeedback } from '@/services/lock';
 import { useProgress } from '@/store/progress';
 import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
@@ -73,9 +73,8 @@ export default function UnitScreen() {
             return (
               <Pressy
                 key={lesson.id}
-                onPress={() => (locked ? lockedFeedback(language) : router.push(`/lesson/${lesson.id}`))}
+                onPress={() => (locked ? openLockedPaywall() : router.push(`/lesson/${lesson.id}`))}
                 accessibilityLabel={t('lesson_sheet_lesson_label', i + 1, lesson.displayLetter)}
-                accessibilityState={{ disabled: locked }}
                 style={[
                   styles.lesson,
                   { borderColor: isNext ? colors.yellow : '#fff', borderBottomColor: isNext ? '#E0A800' : edge },
@@ -133,9 +132,8 @@ export default function UnitScreen() {
           <>
             <SectionHeader emoji="📖" title={t('lesson_sheet_story_label')} />
             <Pressy
-              onPress={() => (extrasLocked ? lockedFeedback(language) : router.push(`/story/${story.id}`))}
+              onPress={() => (extrasLocked ? openLockedPaywall() : router.push(`/story/${story.id}`))}
               accessibilityLabel={story.title}
-              accessibilityState={{ disabled: extrasLocked }}
               style={[styles.story, { borderBottomColor: unitDark[unitColors.indexOf(colors.orange)] }]}>
               <View style={styles.cover}>
                 {cover ? (
@@ -170,9 +168,8 @@ export default function UnitScreen() {
             return (
               <Pressy
                 key={g}
-                onPress={() => (extrasLocked ? lockedFeedback(language) : router.push(`/game/${unit.id}/${g}`))}
+                onPress={() => (extrasLocked ? openLockedPaywall() : router.push(`/game/${unit.id}/${g}`))}
                 accessibilityLabel={label}
-                accessibilityState={{ disabled: extrasLocked }}
                 style={[styles.game, { width: gameW, borderBottomColor: extrasLocked ? '#9EA3BF' : edge }]}>
                 <View style={[styles.gameArt, { backgroundColor: extrasLocked ? colors.locked : color }]}>
                   <View style={styles.gameShine} />

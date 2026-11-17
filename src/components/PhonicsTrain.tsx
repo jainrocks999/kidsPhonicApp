@@ -23,7 +23,7 @@ export interface TrainCar {
   edge: string;
   /** One entry per lesson — true once it's finished (a passenger boards). */
   seats: boolean[];
-  /** Not reachable yet — shown greyed with a padlock; tapping gives the locked cue. */
+  /** Not reachable yet — shown greyed with a padlock; tapping opens the grown-up gate. */
   locked?: boolean;
   onPress: () => void;
   accessibilityLabel?: string;
@@ -265,7 +265,6 @@ function Car({
         <Pressy
           onPress={car.onPress}
           accessibilityRole="button"
-          accessibilityState={{ disabled: locked }}
           accessibilityLabel={car.accessibilityLabel ?? car.title}
           style={StyleSheet.absoluteFill}>
           <View style={[styles.roof, { width: w + 8, backgroundColor: edgeColor }]} />

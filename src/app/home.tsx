@@ -11,9 +11,8 @@ import { Screen } from '@/components/Screen';
 import { levelImage, promptAudio } from '@/assets';
 import { LOCK_CONTENT } from '@/config';
 import { levels } from '@/data/curriculum';
-import { openGated } from '@/features/parental';
+import { openGated, openLockedPaywall } from '@/features/parental';
 import { play } from '@/services/audio';
-import { lockedFeedback } from '@/services/lock';
 import { isLevelComplete, levelProgress, useProgress } from '@/store/progress';
 import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
@@ -53,17 +52,6 @@ export default function Home() {
           <AppText variant="heading" style={{ color: colors.primaryDark }}>{overall}%</AppText>
         </View>
 
-        {!allLevels && (
-          <Pressy
-            onPress={() => openGated('/paywall')}
-            accessibilityLabel={t('home_unlock_all')}
-            style={styles.unlock}>
-            <AppText style={styles.unlockEmoji}>🔓</AppText>
-            <AppText variant="heading" style={styles.unlockText}>{t('home_unlock_all')}</AppText>
-            <AppText style={styles.unlockChevron}>›</AppText>
-          </Pressy>
-        )}
-
         {levels.map((level, i) => {
           const progress = levelProgress(level, lessons);
           const open = unlocked(i);
@@ -81,8 +69,7 @@ export default function Home() {
           return (
             <Pressy
               key={level.id}
-              onPress={() => (open ? router.push(`/level/${level.id}`) : lockedFeedback(language))}
-              accessibilityState={{ disabled: !open }}
+              onPress={() => (open ? router.push(`/level/${level.id}`) : openLockedPaywall())}
               style={[styles.card, { backgroundColor: accent, borderBottomColor: dark }]}>
               <View style={[styles.bubble, { top: -24, left: -20, width: 90, height: 90 }]} />
               <View style={[styles.bubble, { bottom: -30, right: 70, width: 70, height: 70 }]} />
@@ -135,22 +122,6 @@ const styles = StyleSheet.create({
     ...shadow,
   },
   summaryStar: { fontSize: 22 },
-
-  unlock: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: space.sm,
-    backgroundColor: colors.green,
-    borderRadius: radius.lg,
-    borderBottomWidth: 6,
-    borderBottomColor: '#13A850',
-    paddingVertical: space.sm + 2,
-    paddingHorizontal: space.md,
-    ...shadow,
-  },
-  unlockEmoji: { fontSize: 26, lineHeight: 34 },
-  unlockText: { flex: 1, color: '#fff' },
-  unlockChevron: { color: '#fff', fontSize: 28, lineHeight: 32 },
 
   card: {
     flexDirection: 'row',

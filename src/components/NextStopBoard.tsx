@@ -34,7 +34,7 @@ export function NextStopBoard({
   onLesson: (lessonId: string) => void;
   /** Whether the lesson at this index is open yet (defaults to always open). */
   lessonUnlocked?: (index: number) => boolean;
-  /** Tapped a locked lesson tile. */
+  /** Tapped a locked lesson tile — handled by the grown-up gate. */
   onLocked?: () => void;
 }) {
   const color = unit ? unitColors[colorIndex % unitColors.length] : colors.yellow;
@@ -75,7 +75,6 @@ export function NextStopBoard({
                     key={lesson.id}
                     onPress={() => (locked ? onLocked?.() : onLesson(lesson.id))}
                     accessibilityLabel={lesson.displayLetter}
-                    accessibilityState={{ disabled: locked }}
                     style={[
                       styles.tile,
                       { backgroundColor: locked ? colors.locked : c, borderBottomColor: locked ? '#9EA3BF' : e },

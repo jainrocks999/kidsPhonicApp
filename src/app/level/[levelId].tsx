@@ -11,8 +11,8 @@ import { levelImage, promptAudio } from '@/assets';
 import { LOCK_CONTENT } from '@/config';
 import { getLevel } from '@/data/curriculum';
 import type { Unit } from '@/data/types';
+import { openLockedPaywall } from '@/features/parental';
 import { play } from '@/services/audio';
-import { lockedFeedback } from '@/services/lock';
 import { isUnitComplete, levelProgress, useProgress } from '@/store/progress';
 import { usePurchases } from '@/store/purchases';
 import { useSettings } from '@/store/settings';
@@ -75,7 +75,7 @@ export default function LevelScreen() {
       edge: unitDark[i % unitDark.length],
       seats: unit.lessons.map((l) => !!lessons[l.id]),
       locked,
-      onPress: () => (locked ? lockedFeedback(language) : router.push(`/unit/${unit.id}`)),
+      onPress: () => (locked ? openLockedPaywall() : router.push(`/unit/${unit.id}`)),
       accessibilityLabel: t('home_unit_label', unit.number, unit.title),
     };
   });
@@ -134,7 +134,7 @@ export default function LevelScreen() {
           onStart={() => router.push(`/unit/${level.units[current === -1 ? 0 : current].id}`)}
           onLesson={(id) => router.push(`/lesson/${id}`)}
           lessonUnlocked={(i) => (current === -1 ? true : lessonUnlocked(level.units[current], i))}
-          onLocked={() => lockedFeedback(language)}
+          onLocked={openLockedPaywall}
           palette={levelInk[level.number - 1]}
         />
 
