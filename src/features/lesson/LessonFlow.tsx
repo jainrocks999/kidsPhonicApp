@@ -44,6 +44,7 @@ const STEPS: Record<StepId, { component: (p: StepProps) => React.JSX.Element; ti
 };
 
 export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
+  const acting = useRef(false);
   const t = useT();
   const lang = useSettings((s) => s.language);
   const completeLesson = useProgress((s) => s.completeLesson);
@@ -151,8 +152,14 @@ export function LessonFlow({ lessonRef }: { lessonRef: LessonRef }) {
   const nextInSameUnit = nextId && lessonRef.unit.lessons.some((l) => l.id === nextId);
 
   const act = (action: () => void) => () => {
-    void showInterstitial();
-    action();
+    // A second tap while the ad is coming up must not run the action twice.
+    if (acting.current) return;
+    acting.current = true;
+    // Continue once the ad is closed (right away when none is shown).
+    void showInterstitial().then(() => {
+      acting.current = false;
+      action();
+    });
   };
 
   return (

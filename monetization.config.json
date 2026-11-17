@@ -7,6 +7,8 @@
     "iosBannerUnitId": "ca-app-pub-3940256099942544/2934735716",
     "androidInterstitialUnitId": "ca-app-pub-3339897183017333/3120150520",
     "iosInterstitialUnitId": "ca-app-pub-3940256099942544/4411468910",
+    "androidNativeUnitId": "",
+    "iosNativeUnitId": "ca-app-pub-3940256099942544/3986624511",
     "testDeviceIdentifiers": [],
     "interstitialCooldownSeconds": 180,
     "interstitialMaxPerSession": 3

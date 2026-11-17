@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { StyleSheet, View } from 'react-native';
 import Animated, { ZoomIn } from 'react-native-reanimated';
 import { Image } from 'expo-image';
@@ -15,6 +15,7 @@ import { useT, type StringKey } from '@/i18n';
 import { colors, levelColors, space } from '@/theme';
 
 export default function LevelComplete() {
+  const acting = useRef(false);
   const t = useT();
   const { levelId } = useLocalSearchParams<{ levelId: string }>();
   const level = getLevel(levelId);
@@ -30,8 +31,14 @@ export default function LevelComplete() {
   const title = t(`home_level_${level.number}_title` as StringKey);
   const count = level.units.reduce((n, u) => n + u.lessons.length, 0);
   const act = (action: () => void) => () => {
-    void showInterstitial();
-    action();
+    // A second tap while the ad is coming up must not run the action twice.
+    if (acting.current) return;
+    acting.current = true;
+    // Continue once the ad is closed (right away when none is shown).
+    void showInterstitial().then(() => {
+      acting.current = false;
+      action();
+    });
   };
 
   return (

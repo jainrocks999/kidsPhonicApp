@@ -7,6 +7,7 @@ import { useFonts } from 'expo-font';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { BottomAdBanner } from '@/components/AdBanner';
 import { IntroSplash } from '@/components/IntroSplash';
+import { NativeFullScreenAdHost } from '@/components/NativeFullScreenAd';
 import { sceneGroundColor } from '@/components/Screen';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { useHydrated } from '@/hooks/useHydrated';
@@ -69,6 +70,7 @@ export default function RootLayout() {
           </View>
           {/* Outside the screens' view: takes its own space, in the colour of the scene's ground. */}
           <BottomAdBanner backgroundColor={groundColor} />
+          <NativeFullScreenAdHost />
         </>
       )}
       {!introDone && <IntroSplash appReady={ready} onDone={finishIntro} />}
