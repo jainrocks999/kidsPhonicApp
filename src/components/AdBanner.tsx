@@ -43,7 +43,7 @@ export function BottomAdBanner({ backgroundColor }: { backgroundColor: string })
     <View style={[styles.wrap, { backgroundColor, paddingBottom: insets.bottom }]}>
       <BannerAd
         unitId={unitId}
-        size={BannerAdSize.INLINE_ADAPTIVE_BANNER}
+       size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
         requestOptions={adRequestOptions}
       />
     </View>

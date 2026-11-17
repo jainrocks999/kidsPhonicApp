@@ -13,8 +13,17 @@ import { colors, fonts, radius, shadow, space } from '@/theme';
 
 const extra = (Constants.expoConfig?.extra ?? {}) as { privacyUrl?: string; termsUrl?: string };
 
-const priceFor = (products: Product[], id: ProductId) =>
-  products.find((product) => product.id === id)?.displayPrice ?? '—';
+const cleanText = (value?: string | null) => value?.replace(/\s+/g, ' ').trim() || null;
+
+const productFor = (products: Product[], id: ProductId) => products.find((product) => product.id === id);
+
+const nameFor = (product: Product | undefined, fallback: string) =>
+  cleanText(product && product.platform === 'ios' ? product.displayNameIOS : product?.displayName) ?? fallback;
+
+const descriptionFor = (product: Product | undefined, fallback: string) =>
+  cleanText(product?.description) ?? fallback;
+
+const priceFor = (product: Product | undefined) => product?.displayPrice ?? '—';
 
 function Feature({ emoji, title, text }: { emoji: string; title: string; text: string }) {
   return (
@@ -107,6 +116,8 @@ export default function Paywall() {
 
   const busy = buying !== null || restoring;
   const unavailable = !iapAvailable || products.length === 0;
+  const bundleProduct = productFor(products, PRODUCT_ALL_LEVELS);
+  const noAdsProduct = productFor(products, PRODUCT_NO_ADS);
 
   return (
     <Screen title={t('paywall_title')}>
@@ -130,10 +141,10 @@ export default function Paywall() {
         {!allLevels && (
           <PlanCard
             highlight
-            label={t('paywall_plan_bundle_label')}
+            label={nameFor(bundleProduct, t('paywall_plan_bundle_label'))}
             badge={t('paywall_plan_bundle_badge')}
-            description={t('paywall_feature_all_levels_desc')}
-            price={priceFor(products, PRODUCT_ALL_LEVELS)}
+            description={descriptionFor(bundleProduct, t('paywall_feature_all_levels_desc'))}
+            price={priceFor(bundleProduct)}
             cta={buying === PRODUCT_ALL_LEVELS ? t('common_loading') : t('paywall_subscribe')}
             disabled={busy || unavailable}
             onPress={() => buy(PRODUCT_ALL_LEVELS)}
@@ -142,10 +153,10 @@ export default function Paywall() {
 
         {!noAds && (
           <PlanCard
-            label={t('paywall_plan_no_ads_label')}
+            label={nameFor(noAdsProduct, t('paywall_plan_no_ads_label'))}
             badge={t('paywall_plan_no_ads_badge')}
-            description={t('paywall_feature_no_ads_desc')}
-            price={priceFor(products, PRODUCT_NO_ADS)}
+            description={descriptionFor(noAdsProduct, t('paywall_feature_no_ads_desc'))}
+            price={priceFor(noAdsProduct)}
             cta={buying === PRODUCT_NO_ADS ? t('common_loading') : t('paywall_subscribe')}
             disabled={busy || unavailable}
             onPress={() => buy(PRODUCT_NO_ADS)}

@@ -98,6 +98,7 @@ export async function buyProduct(productId: ProductId) {
       type: 'in-app',
     });
   } catch (error) {
+    console.log(error)
     usePurchases.getState().setBuying(null);
     recordError(error, 'iap requestPurchase');
   }
